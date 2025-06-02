@@ -1,0 +1,15 @@
+[
+  {
+    "cardTitle": "Asientos reclinables",
+    "cardContent": "Los asientos de nuestros autobuses están diseñados para brindar el máximo confort, con amplio espacio para las piernas y la posibilidad de reclinarlos casi como si estuvieras en una cama. Esto es especialmente útil en viajes largos, donde la comodidad es esencial.",
+    "cardIcon": "<span class=\"icon-asiento-blanco __icon-size\"></span>"
+  },{
+    "cardTitle": "Pantallas individuales",
+    "cardContent": "Cada asiento cuenta con una pantalla individual que ofrece una selección de entretenimiento a bordo, incluyendo películas, música, y juegos. Así, puedes pasar el tiempo de manera agradable mientras llegas a tu destino.",
+    "cardIcon": "<span class=\"icon-Pantalla_Blanco __icon-size\"></span>"
+  },{
+    "cardTitle": "Medidas de seguridad",
+    "cardContent": "La seguridad de nuestros pasajeros es nuestra prioridad. Nuestros autobuses cuentan con tecnología avanzada, como frenos ABS, control de estabilidad y cámaras de seguridad. Además, nuestros conductores son profesionales con amplia experiencia, asegurando un viaje seguro y tranquilo.",
+    "cardIcon": "<span class=\"icon-camara __icon-size\"></span>"
+  }
+]

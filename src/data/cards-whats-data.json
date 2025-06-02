@@ -1,0 +1,18 @@
+[
+    {
+        "titleParrafo": "Turismo México",
+        "claseIcono": "icon-bus-grande",
+        "textoParrafo": "5529926824"
+    },
+    {
+        "titleParrafo": "Turismo Guadalajara",
+        "claseIcono": "icon-seguridad",
+        "textoParrafo": "3314794161"
+    },
+    {
+        "titleParrafo": "Turismo Monterrey",
+        "claseIcono": "icon-comodidad",
+        "textoParrafo": "8110292990",
+        "textoParrafoDos": "8181919693"
+    }
+]

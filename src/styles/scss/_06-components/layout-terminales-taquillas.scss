@@ -1,0 +1,135 @@
+@import '../main';
+
+// Import components
+@import './header';
+@import './banner-slider';
+@import './payments-logos';
+@import './modal-doters';
+@import './cotiza';
+@import './button-eva-trip';
+@import './button-whats';
+@import './card-image';
+@import './section-title';
+@import './_dropdown';
+@import './footer';
+@import './cookies-policy';
+
+/*-------------------ESTILOS ESPECIFICOS PARA LAS SECCIONES DE RENTA DE AUTOBUSES---------------------*/
+
+
+.__section__encuentra-taquilla {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 0 $spacing-xxl $spacing-xxl $spacing-xxl;
+  box-sizing: border-box;
+
+  @include media ("md") {
+    padding: 0 $padding-medium $padding-medium $padding-medium;
+  }
+
+  .__grid-cards-container {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1rem;
+
+    justify-items: center;
+
+    max-width: 1016px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+
+    .center-botton {
+      position: absolute;
+      width: 400px;
+      height: auto;
+      border: 2px solid $primary-color;
+      border-radius: 15px;
+      background-color: white;
+      color: $primary-color;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+
+    @media (max-width: 1319px) {
+      grid-template-columns: repeat(2, 1fr);
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    @media (max-width: 750px) {
+      width: 80%;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    @media (max-width: 649px) {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+
+
+  .__section-paragraph-xl {
+    width: 517px;
+    height: 33px;
+    flex-shrink: 0;
+    color: $primary-color;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+.__grid-cards-container__dropdown {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  margin-top: 30px;
+  gap: 57px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+
+  }
+}
+
+.__section__FATQs {
+  .__subtitle-center-xl {
+    color: $primary-color;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .__paragraph-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: $primary-color;
+    text-align: left;
+    font-size: 20px;
+  }
+}

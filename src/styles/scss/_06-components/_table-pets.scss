@@ -1,0 +1,155 @@
+.app-table-pets-container {
+  width: 100%;
+  font-family: $font-primary, 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+
+  overflow-x: auto;
+
+  .app-table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+    font-size: 0.9em;
+
+    thead {
+      th {
+        text-align: left;
+        padding: 12px 15px;
+        font-weight: bold;
+        border-bottom: 2px solid #dee2e6;
+
+        &:nth-child(even) {
+          background-color: #ffffff;
+          color: $primary-color;
+        }
+
+        &:nth-child(odd) {
+          background-color: $primary-color;
+          color: white;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+
+
+        td {
+          padding: 12px 15px;
+          border-bottom: 1px solid #dee2e6;
+
+          &:empty::before {
+            content: "-";
+            color: white;
+          }
+
+          &:nth-child(odd) {
+            background-color: #ffffff;
+            color: $primary-color;
+          }
+
+          &:nth-child(even) {
+            background-color: $primary-color;
+            color: white;
+          }
+        }
+      }
+
+      tr:nth-child(even) {
+        td:nth-child(odd) {
+          background-color: $primary-color;
+          color: white;
+        }
+
+        td:nth-child(even) {
+          background-color: #ffffff;
+          color: $primary-color;
+        }
+      }
+    }
+  }
+
+  .loading-message,
+  .error-message {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin: 15px;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+
+    .app-table {
+      font-size: 0.8em;
+      min-width: 0;
+      border: 0;
+
+      thead th,
+      tbody td {
+        padding: 10px 8px;
+      }
+
+      thead {
+        display: none;
+      }
+
+      tbody {
+        display: block;
+
+        tr {
+          display: block;
+          margin-bottom: 15px;
+          border: 1px solid #dee2e6;
+          border-radius: 8px;
+          background-color: #fff;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        }
+
+        td {
+          display: block;
+          text-align: center !important;
+          border-bottom: 1px dotted #dee2e6;
+          padding-left: 50% !important;
+          position: relative;
+
+          &:last-child {
+            border-bottom: 0;
+          }
+
+          &::before {
+            content: attr(data-label);
+            position: absolute;
+            left: 15px;
+            width: calc(50% - 30px);
+            padding-right: 10px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-weight: bold;
+            text-align: left;
+          }
+        }
+
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+
+    .app-table {
+      font-size: 0.75em;
+
+      thead th,
+      tbody td {
+        padding: 8px 6px;
+      }
+    }
+  }
+}

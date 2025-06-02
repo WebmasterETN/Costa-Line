@@ -1,0 +1,34 @@
+@import "../main.scss";
+
+.button-whats {
+    position: fixed;
+    width: 3.75rem; // Mantiene el valor original
+    height: 3.75rem; // Mantiene el valor original
+    font-size: $fs-h4; // Tamaño de fuente ajustado con una variable
+    bottom: $spacing-xxl; // 9.25rem
+    right: $spacing-lg; // 2.5rem
+    background-color: $green; // #25d366
+    color: $white; // #FFF
+    border-radius: 50%; // Mantiene el diseño circular
+    text-align: center;
+    z-index: 5; // Mantiene el valor original
+    padding: $spacing-sm; // 0.625rem
+    transition: $transition-fast; // 0.3s
+    box-shadow: $shadow-dark, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; // Ajuste con sombra existente
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        transform: scale(1.1); // Mantiene el valor original
+    }
+
+    &:active {
+        transform: scale(1.1); // Mantiene el valor original
+    }
+
+    @include media("md") {
+        bottom: 10.45rem; // Mantiene el valor específico para este breakpoint
+        right: $spacing-md; // 1.25rem
+    }
+}

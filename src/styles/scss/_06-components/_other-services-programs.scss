@@ -1,0 +1,216 @@
+@import "../main.scss";
+
+.section__other-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: $spacing-xxl; // 4.375rem
+
+    & .section__other-services__container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: $spacing-lg; // 1.25rem
+        background-color: $bg-card-primary; // #F0F0F0
+
+        & .section__other-services__container__title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 20%;
+            text-align: center;
+            color: $white;
+            font-size: clamp(1.2em, 3vw, 2.5em); // Mantiene el valor original
+        }
+
+        & .section__other-services__container__cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            height: 80%;
+            padding: $spacing-md;
+
+            & .section__other-services__container__card {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                aspect-ratio: 1 / 1;
+                width: clamp(11.25rem, 30%, 46.875rem); // Mantiene el valor original
+                max-width: 100%;
+                height: auto;
+                transition: width $transition-fast; // 0.3s ease
+                border-radius: $radius-md; // 0.5em
+                box-shadow: $shadow-light, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+                transition: all $transition-fast; // 0.3s ease-in-out
+
+                &:hover {
+                    transform: scale(1.03); // Mantiene el valor original
+                    box-shadow: $shadow-dark; // rgba(0, 0, 0, .56) 0px 3px 10px 4px
+                }
+
+                &:focus {
+                    transform: scale(1.03); // Mantiene el valor original
+                }
+
+                &:active {
+                    transform: scale(1.03); // Mantiene el valor original
+                    box-shadow: $shadow-dark; // rgba(0, 0, 0, .56) 0px 3px 10px 4px
+                }
+
+                & .section__other-services__container__card__img {
+                    width: 100%;
+                    aspect-ratio: 1 / 1; // Mantiene cuadrado
+                    height: auto;
+                    object-fit: cover;
+                    border-radius: $radius-md;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@include media("xxl") {
+    .section__other-services {
+        & .section__other-services__container {
+            & .section__other-services__container__cards {
+                justify-content: space-between;
+
+                & .section__other-services__container__card {
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+@include media("xl") {
+    .section__other-services {
+        & .section__other-services__container {
+            & .section__other-services__container__cards {
+                justify-content: space-between;
+
+                & .section__other-services__container__card {
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+@include media("lg") {
+    .section__other-services {
+        padding: $spacing-md; // 0.9375rem
+
+        & .section__other-services__container {
+            & .section__other-services__container__cards {
+                justify-content: space-evenly;
+
+                & .section__other-services__container__card {
+                    flex: 0 0 auto;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    @media (orientation: landscape) {
+        .section__other-services {
+            & .section__other-services__container {
+                align-items: center;
+                justify-content: center;
+                gap: $spacing-md; // 0.9375rem
+
+                & .section__other-services__container__cards {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    box-sizing: border-box;
+                    gap: $spacing-md; // 0.9375rem
+
+                    & .section__other-services__container__card {
+                        flex: 0 0 auto;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media("md") {
+    .section__other-services {
+        padding: $spacing-md; // 0.9375rem
+
+        & .section__other-services__container {
+            & .section__other-services__container__cards {
+                align-items: center;
+                justify-content: space-evenly;
+
+                & .section__other-services__container__card {
+                    flex: 0 0 auto;
+                    height: auto;
+                    gap: $spacing-lg; // 1.25rem
+                    margin-bottom: $spacing-lg; // 1.25rem
+                }
+            }
+        }
+    }
+
+    @media (orientation: landscape) {
+        .section__other-services {
+            padding: $spacing-md; // 0.9375rem
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & .section__other-services__container {
+                align-items: center;
+                justify-content: center;
+                gap: $spacing-xs; // 0.3125rem
+
+                & .section__other-services__container__cards {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    overflow-x: auto;
+                    gap: $spacing-xs; // 0.3125rem
+
+                    & .section__other-services__container__card {
+                        flex: 0 0 auto;
+                        height: auto;
+                        overflow-y: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media("sm") {
+    .section__other-services {
+        padding: $spacing-md; // 0.9375rem
+
+        & .section__other-services__container {
+            & .section__other-services__container__cards {
+                align-items: center;
+                justify-content: space-evenly;
+
+                & .section__other-services__container__card {
+                    flex: 0 0 auto;
+                    width: 100%;
+                    height: auto;
+                    gap: $spacing-lg; // 1.25rem
+                    margin-bottom: $spacing-lg; // 1.25rem
+                }
+            }
+        }
+    }
+}

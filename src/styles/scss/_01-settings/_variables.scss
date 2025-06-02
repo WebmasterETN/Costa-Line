@@ -1,0 +1,222 @@
+$font-primary: 'Lato', sans-serif;
+
+// Colors
+$primary-color: #003A5D;
+$secondary-color: #98ced6;
+$bottom-top-color: #eee;
+$hover-header-color: #2f6e76;
+$bg-card-primary: #F1F8FF;
+$bg-card-secondary: #E9E9E9;
+$white: #ffffff;
+$black: #000000;
+$gray-light: #e9e9e9;
+$gray-dark: #747678;
+$blue-dark: #15395a;
+$blue-hover: #194268;
+$green: #01ae42;
+$red: #ff4b55;
+$yellow: #ffd250;
+$transparent-black: rgba(0, 0, 0, 0.5);
+$transparent-white: rgba(255, 255, 255, 0.5);
+$white-color: #fff; // Color blanco usado en varios archivos
+$black-color: #000; // Color negro usado en varios archivos
+$box-shadow-color: rgba(0, 0, 0, 0.308); // Sombra repetida
+$border-color: rgba(0, 0, 0, 0.53); // Color de borde repetido
+
+/*--------BREAKPOINTS--------*/
+$breakpoints: (
+  'xs': 320px,
+  // Móvil pequeño
+  'sm': 481px,
+  // Móvil estándar
+  'md': 990px,
+  // Tableta
+  'lg': 1025px,
+  // Laptop pequeña
+  'xl': 1200px,
+  // Escritorio estándar
+  'xxl': 1400px // Pantallas grandes
+);
+
+// Spacing
+$spacing-xs: 0.3125rem;
+$spacing-sm: 0.625rem;
+$spacing-md: 0.9375rem;
+$spacing-lg: 1.25rem;
+$spacing-xl: 1.5625rem;
+$spacing-xxl: 4.375rem;
+
+// Shadows
+$shadow-light: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.2);
+$shadow-medium: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+$shadow-dark: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+
+/*--------FONTS-SIZES--------*/
+
+// Titles
+$fs-h1: clamp(2em, 5vw, 3em);
+$fs-h1-md: clamp(1.75em, 4vw, 2.75em);
+$fs-h1-xs: clamp(1.5em, 3.5vw, 2.5em);
+
+$fs-h2: clamp(1.75em, 4vw, 2.5em);
+$fs-h2-md: clamp(1.5em, 3.5vw, 2.25em);
+$fs-h2-xs: clamp(1.375em, 3vw, 2em);
+
+$fs-h3: clamp(1.5em, 3vw, 2em);
+$fs-h3-md: clamp(1.375em, 2.75vw, 1.875em);
+$fs-h3-xs: clamp(1.25em, 2.5vw, 1.75em);
+
+$fs-h4: clamp(1.25em, 2.5vw, 1.75em);
+$fs-h4-md: clamp(1.125em, 2.25vw, 1.625em);
+$fs-h4-xs: clamp(1em, 2vw, 1.5em);
+
+$fs-h5: clamp(1.125em, 2vw, 1.5em);
+$fs-h5-md: clamp(1em, 1.75vw, 1.375em);
+$fs-h5-xs: clamp(0.9375em, 1.5vw, 1.25em);
+
+$fs-h6: clamp(1em, 1.5vw, 1.25em);
+$fs-h6-md: clamp(0.9375em, 1.375vw, 1.125em);
+$fs-h6-xs: clamp(0.875em, 1.25vw, 1em);
+
+$fs-button: clamp(0.875em, 1vw, 1em);
+$fs-caption: clamp(0.75em, 0.9vw, 0.875em);
+
+// Text
+$fs-p: clamp(1em, 1.5vw, 1.25em);
+$fs-p-md: clamp(0.9375em, 1.375vw, 1.125em);
+$fs-p-xs: clamp(0.875em, 1.25vw, 1em);
+
+$fs-small: clamp(0.875em, 1vw, 1em);
+$fs-small-md: clamp(0.8125em, 0.9375vw, 0.9375em);
+$fs-small-xs: clamp(0.75em, 0.875vw, 0.875em);
+
+// Links
+$fs-nav: clamp(1em, 1.5vw, 1.25em);
+$fs-nav-md: clamp(0.9375em, 1.375vw, 1.125em);
+$fs-nav-xs: clamp(0.875em, 1.25vw, 1em);
+
+$fs-a: clamp(1em, 1.2vw, 1.125em);
+$fs-a-md: clamp(0.9375em, 1.125vw, 1em);
+$fs-a-xs: clamp(0.875em, 1vw, 0.9375em);
+
+$fs-nav-a: clamp(0.875em, 1.2vw, 1.125em);
+$fs-nav-a-md: clamp(0.8125em, 1.125vw, 1em);
+$fs-nav-a-xs: clamp(0.75em, 1vw, 0.9375em);
+
+$fs-small-a: clamp(0.75em, 0.9vw, 0.875em);
+$fs-small-a-md: clamp(0.6875em, 0.875vw, 0.8125em);
+$fs-small-a-xs: clamp(0.625em, 0.75vw, 0.75em);
+
+// Line-height para cada categoría
+$lh-default: 1.5; // Base
+$lh-title: 1.3; // Para títulos grandes
+$lh-title-sm: 1.4; // Para títulos medianos
+$lh-text: 1.6; // Para párrafos
+$lh-small-text: 1.7; // Para textos pequeños
+$lh-links: 1.4; // Para enlaces y navegación
+
+// Aplicación en los breakpoints
+$lh-h1: 1.2;
+$lh-h1-md: 1.25;
+$lh-h1-xs: 1.3;
+
+$lh-h2: 1.25;
+$lh-h2-md: 1.3;
+$lh-h2-xs: 1.35;
+
+$lh-h3: 1.3;
+$lh-h3-md: 1.35;
+$lh-h3-xs: 1.4;
+
+$lh-h4: 1.35;
+$lh-h4-md: 1.4;
+$lh-h4-xs: 1.45;
+
+$lh-h5: 1.4;
+$lh-h5-md: 1.45;
+$lh-h5-xs: 1.5;
+
+$lh-h6: 1.45;
+$lh-h6-md: 1.5;
+$lh-h6-xs: 1.55;
+
+$lh-p: 1.5;
+$lh-p-md: 1.6;
+$lh-p-xs: 1.7;
+
+$lh-small: 1.6;
+$lh-small-md: 1.7;
+$lh-small-xs: 1.8;
+
+$lh-nav: 1.4;
+$lh-nav-md: 1.45;
+$lh-nav-xs: 1.5;
+
+$lh-a: 1.35;
+$lh-a-md: 1.4;
+$lh-a-xs: 1.45;
+
+// Border Radius
+$radius-sm: 0.25rem;
+$radius-md: 0.5rem;
+$radius-lg: 0.625rem;
+$radius-xl: 1rem;
+
+// Transitions
+$transition-fast: 0.3s ease-in-out;
+$transition-medium: 0.5s ease-in-out;
+$transition-slow: 0.8s ease-in-out;
+
+// Z-Index
+$z-index-modal: 1000;
+$z-index-dropdown: 999;
+$z-index-header: 998;
+$z-index-footer: 997;
+
+/*--------WIDTH--------*/
+$width-full: 100%; // Ancho completo
+$width-large: 28.125rem; // 450px
+$width-medium: 18.75rem; // 300px
+$width-small: 9.375rem; // 150px
+$width-container: 95%; // Usado en contenedores
+
+/*--------HEIGHT--------*/
+$height-full: 100%; // Altura completa
+$height-large: 25rem; // 400px
+$height-medium: 18.4375rem; // 295px
+$height-small: 12.1875rem; // 195px
+$height-container: 90%; // Usado en contenedores
+
+/*--------LEFT--------*/
+$left-large: 10rem; // 160px
+$left-medium: 4.75rem; // 60px
+$left-small: 3.125rem; // 50px
+$left-center: 50%; // Centrado horizontal
+
+/*--------TOP--------*/
+$top-large: 12.125rem; // 130px
+$top-medium: 8.25rem; // 100px
+$top-small: 7.625rem; // 90px
+
+/*--------BOTTOM--------*/
+$bottom-large: 6.25rem; // 100px
+$bottom-medium: 5rem; // 80px
+$bottom-small: 0.9375rem; // 15px
+
+/*--------SPACING--------*/
+$padding-small: 0.625rem; // 10px
+$padding-medium: 0.9375rem; // 15px
+$padding-large: 4.375rem; // 70px
+$gap-small: 0.625rem; // 10px
+
+/*--------BORDER RADIUS--------*/
+$border-radius-small: 0.625rem; // 10px
+$border-radius-large: 3.125rem; // 50px
+
+/*--------BOX SHADOW--------*/
+$box-shadow-small: 0.25rem 0.25rem 0.375rem $box-shadow-color; // 4px 4px 6px
+
+/*--------FONT SIZES--------*/
+$font-size-small: 0.8rem; // Tamaño de fuente pequeño
+$font-size-medium: 1rem; // Tamaño de fuente mediano
+$font-size-large: 1.5rem; // Tamaño de fuente grande

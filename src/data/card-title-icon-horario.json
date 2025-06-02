@@ -1,0 +1,15 @@
+[
+  {
+    "cardTitle": "Viajes de mañana",
+    "cardContent": "Ideales para quienes prefieren llegar a su destino temprano para aprovechar al máximo el día, nuestras salidas matutinas están disponibles para la mayoría de los destinos.",
+    "cardIcon": "<span class=\"icon-reloj __icon-size\"></span>"
+  },{
+    "cardTitle": "Viajes por la tarde",
+    "cardContent": "Si prefieres viajar con calma y disfrutar de una llegada cómoda por la tarde, nuestras salidas vespertinas son perfectas para ti. Estos horarios también permiten evitar el tráfico matutino de las grandes ciudades.",
+    "cardIcon": "<span class=\"icon-reloj __icon-size\"></span>"
+  },{
+    "cardTitle": "Viajes nocturnos",
+    "cardContent": "Para quienes desean maximizar su tiempo o simplemente prefieren viajar mientras duermen,nuestras rutas nocturnas ofrecen la comodidad de viajar de noche y llegar descansado a tu destino.",
+    "cardIcon": "<span class=\"icon-reloj __icon-size\"></span>"
+  }
+]

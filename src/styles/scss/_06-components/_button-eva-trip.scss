@@ -1,0 +1,20 @@
+@import "../main.scss";
+
+.button-eva-trip {
+    position: fixed;
+    width: 9.5rem; // Mantiene el valor original
+    height: 2.5rem; // Mantiene el valor original
+    font-size: $fs-button; // Reemplazado con la variable para botones
+    text-align: center;
+    bottom: $spacing-xxl; // 137px
+    left: -3.75rem; // -60px
+    background-color: $primary-color; // #0d385a
+    color: $white; // #FFF
+    font-weight: 300; // Mantiene el valor original
+    border: 0.0625rem solid $white; // 1px
+    border-radius: 0 0 $radius-lg $radius-lg; // 0.625rem
+    z-index: 5; // Mantiene el valor original
+    padding: $spacing-sm; // 0.625rem
+    transition: $transition-fast; // 0.3s
+    transform: rotate(-90deg); // Mantiene el valor original
+}

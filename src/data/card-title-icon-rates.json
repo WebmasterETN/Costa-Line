@@ -1,0 +1,15 @@
+[
+  {
+    "cardTitle": "Tarifas generales",
+    "cardContent": "Las tarifas regulares de ETN Turistar son competitivas y reflejan el compromiso de la compañía de ofrecer un servicio de alta calidad a precios accesibles. Estas tarifas varían según la ruta, la temporada, y el tipo de servicio, permitiendo a los viajeros elegir la opción que mejor se adapte a su presupuesto.",
+    "cardIcon": "<span class=\"icon-tarifas_generales __icon-size\"></span>"
+  },{
+    "cardTitle": "Ofertas y descuentos",
+    "cardContent": "ETN Turistar ofrece promociones especiales todo el año, incluyendo descuentos exclusivos en el Festival de Viajes. Estudiantes y maestros también disfrutan de tarifas preferenciales: 50% y 25% de descuento, respectivamente. ¡Viajar nunca fue tan accesible!",
+    "cardIcon": "<span class=\"icon-descuentos __icon-size\"><span class=\"path1\"></span><span class=\"path2\"></span></span>"
+  },{
+    "cardTitle": "Reservas anticipadas",
+    "cardContent": "Planificar con anticipación tiene sus ventajas. Al reservar tus boletos con antelación, puedes asegurarte de obtener los mejores precios y asegurar tu asiento en el autobús. Además, la plataforma en línea de ETN Turistar hace que el proceso de reserva sea rápido y sencillo, sin necesidad de largas esperas en taquillas.",
+    "cardIcon": "<span class=\"icon-reservas __icon-size\"></span>"
+  }
+]

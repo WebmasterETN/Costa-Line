@@ -1,0 +1,37 @@
+@import '../_02-tools/mixin';
+
+// Import generic
+@import '../_03-generic/reset';
+
+// Import elements
+@import '../_04-elements/elements';
+
+// Import object
+@import '../_05-object/animations';
+@import '../_05-object/layout';
+
+// Import components
+@import './header';
+@import './destinations-grid';
+@import './other-services-programs';
+@import './footer';
+@import './slider-blog';
+@import './list-destinations';
+@import './payments-logos';
+@import './tickets-sales-locations';
+@import './button-whats';
+@import './button-eva-trip';
+@import './modal-doters';
+@import './modalDoters';
+@import './cotiza';
+@import './banner-slider';
+@import './section-title';
+
+// Import utilities
+@import '../_07-utilities/utilities';
+@import '../_06-components/cookies-policy';
+
+// Import libreries
+
+@import '../../css/_css-librerias/_slick-slider/slick-theme.css';
+@import '../../css/_css-librerias/_slick-slider/slick.css';

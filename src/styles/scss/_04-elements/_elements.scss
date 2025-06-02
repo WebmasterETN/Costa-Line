@@ -1,0 +1,73 @@
+body {
+  font-family: $font-primary;
+  font-size: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/*h1 {
+  font-size: $fs-h1;
+  line-height: $lh-h1;
+}
+h3 {
+  font-size: $fs-h3;
+  line-height: $lh-h3;
+}
+h4 {
+  font-size: $fs-h4;
+  line-height: $lh-h4;
+}
+h5 {
+  font-size: $fs-h5;
+  line-height: $lh-h5;
+}
+h6 {
+  font-size: $fs-h6;
+  line-height: $lh-h6;
+}
+
+p {
+  font-size: $fs-p;
+  line-height: $lh-p;
+}
+
+small {
+  font-size: $fs-small;
+  line-height: $lh-small;
+}
+
+a {
+  font-size: $fs-a;
+  line-height: $lh-a;
+}*/
+
+.__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-top: $spacing-xl;
+  padding: 0 $spacing-xxl $spacing-xxl $spacing-xxl;
+  box-sizing: border-box;
+  gap: 34px;
+  @include media ("md") {
+    padding: 0 $padding-medium $padding-medium $padding-medium;
+  }
+}
+
+.__paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: $primary-color;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+h2 {
+  color: $primary-color;
+}

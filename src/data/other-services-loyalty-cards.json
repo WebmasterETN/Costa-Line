@@ -1,0 +1,20 @@
+[
+  {
+    "href": "https://www.etn.com.mx/doters",
+    "imageSrc": "../src/assets/img/programs/Mosaico_Doters_ETN.webp",
+    "imageAlt": "Flayer de puntos Doters",
+    "title": "Puntos Doters"
+  },
+  {
+    "href": "https://etn.com.mx/descuento-autobus-5-mas-10-etn.html",
+    "imageSrc": "../src/assets/img/programs/mosaico-web-5-10-2025.webp",
+    "imageAlt": "Flayer de descuentos ida y regreso de 5-10-2025",
+    "title": "Descuentos ida y regreso 5% más 10%"
+  },
+  {
+    "href": "https://etn.com.mx/viajero-anticipado",
+    "imageSrc": "../src/assets/img/programs/mosaico-viajero-anticipado.webp",
+    "imageAlt": "Flayer de descuentos viajero anticipado",
+    "title": "Descuentos viajero anticipado"
+  }
+]

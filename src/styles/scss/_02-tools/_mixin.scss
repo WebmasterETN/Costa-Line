@@ -1,0 +1,19 @@
+@import "../_01-settings/variables"; // Breakpoints
+
+// Mixin para aplicar media queries fácilmente
+@mixin media($size) {
+  @if map-has-key($breakpoints, $size) {
+    @media (max-width: map-get($breakpoints, $size)) {
+      @content;
+    }
+  } @else {
+    @warn "⚠️ El breakpoint `#{$size}` no está definido en el mapa de breakpoints.";
+  }
+}
+
+// Mixin para orientación horizontal (landscape)
+@mixin media-landscape {
+  @media (orientation: landscape) {
+      @content;
+  }
+}

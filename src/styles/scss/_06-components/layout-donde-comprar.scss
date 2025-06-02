@@ -1,0 +1,43 @@
+@import '../main';
+
+// Import components
+@import './header';
+@import './banner-slider';
+@import './payments-logos';
+@import './modal-doters';
+@import './modalDoters';
+@import './cotiza';
+@import './button-eva-trip';
+@import './button-whats';
+@import './section-title';
+@import './_img-options-sale-tickets';
+@import './footer';
+
+
+// Import utilities
+@import '../_07-utilities/utilities';
+@import '../_06-components/cookies-policy';
+
+.shop-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem; 
+
+  justify-items: center;
+
+  max-width: 1420px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+
+  @media (max-width: 1319px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 649px) {
+    grid-template-columns: 1fr;
+    padding-left: 0.5rem; 
+    padding-right: 0.5rem;
+  }
+}

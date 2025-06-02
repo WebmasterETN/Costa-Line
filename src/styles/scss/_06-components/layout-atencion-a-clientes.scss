@@ -1,0 +1,128 @@
+@import '../main';
+
+// Import components
+@import './header';
+@import './modal-doters';
+@import './modalDoters';
+@import './banner-slider';
+@import './payments-logos';
+@import './button-eva-trip';
+@import './cotiza';
+@import './button-eva-trip';
+@import './button-whats';
+@import './section-title';
+@import './footer';
+@import './cookies-policy';
+@import './forms';
+
+
+// Import utilities
+@import '../_07-utilities/utilities';
+
+
+.__grid-cards-container {
+    width: 90%;;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+    .__container-image {
+        width: 100%;
+        min-height: 700px;
+        border-radius: 15px;
+        border: 2px solid $primary-color;
+        position: relative;
+        overflow: hidden;
+
+        .__img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+        }
+
+        .__container-image__footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            width: 100%;
+            padding: 15px 0;
+            background-color: $primary-color;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 18px;
+            z-index: 2;
+        }
+
+        .__container__title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            width: 100%;
+            padding: 15px 0;
+            background-color: $primary-color;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 18px;
+            z-index: 2;
+        }
+    }
+
+    .__container-form {
+        padding-top: 50px;
+        width: 100%;
+        height: 700px;
+        border-radius: 15px;
+        border: 2px solid $primary-color;
+        position: relative;
+        overflow: hidden;
+
+        .__container__title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            width: 100%;
+            padding: 15px 0;
+            background-color: $primary-color;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 18px;
+            z-index: 2;
+        }
+    }
+
+    @media (max-width: 992px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 0;
+        .__container-image {
+            min-height: 500px;
+        }
+       
+    }
+
+
+}
+

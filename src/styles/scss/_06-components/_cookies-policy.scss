@@ -1,0 +1,107 @@
+@import "../main.scss";
+
+.cookies-policy {
+  position: fixed;
+  bottom: 0;
+  z-index: 9999999999; // Mantiene el valor original
+  display: none;
+  width: 100%;
+  background-color: $primary-color; // #0d385a
+  color: $white; // #FFF
+  box-shadow: $shadow-dark, rgba(0, 0, 0, 0.4) 0px 30px 90px; // Ajuste con sombra existente
+  justify-content: space-between;
+  align-items: center;
+
+  &.d-block {
+    display: block;
+  }
+
+  .main-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: $spacing-sm 0; // 15px 0
+  }
+
+  h2 {
+    width: 100%;
+    margin-bottom: $spacing-sm; // 15px
+    text-align: left;
+    color: $white; // #FFF
+
+    @include media("md") {
+      text-align: center;
+    }
+  }
+
+  p {
+    width: 100%;
+    margin-bottom: $spacing-xs; // 5px
+    text-align: left;
+    font-size: 90%; // Mantiene el valor original
+    color: $white; // #FFF
+
+    span {
+      font-weight: 600; // Mantiene el valor original
+    }
+
+    a {
+      color: $white; // #FFF
+      font-weight: 600; // Mantiene el valor original
+      text-decoration: underline;
+    }
+
+    &:last-of-type {
+      margin-top: $spacing-sm; // 15px
+    }
+  }
+
+  button {
+    width: 13.4375rem; // 215px
+    height: 3.125rem; // 50px
+    border-radius: $radius-md; // 10px
+    cursor: pointer;
+    color: $blue-dark; // #0d385a
+
+    &:first-of-type {
+      margin-right: $spacing-md; // 20px
+      background-color: $white; // #FFF
+      border: solid 1px $white; // #FFF
+
+      @include media("md") {
+        margin-right: 0px;
+        margin-bottom: $spacing-sm; // 15px
+      }
+
+      @media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+        margin-bottom: $spacing-sm; // 15px
+        margin-right: 0;
+      }
+    }
+
+    &:last-of-type {
+      background-color: transparent;
+      color: $white; // #FFF
+      border: solid 1px $white; // #FFF
+    }
+  }
+}
+
+@include media("md") {
+  .policy-info {
+    flex-direction: column;
+    gap: $spacing-md; // 0.9375rem
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__btns {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

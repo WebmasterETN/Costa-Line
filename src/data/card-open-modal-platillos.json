@@ -1,0 +1,43 @@
+[
+    {
+      "title": "Dulce Gloria",
+      "description": "Las glorias son un dulce muy apreciado en Monterrey, hecho con leche caramelizada y nueces pecanas. Estos dulces son conocidos por su textura rica y cremosa, y suelen estar envueltos en celofán rojo. Son un recuerdo perfecto para llevar a casa o disfrutar como una deliciosa botana.",
+      "imageSrc": "src/assets/img/platillos/dulce-gloria.png",
+      "imageModal":"src/assets/img/platillos/dulce-gloria-m.png",
+      "altText": "Glorias de Linares",
+      "linkText": "Ver..."
+      },
+    {
+      "title": "Capirotada",
+      "description": "La capirotada es un postre tradicional mexicano, especialmente popular durante la Cuaresma. Se prepara con capas de pan tostado remojadas en un almíbar de piloncillo (azúcar de caña sin refinar), canela y clavo. El plato se cubre con pasas, nueces y queso, creando una combinación de sabores dulces y salados.",
+      "imageSrc": "src/assets/img/platillos/capirotada.png",
+      "imageModal":"src/assets/img/platillos/capirotada-m.png",
+      "altText": "Capirotada",
+      "linkText": "Ver..."
+    },
+    {
+      "title": "Cabrito asado",
+      "description": "El cabrito asado es uno de los platillos más emblemáticos de Monterrey. Esta comida tradicional consiste en asar un cabrito, generalmente en un horno de ladrillo, hasta que esté tierno y sabroso. El plato suele sazonarse con una mezcla de especias y servirse con acompañamientos como tortillas, salsa y frijoles. Es una experiencia imperdible para quienes visitan la región.",
+      "imageSrc": "src/assets/img/platillos/cabrito.png",
+      "imageModal":"src/assets/img/platillos/cabrito-m.jpg",
+      "altText": "Cabrito asado",
+      "linkText": "Ver..."
+    },
+    {
+      "title": "Machaca con Huevo",
+      "description": "El machacacado con huevo es un desayuno tradicional elaborado con carne de res deshebrada (machaca) mezclada con huevos revueltos, tomates, cebollas y chiles. Este platillo se suele servir con tortillas de harina y frijoles refritos, ofreciendo una forma sabrosa y saciante de empezar el día.",
+      "imageSrc": "src/assets/img/platillos/machaca.png",
+      "imageModal":"src/assets/img/platillos/machaca-m.jpg",
+      "altText": "Machaca con Huevo",
+      "linkText": "Ver..."
+    },
+    {
+      "title": "Empalmes",
+      "description": "Los empalmes son un desayuno único de Monterrey. Consisten en dos tortillas de maíz rellenas de frijoles refritos y, a veces, chorizo, que se fríen hasta quedar crujientes. Suelen servirse con un huevo frito encima y una guarnición de salsa, lo que los convierte en una comida sustanciosa y sabrosa.",
+      "imageSrc": "src/assets/img/platillos/empalmes.png",
+      "imageModal":"src/assets/img/platillos/empalmes-m.jpg",
+      "altText": "Empalmes",
+      "linkText": "Ver..."
+    }
+   
+  ]

@@ -1,0 +1,13 @@
+{
+  "columns": [
+    { "key": "category", "label": "CATEGORIA" },
+    { "key": "onboard", "label": "A BORDO" },
+    { "key": "document", "label": "DOCUMENTADA" },
+    { "key": "visual", "label": "APOYO VISUAL" },
+    { "key": "emo", "label": "APOYO EMOCIONAL" }
+  ],
+  "rows": [
+    { "category": "TEMPORADA ALTA", "onboard": "100% ASIENTO", "document": "SIN COSTO", "visual": "SIN COSTO", "emo": "SIN COSTO" },
+    { "category": "TEMPORADA BAJA", "onboard": "75% ASIENTO", "document": "SIN COSTO", "visual": "SIN COSTO", "emo": "SIN COSTO" }
+    ]
+}

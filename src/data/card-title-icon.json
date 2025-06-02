@@ -1,0 +1,19 @@
+[
+  {
+    "cardTitle": "Ciudad de México",
+    "cardContent": "Como capital del país y una de las ciudades másgrandes del mundo, la Ciudad de México es un punto de partida natural para muchos viajeros. Desde aquí, ETN Turistar ofrece rutas hacia destinos clave como Guadalajara, Monterrey y Querétaro, permitiéndote explorar otras regiones con total facilidad.",
+    "cardIcon": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 64 64\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path\n    d=\"M32 4C21.5066 4 13 12.5066 13 23C13 37.375 32 60 32 60C32 60 51 37.375 51 23C51 12.5066 42.4934 4 32 4ZM32 30C27.5817 30 24 26.4183 24 22C24 17.5817 27.5817 14 32 14C36.4183 14 40 17.5817 40 22C40 26.4183 36.4183 30 32 30Z\"\n    stroke=\"white\" stroke-width=\"4\" fill=\"none\"/>\n</svg>"
+  },{
+    "cardTitle": "Querétaro",
+    "cardContent": "Este destino histórico es un punto estratégico en las rutas de ETN Turistar. Desde Querétaro, los viajeros pueden dirigirse hacia el Bajío o continuar su viaje hacia la Ciudad de México, Puebla, o León.",
+    "cardIcon": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 64 64\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path\n    d=\"M32 4C21.5066 4 13 12.5066 13 23C13 37.375 32 60 32 60C32 60 51 37.375 51 23C51 12.5066 42.4934 4 32 4ZM32 30C27.5817 30 24 26.4183 24 22C24 17.5817 27.5817 14 32 14C36.4183 14 40 17.5817 40 22C40 26.4183 36.4183 30 32 30Z\"\n    stroke=\"white\" stroke-width=\"4\" fill=\"none\"/>\n</svg>"
+  },{
+    "cardTitle": "Monterrey",
+    "cardContent": "Como centro industrial del norte de México, Monterrey es una ciudad que mezcla modernidad con tradiciones. Las rutas de ETN Turistar desde Monterrey te llevan a lugares como Saltillo, San Luis Potosí, y Aguascalientes, ideales tanto para el turismo como para negocios.",
+    "cardIcon": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 64 64\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path\n    d=\"M32 4C21.5066 4 13 12.5066 13 23C13 37.375 32 60 32 60C32 60 51 37.375 51 23C51 12.5066 42.4934 4 32 4ZM32 30C27.5817 30 24 26.4183 24 22C24 17.5817 27.5817 14 32 14C36.4183 14 40 17.5817 40 22C40 26.4183 36.4183 30 32 30Z\"\n    stroke=\"white\" stroke-width=\"4\" fill=\"none\"/>\n</svg>"
+  },{
+    "cardTitle": "Guadalajara",
+    "cardContent": "Conocida como la cuna del mariachi y el tequila,Guadalajara es un destino imperdible para quienes desean vivir a flor de piel la cultura mexicana. ETN Turistar conecta esta hermosa ciudad con destinos tanto al norte como al sur,facilitando viajes hacia León, Puerto Vallarta, entre otros.",
+    "cardIcon": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 64 64\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path\n    d=\"M32 4C21.5066 4 13 12.5066 13 23C13 37.375 32 60 32 60C32 60 51 37.375 51 23C51 12.5066 42.4934 4 32 4ZM32 30C27.5817 30 24 26.4183 24 22C24 17.5817 27.5817 14 32 14C36.4183 14 40 17.5817 40 22C40 26.4183 36.4183 30 32 30Z\"\n    stroke=\"white\" stroke-width=\"4\" fill=\"none\"/>\n</svg>"
+  }
+]

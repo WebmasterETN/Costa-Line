@@ -1,0 +1,384 @@
+@import "../main.scss";
+// Variables
+$font-regular: "ferrovialn-regular-webfont";
+$font-bold: "ferrovialn-bold-webfont";
+$gray-color: #747678;
+$light-gray-color: #e9e9e9;
+$primary-color: #0e385a;
+$secondary-color: #98ced6;
+
+// Estilos de la grilla de items
+.last-notes__items {
+  display: flex;
+  flex-wrap:wrap;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+  padding: 70px;
+  gap: 30px;
+  box-sizing: border-box;
+  @include media("lg") {
+    padding: 0.9375rem;
+  }
+}
+
+// Estilos de las tarjetas
+.last-notes__card {
+  &__background {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  &__caption {
+    padding: 20px;
+  }
+
+  &__caption-date {
+    color: $secondary-color;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    border: solid 1px $secondary-color;
+    padding: 2px 5px;
+    width: fit-content;
+    border-radius: 4px;
+  }
+
+  &__caption-title {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 24px;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  &__caption-description {
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: Regular;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 21px;
+    margin-bottom: 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 6;
+    line-clamp: 6;
+    color: $gray-color;
+  }
+
+  &__link {
+    color: white;
+    font-size: 85%;
+    display: flex;
+    margin-top: 15px;
+    margin-left: auto;
+    width: fit-content;
+    align-items: center;
+
+    [class^="icon-"] {
+      font-size: 40px;
+    }
+  }
+}
+
+// Estilos específicos de la tarjeta destacada
+.last-notes__featured {
+  width: 450px;
+  @include media("lg") {
+    width: 100%;
+    margin: 0;
+  }
+  .last-notes__card__background {
+    height: 196px;
+
+    @media (min-width: 768px) {
+      height: 308px;
+    }
+
+    @media (min-width: 1300px) {
+      height: 278px;
+    }
+  }
+
+  .last-notes__card__caption {
+    background-color: $primary-color;
+
+    @media (min-width: 768px) {
+      padding: 20px;
+    }
+
+    @media (min-width: 1300px) {
+      padding: 30px;
+    }
+  }
+
+  .last-notes__card__caption-date {
+    color: $secondary-color;
+    border: solid 1px $secondary-color;
+  }
+
+  .last-notes__card__caption-title {
+    color: $secondary-color;
+    font-size: 26px;
+    line-height: 28px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+
+  .last-notes__card__caption-description {
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 16px;
+      line-height: 21px;
+    }
+  }
+  
+}
+
+// Estilos específicos de la tarjeta pequeña
+.last-notes__secondary {
+  width: 250px;
+  @include media("lg") {
+    width: 30vw;
+    margin: 0;
+  }
+  
+  @include media("md") {
+    width: 100%;
+  }
+
+  .last-notes__card__background {
+    height: 196px;
+    width: 100%; // Add width 100%
+
+    @media (min-width: 768px) {
+      height: 148.86px;
+    }
+  }
+
+  .last-notes__card__caption {
+    padding: 20px 0;
+    padding-bottom: 0;
+    display: flex; // Add flex display
+    flex-direction: column; // Stack items vertically
+    height: 100%; // Add height 100%
+  }
+
+  .last-notes__card__caption-date {
+    color: $primary-color;
+    text-transform: uppercase;
+    border: solid 1px $primary-color;
+    font-weight: 400;
+    font-style: Bold;
+    margin-bottom: 10px;
+  }
+
+  .last-notes__card__caption-title {
+    margin-bottom: 11px;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+  }
+
+  .last-notes__card__caption-description {
+    -webkit-line-clamp: 6;
+    line-clamp: 6;
+    flex-grow: 1; // Allow description to take up remaining space
+  }
+
+  small {
+    color: $primary-color;
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+
+    [class^="icon-"] {
+      margin-left: 5px;
+    }
+  }
+}
+
+// Estilos específicos de la tarjeta horizontal
+.last-notes__list-item {
+  width: calc(100% - 760px);
+  column-gap: 15px;
+  border-bottom: solid 1px $light-gray-color;
+  box-sizing: border-box;
+
+  @include media("lg") {
+    width: calc(100% - 30vw);
+  }
+
+  @include media("md") {
+    width: 100%;
+  }
+  
+  .last-notes__card--horizontal {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    .last-notes__card__background {
+      flex-shrink: 0;
+      height: 60px;
+      max-width: 97px;
+      min-height: unset;
+      // Nuevos estilos para centrar la imagen
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-position: center center;
+      overflow: hidden;
+  
+      @media (min-width: 768px) {
+        height: 78px;
+        max-width: 127px;
+      }
+    }
+    .last-notes__card__caption {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      row-gap: 6px;
+  
+      .last-notes__card__caption-date {
+        color: $primary-color;
+        border: solid 1px $primary-color;
+        margin: 0;
+      }
+    
+      .last-notes__card__caption-title {
+        -webkit-line-clamp: 1;
+        line-clamp: 1;
+    
+        @media (min-width: 320px) and (max-width: 767px) {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+    
+      .last-notes__card__caption-description {
+        color: $gray-color;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+      }
+      small {
+        margin-right: auto;
+        color: $primary-color;
+        display: flex;
+        align-items: center;
+    
+        [class^="icon-"] {
+          margin-left: 5px;
+        }
+      }
+    
+    }
+
+  }
+}
+
+// Estilos de la lista
+.last-notes__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    row-gap: 28px;
+  }
+
+  @media (min-width: 1300px) {
+    row-gap: 15px;
+
+    &:last-of-type {
+      row-gap: 0;
+    }
+  }
+}
+
+// Estilos del slider
+.slick-slide {
+  margin: 0 10px;
+}
+.slick-list{
+  overflow: hidden;
+}
+
+.slider-prev {
+  margin-right: 10px;
+  @include media("md") {
+    margin-right: 15px;
+  }
+}
+
+.slider-next {
+  margin-left: 10px;
+  @include media("md") {
+    margin-left: 15px;
+  }
+}
+
+// Estilos de los botones de navegación
+.arrow__img {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 10px;
+
+  @include media("md") {
+    justify-content: center;
+  }
+
+  button {
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    gap: 10px;
+    padding: 5px;
+    color: $primary-color;
+
+    &:hover {
+      transform: scale(1.2);
+      transition: all 0.3s ease-in-out;
+      border-radius: 50px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      color: #fff;
+      background-color: $primary-color;
+    }
+
+    &:active {
+      transform: scale(1.2);
+      transition: all 0.3s ease-in-out;
+      border-radius: 50px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      color: #fff;
+      background-color: $primary-color;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+[
+    {
+      "imageSrc": "src/assets/img/destinos-img/manzanillo-s.webp",
+      "imageAlt": "Mazanillo",
+      "destinationName": "Manzanillo, Colima",
+      "destinationTagline": "Sol, playa y diversión sin fin te esperan.",
+      "buttonText": "Explorar Manzanillo",
+      "buttonLink": "../../boletos-de-autobus-a-monterrey.html"
+
+    },
+    {
+      "imageSrc": "src/assets/img/destinos-img/puebla-s.webp",
+      "imageAlt": "Puebla",
+      "destinationName": "Puebla, Puebla",
+      "destinationTagline": "Tradición y modernidad en la Perla Tapatía.",
+      "buttonText": "Explorar Puebla",
+      "buttonLink": "../../boletos-de-autobus-a-monterrey.html"
+
+    },
+    {
+      "imageSrc": "src/assets/img/destinos-img/vallarta-s.webp",
+      "imageAlt": "Puerto Vallarta",
+      "destinationName": "Puerto Vallarta, Jalisco",
+      "destinationTagline": "Descubre la magia de una ciudad colonial.",
+      "buttonText": "Explorar Vallarta",
+      "buttonLink": "../../boletos-de-autobus-a-monterrey.html"
+
+    },
+    {
+      "imageSrc": "src/assets/img/destinos-img/queretaro-s.webp",
+      "imageAlt": "Querétaro",
+      "destinationName": "Querétaro, Querétaro",
+      "destinationTagline": "Sol, playa y diversión sin fin te esperan.",
+      "buttonText": "Explorar Queretaro",
+      "buttonLink": "../../boletos-de-autobus-a-monterrey.html"
+
+    },
+    {
+      "imageSrc": "src/assets/img/destinos-img/cdmx-s.webp",
+      "imageAlt": "Ciudad de México",
+      "destinationName": "Ciudad de México, CDMX",
+      "destinationTagline": "Tradición y modernidad en la Perla Tapatía.",
+      "buttonText": "Explora CDMX",
+      "buttonLink": "../../boletos-de-autobus-a-monterrey.html"
+
+    },
+    {
+      "imageSrc": "src/assets/img/destinos-img/guadalajara-s.webp",
+      "imageAlt": "Guadalajara",
+      "destinationName": "Guadalajara, Jalisco",
+      "destinationTagline": "Descubre la magia de una ciudad colonial.",
+      "buttonText": "Explora Guadalajara",
+      "buttonLink": "../../boletos-de-autobus-a-monterrey.html"
+
+    },
+    {
+      "imageSrc": "src/assets/img/destinos-img/guanajuato-s.webp",
+      "imageAlt": "Guanajuato",
+      "destinationName": "Guanajuato, Guanajuato",
+      "destinationTagline": "Descubre la magia de una ciudad colonial.",
+      "buttonText": "Explora Guanajuato",
+      "buttonLink": "../../boletos-de-autobus-a-monterrey.html"
+
+    }
+  ]

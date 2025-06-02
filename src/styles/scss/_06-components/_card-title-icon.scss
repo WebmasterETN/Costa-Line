@@ -1,0 +1,31 @@
+.__card-title-icon {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    min-height:200px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4); 
+    background-color: $bg-card-primary;
+
+    &__title {
+        display: flex;
+        width: 100%;
+        background-color: $primary-color;
+        padding: 15px;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        gap: 5px;
+        .__icon-size {
+            font-size: 2rem;
+            color: white;
+        }
+    }
+
+    &__content {
+        padding: 15px;
+    }
+}
+
+

@@ -1,0 +1,102 @@
+.__section__form-cotiza {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: $bg-card-secondary;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 90%;
+
+    .dynamic-form {
+        width: 100%; 
+        padding: 10px;
+        box-sizing: border-box;
+
+        .loading-message {
+            font-size: 16px;
+            color: #555;
+            text-align: center;
+            margin-top: 20px;
+            font-weight: 500;
+        }
+
+        .form-field-group {
+            width: 95%;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+
+        .form-field-group label {
+            display: block;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            font-weight: bold;
+            padding: 3px;
+        }
+
+        .form-field-group input,
+        .form-field-group textarea,
+        .form-field-group select {
+            border-radius: 10px;
+            border: 0;
+            width: 100%; 
+            padding: 8px;
+            box-sizing: border-box;
+            min-width: 0;
+            box-shadow: 0 4px 8px rgb(25, 41, 76);
+        }
+
+        .submit-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: $primary-color;
+            color: white;
+            border: 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+            margin: auto;
+            margin-top: 40px;
+
+            @media (max-width: 900px) {
+                width: 40%;
+            }
+
+            @media (max-width: 649px) {
+                width: 50%;
+            }
+
+            @media (max-width: 480px) {
+                width: 60%;
+            }
+        }
+    }
+
+    @media (max-width: 900px) {
+        width: 95%;
+        padding: 0 $spacing-xl $spacing-xl $spacing-xl;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 649px) {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 $spacing-lg $spacing-lg $spacing-lg;
+    }
+
+    @media (max-width: 480px) {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+}

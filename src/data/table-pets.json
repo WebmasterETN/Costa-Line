@@ -1,0 +1,18 @@
+{
+  "columns": [
+    { "key": "name", "label": "CATEGORIA" },
+    { "key": "type", "label": "A BORDO" },
+    { "key": "breed", "label": "DOCUMENTADA" },
+    { "key": "size", "label": "APOYO VISUAL" },
+    { "key": "notes", "label": "APOYO EMOCIONAL" }
+  ],
+  "rows": [
+    { "name": "PERROS", "type": "SI", "breed": "SI", "size": "SI", "notes": "SI" },
+    { "name": "GATOS", "type": "SI", "breed": "SI", "size": "NO", "notes": "SI" },
+    { "name": "CUALQUIER PESO", "type": "NO", "breed": "NO", "size": "SI", "notes": "NO" },
+    { "name": "HASTA 12 KG", "type": "SI", "breed": "SI", "size": "NO", "notes": "SI" },
+    { "name": "HASTA 32 KG", "type": "NO", "breed": "SI", "size": "NO", "notes": "NO" },
+    { "name": "EDAD MINIMA REQUERIDA", "type": "8 SEMANAS", "breed": "8 SEMANAS", "size": "NO", "notes": "8 SEMANAS" },
+    { "name": "REQUISITOS ADICIONALES", "type": "FIRMA RESPONSIVA", "breed": "FIRMA RESPONSIVA", "size": "FIRMA RESPONSIVA", "notes": "FIRMA RESPONSIVA" }
+  ]
+}

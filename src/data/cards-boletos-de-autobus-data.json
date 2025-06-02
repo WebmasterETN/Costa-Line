@@ -1,0 +1,62 @@
+{
+  "cards": [
+    {
+      "title": "Boleto Confirmado",
+      "mainText": "Es el boleto físico que cuenta con fecha de viaje, horario de salida y número de asiento.",
+      "secondaryText": "Este tipo de boleto es emitido en:",
+      "items": [
+        "Taquillas",
+        "Puntos de Venta Directos y Afiliados",
+        "Página WEB (Internet y Celular)",
+        "Servicio de Entrega a Domicilio",
+        "Agencias de Viajes",
+        "OXXO",
+        "Price Travel",
+        "BestDay"
+      ]
+    },
+    {
+      "title": "Boleto Enlace",
+      "mainText": "Puedes solicitar tu reservación vía telefónica en nuestro Contact Center.",
+      "secondaryText": "Este tipo de boleto es emitido en:",
+      "items": [
+        "Contact Center",
+        "Página WEB",
+        "Taquillas",
+        "Puntos de Venta Directos y Afiliados"
+      ]
+    },
+    {
+      "title": "Boleto Abierto",
+      "mainText": "Puedes solicitar tu reservación vía telefónica en nuestro Contact Center.",
+      "secondaryText": "Este tipo de boleto es emitido en:",
+      "items": [
+        "Contact Center",
+        "Puntos de Servicio de Entrega a Domicilio Directos y Afiliados",
+        "Agencias de Viajes"
+      ]
+    },
+    {
+      "title": "Boleto Confirmado Electrónico",
+      "mainText": "Es el boleto no impreso que cuenta con fecha de viaje, horario de salida y número de asiento. La impresión de este boleto deberá de solicitarse en taquillas una hora antes de su salida presentando identificación oficial, número de Operación y NIT.",
+      "secondaryText": "Este tipo de boleto es emitido en:",
+      "items": [
+        "Contact Center",
+        "Página WEB (Internet y Celular)",
+        "Taquillas",
+        "Puntos de Venta Directos y Afiliados"
+      ]
+    },
+    {
+      "title": "Boleto Abierto Electrónico",
+      "mainText": "Es el boleto no impreso que indica sólo origen y destino; al momento de la compra se le proporciona el número de Operación y NIT, está sujeto a disponibilidad de asientos y descuentos por autobús. La impresión de este boleto deberá de solicitarse en taquillas una hora antes de su salida presentando identificación oficial, número de Operación y NIT. Puedes solicitar tu reservación vía telefónica en nuestro Contact Center.",
+      "secondaryText": "Este tipo de boleto es emitido en:",
+      "items": [
+        "Contact Center",
+        "Página WEB",
+        "Taquillas",
+        "Puntos de Venta Directos y Afiliados"
+      ]
+    }
+  ]
+}

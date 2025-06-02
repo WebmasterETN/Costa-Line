@@ -1,0 +1,38 @@
+[
+  {
+    "pregunta": "Nombre",
+    "ejemplo": "Ingresa tu nombre *",
+    "tipo": "text",
+    "name": "name",
+    "requerido": true
+  },
+  {
+    "pregunta": "Apellidos",
+    "ejemplo": "Ingresa tus apellidos *",
+    "tipo": "text",
+    "name": "lastName",
+    "requerido": true
+  },
+  {
+    "pregunta": "Telefono de contacto",
+    "ejemplo": "Ej: 5512345678",
+    "tipo": "tel",
+    "name": "phone"
+  },{
+    "pregunta": "Correo electrónico",
+    "ejemplo": "Ej: jleo@example.com",
+    "tipo": "email",
+    "name": "email"
+  },{
+    "pregunta": "Tema de interés",
+    "ejemplo": "Ej: Boletos gratis",
+    "tipo": "text",
+    "name": "topic"
+  },{
+    "pregunta": "Comentarios",
+    "ejemplo": " ",
+    "tipo": "textarea",
+    "name": "comments"
+  }
+  
+]

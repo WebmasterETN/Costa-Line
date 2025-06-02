@@ -1,0 +1,20 @@
+[
+  {
+    "href": "https://etn.com.mx/turismo",
+    "imageSrc": "../src/assets/img/services/renta-de-autobuses-etn.webp",
+    "imageAlt": "Flayer del servicio de Renta de autobuses",
+    "title": "Renta de autobuses"
+  },
+  {
+    "href": "https://etn.com.mx/viajero-protegido.html",
+    "imageSrc": "../src/assets/img/services/mosaico-viajero-protegido.webp",
+    "imageAlt": "Flayer del servicio de Viajero Protegido",
+    "title": "Seguro viajero protegido"
+  },
+  {
+    "href": "https://etn.com.mx/pack",
+    "imageSrc": "../src/assets/img/services/multienlace-etn.webp",
+    "imageAlt": "Flayer del servicio de Multienlace",
+    "title": "Servicio de paqueteria multienlace"
+  }
+]

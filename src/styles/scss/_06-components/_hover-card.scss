@@ -1,0 +1,58 @@
+.card-image-hover {
+    display: flex;
+    width: 160px;
+    height: 60px;
+    background-color: $primary-color;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+
+    .card-image-hover-title {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        z-index: 1;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hover-icon {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../../../assets/img/icons-img/hombre.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 2;
+        margin: 0;
+        padding: 0;
+    }
+
+    &:hover {
+        background-color: white;
+        border: 2px solid $primary-color;
+        transition: all 0.3s ease-in-out;
+
+        .hover-icon {
+            display: block;
+        }
+
+        .card-image-hover-title {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 900px) {
+       transform: scale(0.8);
+    }
+}

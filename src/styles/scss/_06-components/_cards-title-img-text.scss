@@ -1,0 +1,82 @@
+.__card {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    min-width: 100px;
+    height: 100%;
+    aspect-ratio: 1 / 1; // Hace la card cuadrada
+    border-radius: 10px;
+    background: $primary-color;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.50);
+    overflow: hidden; // Evita desbordes
+    text-decoration: none;
+    transition: all $transition-fast; // 0.3s ease-in-out
+    .__card-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+
+        .__logo {
+            display: flex;
+            width: auto;
+            width: 100%;
+            max-width: 166px;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .__img-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .__card-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 10px 5px;
+
+        .__text-card {
+            color: $white;
+            text-align: center;
+            @media screen and (max-width:1320px) {
+                font-size: 12px;
+            }
+        }
+    }
+    
+    &:hover {
+        transform: scale(1.03); // Mantiene el valor original
+        box-shadow: $shadow-dark; // rgba(0, 0, 0, .56) 0px 3px 10px 4px
+    }
+
+    &:focus {
+        transform: scale(1.03); // Mantiene el valor original
+    }
+
+    &:active {
+        transform: scale(1.03); // Mantiene el valor original
+        box-shadow: $shadow-dark; // rgba(0, 0, 0, .56) 0px 3px 10px 4px
+    }
+
+    & .section__other-services__container__card__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        object-fit: cover;
+        border-radius: $radius-md; // 0.5em
+    }
+}

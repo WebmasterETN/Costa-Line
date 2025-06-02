@@ -1,0 +1,49 @@
+[
+    {
+      "id": "casco-antiguo",
+      "text": "Casco antiguo",
+      "className": "card-wide",
+      "backgroundImage": "src/assets/img/destinos-img/casco-antiguo.png",
+      "image2":"src/assets/img/destinos-img/casco-antiguo-2.png",
+      "image3":"src/assets/img/destinos-img/casco-antiguo-3.png",
+      "image4":"src/assets/img/destinos-img/casco-antiguo-4.png",
+      "title": "Casco Antiguo de Monterrey",
+      "description": "¿Por qué visitarlo? El Barrio Antiguo es un barrio histórico de Monterrey conocido por su encantadora arquitectura colonial y su vibrante vida cultural. Los visitantes pueden pasear por calles empedradas con coloridos edificios, explorar galerías de arte, tiendas de antigüedades y disfrutar de la animada vida nocturna con numerosos bares y restaurantes. La zona también alberga diversos festivales y eventos culturales durante todo el año."
+    },
+    {
+      "id": "paseo-santa-lucia",
+      "text": "El Paseo Fluvial de Santa Lucía",
+      "className": "card-tall",
+      "backgroundImage": "src/assets/img/destinos-img/santa-lucia.png",
+      "image2":"src/assets/img/destinos-img/santa-lucia-2.png",
+      "image3":"src/assets/img/destinos-img/santa-lucia-3.png",
+      "image4":"src/assets/img/destinos-img/santa-lucia-4.png",
+      "title": "El paseo Santa Lucía",
+      "description": "El Paseo Santa Lucía es un pintoresco río artificial que atraviesa el corazón de Monterrey y conecta la Macroplaza con el Parque Fundidora. Este canal de 2.5 kilómetros de longitud es perfecto para un tranquilo paseo en lancha o una caminata panorámica por sus hermosas orillas. A lo largo del recorrido, los visitantes pueden disfrutar de instalaciones de arte público, fuentes y diversas opciones gastronómicas."
+    },
+    {
+      "id": "cuevas-garcia",
+      "text": "Las cuevas de García",
+      "className": "",
+      "backgroundImage": "src/assets/img/destinos-img/cuevas-garcia.png",
+      "image2":"src/assets/img/destinos-img/cuevas-garcia-2.png",
+      "image3":"src/assets/img/destinos-img/cuevas-garcia-3.png",
+      "image4":"src/assets/img/destinos-img/cuevas-garcia-4.png",
+      "title": "Las grutas de Garcia",
+      "description": "¿Por qué visitarlas? Las Grutas de García, ubicadas a unos 30 kilómetros de Monterrey, son un impresionante atractivo natural. Estas cuevas de piedra caliza, con una antigüedad estimada de unos 60 millones de años, albergan impresionantes estalactitas y estalagmitas. Los visitantes pueden realizar una visita guiada para explorar las 16 cámaras de las cuevas, cada una con formaciones únicas. Se puede acceder a las cuevas mediante un teleférico, que ofrece impresionantes vistas del paisaje circundante."
+    },
+    {
+      "id": "museo-acero",
+      "text": "Museo del Acero horno 3",
+      "className": "",
+      "backgroundImage": "src/assets/img/destinos-img/museo-acero.png",
+      "image2":"src/assets/img/destinos-img/museo-acero-2.png",
+      "image3":"src/assets/img/destinos-img/museo-acero-3.png",
+      "image4":"src/assets/img/destinos-img/museo-acero-4.png",
+      "title": "Museo del Acero Horno 3",
+      "description": "El Museo del Acero Horno 3, ubicado en el Parque Fundidora, es un museo interactivo dedicado a la historia de la producción siderúrgica en Monterrey. Ubicado en un antiguo alto horno, el museo ofrece exposiciones sobre el patrimonio industrial de la región, exhibiciones de ciencia y tecnología, y demostraciones en vivo. Los visitantes también pueden disfrutar de vistas panorámicas de la ciudad desde el mirador del museo."
+    }
+  ]
+
+
+  

@@ -1,0 +1,52 @@
+@import "../main.scss";
+
+.__card-open-modal {
+    width: 330px;
+    height: 390px;
+    border: 2px solid $primary-color;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+    position: relative; 
+    @media (max-width: 767px) {
+        width: 90vw;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+
+    .__card-body {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: $primary-color;
+    }
+
+    .__card-text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 15px;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        background-color:$primary-color;
+        text-align: center;
+        transition: all 0.3s ease;
+        border-top: 2px solid $primary-color;
+
+
+        &:hover{
+            background-color: white;
+            color: $primary-color;
+            transition: all 0.3s ease;
+
+        }
+    }
+}

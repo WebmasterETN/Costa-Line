@@ -1,0 +1,26 @@
+[
+  {
+    "iconoHtml": "<span class=\"icon-Punto-a-punto __icon-card\"><span class=\"path1\"></span><span class=\"path2\"></span><span class=\"path3\"></span><span class=\"path4\"></span><span class=\"path5\"></span><span class=\"path6\"></span></span>",
+    "textoParrafo": "Viaje rendondo"
+  },
+  {
+    "iconoHtml": "<span class=\"icon-Servicio-con-estancia __icon-card\"><span class=\"path1\"></span><span class=\"path2\"></span><span class=\"path3\"></span></span>",
+    "textoParrafo": "Servicio con estancia"
+  },
+  {
+    "iconoHtml": "<span class=\"icon-Transfer __icon-card\"><span class=\"path1\"></span><span class=\"path2\"></span><span class=\"path3\"></span><span class=\"path4\"></span><span class=\"path5\"></span></span>",
+    "textoParrafo": "Transfer"
+  },
+  {
+    "iconoHtml": "<span class=\"icon-Viaje-sencillo __icon-card\"><span class=\"path1\"></span><span class=\"path2\"></span><span class=\"path3\"></span></span>",
+    "textoParrafo": "Viaje sencillo"
+  },
+  {
+    "iconoHtml": "<span class=\"icon-Viaje-consecutivo __icon-card\"><span class=\"path1\"></span><span class=\"path2\"></span><span class=\"path3\"></span><span class=\"path4\"></span></span>",
+    "textoParrafo": "Viaje consecutivo"
+  },
+  {
+    "iconoHtml": "<span class=\"icon-city-tour __icon-card\"><span class=\"path1\"></span><span class=\"path2\"></span></span>",
+    "textoParrafo": "City Tour"
+  }
+]

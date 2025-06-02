@@ -1,0 +1,80 @@
+@import "../main.scss";
+.card-image-container {
+  background-color: #ffffff;
+  border: 3px solid $primary-color; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Sombra inicial más sutil
+  margin:0 ; 
+  width: 100%; 
+  height: 500px; // Usar altura automática para mayor flexibilidad
+  text-align: left;
+  overflow: hidden; // Asegurar que nada se salga del borde redondeado
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  // Añadir efecto de "levantar" en hover
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  .card-image-title {
+    width: 100%;
+    height: 70px;
+    font-size: 1.35rem; 
+    font-weight: 600; 
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white; 
+    background-color: $primary-color;
+    margin-top: 0;
+    margin-bottom: 0.75rem; 
+  }
+
+  .card-image-content {
+    font-size: 20px; 
+    color: #333333;
+    padding: 10px;
+    margin-bottom: 0; 
+    flex-grow: 1;
+    text-align: justify;
+    padding-top: 10px;
+  }
+
+  .card-image-img {
+    width: 100%;
+    height: auto; 
+    max-height: 200px; // Mantener max-height si es necesario
+    object-fit: cover;
+    object-position: top; // Centrar la imagen por defecto
+    border-radius: 4px;
+    margin-bottom: 0; // Añadir un pequeño margen debajo de la imagen
+    display: block; 
+    margin-top: auto; 
+  }
+  @media (max-width: 1319px) {
+    .card-image-title {
+      font-size: 1.3rem; 
+    }
+    .card-image-content {
+      font-size: 1.15rem;
+    }
+  }
+  &:hover {
+    transform: translateY(-5px); // Levantar la tarjeta 5px en hover
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); // Sombra más pronunciada al levantar
+  }
+  @include media ("sm"){
+    width: 100%;
+    height: auto; 
+
+    .card-image-title {
+      font-size: 1rem;
+      height: auto;
+    }
+    .card-image-content {
+      font-size: 0.75rem; 
+    }
+  }
+}

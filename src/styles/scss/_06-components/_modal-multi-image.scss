@@ -1,0 +1,169 @@
+.app-modal-multi-image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+
+    &.opened {
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+    .app-modal-multi-image-container {
+        position: relative;
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid $primary-color;
+        border-radius: 15px;
+        overflow: hidden;
+        background-color: white;
+        margin: auto;
+
+        .app-modal-multi-image-close-button {
+            display: flex;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: white;
+            font-weight: bold;
+            background-color: transparent;
+            border: 0;
+            outline: none;
+            font-size: 30px;
+            cursor: pointer;
+            z-index: 2;
+
+            &:hover {
+                color: #e9e9e9;
+            }
+        }
+
+        .__title__modal{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #003a5d;
+                width: 100%;
+                height: 3.5rem;
+                text-align: center;
+                color: #fff;
+        }
+
+        .app-modal-multi-image-content {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .app-modal-multi-image-grid {
+            width: 70%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .app-modal-multi-image-text {
+            width: 30%;
+            padding: 15px;
+
+            .__text__title {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $primary-color;
+                text-align: center;
+                font-weight: bold;
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+
+            .__text__description {
+                display: flex;
+                align-items: center;
+                text-align: justify;
+                color: black;
+                font-size: 22px;
+            }
+        }
+
+        @media (max-width: 900px) {
+            width: 80%;
+
+            .app-modal-multi-image-content {
+                flex-direction: column;
+            }
+
+            .app-modal-multi-image-grid {
+                width: 100%;
+            }
+
+            .app-modal-multi-image-text {
+                width: 100%;
+                padding: 15px;
+
+                .__text__title {
+                    font-size: 18px;
+                    margin-bottom: 15px;
+                }
+
+                .___text__description {
+                    font-size: 13px;
+                }
+            }
+        }
+
+        @media (max-width: 480px) {
+            .__title__modal {
+                font-size: 15px;
+            }
+            .app-modal-multi-image-grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+            }
+
+            .app-modal-multi-image-grid>*:not(:first-child) {
+                display: none;
+            }
+
+            .app-modal-multi-image-text {
+                width: 100%;
+                padding: 15px;
+
+                .__text__title {
+                    font-size: 15px;
+                    margin-bottom: 20px;
+                }
+
+                .__text__description {
+                    
+                    font-size: 12px;
+                }   
+            }
+        }
+    }
+}
+
+.modal-active-no-scroll {
+    overflow: hidden !important;
+}

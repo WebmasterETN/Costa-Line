@@ -1,0 +1,27 @@
+._card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    //max-width: 639px;
+    width: 100%;
+    //min-height: 287px;
+    background-color: $bg-card-primary;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    ._card-text-title {
+        background-color: $primary-color;
+        width: 100%;
+        padding: 9px 0px;
+        text-align: center;
+        color: $white;
+    }
+    ._card-text-description {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 13px;
+        text-align: start;
+        font-size: 20px;
+        color: $primary-color;
+    }
+}

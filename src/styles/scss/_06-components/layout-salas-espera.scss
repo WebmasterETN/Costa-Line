@@ -1,0 +1,115 @@
+@import '../main';
+
+// Import components
+@import './header';
+@import './banner-slider';
+@import './payments-logos';
+@import './modal-doters';
+@import './cotiza';
+@import './button-eva-trip';
+@import './button-whats';
+@import './section-title';
+@import './footer';
+@import './cookies-policy';
+@import './_cards-text-image';
+
+
+// Import utilities
+@import '../_07-utilities/utilities';
+
+
+.__section__salas {
+    padding-bottom: 40px; 
+    .__grid-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px; 
+        width: 100%;
+        background-color: $bg-card-primary;
+        padding: 40px 20px; 
+
+        .__aside-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 661px; 
+            width: 55%;       
+            flex-shrink: 1;  
+
+            .__aside-img {
+                display: block; 
+                width: 100%;   
+                height: auto;   
+                aspect-ratio: 661/446;
+                border-radius: 10px;
+                object-fit: cover; 
+            }
+        }
+
+        .__article-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; 
+            max-width: 400px; 
+            width: 40%;       
+            flex-shrink: 1;  
+
+            .__article-title {
+                text-align: center;
+                color: $primary-color;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .services-container { 
+                display: flex;
+                flex-direction: column; 
+                gap: 15px;
+                width: 100%; 
+            }
+        }
+    }
+
+    @media (max-width: 1024px) { 
+        .__grid-container {
+            flex-direction: column;
+            align-items: center;
+            gap: 30px; 
+            padding: 30px 15px;
+
+            .__aside-image {
+                width: 80%; 
+                max-width: 550px;
+            }
+
+            .__article-buttons {
+                width: 80%; 
+                max-width: 500px; 
+            }
+        }
+    }
+
+    @media (max-width: 768px) { 
+        .__grid-container {
+            padding: 25px 10px;
+            gap: 25px;
+
+            .__aside-image {
+                width: 95%; 
+                max-width: 450px;
+            }
+
+            .__article-buttons {
+                width: 95%;
+                max-width: 450px;
+                .__article-title {
+                    font-size: 22px;
+                }
+                .services-container {
+                    gap: 10px;
+                }
+            }
+        }
+    }
+}

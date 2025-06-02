@@ -1,0 +1,50 @@
+@import '../main';
+
+/*----- Estilos de componentes -----*/
+
+@import './map-modal';
+@import './search';
+
+.map {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: $width-full; // 100%
+    height: 100vh; // No hay variable para este valor específico
+    padding: $padding-large; // 4.375rem -> 70px
+    box-sizing: border-box;
+}
+
+.selected-state {
+    filter: 1px solid $border-color; // rgba(0, 0, 0, 0.53)
+}
+
+.container-modal {
+    display: none;
+    position: fixed;
+    top: 0; // No hay variable para este valor específico
+    left: 0; // No hay variable para este valor específico
+    width: $width-full; // 100%
+    height: $height-full; // 100%
+    justify-content: center;
+    align-items: center;
+}
+
+.__map-container {
+    display: flex;
+    width: $width-full; // 100%
+    height: $height-full; // 100%
+
+    .highcharts-container {
+        width: $width-full; // 100%
+        height: $height-full; // 100%
+        border: none;
+        position: absolute;
+    }
+}
+
+@include media('lg') {
+    .map {
+        padding: $padding-medium; // 0.9375rem -> 15px
+    }
+}

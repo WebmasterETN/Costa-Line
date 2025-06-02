@@ -1,0 +1,43 @@
+@import '../main';
+
+// Import components
+@import './header';
+@import './banner-slider';
+@import './payments-logos';
+@import './modal-doters';
+@import './cotiza';
+@import './button-eva-trip';
+@import './button-whats';
+@import './section-title';
+@import './cards-text-bg-white';
+@import './footer';
+@import './cookies-policy';
+
+
+// Import utilities
+@import '../_07-utilities/utilities';
+
+.__section--salidas-charters {
+    .__article-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 53px;
+        .__grid-container {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-gap: 53px;
+            width: 100%;
+            height: 100%;
+            @include media ("md") {
+                grid-template-columns: 1fr;
+                grid-template-rows: 4fr;
+            }
+        }
+    }
+}

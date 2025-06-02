@@ -1,0 +1,28 @@
+[
+  {
+    "pregunta": "Nombre o razón social",
+    "ejemplo": "Ingresa tu nombre o razón social *",
+    "tipo": "text",
+    "name": "name",
+    "requerido": true
+  },
+  {
+    "pregunta": "Nombre del contacto",
+    "ejemplo": "Nombre del contacto *",
+    "tipo": "text",
+    "name": "contactName",
+    "requerido": true
+  },
+  {
+    "pregunta": "Telefono de contacto",
+    "ejemplo": "Ej: 5512345678",
+    "tipo": "tel",
+    "name": "phone"
+  },{
+    "pregunta": "Correo electrónico",
+    "ejemplo": "Ej: jleo@example.com",
+    "tipo": "email",
+    "name": "email"
+  }
+  
+]

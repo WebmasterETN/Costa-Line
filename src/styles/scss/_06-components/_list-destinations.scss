@@ -1,0 +1,258 @@
+@import "../main.scss";
+.destinations-list {
+  display: flex;
+  margin-top: 35px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+
+  // Region Column Styles
+  .region_column {
+    width: 25%;
+    margin-bottom: 35px;
+
+    h3 {
+      margin-bottom: 15px;
+      width: 80%;
+      display: flex;
+      align-items: center; // Vertically center the image and text
+      img {
+        width: 30px;
+        height: auto;
+        margin-right: 10px;
+      }
+
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+    }
+
+    ul {
+      padding-left: 40px;
+      li {
+        list-style: none;
+        margin-bottom: 15px;
+        width: calc(100% - 40px);
+        a {
+          color: #151515;
+        }
+      }
+    }
+
+    // Specific column widths
+    &:nth-last-of-type(4),
+    &:nth-last-of-type(5) {
+      width: 35%;
+    }
+
+    &:nth-last-of-type(3) {
+      width: 30%;
+    }
+
+    &:nth-last-of-type(2),
+    &:last-of-type {
+      width: 50%;
+      display: flex;
+      flex-wrap: wrap;
+
+      @media (min-width: 320px) and (max-width: 1024px) {
+        width: 100%;
+      }
+
+      ul {
+        width: 50%;
+
+        &:last-of-type {
+          padding-left: 20px;
+          @media (max-width: 767px) {
+            padding-left: 40px;
+          }
+        }
+
+        @media (min-width: 320px) and (max-width: 1024px) {
+          width: 100%;
+        }
+
+        @media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  
+          width: 100%;
+          
+        }
+      }
+    }
+
+    // City Link Styles
+    .region_column__city {
+      position: relative;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      // gap: 8px;
+      transition: transform 0.3s ease;
+
+      &::after {
+        content: "\2192"; // Flecha hacia la derecha
+        opacity: 1;
+        transform: translateX(0);
+        transition: transform 0.3s ease;
+        color: transparent;
+      }
+
+      &:hover {
+        transform: translateX(3px);
+        color: $primary-color;
+      }
+
+      &:hover::after {
+        color: $primary-color;
+        transform: translateX(3px);
+      }
+    }
+
+    // Media Queries for Region Columns
+    @media (max-width: 767px) {
+      width: 100% !important;
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+      width: 100% !important;
+    }
+  }
+
+  // Costaline Ad Styles
+  .costaline-ad {
+    width: 50%;
+    .region_column {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      padding: 0 70px 0 0;
+      ul {
+        padding-left: 0;
+      }
+    }
+  }
+
+  // Banner Styles
+  .banner {
+    background-image: url("../../img/ETN-bus.jpg");
+
+    &.costa-line {
+      background-image: url("../../img/costa.webp");
+      background-position: top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 60px;
+      width: 60%;
+    }
+
+    &.promociones {
+      background-image: url("../../img/promo.jpg");
+      background-position: top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 60px;
+      width: 60%;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+// Wrapper Banner Styles
+.wrapper_banner {
+  width: 100%;
+  margin-bottom: 30px;
+  .banner {
+    width: 50%;
+    max-width: 800px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 15px;
+    border-radius: 5px;
+
+    h2 {
+      color: white;
+    }
+
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+  }
+
+  &.offers-and-services {
+    ul {
+      &:first-child {
+        margin-right: 27px;
+      }
+    }
+
+    .d-flex {
+      display: flex;
+    }
+  }
+}
+
+// Accordion Styles
+.accordion-title {
+  background-color: #153758;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  color: #fff;
+  transition: 0.4s;
+  display: flex;
+  width: 100%;
+  justify-content: space-between; // Use flexbox for icon positioning
+  align-items: center;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+  #accordion-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    &::after {
+      content: "\e91a"; // Default icon (closed)
+      font-family: "icomoon" !important;
+      font-weight: bold;
+      font-size: 19px;
+      color: #fff;
+    }
+  }
+}
+
+// Icon when open on larger screens
+.active-item #accordion-button::after {
+  content: "\e919";
+  font-family: "icomoon" !important;
+  font-size: 19px;
+  color: #fff;
+}
+
+// Mobile-specific icon behavior
+@media (max-width: 767px) {
+  .accordion-title #accordion-button::after {
+    content: "\e919"; // Default icon open on mobile
+  }
+  .active-item #accordion-button::after {
+    content: "\e91a"; // Icon when (closed) on mobile
+  }
+}
+
+// Panel Styles
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  &.open {
+    max-height: unset;
+  }
+}

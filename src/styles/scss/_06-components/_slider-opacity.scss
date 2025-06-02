@@ -1,0 +1,142 @@
+.MultiCarousel {
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.MultiCarousel-inner {
+  display: flex;
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
+
+.MultiCarousel-inner .item {
+  flex: 0 0 50px;
+}
+
+
+@media (max-width: 767px) {
+  .MultiCarousel-inner .item {
+    flex-basis: 100%; 
+  }
+}
+
+.MultiCarousel .MultiCarousel-inner .item>div {
+    text-align: center;
+    margin: 10px;
+    background: #f1f1f1;
+    color: #666;
+}
+
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - 20px);
+}
+
+.MultiCarousel .leftLst {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    width:30px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: $primary-color;
+    color: white;
+    cursor: pointer;
+    &:hover{
+        background-color: darken($primary-color, 10%);
+    }
+    
+}
+
+.MultiCarousel .rightLst {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    width:30px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: $primary-color;
+    color: white;
+    cursor:pointer;
+    &:hover{
+        background-color: darken($primary-color, 10%);
+    }
+}
+
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+    pointer-events: none;
+    background: #ccc;
+}
+
+.card-destination {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    @media (max-width: 767px) {
+         width: 100%;
+      }
+}
+
+
+.card-destination img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.card-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    color: white;
+    z-index: 2;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.icon-ubicacion {
+    margin-right: 6px;
+}
+
+.btn-destination {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: .5rem;
+    color: white;
+    background-color: $primary-color;
+    border-radius: 15px;
+    margin: 5px;
+    z-index: 2;
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: $primary-color;
+        background-color: white;
+        transition: all 0.3s ease;
+    }
+}

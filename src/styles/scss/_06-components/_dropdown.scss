@@ -1,0 +1,109 @@
+.app-dropdown__toggle-indicator svg {
+  transition: transform 0.3s ease;
+  transform: rotate(180deg);
+}
+.app-dropdown__content-panel {
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  max-height: 0;
+
+}
+
+.app-dropdown__item {
+  display: block;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  border: 2px solid $primary-color;
+  margin-bottom: 10px;
+  overflow: hidden;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+
+
+
+  .app-dropdown__title-button {
+    background-color: white;
+    color: $primary-color;
+    cursor: pointer;
+    padding: 15px 20px;
+    width: 100%;
+    min-height: 70px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    
+
+    &:hover {
+      background-color: #efefef;
+    }
+  }
+
+  .app-dropdown__title-text {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+
+  .app-dropdown__toggle-indicator {
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .app-dropdown__content-panel {
+    border-top: 1px solid #e0e0e0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .app-dropdown__content-inner {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: $primary-color;
+
+    p {
+      margin-top: 0;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 0;
+      margin-bottom: 0;
+
+      li {
+        margin-bottom: 8px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    a {
+      color: $primary-color;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+}
+
+// Cuando el componente app-dropdown (anfitrión) está activo, rota el indicador SVG
+app-dropdown.active .app-dropdown__toggle-indicator svg {
+  transform: rotate(0deg);
+}

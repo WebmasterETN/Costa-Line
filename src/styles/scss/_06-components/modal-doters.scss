@@ -1,0 +1,125 @@
+@import "../main.scss";
+
+.modalDoters-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  z-index: 1000;
+}
+
+.modalDoters-modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease-in-out;
+  position: relative; /* Add relative positioning */
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #003b41;
+  padding: 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.modalHeader img {
+  max-height: 40px;
+}
+
+.modalDoters-close {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: gray;
+  background-color: transparent;
+  border: none;
+}
+
+.modalDoters-close:hover {
+  color: #fff;
+}
+
+.modalContenido {
+  text-align: center;
+}
+
+.modalContenido h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.modalContenido__buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.modalContenido button {
+  display: block;
+  width: 35%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #01ae42;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.modalContenido button:hover {
+  background-color: #003b41;
+}
+
+.modalContenido a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.modalContenido a:hover {
+  text-decoration: underline;
+}
+
+.parrafo-espacio {
+  padding: 5px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.parrafo-espacio .bold {
+  text-decoration: none !important;
+  color: $primary-color !important;
+  font-weight: bold !important;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: $bottom-top-color !important;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

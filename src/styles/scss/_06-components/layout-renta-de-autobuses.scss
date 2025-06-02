@@ -1,0 +1,341 @@
+@import '../main';
+
+// Import components
+@import './header';
+@import './banner-slider';
+@import './payments-logos';
+@import './modal-doters';
+@import './modalDoters';
+@import './cotiza';
+@import './button-eva-trip';
+@import './button-whats';
+@import './cards-icons';
+@import './cards-contact-whats';
+@import './section-title';
+@import './_card-image';
+@import './_hover-card';
+@import './footer';
+@import './forms'; // Importar el nuevo archivo de formularios
+@import '../_06-components/cookies-policy';
+
+
+// Import utilities
+@import '../_07-utilities/utilities';
+
+/*--------------------ESTILOS REPETITIVOS DEL LAYOUT RENTA DE AUTOBUSES---------------------*/
+
+.__paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: $primary-color;
+  text-align: center;
+  font-size: 20px;
+}
+
+/*-------------------ESTILOS ESPECIFICOS PARA LAS SECCIONES DE RENTA DE AUTOBUSES---------------------*/
+
+
+.__section__renta-autobuses {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 0 $spacing-xxl $spacing-xxl $spacing-xxl;
+  box-sizing: border-box;
+
+  @include media ("md") {
+    padding: 0 $padding-medium $padding-medium $padding-medium;
+  }
+
+  .__grid-cards-container {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1rem;
+
+    justify-items: center;
+
+    max-width: 1016px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+
+    background-color: $bg-card-primary;
+
+    .center-botton {
+      position: absolute;
+      width: 90px;
+      border: 2px solid $primary-color;
+      border-radius: 15px;
+      background-color: white;
+      color: $primary-color;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    @media (max-width: 1319px) {
+      grid-template-columns: repeat(2, 1fr);
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    @media (max-width: 750px) {
+      width: 80%;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    @media (max-width: 649px) {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+}
+
+.__section__learn-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 0 $spacing-xxl $spacing-xxl $spacing-xxl; // 4.375rem
+  box-sizing: border-box;
+  gap: 34px;
+
+  @include media ("md") {
+    padding: 0 $padding-medium $padding-medium $padding-medium;
+  }
+
+  .__icons-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 305px;
+    margin-top: 50px;
+    gap: 57px;
+    overflow-x: auto;
+    @include media ("xl") {
+      justify-content: flex-start;
+    }
+  }
+}
+
+.__section__seats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 $spacing-xxl $spacing-xxl $spacing-xxl;
+  box-sizing: border-box;
+
+  @include media ("md") {
+    padding: 0 $padding-medium $padding-medium $padding-medium;
+  }
+
+
+  .seats-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: $spacing-lg;
+    width: auto;
+    margin-top: $spacing-xl;
+    padding: $spacing-xxl $spacing-xxl $spacing-xxl $spacing-xxl;
+    background-color: $bg-card-primary;
+
+
+    .seat-image-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+
+      .__subtitle-seats {
+        margin-bottom: $spacing-md;
+        font-size: 15px;
+        color: $black;
+      }
+
+      .__image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px;
+
+        @media (max-width: 480px) {
+          width: 90%;
+        }
+      }
+    }
+
+    .hover-cards-grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: $spacing-sm;
+      align-items: stretch;
+      justify-items: stretch;
+
+      @media (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media (max-width: 480px) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: $spacing-xs;
+      }
+    }
+
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+
+      .seat-image-container,
+      .hover-cards-grid-container {
+        grid-row: auto;
+        grid-column: auto;
+        margin: auto;
+      }
+
+      //reorderna las imagenes y los hover cards
+      .seat-image-container:nth-of-type(2) {
+        order: 3;
+      }
+
+      .hover-cards-grid-container:nth-of-type(2) {
+        order: 4;
+      }
+    }
+  }
+
+  @media (max-width: 1319px) {
+    width: 90%;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+}
+
+.__section__quote-bus-rental {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 $spacing-xxl $spacing-xxl $spacing-xxl;
+  box-sizing: border-box;
+  gap: 34px;
+
+  @include media ("md") {
+    padding: 0 $padding-medium $padding-medium $padding-medium;
+  }
+
+  .__quote-contact-container {
+    display: grid;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 100%;
+    margin-top: $spacing-lg;
+
+    .__cards-contact-container {
+
+      display: block;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      flex-basis: 35%;
+      flex-shrink: 0;
+      text-align: center;
+
+      .__cards-whats-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: $spacing-xl;
+      }
+
+    }
+
+    .__form-container {
+      display: block;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      flex-basis: 65%;
+      flex-shrink: 0;
+      padding-left: 30px;
+
+    }
+  }
+
+  // Media query for stacking on smaller screens
+  @media (max-width: 900px) {
+
+    // Matches breakpoint used in .__section__form-cotiza
+    .__quote-contact-container {
+      flex-direction: column;
+      align-items: center; // Center items when stacked
+
+      .__cards-contact-container {
+        width: 90%; // Match form's width when stacked
+        margin-bottom: $spacing-lg; // Add space below cards when stacked
+      }
+
+      .__form-container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.__section__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 $spacing-xxl $spacing-xxl $spacing-xxl; // 4.375rem
+  box-sizing: border-box;
+
+  @include media ("md") {
+    padding: 0 $padding-medium $padding-medium $padding-medium;
+  }
+
+  .__info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-card-primary;
+    width: 100%;
+    height: 100%;
+
+    .__card-location {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 315px;
+      height: 120px;
+    }
+  }
+}

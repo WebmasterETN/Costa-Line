@@ -1,0 +1,163 @@
+app-modal-image {
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    transition: opacity 0.5s ease;
+}
+
+app-modal-image[opened] {
+    opacity: 1;
+    pointer-events: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease;
+
+    .app-modal-image-container {
+        position: relative;
+        width: 60%;
+        max-width: 800px; 
+        height: auto; 
+        max-height: 90vh; 
+        display: flex;
+        flex-direction: column;
+        border: 2px solid $primary-color;
+        border-radius: 15px;
+        overflow: hidden;
+        background-color: white;
+        margin: auto;
+        
+        .app-modal-image-close-button {
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: white;
+            font-weight: bold;
+            background-color: transparent;
+            border: 0;
+            outline: none;
+            font-size: 30px;
+            line-height: 1; 
+            cursor: pointer;
+            z-index: 2; 
+
+            &:hover {
+                color: #e9e9e9;
+            }
+        }
+
+        .__title {
+            background-color: $primary-color;
+            color: white; 
+            padding: 15px 20px;
+            padding-right: 45px;
+            text-align: center;
+            font-size: 1.5em;
+            margin: 0; 
+        }
+
+        .app-modal-image-content {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            overflow-y: auto; 
+            padding: 20px; 
+            box-sizing: border-box;
+        }
+
+        .app-modal-image {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 10px; 
+            box-sizing: border-box;
+
+            img {
+                width: 100%; 
+                max-width: 400px; 
+                height: auto; 
+                max-height: 60vh;
+                object-fit: contain; 
+                border-radius: 10px;
+                box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+            }
+        }
+
+        .app-modal-image-text {
+            width: 50%;
+            padding: 0 10px; 
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            .__text__description {
+                text-align: justify;
+                color: black;
+                font-size: 18px; 
+                line-height: 1.6; 
+                margin: 0; 
+            }
+        }
+
+        @media (max-width: 900px) {
+            width: 85%; 
+
+            .app-modal-image-content { 
+                flex-direction: column;
+                align-items: center; 
+            }
+
+            .app-modal-image,
+            .app-modal-image-text {
+                width: 100%;
+                padding-right: 0; 
+                padding-left: 0;
+            }
+            .app-modal-image {
+                margin-bottom: 15px; 
+                img {
+                    max-height: 40vh; 
+                }
+            }
+
+            .app-modal-image-text {
+                padding: 10px; 
+                .__text__description {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        @media (max-width: 480px) {
+            .app-modal-multi-image-grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+            }
+            .app-modal-multi-image-grid>*:not(:first-child) {
+                display: none;
+            }
+            width: 95%; 
+            .__title {
+                font-size: 1.2em;
+                padding: 10px 15px;
+                padding-right: 40px; 
+            }
+            .app-modal-image-content { padding: 15px; }
+            .app-modal-image-text .__text__description { font-size: 15px; }
+        }
+    }
+}
