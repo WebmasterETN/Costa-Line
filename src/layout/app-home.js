@@ -26,18 +26,18 @@ class AppHome extends HTMLElement {
             <app-payments></app-payments>
             <app-destinations-grid
                 titlesText='[
-                {"id": "title1", "title": "¿Aún no sabes a dónde viajar?", "text": "Conoce nuestros destinos ETN Turistar y elige tu lugar favorito"}
+                {"id": "title1", "title": "¿Aún no sabes a dónde viajar?", "text": "Conoce nuestros destinos Costa Line y elige tu lugar favorito"}
                 ]'
                 destinations='[
-                {"id": "destination1", "title": "Aguascalientes", "content": "Descubre la calidez y tradición de Aguascalientes.", "image": "./src/assets/img/destinos-img/aguascalientes.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
+                {"id": "destination1", "title": "Acapulco", "content": "Disfruta de sus playas doradas, noches llenas de vida y la magia de la Quebrada.", "image": "./src/assets/img/destinos-img/acapulco.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
         
-                {"id": "destination2", "title": "Culiacán", "content": "Explora la cultura y gastronomía de Culiacán.", "image": "./src/assets/img/destinos-img/culiacan.webp", "corner": "./src/assets/img/assets/destinos-img/etn-corner-img.svg"},
+                {"id": "destination2", "title": "Morelia", "content": "Visita esta Joya colonial llena de historia, sabores y magia.", "image": "./src/assets/img/destinos-img/morelia.webp", "corner": "./src/assets/img/assets/destinos-img/etn-corner-img.svg"},
         
-                {"id": "destination3", "title": "Guadalajara", "content": "Vive la esencia del mariachi y el tequila en Guadalajara.", "image": "./src/assets/img/destinos-img/guadalajara.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
+                {"id": "destination3", "title": "Taxco", "content": "Sumergete en este laberinto de plata y encanto colonial.", "image": "./src/assets/img/destinos-img/taxco.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
                 
-                {"id": "destination5", "title": "León", "content": "Conoce la capital del calzado y su rica historia.", "image": "./src/assets/img/destinos-img/leon.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
+                {"id": "destination5", "title": "Cuernavaca", "content": "Cuernavaca: La ciudad de la eterna primavera, donde el sol abraza y la historia inspira.", "image": "./src/assets/img/destinos-img/cuernavaca.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
         
-                {"id": "destination4", "title": "Guanajuato", "content": "Déjate cautivar por la magia colonial de Guanajuato.", "image": "./src/assets/img/destinos-img/guanajuato.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"}
+                {"id": "destination4", "title": "Ixtapa Zihuatanejo", "content": "Déjate cautivar por la magia colonial de Guanajuato.", "image": "./src/assets/img/destinos-img/ixtapa.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"}
                 ]'
             >
             </app-destinations-grid>
@@ -50,7 +50,7 @@ class AppHome extends HTMLElement {
                 ]'
                 destinations='[
                 {"id": "destination1", "title": "Acapulco", "content": "Relájate en las playas doradas de Acapulco.", "image": "./src/assets/img/destinos-img/acapulco.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
-                {"id": "destination2", "title": "Chilpancingo", "content": "Explora la historia y cultura de Chilpancingo.", "image": "./src/assets/img/destinos-img/chilpancingo.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
+                {"id": "destination2", "title": "Chilpancingo", "content": "Explora la historia y cultura de Chilpancingo.", "image": "./src/assets/img/destinos-img/morelia.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
                 {"id": "destination3", "title": "Cuernavaca", "content": "Disfruta del eterno clima primaveral de Cuernavaca.", "image": "./src/assets/img/destinos-img/cuernavaca.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
                 {"id": "destination4", "title": "Taxco", "content": "Déjate sorprender por la magia colonial de Taxco.", "image": "./src/assets/img/destinos-img/taxco.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
                 {"id": "destination5", "title": "Ixtapa", "content": "Sumérgete en las playas paradisíacas de Ixtapa.", "image": "./src/assets/img/destinos-img/ixtapa.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"}

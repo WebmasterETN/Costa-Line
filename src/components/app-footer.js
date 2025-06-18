@@ -18,7 +18,7 @@ class AppFooter extends HTMLElement {
         </div>
         <div class="footer__content__copyright">
           <p>
-            © ${new Date().getFullYear()} ETN Turistar Lujos.
+            © ${new Date().getFullYear()} Costa Line.
           </p>
         </div>
       </footer>

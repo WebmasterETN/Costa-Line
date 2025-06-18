@@ -60,7 +60,7 @@ class AppDestinationsGrid extends HTMLElement {
                 destination.image
               }'); grid-area: item${index + 1};">
             <a href="${
-              destination.link || "../../boletos-de-autobus-a-monterrey.html"
+              destination.link || "../../boletos-de-autobus-a-acapulco.html"
             }"
               class="destinations__item__text destination__item__text--slide"
               rel="noopener noreferrer"

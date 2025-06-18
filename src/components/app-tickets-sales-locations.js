@@ -5,9 +5,9 @@ class AppTicketsSalesLocations extends HTMLElement {
   async connectedCallback() {
     this.innerHTML = `
       <section class="__section-tickets-sales-locations">
-        <app-section-title section-title="¿Dónde puedo comprar boletos de autobús ETN Turistar?"></app-section-title>
+        <app-section-title section-title="¿Dónde puedo comprar boletos de autobús Costa Line?"></app-section-title>
         <article class="__article-tickets-sales-locations">
-          <h3 class="__subtitle">Compra boletos de autobús ETN Turistar de manera fácil y segura</h3>
+          <h3 class="__subtitle">Compra boletos de autobús Costa Line de manera fácil y segura</h3>
           <div class="__cards-container">
             <!-- Las tarjetas se insertarán aquí dinámicamente -->
           </div>
