@@ -5,19 +5,20 @@ import "../components/app-banner-slider.js";
 import "../components/app-payments.js";
 import "../components/app-section-title.js";
 import "../components/app-dropdown.js"; // Importar el componente dropdown
+import "../js/slick.js?v=1.0.0";
 
 class LayoutTerminalesTaquillas extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
 
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/Bw_Doters_Feria_Tacambaro1_Autovias.webp","mediumImage": "../src/assets/img/banner/Tablet-1.png", "smallImage": "../src/assets/img/banner/Movil-1.png", "link": "#index.html/banner1"},
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/Bw_Doters_Feria_Tacambaro1_Autovias.webp","mediumImage": "../src/assets/img/banner/Tablet-1.png", "smallImage": "../src/assets/img/banner/Movil-1.webp", "link": "#index.html/banner1"},
                 {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/Bw_Patio_Santa_Fe_Morelia2_Autovias.webp", "mediumImage": "../src/assets/img/banner/Tablet.png","smallImage": "../src/assets/img/banner/Movil.png", "link": "#index.html/banner2"},
-                {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/Bw_Playas_Semana_Santa_Autovias.webp", "mediumImage": "../src/assets/img/banner/Tablet-1.png","smallImage": "../src/assets/img/banner/Movil-1.png", "link": "#index.html/banner3"}
+                {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/Bw_Playas_Semana_Santa_Autovias.webp", "mediumImage": "../src/assets/img/banner/Tablet-1.png","smallImage": "../src/assets/img/banner/Movil-1.webp", "link": "#index.html/banner3"}
                 ]'
             >
             </app-banner-slider>
@@ -44,84 +45,91 @@ class LayoutTerminalesTaquillas extends HTMLElement {
             </section>
         `;
 
-    this.loadAndRenderImageCards();
-    this.loadAndRenderDropdowns();
-  }
-  async loadAndRenderImageCards() {
-    const imageCardContainer = this.querySelector(".__grid-cards-container");
-    if (!imageCardContainer) {
-      console.error(
-        "El contenedor '.__grid-cards-container' para app-card-image no fue encontrado."
-      );
-      return;
-    }
+		this.loadAndRenderImageCards();
+		this.loadAndRenderDropdowns();
+	}
+	async loadAndRenderImageCards() {
+		const imageCardContainer = this.querySelector(".__grid-cards-container");
+		if (!imageCardContainer) {
+			console.error(
+				"El contenedor '.__grid-cards-container' para app-card-image no fue encontrado."
+			);
+			return;
+		}
 
-    try {
-      const response = await fetch("../src/data/card-image-term-taqui.json");
-      if (!response.ok) {
-        throw new Error(
-          `HTTP error! status: ${response.status} al cargar card-image-term-taqui.json`
-        );
-      }
-      const cardsData = await response.json();
+		try {
+			const response = await fetch("../src/data/card-image-term-taqui.json");
+			if (!response.ok) {
+				throw new Error(
+					`HTTP error! status: ${response.status} al cargar card-image-term-taqui.json`
+				);
+			}
+			const cardsData = await response.json();
 
-      if (!cardsData || !Array.isArray(cardsData)) {
-        throw new Error(
-          "Formato de datos incorrecto o vacío para card-image-term-taqui.json"
-        );
-      }
+			if (!cardsData || !Array.isArray(cardsData)) {
+				throw new Error(
+					"Formato de datos incorrecto o vacío para card-image-term-taqui.json"
+				);
+			}
 
-      cardsData.forEach((data) => {
-        const cardElement = document.createElement("app-card-image");
-        imageCardContainer.appendChild(cardElement);
-        cardElement.populateCard(data);
-      });
+			cardsData.forEach((data) => {
+				const cardElement = document.createElement("app-card-image");
+				imageCardContainer.appendChild(cardElement);
+				cardElement.populateCard(data);
+			});
 
-      // Añadir el div "center-botton" después de las tarjetas
-      const centerButtonDiv = document.createElement("div");
-      centerButtonDiv.classList.add("center-botton");
-      centerButtonDiv.innerHTML = "<p>Taquillas de autobuses ETN: ubicaciones principales</p>";
-      imageCardContainer.appendChild(centerButtonDiv);
-    } catch (error) {
-      console.error("Error al cargar o renderizar app-card-image:", error);
-      if (imageCardContainer) {
-        imageCardContainer.innerHTML =
-          "<p>Error al cargar la información de las tarjetas de imagen.</p>";
-      }
-    }
-  }
+			// Añadir el div "center-botton" después de las tarjetas
+			const centerButtonDiv = document.createElement("div");
+			centerButtonDiv.classList.add("center-botton");
+			centerButtonDiv.innerHTML =
+				"<p>Taquillas de autobuses ETN: ubicaciones principales</p>";
+			imageCardContainer.appendChild(centerButtonDiv);
+		} catch (error) {
+			console.error("Error al cargar o renderizar app-card-image:", error);
+			if (imageCardContainer) {
+				imageCardContainer.innerHTML =
+					"<p>Error al cargar la información de las tarjetas de imagen.</p>";
+			}
+		}
+	}
 
-  async loadAndRenderDropdowns() {
-    try {
-      const response = await fetch("../src/data/dropdown-preguntas-frecuentes.json"); 
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      const dropdownsData = await response.json();
-      this.renderDropdowns(dropdownsData);
-    } catch (error) {
-      console.error("Error al cargar o parsear dropdown-data.json:", error);
-      const container = this.querySelector('#dropdowns-container');
-      if (container) {
-        container.innerHTML = "<p>Error al cargar las preguntas frecuentes.</p>";
-      }
-    }
-  }
+	async loadAndRenderDropdowns() {
+		try {
+			const response = await fetch(
+				"../src/data/dropdown-preguntas-frecuentes.json"
+			);
+			if (!response.ok) {
+				throw new Error(`HTTP error! status: ${response.status}`);
+			}
+			const dropdownsData = await response.json();
+			this.renderDropdowns(dropdownsData);
+		} catch (error) {
+			console.error("Error al cargar o parsear dropdown-data.json:", error);
+			const container = this.querySelector("#dropdowns-container");
+			if (container) {
+				container.innerHTML =
+					"<p>Error al cargar las preguntas frecuentes.</p>";
+			}
+		}
+	}
 
-  renderDropdowns(dropdownsData) {
-    const container = this.querySelector('#dropdowns-container');
-    if (!container) {
-      console.error('El contenedor #dropdowns-container no fue encontrado.');
-      return;
-    }
-    container.innerHTML = ''; // Limpiar contenido previo
+	renderDropdowns(dropdownsData) {
+		const container = this.querySelector("#dropdowns-container");
+		if (!container) {
+			console.error("El contenedor #dropdowns-container no fue encontrado.");
+			return;
+		}
+		container.innerHTML = ""; // Limpiar contenido previo
 
-    dropdownsData.forEach(data => {
-      const dropdownElement = document.createElement('app-dropdown');
-      dropdownElement.setAttribute('title-dropdown', data['title-dropdown']);
-      dropdownElement.setAttribute('content-dropdown', data['content-dropdown']);
-      container.appendChild(dropdownElement);
-    });
-  }
+		dropdownsData.forEach((data) => {
+			const dropdownElement = document.createElement("app-dropdown");
+			dropdownElement.setAttribute("title-dropdown", data["title-dropdown"]);
+			dropdownElement.setAttribute(
+				"content-dropdown",
+				data["content-dropdown"]
+			);
+			container.appendChild(dropdownElement);
+		});
+	}
 }
 customElements.define("layout-terminales-taquillas", LayoutTerminalesTaquillas);

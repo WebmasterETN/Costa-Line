@@ -6,19 +6,20 @@ import "../components/app-payments.js";
 import "../components/app-section-title.js";
 import "../components/app-card-text.js";
 import "../components/app-card-text-bg-blue-gray.js";
+import "../js/slick.js?v=1.0.0";
 
 class LayoutServiciosABordo extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
 
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/Bw_Doters_Feria_Tacambaro1_Autovias.webp","mediumImage": "../src/assets/img/banner/Tablet-1.png", "smallImage": "../src/assets/img/banner/Movil-1.png", "link": "#index.html/banner1"},
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/Bw_Doters_Feria_Tacambaro1_Autovias.webp","mediumImage": "../src/assets/img/banner/Tablet-1.png", "smallImage": "../src/assets/img/banner/Movil-1.webp", "link": "#index.html/banner1"},
                 {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/Bw_Patio_Santa_Fe_Morelia2_Autovias.webp", "mediumImage": "../src/assets/img/banner/Tablet.png","smallImage": "../src/assets/img/banner/Movil.png", "link": "#index.html/banner2"},
-                {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/Bw_Playas_Semana_Santa_Autovias.webp", "mediumImage": "../src/assets/img/banner/Tablet-1.png","smallImage": "../src/assets/img/banner/Movil-1.png", "link": "#index.html/banner3"}
+                {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/Bw_Playas_Semana_Santa_Autovias.webp", "mediumImage": "../src/assets/img/banner/Tablet-1.png","smallImage": "../src/assets/img/banner/Movil-1.webp", "link": "#index.html/banner3"}
                 ]'
             >
             </app-banner-slider>
@@ -89,200 +90,247 @@ class LayoutServiciosABordo extends HTMLElement {
                 </article>
             </section>
         `;
-    
-    this.loadAndRenderCardsText();
-    // Mapper para app-cards-text-image
-        const textImageMapper = (element, data) => {
-          if (data.title) {
-            element.setAttribute('title-text', data.title);
-          }
-          if (data.iconSrc) {
-            element.setAttribute('icon-src', data.iconSrc);
-          }
-        };
 
-        this.loadAndRenderComponentList(
-            "../src/data/cards-text-image-comodidad.json",
-            '#comodidad-cards-container',
-            'app-cards-text-image',
-            textImageMapper
-        );
-         this.loadAndRenderComponentList(
-            "../src/data/cards-text-image-asientos.json",
-            '#asientos-cards-container',
-            'app-cards-text-image',
-            textImageMapper
-        );
+		this.loadAndRenderCardsText();
+		// Mapper para app-cards-text-image
+		const textImageMapper = (element, data) => {
+			if (data.title) {
+				element.setAttribute("title-text", data.title);
+			}
+			if (data.iconSrc) {
+				element.setAttribute("icon-src", data.iconSrc);
+			}
+		};
 
-    // Call the specific methods to load cards for each section
-    this.loadServicesCards();
-    this.loadTechCards();
-    this.loadFutureCards();
-  }
-  async loadAndRenderCardsText() {
-    const cardsContainer = this.querySelector("#scroll-bar-container");
-    if (!cardsContainer) {
-        console.error('El contenedor con ID "grid-cards-container" no fue encontrado.');
-        return;
-    }
-    try {
-        const responseCardsText = await fetch("../src/data/card-text-servicios-abordo-data.json");
-        if (!responseCardsText.ok) {
-            throw new Error(`Error HTTP al cargar card-text-data.json: ${responseCardsText.status}`);
-        }
-        const cardsTextData = await responseCardsText.json();
-        this.renderCardsText(cardsTextData, cardsContainer);
-        console.log('Datos de tarjetas cargados y renderizados correctamente.');
-    } catch (error) {
-        console.error('Error al cargar o renderizar los datos de tarjetas:', error);
-        cardsContainer.innerHTML = '<p>Error al cargar la información de las tarjetas.</p>';
-    }
-  }
+		this.loadAndRenderComponentList(
+			"../src/data/cards-text-image-comodidad.json",
+			"#comodidad-cards-container",
+			"app-cards-text-image",
+			textImageMapper
+		);
+		this.loadAndRenderComponentList(
+			"../src/data/cards-text-image-asientos.json",
+			"#asientos-cards-container",
+			"app-cards-text-image",
+			textImageMapper
+		);
 
-  renderCardsText(cardsTextData, targetContainer) {
-    if (!targetContainer) {
-      console.error("Error en renderCardsText: El contenedor de destino no es válido o no fue proporcionado.");
-      return;
-    }
-    if (
-      !cardsTextData ||
-      !Array.isArray(cardsTextData) ||
-      cardsTextData.length === 0
-    ) {
-      console.error(
-        "No se pudieron cargar los datos para las cards, están vacíos o el formato es incorrecto."
-      );
-      targetContainer.innerHTML =
-        "<p>No hay datos disponibles para mostrar las cards.</p>";
-      return;
-    }
+		// Call the specific methods to load cards for each section
+		this.loadServicesCards();
+		this.loadTechCards();
+		this.loadFutureCards();
+	}
+	async loadAndRenderCardsText() {
+		const cardsContainer = this.querySelector("#scroll-bar-container");
+		if (!cardsContainer) {
+			console.error(
+				'El contenedor con ID "grid-cards-container" no fue encontrado.'
+			);
+			return;
+		}
+		try {
+			const responseCardsText = await fetch(
+				"../src/data/card-text-servicios-abordo-data.json"
+			);
+			if (!responseCardsText.ok) {
+				throw new Error(
+					`Error HTTP al cargar card-text-data.json: ${responseCardsText.status}`
+				);
+			}
+			const cardsTextData = await responseCardsText.json();
+			this.renderCardsText(cardsTextData, cardsContainer);
+			console.log("Datos de tarjetas cargados y renderizados correctamente.");
+		} catch (error) {
+			console.error(
+				"Error al cargar o renderizar los datos de tarjetas:",
+				error
+			);
+			cardsContainer.innerHTML =
+				"<p>Error al cargar la información de las tarjetas.</p>";
+		}
+	}
 
-    cardsTextData.forEach((data) => {
-        const cardElement = document.createElement("app-card-text");
-        if (data.title) {
-            cardElement.setAttribute("title", data.title);
-        }
-        if (data.description) {
-            cardElement.setAttribute("description", data.description);
-        }
-        if (data.width) {
-            cardElement.setAttribute("card-width", data.width);
-        }
-        if (data.height) {
-            cardElement.setAttribute("card-height", data.height);
-        }
-        targetContainer.appendChild(cardElement);
-    });
-  }
-   async loadAndRenderComponentList(jsonPath, containerSelector, componentTag, dataToAttributesMapper) {
-        const container = this.querySelector(containerSelector);
-        if (!container) {
-            console.error(`El contenedor ${containerSelector} no fue encontrado.`);
-            return;
-        }
-        container.innerHTML = ''; 
+	renderCardsText(cardsTextData, targetContainer) {
+		if (!targetContainer) {
+			console.error(
+				"Error en renderCardsText: El contenedor de destino no es válido o no fue proporcionado."
+			);
+			return;
+		}
+		if (
+			!cardsTextData ||
+			!Array.isArray(cardsTextData) ||
+			cardsTextData.length === 0
+		) {
+			console.error(
+				"No se pudieron cargar los datos para las cards, están vacíos o el formato es incorrecto."
+			);
+			targetContainer.innerHTML =
+				"<p>No hay datos disponibles para mostrar las cards.</p>";
+			return;
+		}
 
-        try {
-            const response = await fetch(jsonPath);
-            if (!response.ok) {
-                throw new Error(`Error HTTP! status: ${response.status} al cargar ${jsonPath}`);
-            }
-            const itemsData = await response.json();
+		cardsTextData.forEach((data) => {
+			const cardElement = document.createElement("app-card-text");
+			if (data.title) {
+				cardElement.setAttribute("title", data.title);
+			}
+			if (data.description) {
+				cardElement.setAttribute("description", data.description);
+			}
+			if (data.width) {
+				cardElement.setAttribute("card-width", data.width);
+			}
+			if (data.height) {
+				cardElement.setAttribute("card-height", data.height);
+			}
+			targetContainer.appendChild(cardElement);
+		});
+	}
+	async loadAndRenderComponentList(
+		jsonPath,
+		containerSelector,
+		componentTag,
+		dataToAttributesMapper
+	) {
+		const container = this.querySelector(containerSelector);
+		if (!container) {
+			console.error(`El contenedor ${containerSelector} no fue encontrado.`);
+			return;
+		}
+		container.innerHTML = "";
 
-            if (!itemsData || !Array.isArray(itemsData) || itemsData.length === 0) {
-                console.warn(`No hay datos en ${jsonPath}, están vacíos o el formato es incorrecto.`);
-                container.innerHTML = "<p>No hay datos disponibles para mostrar.</p>";
-                return;
-            }
+		try {
+			const response = await fetch(jsonPath);
+			if (!response.ok) {
+				throw new Error(
+					`Error HTTP! status: ${response.status} al cargar ${jsonPath}`
+				);
+			}
+			const itemsData = await response.json();
 
-            itemsData.forEach(data => {
-                const element = document.createElement(componentTag);
-                dataToAttributesMapper(element, data);
-                container.appendChild(element);
-            });
+			if (!itemsData || !Array.isArray(itemsData) || itemsData.length === 0) {
+				console.warn(
+					`No hay datos en ${jsonPath}, están vacíos o el formato es incorrecto.`
+				);
+				container.innerHTML = "<p>No hay datos disponibles para mostrar.</p>";
+				return;
+			}
 
-        } catch (error) {
-            console.error(`Error al cargar o renderizar desde ${jsonPath} en ${containerSelector}:`, error);
-            if (container) {
-                container.innerHTML = `<p>Error al cargar la información desde ${jsonPath}.</p>`;
-            }
-        }
-    }
+			itemsData.forEach((data) => {
+				const element = document.createElement(componentTag);
+				dataToAttributesMapper(element, data);
+				container.appendChild(element);
+			});
+		} catch (error) {
+			console.error(
+				`Error al cargar o renderizar desde ${jsonPath} en ${containerSelector}:`,
+				error
+			);
+			if (container) {
+				container.innerHTML = `<p>Error al cargar la información desde ${jsonPath}.</p>`;
+			}
+		}
+	}
 
-    async loadServicesCards() {
-        try {
-            // Construye la URL al archivo JSON de forma robusta usando import.meta.url
-            const jsonFileUrl = new URL('../data/card-servicios-disponibles-data.json', import.meta.url);
-            const response = await fetch(jsonFileUrl);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            const cardsData = await response.json();
-            
-            const container = this.querySelector('#services-cards-container');
-            if (container) {
-                cardsData.forEach(cardInfo => {
-                    const cardElement = document.createElement('app-card-text-bg-blue-gray');
-                    cardElement.setAttribute('card-title', cardInfo.title);
-                    cardElement.setAttribute('card-description', cardInfo.description);
-                    container.appendChild(cardElement);
-                });
-            } else {
-                console.error('El contenedor #grid-cards-container no fue encontrado.');
-            }
-        } catch (error) {
-            console.error('Error al cargar los datos de las tarjetas de salidas charters:', error);
-        }
-    }
-    async loadTechCards() {
-        try {
-            // Construye la URL al archivo JSON de forma robusta usando import.meta.url
-            const jsonFileUrl = new URL('../data/card-tech-data.json', import.meta.url);
-            const response = await fetch(jsonFileUrl);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            const cardsData = await response.json();
-            
-            const container = this.querySelector('#tech-cards-container'); // Corrected selector
-            if (container) {
-                cardsData.forEach(cardInfo => {
-                    const cardElement = document.createElement('app-card-text-bg-blue-gray');
-                    cardElement.setAttribute('card-title', cardInfo.title);
-                    cardElement.setAttribute('card-description', cardInfo.description);
-                    container.appendChild(cardElement);
-                });
-            } else {
-                console.error('El contenedor #grid-cards-container no fue encontrado.');
-            }
-        } catch (error) {
-            console.error('Error al cargar los datos de las tarjetas de salidas charters:', error);
-        }
-    }
-    async loadFutureCards() {
-        try {
-            // Construye la URL al archivo JSON de forma robusta usando import.meta.url
-            const jsonFileUrl = new URL('../data/card-futuro-autobuses-data.json', import.meta.url);
-            const response = await fetch(jsonFileUrl);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            const cardsData = await response.json();
-            
-            const container = this.querySelector('#future-cards-container'); // Corrected selector
-            if (container) {
-                cardsData.forEach(cardInfo => {
-                    const cardElement = document.createElement('app-card-text-bg-blue-gray');
-                    cardElement.setAttribute('card-title', cardInfo.title);
-                    cardElement.setAttribute('card-description', cardInfo.description);
-                    container.appendChild(cardElement);
-                });
-            } else {
-                console.error('El contenedor #grid-cards-container no fue encontrado.');
-            }
-        } catch (error) {
-            console.error('Error al cargar los datos de las tarjetas de salidas charters:', error);
-        }
-    }
+	async loadServicesCards() {
+		try {
+			// Construye la URL al archivo JSON de forma robusta usando import.meta.url
+			const jsonFileUrl = new URL(
+				"../data/card-servicios-disponibles-data.json",
+				import.meta.url
+			);
+			const response = await fetch(jsonFileUrl);
+			if (!response.ok) {
+				throw new Error(`HTTP error! status: ${response.status}`);
+			}
+			const cardsData = await response.json();
+
+			const container = this.querySelector("#services-cards-container");
+			if (container) {
+				cardsData.forEach((cardInfo) => {
+					const cardElement = document.createElement(
+						"app-card-text-bg-blue-gray"
+					);
+					cardElement.setAttribute("card-title", cardInfo.title);
+					cardElement.setAttribute("card-description", cardInfo.description);
+					container.appendChild(cardElement);
+				});
+			} else {
+				console.error("El contenedor #grid-cards-container no fue encontrado.");
+			}
+		} catch (error) {
+			console.error(
+				"Error al cargar los datos de las tarjetas de salidas charters:",
+				error
+			);
+		}
+	}
+	async loadTechCards() {
+		try {
+			// Construye la URL al archivo JSON de forma robusta usando import.meta.url
+			const jsonFileUrl = new URL(
+				"../data/card-tech-data.json",
+				import.meta.url
+			);
+			const response = await fetch(jsonFileUrl);
+			if (!response.ok) {
+				throw new Error(`HTTP error! status: ${response.status}`);
+			}
+			const cardsData = await response.json();
+
+			const container = this.querySelector("#tech-cards-container"); // Corrected selector
+			if (container) {
+				cardsData.forEach((cardInfo) => {
+					const cardElement = document.createElement(
+						"app-card-text-bg-blue-gray"
+					);
+					cardElement.setAttribute("card-title", cardInfo.title);
+					cardElement.setAttribute("card-description", cardInfo.description);
+					container.appendChild(cardElement);
+				});
+			} else {
+				console.error("El contenedor #grid-cards-container no fue encontrado.");
+			}
+		} catch (error) {
+			console.error(
+				"Error al cargar los datos de las tarjetas de salidas charters:",
+				error
+			);
+		}
+	}
+	async loadFutureCards() {
+		try {
+			// Construye la URL al archivo JSON de forma robusta usando import.meta.url
+			const jsonFileUrl = new URL(
+				"../data/card-futuro-autobuses-data.json",
+				import.meta.url
+			);
+			const response = await fetch(jsonFileUrl);
+			if (!response.ok) {
+				throw new Error(`HTTP error! status: ${response.status}`);
+			}
+			const cardsData = await response.json();
+
+			const container = this.querySelector("#future-cards-container"); // Corrected selector
+			if (container) {
+				cardsData.forEach((cardInfo) => {
+					const cardElement = document.createElement(
+						"app-card-text-bg-blue-gray"
+					);
+					cardElement.setAttribute("card-title", cardInfo.title);
+					cardElement.setAttribute("card-description", cardInfo.description);
+					container.appendChild(cardElement);
+				});
+			} else {
+				console.error("El contenedor #grid-cards-container no fue encontrado.");
+			}
+		} catch (error) {
+			console.error(
+				"Error al cargar los datos de las tarjetas de salidas charters:",
+				error
+			);
+		}
+	}
 }
 customElements.define("layout-servicios-a-bordo", LayoutServiciosABordo);
