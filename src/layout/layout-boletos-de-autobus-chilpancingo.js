@@ -12,7 +12,7 @@ import "../components/app-modal-image.js";
 import "../js/slick.js?v=1.0.0";
 
 
-class AppBoletosAutobusMorelia extends HTMLElement {
+class AppBoletosAutobusChilpancingo extends HTMLElement {
   async connectedCallback() {
     this.innerHTML = `
             <app-cotiza></app-cotiza>
@@ -79,7 +79,7 @@ class AppBoletosAutobusMorelia extends HTMLElement {
     }
 
     try {
-      const response = await fetch("../src/data/lugares-morelia.json");
+      const response = await fetch("../src/data/lugares-chilpancingo.json");
       if (!response.ok) {
         throw new Error(`Error HTTP: ${response.status}`);
       }
@@ -121,7 +121,7 @@ class AppBoletosAutobusMorelia extends HTMLElement {
 
     try {
       const response = await fetch(
-        "../src/data/card-open-modal-platillos-morelia.json"
+        "../src/data/card-open-modal-platillos-chilpancingo.json"
       );
       if (!response.ok) {
         throw new Error(
@@ -219,7 +219,7 @@ class AppBoletosAutobusMorelia extends HTMLElement {
   async _configureDestinationSlider() {
     const sliderElement = this.querySelector('app-slider-opacity');
     if (!sliderElement) {
-      console.error('AppBoletosAutobusMorelia: app-slider-opacity element not found.');
+      console.error('AppBoletosAutobusChilpancingo: app-slider-opacity element not found.');
       return;
     }
 
@@ -243,7 +243,7 @@ class AppBoletosAutobusMorelia extends HTMLElement {
   openMultiImageModal(itemData) {
     const modal = this.querySelector('app-modal-multi-image');
     if (!modal) {
-        console.error('AppBoletosAutobusMorelia: app-modal-multi-image element not found.');
+        console.error('AppBoletosAutobusChilpancingo: app-modal-multi-image element not found.');
         return;
     }
 
@@ -271,12 +271,12 @@ class AppBoletosAutobusMorelia extends HTMLElement {
     } else if (typeof modal.show === 'function') {
         modal.show();
     } else {
-        console.warn('AppBoletosAutobusMorelia: app-modal-multi-image necesita un método openModal(), open() o show(). Alternativamente, podría usar un atributo como "opened" para controlar la visibilidad.');
+        console.warn('AppBoletosAutobusChilpancingo: app-modal-multi-image necesita un método openModal(), open() o show(). Alternativamente, podría usar un atributo como "opened" para controlar la visibilidad.');
       
     }
   }
 }
 customElements.define(
-  "layout-boletos-de-autobus-morelia",
-  AppBoletosAutobusMorelia
+  "layout-boletos-de-autobus-chilpancingo",
+  AppBoletosAutobusChilpancingo
 );
