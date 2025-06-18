@@ -1,1 +1,1 @@
-import "./src/layout/index.js?v=1.3.3";
+import "./src/layout/index.js?v=1.0.0";
