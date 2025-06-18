@@ -188,6 +188,9 @@ html {
   }
 
   .footer__content__copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding-top: 15px;
     border-top: solid 1px #edeef1;

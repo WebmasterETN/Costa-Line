@@ -47,6 +47,9 @@ class AppHeader extends HTMLElement {
                       </li>
                       </ul>
           </nav>
+            <button id="login-icon" aria-label="Abrir modal de inicio de sesión TravelPass" title="Ingresa a Travel Pass" class="btn-travelpass btn-travelpass-active js-open-travelpass-login-modal">
+              <a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión" class="btn-travelpass-icon"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" width="100" height="32" style="cursor: pointer;"></a>
+            </button>
             <button id="openDotersModal" class="btn btn-doters" aria-label="Iniciar sesion con doters" tabindex="0">
                 <img src='../../src/assets/img/logos/doters.svg' alt="Boton de Doters" loading="lazy">
             </button>
@@ -62,11 +65,6 @@ class AppHeader extends HTMLElement {
           
           <div id="dropdown-menu" class="show">
               <ul>
-                  <li>
-                      <button id="openDotersModalMovil" class="btn btn-doters" aria-label="Iniciar sesion con doters" tabindex="0">
-                          <img src="../../src/assets/img/logos/doters.svg" loading="lazy" alt="Doters Logo">
-                      </button>
-                  </li>
                   <li><a href="../index.html" aria-label="Ir a inicio">INICIO</a></li>
                   <li class="submenu__media-queries">
                       <a href="#" aria-label="Facturar su viaje" aria-haspopup="true" aria-expanded="false">Facture su viaje <span class="icon-arrow-down"></span></a>
@@ -96,6 +94,16 @@ class AppHeader extends HTMLElement {
                           <li><a href="https://etn.com.mx/blog/" tabindex="0">Blog</a></li>
                           <li><a href="../atencion-a-clientes.html" tabindex="0">Atención a clientes</a></li>
                       </ul>
+                  </li>
+                  <li>
+                    <button id="login-icon" aria-label="Abrir modal de inicio de sesión TravelPass" title="Ingresa a Travel Pass" class="btn-travelpass btn-travelpass__submenu js-open-travelpass-login-modal">
+                      <a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión" class="btn-travelpass-icon"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" width="100" height="32" style="cursor: pointer;"></a>
+                    </button>
+                  </li>
+                  <li>
+                      <button id="openDotersModalMovil" class="btn btn-doters" aria-label="Iniciar sesion con doters" tabindex="0">
+                          <img src="../../src/assets/img/logos/doters.svg" loading="lazy" alt="Doters Logo">
+                      </button>
                   </li>
                   <li>
                       <a href="../index.html" aria-label="Cambiar idioma">
