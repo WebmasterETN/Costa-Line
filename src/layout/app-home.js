@@ -31,7 +31,7 @@ class AppHome extends HTMLElement {
                 destinations='[
                 {"id": "destination1", "title": "Acapulco", "content": "Disfruta de sus playas doradas, noches llenas de vida y la magia de la Quebrada.", "image": "./src/assets/img/destinos-img/acapulco.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
         
-                {"id": "destination2", "title": "Morelia", "content": "Visita esta Joya colonial llena de historia, sabores y magia.", "image": "./src/assets/img/destinos-img/morelia.webp", "corner": "./src/assets/img/assets/destinos-img/etn-corner-img.svg"},
+                {"id": "destination2", "title": "Ciuda de México", "content": "Visita esta Joya colonial llena de historia, sabores y magia.", "image": "./src/assets/img/destinos-img/morelia.webp", "corner": "./src/assets/img/assets/destinos-img/etn-corner-img.svg"},
         
                 {"id": "destination3", "title": "Taxco", "content": "Sumergete en este laberinto de plata y encanto colonial.", "image": "./src/assets/img/destinos-img/taxco.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
                 
