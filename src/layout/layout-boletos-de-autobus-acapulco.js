@@ -39,21 +39,21 @@ class AppBoletosAutobusAcapulco extends HTMLElement {
                 <p class="__subtitle__destinos">Gastronomia</p>
                 <p class="__paragraph__xl">Acapulco, el icónico destino de la costa del Pacífico, es célebre por su rica y diversa herencia culinaria. La gastronomía del puerto es una fascinante fusión de sabores del mar, con la influencia de las tradiciones indígenas de Guerrero y el legado histórico del comercio con Asia y España, creando una explosión de sabores que cuentan la historia de este cruce de culturas.</p>
                  <article class="container-cards__food">
-                    <!-- Las tarjetas de comida se cargarán aquí dinámicamente -->
+                    <app-card-open-modal cards-data-src="../src/data/card-open-modal-platillos-acapulco.json"></app-card-open-modal>
                 </article>
              </section>
 
              <section class="__section __section__destiny__ask">
                 <app-section-title section-title="Preguntas Frecuentes"></app-section-title>
                 <article class="__grid-cards-container__dropdown" id="dropdowns-container">
-                    <!-- Contenedor para los dropdowns -->
+                    <app-dropdown items-src="../src/data/dropdown-preguntas-monterrey.json"></app-dropdown>
                 </article>
              </section>
 
               <section class="__section __section__monterrey__other">
                 <app-section-title section-title="Otros destinos"></app-section-title>
                 <article class="container-slider-other">
-                    <app-slider-opacity></app-slider-opacity>
+                    <app-slider-opacity destinations-src="../src/data/card-opacity-destinations.json"></app-slider-opacity>
                 </article>
              </section>
 
