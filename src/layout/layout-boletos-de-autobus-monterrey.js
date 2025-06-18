@@ -30,7 +30,7 @@ class AppBoletosAutobusMonterrey extends HTMLElement {
                 <p class="__paragraph">Bienvenido a Monterrey, la vibrante capital del estado de Nuevo León, al noreste de México. Conocida como la "Sultán del Norte", Monterrey es una ciudad que combina armoniosamente su rico patrimonio cultural con la vida urbana moderna. Enclavada a los pies de la Sierra Madre Oriental, Monterrey ofrece impresionantes paisajes naturales, como el icónico Cerro de la Silla, y un vibrante entorno urbano.</p>
              </section>
 
-             <section class="__section __section__grid" id="destiny-grid-section">
+             <section class="__section__grid" id="destiny-grid-section">
                 <app-destiny-grid grid-src="../src/data/lugares-monterrey.json"></app-destiny-grid>
              </section>
 

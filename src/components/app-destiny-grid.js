@@ -52,6 +52,10 @@ class AppDestinyGrid extends HTMLElement {
           } else {
             cardDiv.style.backgroundColor = bgValue;
           }
+        } else {
+          // Fallback si no hay bgValue, para que la tarjeta no quede vacía
+          // y el ::before pueda heredar un color.
+          cardDiv.style.backgroundColor = "#EEEEEE"; // Un color gris claro como placeholder
         }
 
         cardDiv.innerHTML = `<span>${item.text}</span>`;
