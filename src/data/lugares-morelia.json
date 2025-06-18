@@ -1,0 +1,46 @@
+[
+  {
+    "id": "plaza-de-armas",
+    "text": "Plaza de Armas",
+    "className": "card-wide",
+    "backgroundImage": "src/assets/img/destinos-img/morelia/plaza-de-armas.webp",
+    "image2": "src/assets/img/destinos-img/morelia/plaza-de-armas-2.webp",
+    "image3": "src/assets/img/destinos-img/morelia/plaza-de-armas-3.webp",
+    "image4": "src/assets/img/destinos-img/morelia/plaza-de-armas-4.webp",
+    "title": "Plaza de Armas",
+    "description": " ¿Por qué visitarla? La Plaza de Armas, el corazón latente de Morelia, es un impresionante espacio donde la historia y la cultura se entrelazan. Esta plaza, adornada con edificios coloniales en cantera rosa, es el escenario de festivales, celebraciones y presentaciones musicales. Los visitantes pueden relajarse en sus bancas, observar la vida cotidiana de la ciudad y maravillarse con la imponente Catedral. Para una experiencia completa, se puede disfrutar de un café en alguno de los portales que la rodean y disfrutar de las vistas incomparables."
+  },
+  {
+    "id": "santuario-mariposa-monarca",
+    "text": "Santuario Mariposa Monarca",
+    "className": "card-tall",
+    "backgroundImage": "src/assets/img/destinos-img/morelia/mariposa-monarca.webp",
+    "image2": "src/assets/img/destinos-img/morelia/mariposa-monarca-2.webp",
+    "image3": "src/assets/img/destinos-img/morelia/mariposa-monarca-3.webp",
+    "image4": "src/assets/img/destinos-img/morelia/mariposa-monarca-4.webp",
+    "title": "Santuario de la Mariposa Monarca",
+    "description": "¿Por qué visitarlo? El Santuario de la Mariposa Monarca, un tesoro natural cerca de Morelia, es un destino mágico que te conectará con la naturaleza. Este santuario, hogar invernal de las mariposas monarca, ofrece una experiencia visual inolvidable al ver millones de estos insectos cubriendo los árboles. Los visitantes pueden realizar una caminata a través del bosque, respirar el aire puro de la montaña y maravillarse con este increíble fenómeno migratorio. Para una experiencia completa, se recomienda visitar los santuarios entre noviembre y marzo, cuando las mariposas se encuentran en su máximo esplendor."
+  },
+  {
+    "id": "acueducto-morelia",
+    "text": "Acueducto de Morelia",
+    "className": "",
+    "backgroundImage": "src/assets/img/destinos-img/morelia/acueducto-morelia.webp",
+    "image2": "src/assets/img/destinos-img/morelia/acueducto-morelia-2.webp",
+    "image3": "src/assets/img/destinos-img/morelia/acueducto-morelia-3.webp",
+    "image4": "src/assets/img/destinos-img/morelia/acueducto-morelia-4.webp",
+    "title": "Acueducto de Morelia",
+    "description": "¿Por qué visitarlo? El Acueducto de Morelia, un tesoro arquitectónico que cruza la ciudad, es un impresionante testimonio de la ingeniería y la historia. Esta estructura colonial, con su elegante diseño en cantera rosa, ofrece un espectáculo visual único. Los visitantes pueden admirar su magnitud, explorar los parques y jardines que lo rodean, y descubrir la función vital que desempeñó en el suministro de agua a la ciudad. Para una experiencia completa, se recomienda visitarlo al atardecer, cuando la luz del sol realza la belleza de la cantera rosa."
+  },
+  {
+    "id": "fuente-de-las-tarascas",
+    "text": "Fuente de las Taracascas",
+    "className": "",
+    "backgroundImage": "src/assets/img/destinos-img/morelia/fuente-tarascas.webp",
+    "image2": "src/assets/img/destinos-img/morelia/fuente-tarascas-2.webp",
+    "image3": "src/assets/img/destinos-img/morelia/fuente-tarascas-3.webp",
+    "image4": "src/assets/img/destinos-img/morelia/fuente-tarascas-4.webp",
+    "title": "Fuente de las Tarcascas",
+    "description": "¿Por qué visitarla? La Fuente de las Tarascas, un icono cultural en Morelia, es una representación artística de la historia y las tradiciones de Michoacán. Esta fuente, con sus figuras femeninas purépechas, simboliza la abundancia, la fertilidad y la riqueza de la región. Los visitantes pueden conocer el significado de cada elemento, tomar fotografías y disfrutar del ambiente vibrante que la rodea. Para una experiencia completa, se recomienda visitarla de noche, cuando la iluminación realza su belleza y crea un ambiente mágico."
+  }
+]

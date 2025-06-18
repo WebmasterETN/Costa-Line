@@ -2,7 +2,7 @@ class AppCotiza extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <div class="cotiza">
-        <!--<div class="widget" style="display: flex; justify-content:center;">
+        <div class="widget" style="display: flex; justify-content:center;">
           <div style="max-width: 100%; margin: 10px auto 10px; width: 100%; padding: 0 15px;" 
            data-widget-host="habitat" 
            data-prop-source-url="one-api.etn.com.mx/api/v2/places"
@@ -33,7 +33,7 @@ class AppCotiza extends HTMLElement {
            data-prop-max-passengers="10"
            data-prop-allow-fetch="true">
           </div>
-         </div>-->
+         </div>
       </div>
           `;
           document.addEventListener("DOMContentLoaded", () => {

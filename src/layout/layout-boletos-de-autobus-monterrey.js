@@ -17,17 +17,17 @@ class AppBoletosAutobusMonterrey extends HTMLElement {
             <app-cotiza></app-cotiza>
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/banner-monterrey.png","mediumImage": "./src/assets/img/banner/banner-monterrey-tablet.png", "smallImage": "./src/assets/img/banner/banner-monterrey-sm.png", "link": "#index.html/banner1"}]'
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/banner-acapulco.webp","mediumImage": "./src/assets/img/banner/banner-acapulco-tablet.webp", "smallImage": "./src/assets/img/banner/banner-monterrey-sm.png", "link": "#index.html/banner1"}]'
             >
             </app-banner-slider>
             <app-payments></app-payments>
 
             <section class="__section __section__monterrey__destinations">
-                <app-section-title section-title="Viaja a Monterrey en autobús con ETN Turistar"></app-section-title>
-                <p class="__subtitle__destinos">Monterrey</p>
-                <p class="__paragraph">Monterrey, ubicada en el norte de México, es una ciudad vibrante que ofrece una combinación única de belleza natural, riqueza cultural y comodidades modernas. ETN Turistar ofrece un servicio de autobús de lujo desde la Ciudad de México, brindando una experiencia de viaje segura, cómoda y sin estrés. Ya sea que planee una escapada de fin de semana o una estancia prolongada, ETN Turistar le garantiza que su viaje será tan excepcional como su destino.</p>
-                <p class="__subtitle__destinos">¿Que lugares visitar en Monterrey?</p>
-                <p class="__paragraph">Bienvenido a Monterrey, la vibrante capital del estado de Nuevo León, al noreste de México. Conocida como la "Sultán del Norte", Monterrey es una ciudad que combina armoniosamente su rico patrimonio cultural con la vida urbana moderna. Enclavada a los pies de la Sierra Madre Oriental, Monterrey ofrece impresionantes paisajes naturales, como el icónico Cerro de la Silla, y un vibrante entorno urbano.</p>
+                <app-section-title section-title="Viaja a Acapulco en autobús con ETN Turistar"></app-section-title>
+                <p class="__subtitle__destinos">Acapulco</p>
+                <p class="__paragraph">Acapulco, el legendario puerto en la costa del Pacífico mexicano, es un paraíso que vibra con una mezcla inigualable de playas doradas, emocionante vida nocturna y belleza natural. ETN Turistar le conecta con este icónico destino a través de su servicio de autobús de lujo desde la Ciudad de México, brindando una experiencia de viaje segura, cómoda y sin estrés. Ya sea que planee una escapada de fin de semana o unas vacaciones prolongadas, ETN Turistar le garantiza que su viaje será tan espectacular como su destino.</p>
+                <p class="__subtitle__destinos">¿Que lugares visitar en Acapulco?</p>
+                <p class="__paragraph">Bienvenido a Acapulco, el legendario puerto del estado de Guerrero, en la costa del Pacífico de México. Conocido como la "Perla del Pacífico", Acapulco es un destino que combina armoniosamente la serenidad de sus playas con una vibrante y emocionante vida nocturna. Abrazado por la majestuosa Bahía de Acapulco, este paraíso ofrece paisajes inolvidables, como los espectaculares clavadistas de La Quebrada, y un ambiente festivo que cautiva a sus visitantes.</p>
              </section>
 
              <section class="__section __section__grid" id="monterrey-grid-section">
@@ -37,7 +37,7 @@ class AppBoletosAutobusMonterrey extends HTMLElement {
              </section>
 
               <section class="__section __section__monterrey__food">
-                <p class="__paragraph__xl">Monterrey, la vibrante capital de Nuevo León, es reconocida por su rico y diverso patrimonio culinario.La gastronomía de la ciudad es una exquisita mezcla de influencias indígenas, españolas y estadounidenses, lo queda como resultado unagama única de sabores y platillos que reflejan su diversidad cultural.</p>
+                <p class="__paragraph__xl">Acapulco, el icónico destino de la costa del Pacífico, es célebre por su rica y diversa herencia culinaria. La gastronomía del puerto es una fascinante fusión de sabores del mar, con la influencia de las tradiciones indígenas de Guerrero y el legado histórico del comercio con Asia y España, creando una explosión de sabores que cuentan la historia de este cruce de culturas.</p>
                  <article class="container-cards__food">
                     <!-- Las tarjetas de comida se cargarán aquí dinámicamente -->
                 </article>
