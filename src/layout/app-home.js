@@ -9,17 +9,18 @@ import "../components/app-other-services.js";
 import "../components/app-blog.js";
 import "../components/app-img-shop-left.js";
 import "../components/app-section-title.js";
+import "../js/slick.js?v=1.0.0";
 
 class AppHome extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza></app-cotiza>
             <app-modal-doters></app-modal-doters>
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/Bw_Doters_Feria_Tacambaro1_Autovias.webp","mediumImage": "./src/assets/img/banner/Tablet-1.png", "smallImage": "./src/assets/img/banner/Movil-1.png", "link": "#index.html/banner1"},
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/Bw_Doters_Feria_Tacambaro1_Autovias.webp","mediumImage": "./src/assets/img/banner/Tablet-1.png", "smallImage": "./src/assets/img/banner/Movil-1.webp", "link": "#index.html/banner1"},
                 {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/Bw_Patio_Santa_Fe_Morelia2_Autovias.webp", "mediumImage": "./src/assets/img/banner/Tablet.png","smallImage": "./src/assets/img/banner/Movil.png", "link": "#index.html/banner2"},
-                {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/Bw_Playas_Semana_Santa_Autovias.webp", "mediumImage": "./src/assets/img/banner/Tablet-1.png","smallImage": "./src/assets/img/banner/Movil-1.png", "link": "#index.html/banner3"}
+                {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/Bw_Playas_Semana_Santa_Autovias.webp", "mediumImage": "./src/assets/img/banner/Tablet-1.png","smallImage": "./src/assets/img/banner/Movil-1.webp", "link": "#index.html/banner3"}
                 ]'
             >
             </app-banner-slider>
@@ -71,6 +72,6 @@ class AppHome extends HTMLElement {
             </app-other-services>
             <app-blog></app-blog>
         `;
-    }
+	}
 }
 customElements.define("app-home", AppHome);

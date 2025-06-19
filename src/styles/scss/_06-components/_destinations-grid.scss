@@ -136,6 +136,7 @@
     height: calc(100vh - 12.5rem);
     //height: calc(100vh - 200px);
     height: unset !important;
+    padding: $spacing-xxl; // 4.375rem
 
     & .section__destinations-container {
       & .section__destinations__container__grid {
@@ -156,7 +157,8 @@
       height: calc(100vh - 10rem);
       //height: calc(100vh - 160px);
       height: unset !important;
-      padding: 0.9375rem;
+      padding: $spacing-xxl; // 4.375rem
+      //padding: 0.9375rem;
       //padding: 15px;
       box-sizing: border-box;
 
@@ -276,7 +278,7 @@
   .section__destinations {
     width: 100%;
     height: calc(100vh - 12.5rem);
-
+    padding: $spacing-xxl; // 4.375rem
     //height: calc(100vh - 200px);
     & .section__destinations-container {
       & .section__destinations__container__grid {
@@ -293,9 +295,9 @@
   .section__destinations {
     width: 100%;
     height: calc(100vh - 17.1875rem);
+    padding: $spacing-xxl; // 4.375rem
     //height: calc(100vh - 275px);
-    padding: 0.9375rem;
-
+    //padding: 0.9375rem;
     //padding: 15px;
     & .section__destinations-container {
       .section__destinations__container__grid {
@@ -326,7 +328,8 @@
       height: calc(100vh - 5rem);
       //height: calc(100vh - 80px);
       height: unset !important;
-      padding: 0.9375rem;
+      padding: $spacing-xxl; // 4.375rem
+      //padding: 0.9375rem;
       //padding: 15px;
       box-sizing: border-box;
 
