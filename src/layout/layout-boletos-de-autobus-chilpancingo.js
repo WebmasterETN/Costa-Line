@@ -40,21 +40,21 @@ class AppBoletosAutobusChilpancingo extends HTMLElement {
               <section class="__section __section__monterrey__food">
                 <p class="__paragraph__xl">Morelia, un festín para los sentidos en el corazón de México, es un destino reconocido por su riqueza culinaria que te transportará a través del tiempo y la tradición. La gastronomía de la ciudad es una explosión de sabores auténticos, donde los ingredientes frescos y las recetas familiares se combinan para crear experiencias inolvidables en cada bocado, reflejando el alma de Michoacán en cada platillo.</p>
                  <article class="container-cards__food">
-                    <!-- Las tarjetas de comida se cargarán aquí dinámicamente -->
+                    <app-card-open-modal cards-data-src="../src/data/card-open-modal-platillos-cuernavaca.json"></app-card-open-modal>
                 </article>
              </section>
 
              <section class="__section __section__monterrey__ask">
                 <app-section-title section-title="Preguntas Frecuentes"></app-section-title>
                 <article class="__grid-cards-container__dropdown" id="dropdowns-container">
-                    <!-- Contenedor para los dropdowns -->
+                    <app-dropdown items-src="../src/data/dropdown-preguntas-monterrey.json"></app-dropdown>
                 </article>
              </section>
 
               <section class="__section __section__monterrey__other">
                 <app-section-title section-title="Otros destinos"></app-section-title>
                 <article class="container-slider-other">
-                    <app-slider-opacity></app-slider-opacity>
+                    <app-slider-opacity destinations-src="../src/data/card-opacity-destinations.json"></app-slider-opacity>
                 </article>
              </section>
 
