@@ -14,36 +14,36 @@ import "../js/slick.js?v=1.0.0";
 
 
 
-class AppBoletosAutobusTaxco extends HTMLElement {
+class AppBoletosAutobusIxtapaZihuatanejo extends HTMLElement {
   async connectedCallback() {
     this.innerHTML = `
             <app-cotiza></app-cotiza>
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/Bw_taxco.webp","mediumImage": "./src/assets/img/banner/Bw_taxco_tablet.webp", "smallImage": "./src/assets/img/banner/Bw_taxco_mobile.webp", "link": "#index.html/banner1"}]'
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/Bw_zihuatanejo.webp","mediumImage": "./src/assets/img/banner/Bw_zihuatanejo_tablet.webp", "smallImage": "./src/assets/img/banner/Bw_zihuatanejo_mobile.webp", "link": "#index.html/banner1"}]'
             >
             </app-banner-slider>
             <app-payments></app-payments>
 
             <section class="__section __section__destiny__destinations">
-                <app-section-title section-title="Viaja a Taxco en autobús con Costa Line"></app-section-title>
-                <p class="__subtitle__destinos">Taxco</p>
-                <p class="__paragraph">Taxco de Alarcón, ubicada en las montañas del estado de Guerrero, es una ciudad colonial que ofrece una combinación única de calles empedradas, arquitectura histórica y la tradición de la plata. Costa Line ofrece un servicio de autobús confortable desde la Ciudad de México, brindando una experiencia de viaje segura y relajante. Ya sea que planee una escapada de fin de semana o una estancia prolongada, Costa Line le garantiza que su viaje será el inicio perfecto de su destino de plata.
+                <app-section-title section-title="Viaja a Ixtapa Zihuatanejo en autobús con Costa Line"></app-section-title>
+                <p class="__subtitle__destinos">Ixtapa Zihuatanejo</p>
+                <p class="__paragraph">Ixtapa Zihuatanejo, ubicada en la costa del Pacífico de México, ofrece una combinación única de resorts modernos, playas tranquilas y el encanto de un pueblo pesquero tradicional. Costa Line ofrece un servicio de autobús confortable desde la Ciudad de México, brindando una experiencia de viaje segura y relajante. Ya sea que planee una escapada de fin de semana o una estancia prolongada, Costa Line le garantiza que su viaje será el inicio perfecto para descubrir este paraíso de dos caras.
 </p>
-                <p class="__subtitle__destinos">¿Que lugares visitar en Taxco?</p>
-                <p class="__paragraph">Bienvenido a Taxco de Alarcón, la joya plateada del estado de Guerrero, enclavada en las montañas del sur de México. Conocida como la "Ciudad de la Plata", Taxco es un tesoro colonial que armoniza sus calles empedradas y casas blancas con un ambiente mágico y artesanal. Rodeada de impresionantes paisajes montañosos, Taxco ofrece sitios emblemáticos como su imponente Iglesia de Santa Prisca, sus talleres de platería y sus vistas panorámicas, invitando a explorar su belleza arquitectónica y su rica tradición artesanal.
+                <p class="__subtitle__destinos">¿Que lugares visitar en Ixtapa Zihuatanejo?</p>
+                <p class="__paragraph">Bienvenido a Ixtapa Zihuatanejo, un destino único en la costa del Pacífico mexicano, en el estado de Guerrero. Donde conviven el lujo moderno de Ixtapa y el encanto tradicional de Zihuatanejo, creando un equilibrio perfecto. Ofreciendo una gran vegetación, sitios emblemáticos como la playa la Ropa, playa el Palmar y playa las Gatas, invitando a explorar sus playas doradas y a disfrutar de su riqueza marítima y cultural.
 </p>
              </section>
 
              <section class="__section__grid" id="destiny-grid-section">
-                <app-destiny-grid grid-src="../src/data/lugares-taxco.json"></app-destiny-grid>
+                <app-destiny-grid grid-src="../src/data/lugares-ixtapa-zihuatanejo.json"></app-destiny-grid>
              </section>
 
               <section class="__section __section__destiny__food">
                 <p class="__subtitle__destinos">Gastronomia</p>
                 <p class="__paragraph__xl">Taxco de Alarcón, la joya de plata de Guerrero, es reconocida por su singular patrimonio culinario. La gastronomía de la ciudad es una deliciosa fusión de influencias indígenas y españolas, con un toque único de sabor montañoso, dando como resultado una variedad de platillos que reflejan la identidad cultural de la región.</p>
                  <article class="container-cards__food">
-                    <app-card-open-modal cards-data-src="../src/data/card-open-modal-platillos-taxco.json"></app-card-open-modal>
+                    <app-card-open-modal cards-data-src="../src/data/card-open-modal-platillos-ixtapa-zihuatanejo.json"></app-card-open-modal>
                 </article>
              </section>
 
@@ -70,6 +70,6 @@ class AppBoletosAutobusTaxco extends HTMLElement {
 
 }
 customElements.define(
-  "layout-boletos-de-autobus-taxco",
-  AppBoletosAutobusTaxco
+  "layout-boletos-de-autobus-ixtapa-zihuatanejo",
+  AppBoletosAutobusIxtapaZihuatanejo
 );
