@@ -41,7 +41,7 @@ class AppBoletosAutobusIxtapaZihuatanejo extends HTMLElement {
 
               <section class="__section __section__destiny__food">
                 <p class="__subtitle__destinos">Gastronomia</p>
-                <p class="__paragraph__xl">Taxco de Alarcón, la joya de plata de Guerrero, es reconocida por su singular patrimonio culinario. La gastronomía de la ciudad es una deliciosa fusión de influencias indígenas y españolas, con un toque único de sabor montañoso, dando como resultado una variedad de platillos que reflejan la identidad cultural de la región.</p>
+                <p class="__paragraph__xl">Ixtapa Zihuatanejo, un destino de ensueño frente al Pacífico, deleita a sus visitantes con una gastronomía basada en la frescura del mar y las tradiciones de la costa guerrerense. Desde los pescados a la talla hasta los ceviches, los mariscos y los platillos elaborados con coco, la cocina local ofrece una experiencia única que captura la esencia del paraíso tropical.</p>
                  <article class="container-cards__food">
                     <app-card-open-modal cards-data-src="../src/data/card-open-modal-platillos-ixtapa-zihuatanejo.json"></app-card-open-modal>
                 </article>
