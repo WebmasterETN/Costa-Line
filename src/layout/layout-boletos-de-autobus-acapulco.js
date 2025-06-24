@@ -24,9 +24,9 @@ class AppBoletosAutobusAcapulco extends HTMLElement {
             <app-payments></app-payments>
 
             <section class="__section __section__destiny__destinations">
-                <app-section-title section-title="Viaja a Acapulco en autobús con ETN Turistar"></app-section-title>
+                <app-section-title section-title="Viaja a Acapulco en autobús con Costa Line"></app-section-title>
                 <p class="__subtitle__destinos">Acapulco</p>
-                <p class="__paragraph">Acapulco, el legendario puerto en la costa del Pacífico mexicano, es un paraíso que vibra con una mezcla inigualable de playas doradas, emocionante vida nocturna y belleza natural. ETN Turistar le conecta con este icónico destino a través de su servicio de autobús de lujo desde la Ciudad de México, brindando una experiencia de viaje segura, cómoda y sin estrés. Ya sea que planee una escapada de fin de semana o unas vacaciones prolongadas, ETN Turistar le garantiza que su viaje será tan espectacular como su destino.</p>
+                <p class="__paragraph">Acapulco, el legendario puerto en la costa del Pacífico mexicano, es un paraíso que vibra con una mezcla inigualable de playas doradas, emocionante vida nocturna y belleza natural. Costa Line le conecta con este icónico destino a través de su servicio de autobús de lujo desde la Ciudad de México, brindando una experiencia de viaje segura, cómoda y sin estrés. Ya sea que planee una escapada de fin de semana o unas vacaciones prolongadas, Costa Line le garantiza que su viaje será tan espectacular como su destino.</p>
                 <p class="__subtitle__destinos">¿Que lugares visitar en Acapulco?</p>
                 <p class="__paragraph">Bienvenido a Acapulco, el legendario puerto del estado de Guerrero, en la costa del Pacífico de México. Conocido como la "Perla del Pacífico", Acapulco es un destino que combina armoniosamente la serenidad de sus playas con una vibrante y emocionante vida nocturna. Abrazado por la majestuosa Bahía de Acapulco, este paraíso ofrece paisajes inolvidables, como los espectaculares clavadistas de La Quebrada, y un ambiente festivo que cautiva a sus visitantes.</p>
              </section>
