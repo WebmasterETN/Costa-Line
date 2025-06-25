@@ -31,11 +31,8 @@ class AppHeader extends HTMLElement {
                               <li><a href="../boletos-de-autobus.html" tabindex="0">Boletos de autobus</a></li>
                               <li><a href="../donde-comprar-etn.html" tabindex="0">¿Donde comprar?</a></li>
                               <li><a href="../index.html" tabindex="0">Mascotas a bordo</a></li>
-                              <li><a href="../turismo/index.html" tabindex="0">Renta de autobuses</a></li>
                               <li><a href="../destinos.html" tabindex="0">Destinos</a></li>
                               <li><a href="../taquillas.html" tabindex="0">Terminales y taquillas</a></li>
-                              <li><a href="../salas-de-espera-vip.html" tabindex="0">Salas de espera</a></li>
-                              <li><a href="../salidas-charters.html" tabindex="0">Salidas charters</a></li>
                               <li><a href="../servicio-a-bordo.html" tabindex="0">Servicios a bordo</a></li>
                               <li><a href="../promociones.html" tabindex="0">Promociones</a></li>
                               <li><a href="../index.html" tabindex="0">Agencias</a></li>
@@ -81,11 +78,8 @@ class AppHeader extends HTMLElement {
                           <li><a href="../boletos-de-autobus.html" tabindex="0">Boletos de autobus</a></li>
                           <li><a href="../donde-comprar-etn.html" tabindex="0">¿Donde comprar?</a></li>
                           <li><a href="../index.html" tabindex="0">Mascotas a bordo</a></li>
-                          <li><a href="../turismo/index.html" tabindex="0">Renta de autobuses</a></li>
                           <li><a href="../destinos.html" tabindex="0">Destinos</a></li>
                           <li><a href="../taquillas.html" tabindex="0">Terminales y taquillas</a></li>
-                          <li><a href="../salas-de-espera-vip.html" tabindex="0">Salas de espera</a></li>
-                          <li><a href="../salidas-charters.html" tabindex="0">Salidas charters</a></li>
                           <li><a href="../servicio-a-bordo.html" tabindex="0">Servicios a bordo</a></li>
                           <li><a href="../promociones.html" tabindex="0">Promociones</a></li>
                           <li><a href="../index.html" tabindex="0">Agencias</a></li>
