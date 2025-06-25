@@ -22,9 +22,10 @@ import "./layout-ofertas-en-1-click.js?v=1.0.0";
 import "./layout-festival-de-viajes.js?v=1.0.0";
 import "./layout-boletos-de-autobus-monterrey.js?v=1.0.0";
 import "./layout-boletos-de-autobus-acapulco.js?v=1.0.0";
-import "./layout-boletos-de-autobus-morelia.js?v=1.0.0";
+import "./layout-boletos-de-autobus-chilpancingo.js?v=1.0.0";
 import "./layout-boletos-de-autobus-cuernavaca.js?v=1.0.0";
 import "./layout-boletos-de-autobus-taxco.js?v=1.0.0";
+import "./layout-boletos-de-autobus-ixtapa-zihuatanejo.js?v=1.0.0";
 
 /*-------------COMPONENTES PRINCIPALES ------------------------- */
 

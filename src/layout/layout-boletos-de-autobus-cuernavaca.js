@@ -20,7 +20,7 @@ class AppBoletosAutobusCuernavaca extends HTMLElement {
             <app-cotiza></app-cotiza>
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/banner-cuernavaca.webp","mediumImage": "./src/assets/img/banner/banner-cuernavaca-tablet.webp", "smallImage": "./src/assets/img/banner/banner-monterrey-sm.png", "link": "#index.html/banner1"}]'
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/Bw_cuernavaca.webp","mediumImage": "./src/assets/img/banner/d:\Downloads\Bw_cuernavaca_mobile.webp d:\Downloads\Bw_cuernavaca_tablet.webp.webp", "smallImage": "./src/assets/img/banner/d:\Downloads\Bw_cuernavaca_mobile.webp d:\Downloads\Bw_cuernavaca_tablet.webp", "link": "#index.html/banner1"}]'
             >
             </app-banner-slider>
             <app-payments></app-payments>
