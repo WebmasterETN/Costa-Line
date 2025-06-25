@@ -14,7 +14,7 @@ class AppHeaderPackMultienlace extends HTMLElement {
             <nav aria-label="Menu de navegacion" >
                 
                     <ul>
-                        <li><a href="../index.html" aria-label="Ir a inicio" tabindex="0">ETN</a></li>
+                        <li><a href="../index.html" aria-label="Ir a inicio" tabindex="0">Costa Line</a></li>
                         <li><a href="../../packmultienlace/terminales-paqueteria.html" aria-label="Imprimir pase de abordar" tabindex="0">Terminales</a></li> 
                         <li class="submenu">
                           <a href="#" role="button" aria-label="Facturar su viaje" tabindex="0" aria-haspopup="true" aria-expanded="false">Detalles del servicio <span class="icon-arrow-down"></span></a>
