@@ -22,7 +22,7 @@ class AppBlog extends HTMLElement {
   async fetchLatestPosts() {
     try {
       const response = await fetch(
-        "https://www.autovias.com.mx/blog/wp-json/wp/v2/posts?per_page=9&_embed"
+        "https://costaline.com.mx/blog/wp-json/wp/v2/posts?per_page=9&_embed"
       );
       const posts = await response.json();
       return posts;
