@@ -1,0 +1,28 @@
+[
+    {
+      "imageSrc": "../src/assets/img/paqueteria/pack-urgente.webp",
+      "imageAlt": "Paquete urgente",
+      "text": "Aprovecha la siguiente corrida disponible."
+    },
+    {
+      "imageSrc": "../src/assets/img/paqueteria/pack-corrida.webp",
+      "imageAlt": "Paquete economico",
+      "text": "Aprovecha la siguiente corrida disponible."
+    },
+    {
+      "imageSrc": "../src/assets/img/paqueteria/pack-cobertura.webp",
+      "imageAlt": "Paquete seguro",
+      "text": "Cobertura en más de 150 destinos nacionales."
+    },
+    {
+      "imageSrc": "../src/assets/img/paqueteria/pack-tarifa.webp",
+      "imageAlt": "Paquete economico",
+      "text": "Tarifas accesibles con opciones de prepago."
+    },
+    {
+      "imageSrc": "../src/assets/img/paqueteria/pack-enviar.webp",
+      "imageAlt": "Paquete seguro",
+      "text": "Sin complicaciones: fácil de enviar y recibir."
+    }
+  ]
+  

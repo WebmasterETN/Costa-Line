@@ -1,0 +1,442 @@
+@import '../main';
+
+// Import components
+@import './header-pack-multienlace'; // reemplazar por el header de pack multienlace
+@import './banner-slider';
+@import './cotiza-pack';
+@import './section-title';
+@import "./cotizador-pack";
+@import "./footer-pack-multienlace";
+
+
+// Import utilities
+@import '../_07-utilities/utilities';
+@import '../_06-components/cookies-policy';
+
+.container-section__title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 100%;
+    background-color: $primary-color;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.remitente {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: start;
+    align-items: start;
+    margin: auto;
+    padding: 25px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.remitente-datos {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: start;
+    align-items: start;
+    margin: auto;
+    padding: 25px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.destinatario-datos {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: start;
+    align-items: start;
+    margin: auto;
+    padding: 25px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.input-group-datos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 100%;
+    background-color: white;
+}
+
+.input-group__input-datos {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+.input-group__input-datos::placeholder {
+    color: #999;
+    font-size: 16px;
+}
+
+
+.container-section__subtitle {
+    display: flex;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.input-group__input {
+    width: 47%;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.input-cb {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    margin-top: 15px;
+    justify-content: end;
+}
+
+#dif-destino {
+    background-color: white;
+    margin-right: 10px;
+}
+
+#dif-destino-label {
+    background-color: white;
+    font-size: 17px;
+}
+
+.form-caracteristicas {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+    background-color: #DADADA;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    justify-content: end;
+    padding: 20px 40px;
+    align-items: start;
+    justify-content: start;
+}
+
+.dropdown {
+    position: relative;
+    width: 30%;
+    font-size: 20px;
+}
+
+.dropdown>summary {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    list-style: none;
+    color: $primary-color;
+}
+
+.dropdown>summary.invalid {
+    border: 1px solid red;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+.dropdown>summary::-webkit-details-marker {
+    display: none;
+}
+
+.dropdown>summary::after {
+    content: '⮟';
+    margin-left: auto;
+    font-size: 14px;
+    transition: transform 0.2s ease-in-out;
+    background-color: white;
+    color: $primary-color;
+}
+
+.dropdown[open]>summary::after {
+    transform: rotate(180deg);
+}
+
+.dropdown-content {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    z-index: 10;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-content li {
+    padding: 12px 15px;
+    cursor: pointer;
+}
+
+.dropdown-content li:hover {
+    background-color: #f1f1f1;
+}
+
+.input-group-form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+.form-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-weight: bold;
+}
+
+.form-field label {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.form-field .input-group__input {
+    width: 100%;
+}
+
+.form-caracteristicas textarea.input-group__input {
+    width: 100%;
+    height: 300px;
+    resize: vertical;
+    font-family: inherit;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.btn-cotizar,
+.btn-enviar {
+    display: block;
+    width: 30%;
+    padding: 12px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: filter 0.2s ease-in-out;
+}
+
+.btn-cotizar,
+.btn-enviar:hover {
+    filter: brightness(110%);
+}
+
+@media (max-width: 768px) {
+    .container__carousel {
+        margin-top: 9rem;
+    }
+
+    .remitente {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .container-section__subtitle {
+        font-size: 20px;
+    }
+
+    .input-group {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .input-group__input {
+        width: 100%;
+    }
+
+    .form-caracteristicas {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .input-group-form {
+        flex-direction: column;
+    }
+
+    .dropdown,
+    .btn-cotizar {
+        width: 100%;
+    }
+
+    .input-group-datos {
+        grid-template-columns: 1fr;
+    }
+}
+
+.subtitle-cotizador {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: $primary-color;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #000;
+}
+
+input[type="text"]::placeholder {
+    color: #999;
+    font-size: 16px;
+}
+
+.input-group__input,
+.input-group__input-datos {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .input-group {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .input-group__input {
+        width: 100%;
+    }
+
+    .input-group-datos {
+        grid-template-columns: 1fr;
+    }
+}
+
+.form-submitted .input-group__input-datos:invalid {
+    border: 2px solid #e74c3c;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Clase para mostrar el modal */
+.modal.active {
+    display: flex;
+}
+
+/* Contenido del modal */
+.modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 90%;
+    max-width: 350px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.modal-close-btn {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.modal-header {
+    background-color:$primary-color;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-logo {
+    max-width: 180px;
+    height: auto;
+}
+
+.modal-body {
+    padding: 25px 30px;
+}
+
+.modal-title-custom {
+    width: 60%;
+    color: $primary-color;
+    font-size: 26px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 10px;
+}

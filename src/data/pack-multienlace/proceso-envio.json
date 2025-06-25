@@ -1,0 +1,14 @@
+[
+    {
+      "titulo": "Proceso de envío",
+      "list": [
+        "Entrega tu paquete: Llévalo a una de nuestras terminales de autobuses o puntos de salida autorizados.",
+        "Procesamos tu envío: Registramos tu paquete y lo asignamos a la siguiente corrida disponible hacia su destino.",
+        "Viaje seguro: Tu paquete viaja de manera segura en nuestras unidades, con monitoreo constante.",
+        "Recoge tu paquete: El destinatario podrá recogerlo en la terminal de llegada, presentando una identificación oficial y el número de guía."
+      ],
+      "imageSrc": "../src/assets/img/paqueteria/pack-multienlace-v1.webp",
+      "imageAlt": "Paquete urgente"
+    }
+  ]
+  

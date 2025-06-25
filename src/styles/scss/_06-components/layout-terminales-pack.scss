@@ -1,0 +1,15 @@
+
+@import '../main';
+
+// Import components
+@import './header-pack-multienlace'; // reemplazar por el header de pack multienlace
+@import './banner-slider';
+@import './cotiza-pack';
+@import './section-title';
+@import "./map";
+@import "./footer-pack-multienlace";
+
+
+// Import utilities
+@import '../_07-utilities/utilities';
+@import '../_06-components/cookies-policy';

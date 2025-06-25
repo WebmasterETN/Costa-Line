@@ -1,0 +1,85 @@
+.app-card-circle-container {
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 50px;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        @media (max-width: 480px) {
+            width: 100%; /* Permite que el contenedor ocupe todo el ancho disponible */
+            gap: 16px; /* Reduce el espacio entre las tarjetas para un diseño de 2 columnas */
+            justify-content: center; /* Centra las tarjetas si hay espacio sobrante */
+        }
+        @media (max-width: 990px) {
+            width: 90%;
+             }
+
+}
+
+.card-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 220px;
+    @media (max-width: 480px) {
+        flex: 0 0 calc(50% - 8px); /* Dos tarjetas por línea, considerando un gap de 16px */
+    }
+    height: 260px;
+        
+
+    .card-circle__overlay {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.25);
+        
+        &.color-primary {
+            background-color: $primary-color;
+        }
+        &.color-secondary {
+            background-color: $secondary-color; 
+        }
+        border-radius: 50%;
+
+        .card-circle__overlay__image {
+            width: 75%;
+            display: block;
+            object-fit: cover;
+            margin: auto;
+        }
+    }
+
+    .card-circle__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70px;
+
+        .card-circle__text__content {
+            width: 100%;
+            padding: 16px;
+            font-size: 15px;
+            color: black;
+            font-weight: 500;
+            text-align: center;
+            word-wrap: break-word; 
+            white-space: normal; 
+            overflow-wrap: break-word; 
+            display: block; 
+            text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                0px 8px 13px rgba(0, 0, 0, 0.1),
+                0px 18px 23px rgba(0, 0, 0, 0.1);
+
+            @media (max-width: 480px) {
+                font-size: 12px;
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pack Multienlace</title>
+
+		<!-- Scripts -->
+		<script src="../src/js/jquery.min.js?v=1.0.0"></script>
+		<script type="module" src="../app.js?v=1.0.0"></script>
+		<!-- Stylesheets -->
+
+		<!-- CSS All Components -->
+
+		<link
+			rel="stylesheet"
+			href="../src/styles/css/css-components/layout-pack-multienlace-info.min.css?v=1.0.7"
+			type="text/css"
+		/>
+
+		<!-- CSS widget de reservamos -->
+		<link
+			rel="stylesheet"
+			href="https://widgets.reservamos.mx/search/5.16.8/search.css?v=1.0.7"
+		/>
+	</head>
+	<body>
+		<app-header-pack-multienlace
+			logo='{
+        "src": "../src/assets/img/paqueteria/logo-pack.webp", 
+        "alt": "Logo de pack Multienlace",
+        "href": "../../paqueteria.html"
+      }'
+		>
+		</app-header-pack-multienlace><!-- reemplazar por uno que se llame app-header-pack-multienlace -->
+		<main>
+      <layout-pack-multienlace-info></layout-pack-multienlace-info>
+      <!-- contenido del micro sitio aquí -->
+		</main>
+		<app-footer-pack-multienlace></app-footer-pack-multienlace>
+    
+		<!-- JS widget de reservamos -->
+		<script src="https://widgets.reservamos.mx/search/5.16.8/search.js?v=1.2.1"></script>
+	</body>
+</html>

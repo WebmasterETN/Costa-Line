@@ -1,0 +1,144 @@
+.card-small-list {
+    background: rgba(33, 37, 41, 0.15);
+    border-radius: 18px;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.15);
+    background-color: $color-pack;
+    color: white;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    width: 70%;
+    margin: auto;
+    margin-top:30px;
+    margin-bottom:40px;
+
+    .card-body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .left-side {
+        display: flex;
+        flex: 1 1 60%;
+        align-items: stretch;
+
+        .vertical-bar-arrow {
+            width: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 16px;
+
+            .circle-icon {
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                background: $hover-header-color;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 2;
+            }
+
+            .vertical-line {
+                width: 4px;
+                background: $hover-header-color;
+                flex-grow: 1;
+                border-radius: 2px;
+                z-index: 1;
+            }
+        }
+
+        .content {
+            .title {
+                font-size: 2rem;
+                margin-bottom: 10px;
+                color: white;
+            }
+
+            .item-list {
+                list-style: none;
+                padding-left: 0;
+                margin-top: 1rem;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 1.5rem;
+                    font-size: 1.3rem;
+                }
+
+                .icon-check {
+                    width: 20px;
+                    height: 20px;
+                    background: $hover-header-color;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: auto;
+                    flex-shrink: 0;
+                    font-size: 0.5rem;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+
+    .card-image-container {
+        flex: 1 1 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+
+        .card-side-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+    }
+
+    .last-text {
+        font-size: 1.25rem;
+        margin-top: 1rem;
+        padding-left: 1rem;
+    }
+
+    /* ✅ Responsive: Estilo para pantallas pequeñas */
+    @media (max-width: 480px) {
+        width: 95%;
+        padding: 0.75rem;
+
+        .card-body {
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .left-side,
+        .card-image-container {
+            flex: 1 1 100%;
+        }
+
+        .card-image-container {
+            padding: 1rem;
+        }
+
+        .content .title {
+            font-size: 1.5rem;
+        }
+
+        .item-list li {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .last-text {
+            font-size: 1rem;
+            padding-left: 0.5rem;
+        }
+    }
+}

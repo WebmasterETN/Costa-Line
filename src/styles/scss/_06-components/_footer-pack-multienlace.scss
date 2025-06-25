@@ -1,0 +1,22 @@
+.footer-pack-multienlace {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: $primary-colo-pack-multienlace;
+  .__copyright {
+    color: $white;
+    font-size: 0.9rem;
+  }
+  .__link {
+    color: $white;
+    font-size: 0.9rem;
+  }
+  @include media("md") {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}

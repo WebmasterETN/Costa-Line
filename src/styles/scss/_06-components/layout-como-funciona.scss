@@ -1,0 +1,20 @@
+@import '../main';
+
+// Import components
+
+@import './header-pack-multienlace';
+@import './banner-slider';
+@import './cotiza-pack';
+@import './section-title';
+@import "./dropdown-quest-pack";
+@import "./footer-pack-multienlace";
+
+
+// Import utilities
+@import '../_07-utilities/utilities';
+
+.__como-funciona__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: $spacing-lg 0;
+}
