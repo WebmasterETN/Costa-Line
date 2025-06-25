@@ -4,8 +4,8 @@ class AppHeader extends HTMLElement {
     const { src, alt, href } = logoData;
 
     this.innerHTML = `
-      <header aria-label="Encabezado ETN Turistar Lujo" >
-          <a href="${href}" class="main-header__container-logo" aria-label="ETN Turistar Lujo" tabindex="0">
+      <header aria-label="Encabezado Costa Line" >
+          <a href="${href}" class="main-header__container-logo" aria-label="Costa Line" tabindex="0">
           <img src="${src}"
             alt="${alt}" 
             class="header__logo" width="922" height="143" loading="lazy"/>
@@ -18,8 +18,8 @@ class AppHeader extends HTMLElement {
                       <li class="submenu">
                         <a href="#" role="button" aria-label="Facturar su viaje" tabindex="0" aria-haspopup="true" aria-expanded="false">Facture su viaje <span class="icon-arrow-down"></span></a>
                         <ul>
-                              <li><a href="https://venta.etn.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
-                              <li><a href="https://etn.com.mx/CFDI-datos-receptor.html" tabindex="0">¿Qué datos necesito?</a></li>
+                              <li><a href="https://ventas.costaline.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
+                              <li><a href="https://costaline.com.mx/CFDI-datos-receptor.html" tabindex="0">¿Qué datos necesito?</a></li>
                           </ul>
                       </li>
                       <li><a href="https://venta.etn.com.mx/MiViaje/loginMiItinerario.html" aria-label="Imprimir pase de abordar" tabindex="0">Imprimir pase de abordar</a></li> 
