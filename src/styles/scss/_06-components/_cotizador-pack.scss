@@ -1,0 +1,164 @@
+/* Variables opcionales si usas SCSS o puedes convertirlas a valores fijos */
+:root {
+  --color-primario: #0c3953;
+  --color-gris-claro: #f5f5f5;
+  --color-gris-intermedio: #dcdcdc;
+  --color-borde-input: #a8b0b8;
+  --color-fondo-card: #e0e0e0;
+  --color-texto: #333;
+}
+
+.__section-cotizador-pack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #F6F6F6;
+}
+/* Estructura general del formulario */
+.form-cotizacion {
+  display: flex;
+  flex-direction: column;
+  max-width: 1076px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--color-texto);
+
+  /* Sección de origen/destino */
+  .form-cotizacion__ubicaciones {
+    max-width: 958px;
+    width: 100%;
+    background-color: #fff;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+
+    & h2 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .form-groups {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      gap: 1rem;
+      .form-group {
+        width: 49%;
+        @include media("md") {
+          width: 100%
+        }
+      }
+    }
+
+    .form-check {
+      display: flex;
+      width: 100%;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+  }
+  
+  /* Fieldset para datos del paquete */
+  .form-cotizacion__paquete {
+    background-color: var(--color-fondo-card);
+    border: none;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+
+    & select {
+      width: 50%;
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid var(--color-borde-input);
+      border-radius: 5px;
+      background-color: #fff;
+      appearance: none;
+      background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="%23333"><polygon points="0,0 10,0 5,5"/></svg>');
+      background-repeat: no-repeat;
+      background-position: right 0.75rem center;
+      background-size: 0.65rem auto;
+
+      @include media ("md") {
+        width: 100%;
+      }
+    }
+
+    &legend {
+      font-weight: bold;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+      
+    } 
+
+    /* Botón */
+    .form-actions {
+      text-align: center;
+
+      .btn-continuar {
+        background-color: var(--color-primario);
+        color: #fff;
+        border: none;
+        padding: 0.75rem 2rem;
+        font-size: 1rem;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        &:hover {
+          background-color: #062737;
+        }
+      }
+    }
+  }
+}
+
+
+.form-group {
+  margin-bottom: 1rem;
+
+  & input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--color-borde-input);
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  & textarea {
+    resize: vertical;
+  }
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.form-row .form-group {
+  flex: 1 1 22%;
+  min-width: 100px;
+}
+
+/* Accesibilidad visual oculta (para etiquetas no visibles pero necesarias) */
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+}

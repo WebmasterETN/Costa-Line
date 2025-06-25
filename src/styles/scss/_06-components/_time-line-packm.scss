@@ -1,0 +1,14 @@
+.__timeline-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  .__timeline-image {
+    max-width: 280px;
+    min-width: 270px;
+    & img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import '../main';
+
+// Import components
+
+@import './header-pack-multienlace';
+@import './banner-slider';
+@import './cotiza-pack';
+@import './section-title';
+@import "./time-line-packm";
+@import "./footer-pack-multienlace";
+
+
+// Import utilities
+@import '../_07-utilities/utilities';
+
+.__description {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: $spacing-xxl;
+  gap: $spacing-md;
+
+  .__description-text {
+    max-width: 952px;
+    min-height: 103px;
+    flex-shrink: 0;
+    color: #0E3A59
+  }
+  @include media("md") {
+    padding: $spacing-md;
+  }
+}

@@ -1,0 +1,102 @@
+.cards-scroll-wrapper {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: auto;
+    justify-content: start;
+
+    @media (max-width: 480px) {
+        overflow-x: auto;
+        max-width: 320px;
+        white-space: nowrap;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .cards-grid-container {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 40px;
+
+        @media (max-width: 480px) {
+            flex-wrap: nowrap;
+            gap: 16px;
+            width: auto;
+            justify-content: flex-start;
+        }
+    }
+}
+
+.card-no-border {
+    flex: 0 0 320px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    scroll-snap-align: start;
+
+
+    .overlay {
+        width: 100%;
+        height: 300px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.25);
+        padding: 10px;
+
+        .card-image-img {
+            width: 90%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+
+    .overlay.card-color-primary {
+        background-color: $primary-color;
+    }
+
+    .overlay.card-color-secondary {
+        background-color: $color-pack;
+    }
+
+    .text-card {
+        width: 100%;
+        padding: 16px;
+        font-size: 25px;
+        color: black;
+        font-weight: 500;
+        text-align: center;
+        word-wrap: break-word; // Asegura quiebre de texto
+        white-space: normal; // Permite múltiples líneas
+        overflow-wrap: break-word; // Extra soporte
+        display: block; // Asegura comportamiento correcto del bloque
+        text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+            0px 8px 13px rgba(0, 0, 0, 0.1),
+            0px 18px 23px rgba(0, 0, 0, 0.1);
+        background-color: $secondary-color;
+
+        @media (max-width: 480px) {
+            font-size: 18px;
+        }
+    }
+
+}

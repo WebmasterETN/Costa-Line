@@ -1,0 +1,17 @@
+[
+  {
+    "imageSrc": "../src/assets/img/paqueteria/prepago.webp",
+    "altText": "Esquemas de prepago",
+    "text": "Esquemas de prepago"
+  },
+  {
+    "imageSrc": "../src/assets/img/paqueteria/documentos.webp",
+    "altText": "Envíos urgentes para documentos o insumos críticos",
+    "text": "Envíos urgentes para documentos o insumos críticos"
+  },
+  {
+    "imageSrc": "../src/assets/img/paqueteria/seguimiento.webp",
+    "altText": "Cobertura nacional con seguimiento en tiempo real",
+    "text": "Cobertura nacional con seguimiento en tiempo real"
+  }
+]

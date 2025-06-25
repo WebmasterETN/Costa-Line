@@ -1,0 +1,72 @@
+[
+    {
+      "imageSrc": "../../src/assets/img/paqueteria/dinero.webp",
+      "imageAlt": "Dinero en efectivo",
+      "text": "Dinero en efectivo"
+    },
+    {
+      "imageSrc": "../../src/assets/img/paqueteria/joyas.webp",
+      "imageAlt": "Joyas",
+      "text": "Joyas"
+    },
+    {
+      "imageSrc": "../../src/assets/img/paqueteria/giros.webp",
+      "imageAlt": "Giros",
+      "text": "Giros"
+    },
+    {
+      "imageSrc": "../../src/assets/img/paqueteria/cheques.webp",
+      "imageAlt": "Cheques",
+      "text": "Cheques"
+    },
+    {
+      "imageSrc": "../../src/assets/img/paqueteria/sellos.webp",
+      "imageAlt": "Sellos (timbres postales)",
+      "text": "Sellos (timbres postales)"
+    },
+    {
+      "imageSrc": "../../src/assets/img/paqueteria/explosivos.webp",
+      "imageAlt": "Explosivos",
+      "text": "Explosivos"
+    },
+    {
+      "imageSrc": "../../src/assets/img/paqueteria/arte.webp",
+      "imageAlt": " Piezas de arte o arqueológicas",
+      "text": " Piezas de arte o arqueológicas"
+    },
+    {
+      "imageSrc": "../../src/assets/img/paqueteria/toxico.webp",
+      "imageAlt": "  Sustancias tóxicas o peligrosas",
+      "text": " Sustancias tóxicas o peligrosas"
+    },
+    {
+      "imageSrc": "../../src/assets/img/paqueteria/animales.webp",
+      "imageAlt": " Animales vivos",
+      "text": "Animales vivos"
+    },
+    {
+      "imageSrc": "../../src/assets/img/paqueteria/titulos.webp",
+      "imageAlt": "Instrumentos o títulos negociables al portador",
+      "text": "Instrumentos o títulos negociables al portador"
+    },
+    {
+      "imageSrc": "../../src/assets/img/paqueteria/obseno.webp",
+      "imageAlt": "Materiales obscenos o pornográficos",
+      "text": "Materiales obscenos o pornográficos"
+    },
+    {
+      "imageSrc": "../../src/assets/img/paqueteria/olor.webp",
+      "imageAlt": "Objetos de fácil descomposición y mal olor",
+      "text": "Objetos de fácil descomposición y mal olor"
+    },
+    {
+      "imageSrc": "../../src/assets/img/paqueteria/quimicos.webp",
+      "imageAlt": "Productos químicos en cualquier presentación (sólido, líquido o gaseoso), con mediana o alta peligrosidad",
+      "text": "Productos químicos en cualquier presentación (sólido, líquido o gaseoso), con mediana o alta peligrosidad"
+    },
+    {
+      "imageSrc": "../../src/assets/img/paqueteria/documentos.webp",
+      "imageAlt": "Aquellos que legalmentesolo pueden ser transportados por correo",
+      "text": "Aquellos que legalmentesolo pueden ser transportados por correo"
+    }
+  ]
