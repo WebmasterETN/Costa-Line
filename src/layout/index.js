@@ -27,6 +27,7 @@ import "./layout-boletos-de-autobus-cuernavaca.js?v=1.0.2";
 import "./layout-boletos-de-autobus-taxco.js?v=1.0.2";
 import "./layout-boletos-de-autobus-ixtapa-zihuatanejo.js?v=1.0.2";
 import "./layout-boletos-de-autobus-iguala.js?v=1.0.2";
+import "./layout-boletos-de-autobus-tecpan.js?v=1.0.2";
 
 import "./layout-preguntas-frecuentes.js?v=1.0.2";
 
