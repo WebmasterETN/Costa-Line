@@ -24,7 +24,7 @@
     },
     {
       "type": "right",
-      "imageSrc": "../../../src/assets/img/sales-location/taquilla.jpg",
+      "imageSrc": "../../../src/assets/img/sales-location/taquilla.webp",
       "altText": "Taquillas ETN",
       "cardTitle": "Taquillas",
       "linkUrl": "../../src/assets/img/sales-location/call-center.jpg"
