@@ -103,7 +103,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
     padding: 20px 25px;
 
     .services-container__comodidad,
@@ -127,13 +127,14 @@
 
     .__aside-img {
         max-width: 500px;
-        width: 50%;
+        width: 40%;
         min-width: 280px;
         flex-shrink: 0;
         border-radius: 15px;
         box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
         height: auto;
         object-fit: cover;
+        margin-right: 80px;
     }
 
     .__subtitle-center-xl {
