@@ -24,7 +24,7 @@ class LayoutDondeComprar extends HTMLElement {
 
         <app-payments></app-payments>
 
-        <app-section-title section-title="¿Dónde puedo comprar Boletos de autobús en ETN Turistar?"></app-section-title>
+        <app-section-title section-title="¿Dónde puedo comprar Boletos de autobús en Costa Line?"></app-section-title>
        
         <div class="shop-container" id="shop-cards-container">
             <!-- Las tarjetas de tiendas se cargarán aquí -->
