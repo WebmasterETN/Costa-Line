@@ -3,7 +3,7 @@ class AppMap extends HTMLElement {
     console.log("AppMap conectado");
     this.innerHTML = `
       <section class="map">
-        <app-section-title section-title="¿Dónde puedo comprar Boletos de autobús en ETN Turistar?"></app-section-title>
+        <app-section-title section-title="¿Dónde puedo comprar Boletos de autobús en Costa Line?"></app-section-title>
         <!--Mapa-->
         <article id="container-chart" class="__map-container">
           <div id="map"></div>

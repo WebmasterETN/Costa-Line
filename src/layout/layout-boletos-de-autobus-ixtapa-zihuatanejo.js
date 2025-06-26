@@ -10,9 +10,7 @@ import "../components/app-slider-opacity.js";
 import "../components/app-modal-multi-image.js";
 import "../components/app-modal-image.js";
 import "../components/app-destiny-grid.js";
-import "../js/slick.js?v=1.0.0";
-
-
+import "../js/slick.js?v=1.0.2";
 
 class AppBoletosAutobusIxtapaZihuatanejo extends HTMLElement {
   async connectedCallback() {
@@ -20,7 +18,7 @@ class AppBoletosAutobusIxtapaZihuatanejo extends HTMLElement {
             <app-cotiza></app-cotiza>
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/Bw_zihuatanejo.webp","mediumImage": "./src/assets/img/banner/Bw_zihuatanejo_tablet.webp", "smallImage": "./src/assets/img/banner/Bw_zihuatanejo_mobile.webp", "link": "#index.html/banner1"}]'
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/zihuatanejo-web.webp","mediumImage": "./src/assets/img/banner/tablet/zihuatanejo-tablet.webp", "smallImage": "./src/assets/img/banner/movil/zihuatanejo-mobile.webp", "link": "#index.html/banner1"}]'
             >
             </app-banner-slider>
             <app-payments></app-payments>
@@ -67,7 +65,6 @@ class AppBoletosAutobusIxtapaZihuatanejo extends HTMLElement {
 
         `;
   }
-
 }
 customElements.define(
   "layout-boletos-de-autobus-ixtapa-zihuatanejo",

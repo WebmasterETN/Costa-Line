@@ -5,20 +5,20 @@ import "../components/app-banner-slider.js";
 import "../components/app-payments.js";
 import "../components/app-section-title.js";
 import "../components/app-forms.js";
-import "../js/slick.js?v=1.0.0";
+import "../js/slick.js?v=1.0.2";
 
 class LayoutPromociones extends HTMLElement {
-	connectedCallback() {
-		this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
             <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
 
-            <app-banner-slider
+             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/Bw_Doters_Feria_Tacambaro1_Autovias.webp","mediumImage": "../src/assets/img/banner/Tablet-1.png", "smallImage": "../src/assets/img/banner/Movil-1.webp", "link": "#index.html/banner1"},
-                {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/Bw_Patio_Santa_Fe_Morelia2_Autovias.webp", "mediumImage": "../src/assets/img/banner/Tablet.png","smallImage": "../src/assets/img/banner/Movil.png", "link": "#index.html/banner2"},
-                {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/Bw_Playas_Semana_Santa_Autovias.webp", "mediumImage": "../src/assets/img/banner/Tablet-1.png","smallImage": "../src/assets/img/banner/Movil-1.webp", "link": "#index.html/banner3"}
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/home-doters-web.webp","mediumImage": "../src/assets/img/banner/tablet/home-doters-tablet.webp", "smallImage": "../src/assets/img/banner/movil/home-doters-mobile.webp", "link": "#index.html/banner1"},
+                {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/web/home-pago-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-pago-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-pago-mobile.webp", "link": "#index.html/banner2"},
+                {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/web/home-verano-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-verano-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-verano-mobile.webp", "link": "#index.html/banner3"}
                 ]'
             >
             </app-banner-slider>
@@ -41,7 +41,7 @@ class LayoutPromociones extends HTMLElement {
               <app-section-title section-title="Descuentos de Temporadas"></app-section-title>
                   <article class="__article__banner">
                       <h3 class="__article-title">Buen fin </h3>
-                      <a class="__article-banner-link" href="../../../buen-fin/index.html">  <img src="src/assets/img/banner/banner-buen-fin.png" alt="Atencion a clientes"> </a>
+                      <a class="__article-banner-link" href="../../../buen-fin/index.html">  <img src="src/assets/img/banner/promociones/web/buen-fin-web.webp" alt="Atencion a clientes"> </a>
                   </article>
               <app-section-title section-title="Convenios"></app-section-title>
                   <article class="__article__guide">
@@ -50,6 +50,6 @@ class LayoutPromociones extends HTMLElement {
                   </article>
             </section>
         `;
-	}
+  }
 }
 customElements.define("layout-promociones", LayoutPromociones);

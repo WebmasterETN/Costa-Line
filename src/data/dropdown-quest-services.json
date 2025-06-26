@@ -1,0 +1,18 @@
+[
+  {
+    "title-dropdown": "¿Qué es un servicio ocurre?",
+    "content-dropdown": "Es un servicio de paqueteria donde el destinatario recoge su paquete directamente en la terminal de autobuses de llegada."
+  },
+  {
+    "title-dropdown": "¿Cuánto tiempo tarda en llegar mi paquete?",
+    "content-dropdown": "Tu paquete viajará en la siguiente corrida disponible, granatizando entrega extra urgente."
+  },
+  {
+    "title-dropdown": "¿Qué necesito para recoger mi paquete?",
+    "content-dropdown": "El destinatario debe presetar una identificación oficial y el número de guía del paquete."
+  },
+  {
+    "title-dropdown": "¿Puedo rastrear mi envío?",
+    "content-dropdown": "Sí, ofrecemos seguimiento en tiempo real a través de nuestra plataforma."
+  }
+]

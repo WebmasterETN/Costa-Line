@@ -1,0 +1,86 @@
+@import '../main';
+
+// Import components
+@import './header-pack-multienlace'; // reemplazar por el header de pack multienlace
+@import './banner-slider';
+@import './cotiza-pack';
+@import './section-title';
+@import "./cotizador-pack";
+@import "./footer-pack-multienlace";
+
+
+// Import utilities
+@import '../_07-utilities/utilities';
+@import '../_06-components/cookies-policy';
+
+.envio-info {
+    background-color: #fff;
+    padding: 2rem;
+    width: 60%;
+    margin: 3rem auto;
+    margin-top: 0;
+    border-radius: 10px;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #222;
+}
+
+.envio-info h2.empresa {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.envio-info h3 {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    color: $primary-color;
+}
+
+.envio-info h4 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: $primary-color;
+}
+
+.envio-info p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.envio-info ul {
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.envio-info ul li {
+    margin-bottom: 0.5rem;
+}
+
+.envio-info strong {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .envio-info {
+        width: 95%;
+        margin: auto;
+    }
+
+    .envio-info h2.empresa {
+        font-size: 1.6rem;
+    }
+
+    .envio-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .envio-info h4 {
+        font-size: 1.1rem;
+    }
+
+    .envio-info p,
+    .envio-info ul li {
+        font-size: 0.95rem;
+    }
+}

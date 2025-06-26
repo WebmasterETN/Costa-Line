@@ -9,8 +9,7 @@ import "../components/app-card-destination-opacity.js";
 import "../components/app-slider-opacity.js";
 import "../components/app-modal-multi-image.js";
 import "../components/app-modal-image.js";
-import "../js/slick.js?v=1.0.0";
-
+import "../js/slick.js?v=1.0.2";
 
 class AppBoletosAutobusAcapulco extends HTMLElement {
   async connectedCallback() {
@@ -18,7 +17,7 @@ class AppBoletosAutobusAcapulco extends HTMLElement {
             <app-cotiza></app-cotiza>
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/Bw_acapulco.webp","mediumImage": "./src/assets/img/banner/Bw_acapulco_tablet.webp", "smallImage": "./src/assets/img/banner/Bw_acapulco_mobile.webp", "link": "#index.html/banner1"}]'
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/acapulco-web.webp","mediumImage": "./src/assets/img/banner/tablet/acapulco-tablet.webp", "smallImage": "./src/assets/img/banner/movil/acapulco-mobile.webp", "link": "#index.html/banner1"}]'
             >
             </app-banner-slider>
             <app-payments></app-payments>
@@ -62,7 +61,6 @@ class AppBoletosAutobusAcapulco extends HTMLElement {
 
 
         `;
-   
   }
 }
 customElements.define(
