@@ -33,40 +33,36 @@ class AppFooter extends HTMLElement {
       {
         title: "Sobre la empresa",
         links: [
-          { text: "¿Quiénes somos?", href: "#" },
-          { text: "Certificaciones", href: "#" },
+          { text: "Acerca de nosotros", href: "#" },
           { text: "Bolsa de trabajo", href: "#" },
+          { text: "Evalua tu viaje", href: "#" },
         ],
       },
       {
         title: "Legales",
         links: [
           { text: "Avisos de privacidad", href: "#" },
-          { text: "Términos y condiciones", href: "../terminos-condiciones.html" },
+          {
+            text: "Términos y condiciones",
+            href: "../terminos-condiciones.html",
+          },
         ],
       },
       {
-        sublevel: [
-          {
-            title: "Servicio al cliente",
-            links: [
-              { text: "Viaje protegido MAX", href: "#" },
-              { text: "Agencias", href: "#" },
-            ],
-          },
-          {
-            title: "Ubicaciones",
-            links: [{ text: "Terminales en destinos", href: "#" }],
-          },
+        title: "Servicio al cliente",
+        links: [
+          { text: "Viaje protegido MAX", href: "#" },
+          { text: "Agencias", href: "#" },
         ],
       },
       {
         title: "Ayuda",
         links: [
-          { text: "Preguntas frecuentes", href: "#" },
-          { text: "Tipos de boletos", href: "#" },
-          { text: "Dónde comprar", href: "#" },
-          { text: "Formas de pago", href: "#" },
+          {
+            text: "Preguntas frecuentes",
+            href: "../../preguntas-frecuentes.html",
+          },
+          { text: "Cuentanos tu experiencia", href: "#" },
         ],
       },
       {
@@ -74,16 +70,37 @@ class AppFooter extends HTMLElement {
           {
             title: "Contáctanos",
             links: [
-              { text: "800 8000 386", href: "tel:8008000386", type: "tel" },
+              { text: "800 0037 635", href: "tel:8000037635", type: "tel" },
             ],
           },
           {
             title: "Síguenos",
             links: [
-              { text: "Facebook", href: "#", type: "icon-fb" },
-              { text: "Instagram", href: "#", type: "icon-ig" },
-              { text: "X", href: "#", type: "icon-x" },
-              { text: "YouTube", href: "#", type: "icon-yt" },
+              {
+                text: "Facebook",
+                href: "https://www.facebook.com/costaline/",
+                type: "icon-fb",
+              },
+              {
+                text: "Instagram",
+                href: "https://www.instagram.com/costalineaers/",
+                type: "icon-ig",
+              },
+              {
+                text: "X",
+                href: "https://x.com/CostaLine_AERS",
+                type: "icon-x",
+              },
+              {
+                text: "YouTube",
+                href: "https://www.youtube.com/@CostaLineAers",
+                type: "icon-yt",
+              },
+              {
+                text: "TikTok",
+                href: "https://www.tiktok.com/@costalineaers",
+                type: "icon-icons-tt",
+              },
             ],
           },
         ],

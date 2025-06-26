@@ -19,12 +19,11 @@
 @import '../_06-components/cookies-policy';
 
 .shop-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2.5rem; 
+  display: flex;
 
-  justify-items: center;
-
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
   max-width: 1420px;
   margin-top: 50px;
   margin-left: auto;
@@ -37,7 +36,7 @@
 
   @media (max-width: 649px) {
     grid-template-columns: 1fr;
-    padding-left: 0.5rem; 
+    padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
 }

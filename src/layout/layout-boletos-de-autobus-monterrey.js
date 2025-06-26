@@ -10,7 +10,7 @@ import "../components/app-slider-opacity.js";
 import "../components/app-modal-multi-image.js";
 import "../components/app-modal-image.js";
 import "../components/app-destiny-grid.js";
-import "../js/slick.js?v=1.0.0";
+import "../js/slick.js?v=1.0.2";
 
 class AppBoletosAutobusMonterrey extends HTMLElement {
   async connectedCallback() {

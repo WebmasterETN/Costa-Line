@@ -6,16 +6,17 @@ import "../components/app-dropdown-quest-services.js";
 import "../components/app-header-pack-multienlace.js";
 import "../components/app-footer-pack-multienlace.js";
 import "../components/app-time-line-packm.js";
-import "../js/slick.js?v=1.0.0";
+import "../js/slick.js?v=1.0.2";
 
 class LayoutComoFunciona extends HTMLElement {
-  async connectedCallback() { // Make connectedCallback async
+  async connectedCallback() {
+    // Make connectedCallback async
     this.innerHTML = `
         <app-cotiza></app-cotiza>
 
         <app-banner-slider
             slides-data='[
-              {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/ofertas-1-click.png","mediumImage": "../src/assets/img/banner/Tablet-1.png", "smallImage": "../src/assets/img/banner/Movil-1.webp", "link": "#index.html/banner1"}
+              {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/paqueteria/banner/web/pack-como-web.webp","mediumImage": "../src/assets/img/paqueteria/banner/tablet/pack-como-tablet.webp", "smallImage": "../src/assets/img/paqueteria/banner/movil/pack-como-mobile.webp", "link": "#index.html/banner1"}
             ]'
         >
         </app-banner-slider>
@@ -28,19 +29,22 @@ class LayoutComoFunciona extends HTMLElement {
       `;
 
     // Fetch data and pass it to the custom element
-    const dropdownQuestServicesElement = this.querySelector('app-dropdown-quest-services');
+    const dropdownQuestServicesElement = this.querySelector(
+      "app-dropdown-quest-services"
+    );
     if (dropdownQuestServicesElement) {
       try {
-        const response = await fetch('/src/data/dropdown-quest-services.json'); // Path to the new JSON file
+        const response = await fetch("/src/data/dropdown-quest-services.json"); // Path to the new JSON file
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         const dropdownData = await response.json();
         dropdownQuestServicesElement.setDropdownData(dropdownData);
       } catch (error) {
-        console.error('Error loading dropdown data:', error);
+        console.error("Error loading dropdown data:", error);
         // Optionally display an error message in the component
-        dropdownQuestServicesElement.innerHTML = '<p>Error al cargar las preguntas frecuentes.</p>';
+        dropdownQuestServicesElement.innerHTML =
+          "<p>Error al cargar las preguntas frecuentes.</p>";
       }
     }
   }

@@ -5,7 +5,7 @@ import "../components/app-banner-slider.js";
 import "../components/app-section-title.js";
 import "../components/app-cotizador-pack.js";
 import "../components/app-footer-pack-multienlace.js";
-import "../js/slick.js?v=1.0.0";
+import "../js/slick.js?v=1.0.2";
 
 class LayoutCotizadorDatosPack extends HTMLElement {
   connectedCallback() {
@@ -13,12 +13,11 @@ class LayoutCotizadorDatosPack extends HTMLElement {
       <app-cotiza-pack></app-cotiza-pack>
 
             <app-banner-slider
-                slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/paqueteria/pack-banner-home.webp","mediumImage": "../src/assets/img/banner/Tablet-1.png", "smallImage": "../src/assets/img/banner/Movil-1.webp", "link": "#index.html/banner1"}
-               
-                ]'
-            >
-            </app-banner-slider>
+            slides-data='[
+              {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/paqueteria/banner/web/pack-cotizador-web.webp","mediumImage": "../src/assets/img/paqueteria/banner/tablet/pack-cotizador-tablet.webp", "smallImage": "../src/assets/img/paqueteria/banner/movil/pack-cotizador-mobile.webp", "link": "#index.html/banner1"}
+            ]'
+        >
+        </app-banner-slider>
           <section class="container-cotizador">
       <h2 class="container-section__title">Cotiza tu paquete.</h2>
       <!-- Formulario -->

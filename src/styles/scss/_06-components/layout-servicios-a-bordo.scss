@@ -29,7 +29,7 @@
 .__section__servicio-autobus {
     .__imgs-container {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
         width: 100%; // Asegura que el contenedor padre ocupe todo el ancho
@@ -38,15 +38,113 @@
         padding: 20px;
         gap: 20px; // Añade espacio entre los elementos flexibles
 
+        @media screen and (max-width: 992px) {
+            flex-wrap: wrap;
+        }
+
         .__auto-bus-container {
             display: flex;
             flex: 0 0 681px; // Base size 681px, no crecer ni encoger inicialmente
-            max-width: 100%; // Permite que se encoja por debajo de 681px en pantallas pequeñas
+            max-width: 50%; // Permite que se encoja por debajo de 681px en pantallas pequeñas
             height: 454px;
             background-image: url('../../../assets/img/autobuses/marcopolo-dos-pisos.webp');
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
+
+            @media screen and (max-width: 992px) {
+                max-width: 90%;
+                height: 300px;
+            }
+        }
+
+        .__grid-cards-container__travel {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+            padding: 20px 25px;
+            max-width: 50%;
+            @media screen and (max-width: 992px) {
+                    max-width: 90%;
+                }
+
+            .services-container__comodidad,
+            .services-container__asientos {
+                flex: 1 1 auto;
+                min-width: 280px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+
+                .services-container-comodidad,
+                .services-container-asientos {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    width: 100%;
+                    align-items: center;
+                }
+            }
+
+            .__aside-img {
+                max-width: 500px;
+                width: 50%;
+                min-width: 280px;
+                flex-shrink: 0;
+                border-radius: 15px;
+                box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+                height: auto;
+                object-fit: cover;
+            }
+
+            .__subtitle-center-xl {
+                font-size: 20px;
+                color: $primary-color;
+                font-weight: bolder;
+                text-align: center;
+                margin-bottom: 0;
+            }
+
+            @media screen and (max-width: 992px) {
+                flex-direction: column;
+                align-items: center;
+                gap: 40px;
+
+                .services-container__comodidad,
+                .services-container__asientos {
+                    width: 90%;
+                    max-width: 550px;
+                    min-width: unset;
+                }
+
+                .__aside-img {
+                    width: 90%;
+                    max-width: 500px;
+                    min-width: unset;
+                    order: -1;
+                }
+            }
+
+            @media screen and (max-width: 600px) {
+                gap: 25px;
+                padding: 15px 10px;
+
+                .services-container__comodidad,
+                .services-container__asientos {
+                    width: 95%;
+                }
+
+                .__aside-img {
+                    width: 95%;
+                    max-width: 400px;
+                }
+
+                .__subtitle-center-xl {
+                    font-size: 18px;
+                }
+            }
         }
 
         .__seats-bus-container {
@@ -96,90 +194,5 @@
         align-items: center;
         width: 100%;
         gap: 43px;
-    }
-}
-
-.__grid-cards-container__travel {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-    padding: 20px 25px;
-
-    .services-container__comodidad,
-    .services-container__asientos {
-        flex: 1 1 auto;
-        min-width: 280px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-
-        .services-container-comodidad,
-        .services-container-asientos {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            width: 100%;
-            align-items: center;
-        }
-    }
-
-    .__aside-img {
-        max-width: 500px;
-        width: 50%;
-        min-width: 280px;
-        flex-shrink: 0;
-        border-radius: 15px;
-        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
-        height: auto;
-        object-fit: cover;
-    }
-
-    .__subtitle-center-xl {
-        font-size: 20px;
-        color: $primary-color;
-        font-weight: bolder;
-        text-align: center;
-        margin-bottom: 0;
-    }
-
-    @media screen and (max-width: 992px) {
-        flex-direction: column;
-        align-items: center;
-        gap: 40px;
-
-        .services-container__comodidad,
-        .services-container__asientos {
-            width: 90%;
-            max-width: 550px;
-            min-width: unset;
-        }
-
-        .__aside-img {
-            width: 90%;
-            max-width: 500px;
-            min-width: unset;
-            order: -1;
-        }
-    }
-
-    @media screen and (max-width: 600px) {
-        gap: 25px;
-        padding: 15px 10px;
-
-        .services-container__comodidad,
-        .services-container__asientos {
-            width: 95%;
-        }
-
-        .__aside-img {
-            width: 95%;
-            max-width: 400px;
-        }
-
-        .__subtitle-center-xl {
-            font-size: 18px;
-        }
     }
 }

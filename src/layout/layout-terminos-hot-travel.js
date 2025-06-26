@@ -5,11 +5,11 @@ import "../components/app-banner-slider.js";
 import "../components/app-payments.js";
 import "../components/app-section-title.js";
 import "../components/app-table-pets.js";
-import "../js/slick.js?v=1.0.0";
+import "../js/slick.js?v=1.0.2";
 
 class LayoutTerminosHotTravel extends HTMLElement {
-	connectedCallback() {
-		this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
         <app-cotiza></app-cotiza>
 
         <app-modal-doters></app-modal-doters>
@@ -198,6 +198,6 @@ class LayoutTerminosHotTravel extends HTMLElement {
             </article>
         </section>
     `;
-	}
+  }
 }
 customElements.define("layout-terminos-hot-travel", LayoutTerminosHotTravel);

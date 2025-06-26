@@ -4,20 +4,20 @@ import "../components/app-banner-slider.js";
 import "../components/app-payments.js";
 import "../components/app-section-title.js";
 import "../components/app-table-pets.js";
-import "../js/slick.js?v=1.0.0";
+import "../js/slick.js?v=1.0.2";
 
 class LayoutTerminosBuenFin extends HTMLElement {
-	connectedCallback() {
-		this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
         <app-cotiza></app-cotiza>
 
         <app-modal-doters></app-modal-doters>
 
         <app-banner-slider
-            slides-data='[
-            {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/banner-buen-fin.png","mediumImage": "../src/assets/img/banner/Tablet-1.png", "smallImage": "../src/assets/img/banner/Movil-1.webp", "link": "#index.html/banner1"}
-            ]'
-        >
+                slides-data='[
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/promociones/web/buen-fin-web.webp","mediumImage": "../src/assets/img/banner/promociones/tablet/buen-fin-tablet.webp", "smallImage": "../src/assets/img/banner/promociones/movil/buen-fin-mobile.webp", "link": "#index.html/banner1"}
+                ]'
+            >
         </app-banner-slider>
 
         <app-payments></app-payments>
@@ -196,7 +196,7 @@ class LayoutTerminosBuenFin extends HTMLElement {
             </article>
         </section>
     `;
-	}
+  }
 }
 
 customElements.define("layout-terminos-buen-fin", LayoutTerminosBuenFin);
