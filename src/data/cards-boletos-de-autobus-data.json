@@ -28,11 +28,12 @@
     },
     {
       "title": "Boleto Abierto",
-      "mainText": "Puedes solicitar tu reservación vía telefónica en nuestro Contact Center.",
+      "mainText": "Este boleto físico indica sólo origen y destino; la fecha y hora se confirma mínimo una hora antes de la salida elegida y esta sujeto a disponibilidad de asientos y descuentos por autobús. Cuenta con una vigencia de seis meses a partir de la fecha de compra.",
       "secondaryText": "Este tipo de boleto es emitido en:",
       "items": [
-        "Contact Center",
-        "Puntos de Servicio de Entrega a Domicilio Directos y Afiliados",
+        "Taquillas",
+        "Puntos de Venta Directos y Afiliados",
+        "Servicio de Entrega a Domicilio",
         "Agencias de Viajes"
       ]
     },
@@ -49,7 +50,7 @@
     },
     {
       "title": "Boleto Abierto Electrónico",
-      "mainText": "Es el boleto no impreso que indica sólo origen y destino; al momento de la compra se le proporciona el número de Operación y NIT, está sujeto a disponibilidad de asientos y descuentos por autobús. La impresión de este boleto deberá de solicitarse en taquillas una hora antes de su salida presentando identificación oficial, número de Operación y NIT. Puedes solicitar tu reservación vía telefónica en nuestro Contact Center.",
+      "mainText": "Es el boleto no impreso que indica sólo origen y destino; al momento de la compra se le proporciona el número de Operación y NIT, está sujeto a disponibilidad de asientos y descuentos por autobús. La impresión de este boleto deberá de solicitarse en taquillas una hora antes de su salida presentando identificación oficial, número de Operación y NIT.",
       "secondaryText": "Este tipo de boleto es emitido en:",
       "items": [
         "Contact Center",

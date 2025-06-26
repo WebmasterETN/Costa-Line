@@ -24,9 +24,9 @@ class LayoutBoletosDeAutobus extends HTMLElement {
             </app-banner-slider>
             <app-payments></app-payments>
             <section class="section__boletos-de-autobus">
-                <app-section-title section-title="Boletos de Autobús ETN Turistar: tu mejor opcón para viajar"></app-section-title>
+                <app-section-title section-title="Boletos de Autobús Costa Line: tu mejor opcón para viajar"></app-section-title>
                 <article class="__boletos-de-autobus__text">
-                    <p class="__text__paragraph"><b class="__text__bold">Viajar con ETN Turistar es sinónimo de comodidad, seguridad y puntualidad.</b> No esperes más y adquiere tus boletos de autobús hoy mismo para disfrutar de una experiencia de viaje superior. Si te preguntas dónde comprar boletos de autobús de ETN Turistar recuerda que puedes hacerlo fácilmente a través de nuestro sitio web, por teléfono o en nuestras taquillas.</p>
+                    <p class="__text__paragraph"><b class="__text__bold">Viajar con Costa Line es sinónimo de comodidad, seguridad y puntualidad.</b> No esperes más y adquiere tus boletos de autobús hoy mismo para disfrutar de una experiencia de viaje superior. Si te preguntas dónde comprar boletos de autobús de Costa Line recuerda que puedes hacerlo fácilmente a través de nuestro sitio web, por teléfono o en nuestras taquillas.</p>
                     <div class="__boletos-de-autobus__scrollbar">
                         <p>Cargando tipos de boletos...</p> 
                     </div>

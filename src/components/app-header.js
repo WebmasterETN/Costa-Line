@@ -4,8 +4,8 @@ class AppHeader extends HTMLElement {
     const { src, alt, href } = logoData;
 
     this.innerHTML = `
-      <header aria-label="Encabezado ETN Turistar Lujo" >
-          <a href="${href}" class="main-header__container-logo" aria-label="ETN Turistar Lujo" tabindex="0">
+      <header aria-label="Encabezado Costa Line" >
+          <a href="${href}" class="main-header__container-logo" aria-label="Costa Line" tabindex="0">
           <img src="${src}"
             alt="${alt}" 
             class="header__logo" width="922" height="143" loading="lazy"/>
@@ -18,12 +18,12 @@ class AppHeader extends HTMLElement {
                       <li class="submenu">
                         <a href="#" role="button" aria-label="Facturar su viaje" tabindex="0" aria-haspopup="true" aria-expanded="false">Facture su viaje <span class="icon-arrow-down"></span></a>
                         <ul>
-                              <li><a href="https://venta.etn.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
-                              <li><a href="https://etn.com.mx/CFDI-datos-receptor.html" tabindex="0">¿Qué datos necesito?</a></li>
+                              <li><a href="https://ventas.costaline.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
+                              <li><a href="https://costaline.com.mx/CFDI-datos-receptor.html" tabindex="0">¿Qué datos necesito?</a></li>
                           </ul>
                       </li>
-                      <li><a href="https://venta.etn.com.mx/MiViaje/loginMiItinerario.html" aria-label="Imprimir pase de abordar" tabindex="0">Imprimir pase de abordar</a></li> 
-                      <li><a href="https://viaje.etn.com.mx/exchange/openTicket" aria-label="Modificar itinerario" tabindex="0">Modificar itinerario</a></li> 
+                      <li><a href="https://viaje.costaline.com.mx/download-tickets" aria-label="Imprimir pase de abordar" tabindex="0">Imprimir pase de abordar</a></li> 
+                      <li><a href="https://viaje.costaline.com.mx/exchange/itinerary" aria-label="Modificar itinerario" tabindex="0">Modificar itinerario</a></li> 
                       <li class="submenu">
                           <a href="#" role="button" aria-label="Mas opciones" tabindex="0" aria-haspopup="true" aria-expanded="false">Mas<span class="icon-arrow-down"></span></a>
                           <ul class="submenu__media-items"> 
@@ -32,14 +32,14 @@ class AppHeader extends HTMLElement {
                               <li><a href="../donde-comprar-etn.html" tabindex="0">¿Donde comprar?</a></li>
                               <li><a href="../index.html" tabindex="0">Mascotas a bordo</a></li>
                               <li><a href="../destinos.html" tabindex="0">Destinos</a></li>
-                              <li><a href="../taquillas.html" tabindex="0">Terminales y taquillas</a></li>
+                              <li><a href="../taquillas.html" tabindex="0">Taquillas</a></li>
                               <li><a href="../salas-de-espera-vip.html" tabindex="0">Salas de espera</a></li>
                               <li><a href="../servicio-a-bordo.html" tabindex="0">Servicios a bordo</a></li>
                               <li><a href="../promociones.html" tabindex="0">Promociones</a></li>
-                              <li><a href="../index.html" tabindex="0">Agencias</a></li>
+                              <li><a href="https://ventas.costaline.com.mx/request.aspx?APPNAME=Navegante&PRGNAME=AccesoEx&ARGUMENTS=-AAG,-AH,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-AES&_ga=2.70363408.1421465980.1688335622-27413750.1682467979" tabindex="0">Agencias</a></li>
                               <li><a href="../pago-referenciado-oxxo.html" tabindex="0">Pagos OXXO Pay</a></li>
-                              <li><a href="https://etn.com.mx/viajero-protegido.html" tabindex="0">Viajero protegido</a></li>
-                              <li><a href="https://etn.com.mx/blog/" tabindex="0">Blog</a></li>
+                              <li><a href="https://costaline.com.mx/viajero-protegido.html" tabindex="0">Viajero protegido</a></li>
+                              <li><a href="https://costaline.com.mx/blog/" tabindex="0">Blog</a></li>
                               <li><a href="../atencion-a-clientes.html" tabindex="0">Atención a clientes</a></li>
                           </ul>
                       </li>

@@ -60,14 +60,60 @@
 
         .__grid-cards-container__travel {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             align-items: center;
-            gap: 30px;
-            padding: 20px 25px;
-            max-width: 50%;
-            @media screen and (max-width: 992px) {
-                    max-width: 90%;
-                }
+            justify-content: center;
+            flex: 1 1 300px; // Permite crecer/encoger, base size 300px (ajusta según necesites un ancho mínimo)
+            max-width: 100%; // Permite que se encoja por debajo del tamaño base en pantallas pequeñas
+            // Elimina el cálculo de altura fija
+            gap: 20px;
+            color: $primary-color;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .__img-container {
+            width: 100%;
+            max-width: 593px;
+            height: 0;
+            padding-top: calc(311 / 593) * 100%;
+            background-image: url('../../../assets/img/autobuses/plano-35-asientos.webp');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    .__scroll-bar-container {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        gap: 30px;
+        overflow-x: auto;
+    }
+}
+
+
+
+.__section__aplicaciones {
+    .__cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 43px;
+    }
+}
+
+.__grid-cards-container__travel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 25px;
 
             .services-container__comodidad,
             .services-container__asientos {
@@ -88,16 +134,17 @@
                 }
             }
 
-            .__aside-img {
-                max-width: 500px;
-                width: 50%;
-                min-width: 280px;
-                flex-shrink: 0;
-                border-radius: 15px;
-                box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
-                height: auto;
-                object-fit: cover;
-            }
+    .__aside-img {
+        max-width: 500px;
+        width: 40%;
+        min-width: 280px;
+        flex-shrink: 0;
+        border-radius: 15px;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+        height: auto;
+        object-fit: cover;
+        margin-right: 80px;
+    }
 
             .__subtitle-center-xl {
                 font-size: 20px;

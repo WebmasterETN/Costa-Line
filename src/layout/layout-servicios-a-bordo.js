@@ -29,9 +29,9 @@ class LayoutServiciosABordo extends HTMLElement {
             <section class="__section __section__servicio-autobus">
                 <app-section-title section-title="Servicios a bordo: Autobus de doble piso Marco Polo"></app-section-title>
                 <p class="__paragraph">Los autobuses de dos pisos se han convertido en una opción popular para el transporte de pasajeros, ofreciendo una combinación de capacidad, comodidad y vistas panorámicas únicas.</p>
-                <article class="__imgs-container">
-                    <div class="__auto-bus-container"></div>
-                    <article class="__grid-cards-container__travel">
+							 <p class="__paragraph">El confort es clave para una experiencia de viaje excepcional, y nuestro diseño de asientos lo refleja.</p> 
+								<article class="__grid-cards-container__travel">
+								 <img class="__aside-img" src="src/assets/img/autobuses/bus-costa.webp" alt="servicios a bordo">
                     <div class="services-container__comodidad">
                     <h3 class="__subtitle-center-xl">Comodidad</h3>
                         <div class="services-container-comodidad" id="comodidad-cards-container">
@@ -43,11 +43,7 @@ class LayoutServiciosABordo extends HTMLElement {
                         <div class="services-container-asientos" id="asientos-cards-container">
                             <!-- Las tarjetas de tiendas se cargarán aquí -->
                         </div>     
-                    </div>
-                    
-                     </article>
-                    
-                    
+                    </div>                    
                 </article>
                 <article class="__scroll-bar-container" id="scroll-bar-container">
                     <!-- app-card-image elements will be inserted here by loadAndRenderImageCards -->
@@ -80,8 +76,6 @@ class LayoutServiciosABordo extends HTMLElement {
 
                 <p class="__paragraph">Los autobuses de dos pisos representan una solución efectiva y eficiente para el transporte de pasajeros en diversas aplicaciones, desde el transporte urbano hasta el turismo y las rutas interurbanas. Con su capacidad aumentada, vistas panorámicas y comodidades modernas, estos autobuses ofrecen una experiencia de viaje superior. Además, con las innovaciones tecnológicas y el enfoque en la sostenibilidad, el futuro de los autobuses de dos pisos parece prometedor.</p>
             </section>
-
-          
         `;
 
     this.loadAndRenderCardsText();

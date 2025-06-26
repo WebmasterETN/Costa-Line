@@ -28,7 +28,8 @@ class LayoutSalasDeEsperaVip extends HTMLElement {
 
             <section class="__section __section__salas">
                 <app-section-title section-title="Salas de espera"></app-section-title>
-                <p class="__paragraph">En ETN Turistar contamos con cómodas salas de espera VIP, para que disfrutesde la línea más cómoda desde antes de abordar el autobús.</p>
+                <p class="__paragraph">En Costaline Contamos con cómodas salas de espera VIP, para que disfrutes
+de la línea más cómoda desde antes de abordar el autobús.</p>
                 <div class="__grid-container">
                     <aside class="__aside-image">
                         <img class="__aside-img" src="src/assets/img/salas-espera/salas-de-espera-etn.webp" alt="salas de espera vip">
