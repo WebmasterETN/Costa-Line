@@ -1,65 +1,82 @@
 [
-    {
-      "imageSrc": "src/assets/img/destinos-img/manzanillo-s.webp",
-      "imageAlt": "Mazanillo",
-      "destinationName": "Manzanillo, Colima",
-      "destinationTagline": "Sol, playa y diversión sin fin te esperan.",
-      "buttonText": "Explorar Manzanillo",
-      "buttonLink": "../../boletos-de-autobus-a-monterrey.html"
-
-    },
-    {
-      "imageSrc": "src/assets/img/destinos-img/puebla-s.webp",
-      "imageAlt": "Puebla",
-      "destinationName": "Puebla, Puebla",
-      "destinationTagline": "Tradición y modernidad en la Perla Tapatía.",
-      "buttonText": "Explorar Puebla",
-      "buttonLink": "../../boletos-de-autobus-a-monterrey.html"
-
-    },
-    {
-      "imageSrc": "src/assets/img/destinos-img/vallarta-s.webp",
-      "imageAlt": "Puerto Vallarta",
-      "destinationName": "Puerto Vallarta, Jalisco",
-      "destinationTagline": "Descubre la magia de una ciudad colonial.",
-      "buttonText": "Explorar Vallarta",
-      "buttonLink": "../../boletos-de-autobus-a-monterrey.html"
-
-    },
-    {
-      "imageSrc": "src/assets/img/destinos-img/queretaro-s.webp",
-      "imageAlt": "Querétaro",
-      "destinationName": "Querétaro, Querétaro",
-      "destinationTagline": "Sol, playa y diversión sin fin te esperan.",
-      "buttonText": "Explorar Queretaro",
-      "buttonLink": "../../boletos-de-autobus-a-monterrey.html"
-
-    },
-    {
-      "imageSrc": "src/assets/img/destinos-img/cdmx-s.webp",
-      "imageAlt": "Ciudad de México",
-      "destinationName": "Ciudad de México, CDMX",
-      "destinationTagline": "Tradición y modernidad en la Perla Tapatía.",
-      "buttonText": "Explora CDMX",
-      "buttonLink": "../../boletos-de-autobus-a-monterrey.html"
-
-    },
-    {
-      "imageSrc": "src/assets/img/destinos-img/guadalajara-s.webp",
-      "imageAlt": "Guadalajara",
-      "destinationName": "Guadalajara, Jalisco",
-      "destinationTagline": "Descubre la magia de una ciudad colonial.",
-      "buttonText": "Explora Guadalajara",
-      "buttonLink": "../../boletos-de-autobus-a-monterrey.html"
-
-    },
-    {
-      "imageSrc": "src/assets/img/destinos-img/guanajuato-s.webp",
-      "imageAlt": "Guanajuato",
-      "destinationName": "Guanajuato, Guanajuato",
-      "destinationTagline": "Descubre la magia de una ciudad colonial.",
-      "buttonText": "Explora Guanajuato",
-      "buttonLink": "../../boletos-de-autobus-a-monterrey.html"
-
-    }
-  ]
+  {
+    "imageSrc": "src/assets/img/destinos-img/acapulco/acapulco-m.webp",
+    "imageAlt": "Acapulco",
+    "destinationName": "Acapulco, Guerrero",
+    "destinationTagline": "Sol, mar y vida nocturna sin igual.",
+    "buttonText": "Explorar Acapulco",
+    "buttonLink": "../../boletos-de-autobus-a-acapulco.html"
+  },
+  {
+    "imageSrc": "src/assets/img/destinos-img/cd-altamirano/cd-altamirano-m.webp",
+    "imageAlt": "Ciudad Altamirano",
+    "destinationName": "Cd. Altamirano, Guerrero",
+    "destinationTagline": "Encuentra tranquilidad junto al río Balsas.",
+    "buttonText": "Explorar Cd. Altamirano",
+    "buttonLink": "../../boletos-de-autobus-a-cd-altamirano.html"
+  },
+  {
+    "imageSrc": "src/assets/img/destinos-img/cdmx-m.webp",
+    "imageAlt": "Ciudad de México",
+    "destinationName": "Ciudad de México, CDMX",
+    "destinationTagline": "Tradición y modernidad en la gran capital.",
+    "buttonText": "Explorar CDMX",
+    "buttonLink": "../../boletos-de-autobus-a-cdmx.html"
+  },
+  {
+    "imageSrc": "src/assets/img/destinos-img/chilpancingo-m.webp",
+    "imageAlt": "Chilpancingo",
+    "destinationName": "Chilpancingo, Guerrero",
+    "destinationTagline": "La capital del estado con historia y cultura.",
+    "buttonText": "Explorar Chilpancingo",
+    "buttonLink": "../../boletos-de-autobus-a-chilpancingo.html"
+  },
+  {
+    "imageSrc": "src/assets/img/destinos-img/coyuca-m.webp",
+    "imageAlt": "Coyuca de Benítez",
+    "destinationName": "Coyuca de Benítez, Guerrero",
+    "destinationTagline": "Laguna, mar y naturaleza en un solo lugar.",
+    "buttonText": "Explorar Coyuca",
+    "buttonLink": "../../boletos-de-autobus-a-coyuca.html"
+  },
+  {
+    "imageSrc": "src/assets/img/destinos-img/cuernavaca-m.webp",
+    "imageAlt": "Cuernavaca",
+    "destinationName": "Cuernavaca, Morelos",
+    "destinationTagline": "La ciudad de la eterna primavera.",
+    "buttonText": "Explorar Cuernavaca",
+    "buttonLink": "../../boletos-de-autobus-a-cuernavaca.html"
+  },
+  {
+    "imageSrc": "src/assets/img/destinos-img/iguala-m.webp",
+    "imageAlt": "Iguala",
+    "destinationName": "Iguala, Guerrero",
+    "destinationTagline": "Cuna de la Bandera Nacional.",
+    "buttonText": "Explorar Iguala",
+    "buttonLink": "../../boletos-de-autobus-a-iguala.html"
+  },
+  {
+    "imageSrc": "src/assets/img/destinos-img/taxco-m.webp",
+    "imageAlt": "Taxco",
+    "destinationName": "Taxco, Guerrero",
+    "destinationTagline": "Pueblo mágico y joya colonial de plata.",
+    "buttonText": "Explorar Taxco",
+    "buttonLink": "../../boletos-de-autobus-a-taxco.html"
+  },
+  {
+    "imageSrc": "src/assets/img/destinos-img/tecpan-m.webp",
+    "imageAlt": "Tecpan de Galeana",
+    "destinationName": "Tecpan, Guerrero",
+    "destinationTagline": "Naturaleza, costa y cultura local.",
+    "buttonText": "Explorar Tecpan",
+    "buttonLink": "../../boletos-de-autobus-a-tecpan.html"
+  },
+  {
+    "imageSrc": "src/assets/img/destinos-img/zihuatanejo-m.webp",
+    "imageAlt": "Zihuatanejo",
+    "destinationName": "Zihuatanejo, Guerrero",
+    "destinationTagline": "Playas tranquilas y encanto pesquero.",
+    "buttonText": "Explorar Zihuatanejo",
+    "buttonLink": "../../boletos-de-autobus-a-zihuatanejo.html"
+  }
+]
