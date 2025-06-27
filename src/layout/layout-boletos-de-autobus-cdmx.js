@@ -25,9 +25,9 @@ class AppBoletosAutobusCdmx extends HTMLElement {
             <section class="__section __section__destiny__destinations">
                 <app-section-title section-title="Viaja a la Ciudad de México en autobús con Costa Line"></app-section-title>
                 <p class="__subtitle__destinos">Ciudad de México</p>
-                <p class="__paragraph">Ciudad Altamirano, un importante centro económico y cultural en la región de Tierra Caliente de Guerrero, ofrece una mezcla de tradiciones locales, hospitalidad cálida y una conexión auténtica con la vida rural mexicana. Costa Line le conecta con este destino significativo a través de su servicio de autobús, brindando una experiencia de viaje segura y cómoda desde diversos puntos. Ya sea que viaje por negocios, familia o para explorar la región, Costa Line le garantiza un traslado placentero hacia Ciudad Altamirano.</p>
+                <p class="__paragraph">Ciudad de México, la metrópoli vibrante y corazón cultural del país, es un crisol de historia, arte, gastronomía y modernidad. Costa Line le conecta con esta fascinante urbe a través de su servicio de autobús de lujo desde diversos puntos del país, brindando una experiencia de viaje segura, cómoda y sin estrés. Ya sea que planee explorar sus sitios históricos, sumergirse en su escena artística o disfrutar de su animada vida nocturna, Costa Line le garantiza que su viaje será tan memorable como su destino.</p>
                 <p class="__subtitle__destinos">¿Que lugares visitar en la Ciudad de México?</p>
-                <p class="__paragraph">Bienvenido a Ciudad Altamirano, un importante centro urbano en la región de Tierra Caliente del estado de Guerrero, en el corazón del sur de México. Conocida por su dinamismo comercial y su rica cultura regional, Ciudad Altamirano es un lugar que combina la actividad de su vida cotidiana con la calidez y hospitalidad de su gente. Rodeada por el paisaje característico de la Tierra Caliente, esta ciudad ofrece experiencias auténticas y una conexión genuina con la vida del estado de Guerrero.</p>
+                <p class="__paragraph">Bienvenido a Ciudad de México, una metrópoli vibrante y palpitante ubicada en el corazón del país. Conocida por su rica historia, su diversidad cultural y su energía inagotable, Ciudad de México es un lugar donde convergen tradiciones ancestrales y tendencias modernas. Rodeada por un impresionante paisaje montañoso, esta ciudad ofrece una experiencia inmersiva en la esencia misma de México, una conexión profunda con su pasado, presente y futuro.</p>
              </section>
 
               <section class="__section__grid" id="destiny-grid-section">
@@ -36,7 +36,7 @@ class AppBoletosAutobusCdmx extends HTMLElement {
 
               <section class="__section __section__destiny__food">
                 <p class="__subtitle__destinos">Gastronomia</p>
-                <p class="__paragraph__xl">Ciudad Altamirano, puerta de entrada a la Tierra Caliente, es un destino donde la gastronomía refleja la autenticidad y calidez de su gente. Su cocina, impregnada de tradiciones indígenas y costumbres ganaderas, ofrece un mosaico de sabores robustos y generosos. Aquí, la tierra fértil y el río Balsas se unen para crear ingredientes únicos que dan vida a platillos que narran la historia de una región orgullosa de sus raíces.</p>
+                <p class="__paragraph__xl">Ciudad de México, epicentro cultural del país, es un destino donde la gastronomía refleja la diversidad y la innovación de su gente. Su cocina, enriquecida por siglos de influencias y las aportaciones de todas las regiones de México, ofrece un caleidoscopio de sabores sofisticados y reconfortantes. Aquí, los mercados bulliciosos y los restaurantes de vanguardia se unen para crear ingredientes únicos que dan vida a platillos que narran la historia de una metrópoli orgullosa de su evolución.</p>
                  <article class="container-cards__food">
                     <app-card-open-modal cards-data-src="../src/data/card-open-modal-platillos-cd-altamirano.json"></app-card-open-modal>
                 </article>
