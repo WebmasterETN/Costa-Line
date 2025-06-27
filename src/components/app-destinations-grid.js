@@ -64,7 +64,6 @@ class AppDestinationsGrid extends HTMLElement {
             }"
               class="destinations__item__text destination__item__text--slide"
               rel="noopener noreferrer"
-              target="_blank"
               aria-label="Ir a ${destination.title}"
               title="Ir a ${destination.title}">
               <h3 class="destinations__item__text__title">${

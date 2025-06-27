@@ -80,6 +80,12 @@ class LayoutOfertasClick extends HTMLElement {
                 </article>
             </section>
         
+
+
+
+
+
+            
             <section class="__sections">
                 <article class="__bg-white">
                     <h3 class="__subtitle-section">Políticas de Pagos Referenciados Ofertas en 1 Click:</h3>

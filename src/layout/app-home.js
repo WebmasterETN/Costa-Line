@@ -45,18 +45,17 @@ class AppHome extends HTMLElement {
             <app-list-destinations></app-list-destinations>
             
             <app-destinations-grid
-                titlesText='[
-                {"id": "title1", "title": "Destinos Costa Line", "text": "Para los amantes de destinos cálidos"}
-                ]'
+                titlesText='[{"id": "title1", "title": "Mas destinos Costa Line", "text": "Prepara tu proxima aventura"}]'
                 destinations='[
-                {"id": "destination1", "title": "Acapulco", "content": "Relájate en las playas doradas de Acapulco.", "image": "./src/assets/img/destinos-img/acapulco.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
-                {"id": "destination2", "title": "Chilpancingo", "content": "Explora la historia y cultura de Chilpancingo.", "image": "./src/assets/img/destinos-img/morelia.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
-                {"id": "destination3", "title": "Cuernavaca", "content": "Disfruta del eterno clima primaveral de Cuernavaca.", "image": "./src/assets/img/destinos-img/cuernavaca.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
-                {"id": "destination4", "title": "Taxco", "content": "Déjate sorprender por la magia colonial de Taxco.", "image": "./src/assets/img/destinos-img/taxco.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
-                {"id": "destination5", "title": "Ixtapa", "content": "Sumérgete en las playas paradisíacas de Ixtapa.", "image": "./src/assets/img/destinos-img/ixtapa.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"}
-                ]'
-            >
+                    {"id": "destination5", "title": "Tecpan", "content": "Conecta con la naturaleza entre playas tranquilas, ríos y montañas de la Costa Grande.", "image": "./src/assets/img/destinos-img/tecpan/tecpan-m.webp", "link": "../../boletos-de-autobus-a-tecpan.html"},
+                    {"id": "destination3", "title": "Coyuca de Benítez", "content": "Relájate entre lagunas, playas vírgenes y paisajes tropicales llenos de vida.", "image": "./src/assets/img/destinos-img/coyuca-de-benitez/coyuca-m.webp", "link": "../../boletos-de-autobus-a-coyuca-de-benitez.html"},
+                    {"id": "destination4", "title": "Iguala", "content": "Conoce la cuna de la Bandera Nacional y disfruta su historia y joyería de plata.", "image": "./src/assets/img/destinos-img/iguala/iguala-m.webp", "link": "../../boletos-de-autobus-a-iguala.html"},
+                    {"id": "destination1", "title": "Ciudad de México", "content": "Vive la mezcla perfecta entre historia, modernidad y cultura en la capital del país.", "image": "./src/assets/img/destinos-img/cdmx/cdmx-m.webp", "link": "../../boletos-de-autobus-a-cdmx.html"},
+                    {"id": "destination2", "title": "Ciudad Altamirano", "content": "Descubre el corazón cálido de la Tierra Caliente, con tradiciones y paisajes únicos.", "image": "./src/assets/img/destinos-img/cd-altamirano/cd-altamirano-m.webp", "link": "../../boletos-de-autobus-a-cd-altamirano.html"}
+
+                    ]'>
             </app-destinations-grid>
+
             
             <app-other-services
                 section-title-id="other-programs-section"
