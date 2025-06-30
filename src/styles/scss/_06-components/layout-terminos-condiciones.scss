@@ -12,6 +12,7 @@
 @import './section-title';
 @import './table-pets';
 @import './footer';
+@import './app-destinations-table';
 @import './cookies-policy';
 
 /*-------------------ESTILOS ESPECIFICOS PARA LAS SECCIONES DE RENTA DE AUTOBUSES---------------------*/
@@ -258,4 +259,15 @@ ol.__terms-purchase-list {
         color: $primary-color;
         transition: all 0.3s ease-in-out;
     }
+}
+
+.__title__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: $primary-color;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 10px;
 }
