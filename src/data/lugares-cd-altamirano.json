@@ -33,14 +33,14 @@
       "description": "¿Por qué visitarla? El Mercado Municipal de Ciudad Altamirano es una experiencia sensorial que captura la esencia de la Tierra Caliente guerrerense. Aquí los aromas de barbacoa de chivo, pozole verde y tamales de iguana te guiarán entre puestos llenos de color, donde productores locales ofrecen desde especias hasta artesanías. Es el mejor lugar para probar platillos auténticos como las carnitas estilo Guerrero o los atoles de sabores, preparados al instante. Más que un sitio de compras, es un espacio de encuentro social donde la calidez de su gente y las historias detrás de cada puesto revelan la identidad cultural de la región."
     },
     {
-      "id": "quebrada-acapulco",
-      "text": "La Quebrada de Acapulco",
+      "id": "catedral-cd-altamirano",
+      "text": "Catedral de Ciudad Altamirano",
       "className": "",
-      "backgroundImage": "src/assets/img/destinos-img/acapulco/quebrada-acapulco.webp",
-      "image2":"src/assets/img/destinos-img/acapulco/quebrada-acapulco-2.webp",
-      "image3":"src/assets/img/destinos-img/acapulco/quebrada-acapulco-3.webp",
-      "image4":"src/assets/img/destinos-img/acapulco/quebrada-acapulco-4.webp",
-      "title": "Quebrada de Acapulco",
-      "description": "La Quebrada, ubicada en la zona tradicional de Acapulco, es un espectáculo icónico dedicado a la tradición y valentía de sus mundialmente famosos clavadistas. Situada en un acantilado de 45 metros, la atracción ofrece demostraciones en vivo donde los clavadistas realizan impresionantes saltos al mar, un ritual que se ha transmitido por generaciones. Los visitantes también pueden disfrutar de vistas panorámicas del espectáculo y del Océano Pacífico desde el mirador público."
+      "backgroundImage": "src/assets/img/destinos-img/cd-altamirano/catedral-cd-altamirano.webp",
+      "image2":"src/assets/img/destinos-img/cd-altamirano/catedral-cd-altamirano-2.webp",
+      "image3":"src/assets/img/destinos-img/cd-altamirano/catedral-cd-altamirano-3.webp",
+      "image4":"src/assets/img/destinos-img/cd-altamirano/catedral-cd-altamirano-4.webp",
+      "title": "Catedral de Ciudad Altamirano",
+      "description": "¿Por qué visitarla? La Catedral de Ciudad Altamirano, también conocida como la Catedral de San Juan Bautista, es un imponente hito arquitectónico y un importante centro espiritual en la región. Construida a mediados del siglo XX, su fachada combina elementos neogóticos y modernos. Los visitantes pueden admirar sus altas torres, el rosetón central y los detalles ornamentales que narran pasajes bíblicos. En su interior, la luz natural que se filtra a través de los vitrales ilumina el altar mayor y las naves, creando un ambiente de recogimiento y belleza. La catedral es un punto de referencia para la comunidad y un testimonio de la fe y la historia de Ciudad Altamirano."
     }
   ]

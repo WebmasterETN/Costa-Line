@@ -1,0 +1,46 @@
+[
+  {
+    "id": "laguna-de-coyuca",
+    "text": "Laguna de Coyuca de Benítez",
+    "className": "card-wide",
+    "backgroundImage": "src/assets/img/destinos-img/coyuca-de-benitez/laguna-coyuca.webp",
+    "image2": "src/assets/img/destinos-img/coyuca-de-benitez/laguna-coyuca-2.webp",
+    "image3": "src/assets/img/destinos-img/coyuca-de-benitez/laguna-coyuca-3.webp",
+    "image4": "src/assets/img/destinos-img/coyuca-de-benitez/laguna-coyuca-4.webp",
+    "title": "Laguna de Coyuca de Benítez",
+    "description": "¿Por qué visitarla? La Laguna de Coyuca de Benítez, ubicada cerca de Acapulco, es un impresionante oasis natural. Este cuerpo de agua dulce, separado del océano Pacífico por una estrecha franja de tierra, alberga una rica biodiversidad. Los visitantes pueden realizar paseos en lancha para admirar la exuberante vegetación, observar aves acuáticas y disfrutar de la tranquilidad del entorno. Se ofrecen recorridos guiados que explican la importancia ecológica de la laguna y su impacto en la vida de la comunidad local. Además, los restaurantes a orillas de la laguna ofrecen deliciosos platillos de mariscos frescos, complementando la experiencia con sabores auténticos de la región."
+  },
+  {
+    "id": "cascada-el-salto",
+    "text": "Cascada el Salto",
+    "className": "card-tall",
+    "backgroundImage": "src/assets/img/destinos-img/coyuca-de-benitez/cascada-el-salto.webp",
+    "image2": "src/assets/img/destinos-img/coyuca-de-benitez/cascada-el-salto-2.webp",
+    "image3": "src/assets/img/destinos-img/coyuca-de-benitez/cascada-el-salto-3.webp",
+    "image4": "src/assets/img/destinos-img/coyuca-de-benitez/cascada-el-salto-4.webp",
+    "title": "Cascada el Salto",
+    "description": "¿Por qué visitarla? La Cascada El Salto, cerca de Coyuca de Benítez, es un impresionante espectáculo natural de agua y roca. Esta cascada, alimentada por un río que serpentea entre la vegetación tropical, ofrece un refrescante escape del calor costero. Los visitantes pueden disfrutar de la vista del agua que cae desde las alturas, nadar en las pozas naturales que se forman en la base de la cascada y explorar los alrededores a través de senderos en la selva. Se puede contratar a guías locales para conocer la flora y fauna de la zona y disfrutar de la aventura de manera segura. La cascada es un lugar ideal para conectar con la naturaleza y disfrutar de un día de aventura y relajación."
+  },
+  {
+    "id": "mercado-municipal",
+    "text": "Mercado Municipal",
+    "className": "",
+    "backgroundImage": "src/assets/img/destinos-img/coyuca-de-benitez/.webp",
+    "image2": "src/assets/img/destinos-img/coyuca-de-benitez/-2.webp",
+    "image3": "src/assets/img/destinos-img/coyuca-de-benitez/-3.webp",
+    "image4": "src/assets/img/destinos-img/coyuca-de-benitez/-4.webp",
+    "title": "Mercado Municipal",
+    "description": "¿Por qué visitarla? El Mercado Municipal de Ciudad Altamirano es una experiencia sensorial que captura la esencia de la Tierra Caliente guerrerense. Aquí los aromas de barbacoa de chivo, pozole verde y tamales de iguana te guiarán entre puestos llenos de color, donde productores locales ofrecen desde especias hasta artesanías. Es el mejor lugar para probar platillos auténticos como las carnitas estilo Guerrero o los atoles de sabores, preparados al instante. Más que un sitio de compras, es un espacio de encuentro social donde la calidez de su gente y las historias detrás de cada puesto revelan la identidad cultural de la región."
+  },
+  {
+    "id": "quebrada-acapulco",
+    "text": "La Quebrada de Acapulco",
+    "className": "",
+    "backgroundImage": "src/assets/img/destinos-img/coyuca-de-benitez/.webp",
+    "image2": "src/assets/img/destinos-img/coyuca-de-benitez/-2.webp",
+    "image3": "src/assets/img/destinos-img/coyuca-de-benitez/-3.webp",
+    "image4": "src/assets/img/destinos-img/coyuca-de-benitez/-4.webp",
+    "title": "Quebrada de Acapulco",
+    "description": "La Quebrada, ubicada en la zona tradicional de Acapulco, es un espectáculo icónico dedicado a la tradición y valentía de sus mundialmente famosos clavadistas. Situada en un acantilado de 45 metros, la atracción ofrece demostraciones en vivo donde los clavadistas realizan impresionantes saltos al mar, un ritual que se ha transmitido por generaciones. Los visitantes también pueden disfrutar de vistas panorámicas del espectáculo y del Océano Pacífico desde el mirador público."
+  }
+]
