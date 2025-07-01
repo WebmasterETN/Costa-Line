@@ -17,7 +17,7 @@ class AppBoletosAutobusCoyucaDeBenitez extends HTMLElement {
             <app-cotiza></app-cotiza>
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/cd-altamirano-web.webp","mediumImage": "./src/assets/img/banner/tablet/cd-altamirano-tablet.webp", "smallImage": "./src/assets/img/banner/movil/cd-altamirano-mobile.webp", "link": "#index.html/banner1"}]'
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/coyuca-de-benitez-web.webp","mediumImage": "./src/assets/img/banner/tablet/coyuca-de-benitez-tablet.webp", "smallImage": "./src/assets/img/banner/movil/coyuca-de-benitez-mobile.webp", "link": "#index.html/banner1"}]'
             >
             </app-banner-slider>
             <app-payments></app-payments>

@@ -2,40 +2,40 @@
   {
     "title": "Pescado a la Talla",
     "description": "Tradición de la costa de Guerrero, el Pescado a la Talla es un huachinango fresco abierto y asado a las brasas. Su secreto: dos adobos. Uno rojo, de chiles secos, y otro verde, de ajo y perejil. Un manjar ahumado y jugoso que define el sabor auténtico de Acapulco.",
-    "imageSrc": "src/assets/img/platillos/acapulco/pescado-a-la-talla.webp",
-    "imageModal": "src/assets/img/platillos/acapulco/pescado-a-la-talla-m.webp",
+    "imageSrc": "src/assets/img/platillos/coyuca-de-benitez/.webp",
+    "imageModal": "src/assets/img/platillos/coyuca-de-benitez/-m.webp",
     "altText": "Pescado a la Talla de Acapulco",
     "linkText": "Ver..."
   },
   {
     "title": "Ceviche Acapulqueño",
     "description": "El clásico de la costa: pescado fresco en cubos marinado en limón, con jitomate, cebolla y cilantro. Su secreto es el toque agridulce de naranja o catsup. Se corona con aguacate y se come con galletas saladas. ¡Refrescante, ligero y delicioso.",
-    "imageSrc": "src/assets/img/platillos/acapulco/ceviche-acapulqueño.webp",
-    "imageModal": "src/assets/img/platillos/acapulco/ceviche-acapulqueño-m.webp",
+    "imageSrc": "src/assets/img/platillos/coyuca-de-benitez/.webp",
+    "imageModal": "src/assets/img/platillos/coyuca-de-benitez/-m.webp",
     "altText": "Ceviche Acapulqueño",
     "linkText": "Ver..."
   },
   {
     "title": "Camarones al Cocoro",
     "description": "Platillo insignia de Acapulco. Jugosos camarones cocinados lentamente en una cremosa salsa a base de pulpa y leche de coco fresco, con un toque de ajo. Se sirve dentro del mismo coco, creando una experiencia tropical, exótica y absolutamente deliciosa. ¡El sabor del paraíso.",
-    "imageSrc": "src/assets/img/platillos/acapulco/camarones-al-cocoro.webp",
-    "imageModal": "src/assets/img/platillos/acapulco/camarones-al-cocoro-m.webp",
+    "imageSrc": "src/assets/img/platillos/coyuca-de-benitez/.webp",
+    "imageModal": "src/assets/img/platillos/coyuca-de-benitez/-m.webp",
     "altText": "Camarones al Cocoro",
     "linkText": "Ver..."
   },
   {
     "title": "Coco Loco",
     "description": "El cóctel emblemático de Acapulco, servido directamente en un coco fresco. Es una audaz y potente mezcla de licores con la dulzura del agua y crema de coco. La bebida del paraíso: tropical, refrescante y deliciosamente adictiva. ¡La fiesta hecha bebida!",
-    "imageSrc": "src/assets/img/platillos/acapulco/coco-loco.webp",
-    "imageModal": "src/assets/img/platillos/acapulco/coco-loco-m.webp",
+    "imageSrc": "src/assets/img/platillos/coyuca-de-benitez/.webp",
+    "imageModal": "src/assets/img/platillos/coyuca-de-benitez/-m.webp",
     "altText": "Coco Loco",
     "linkText": "Ver..."
   },
   {
     "title": "Tititas de Huachinango",
     "description": "Tiritas de Huachinango es un platillo típico de Guerrero, hecho con filetes de pescado crudo marinados en jugo de limón, cebolla morada y chile verde. Fresco, picante y lleno de sabor, es una joya costeña nacida del ingenio de pescadores en altamar.",
-    "imageSrc": "src/assets/img/platillos/acapulco/tiritas-huachinango.webp",
-    "imageModal": "src/assets/img/platillos/acapulco/tiritas-huachinango-m.webp",
+    "imageSrc": "src/assets/img/platillos/coyuca-de-benitez/.webp",
+    "imageModal": "src/assets/img/platillos/coyuca-de-benitez/-m.webp",
     "altText": "Tiritas de Huachinango",
     "linkText": "Ver..."
   }

@@ -38,7 +38,7 @@ class AppBoletosAutobusCdmx extends HTMLElement {
                 <p class="__subtitle__destinos">Gastronomia</p>
                 <p class="__paragraph__xl">Ciudad de México, epicentro cultural del país, es un destino donde la gastronomía refleja la diversidad y la innovación de su gente. Su cocina, enriquecida por siglos de influencias y las aportaciones de todas las regiones de México, ofrece un caleidoscopio de sabores sofisticados y reconfortantes. Aquí, los mercados bulliciosos y los restaurantes de vanguardia se unen para crear ingredientes únicos que dan vida a platillos que narran la historia de una metrópoli orgullosa de su evolución.</p>
                  <article class="container-cards__food">
-                    <app-card-open-modal cards-data-src="../src/data/card-open-modal-platillos-cd-altamirano.json"></app-card-open-modal>
+                    <app-card-open-modal cards-data-src="../src/data/card-open-modal-platillos-cdmx.json"></app-card-open-modal>
                 </article>
              </section>
 

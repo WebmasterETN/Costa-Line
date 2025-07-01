@@ -1,46 +1,46 @@
 [
-    {
-      "id": "rio-cutzamala",
-      "text": "Río Cutzamala",
-      "className": "card-wide",
-      "backgroundImage": "src/assets/img/destinos-img/cd-altamirano/rio-cutzamala.webp",
-      "image2":"src/assets/img/destinos-img/cd-altamirano/rio-cutzamala-2.webp",
-      "image3":"src/assets/img/destinos-img/cd-altamirano/rio-cutzamala-3.webp",
-      "image4":"src/assets/img/destinos-img/cd-altamirano/rio-cutzamala-4.webp",
-      "title": "Río Cutzamala",
-      "description": "¿Por qué visitarlo? El Río Cutzamala (Malecón de Altamirano) es un lugar perfecto para relajarse y disfrutar del ambiente tranquilo de la región. Con su paseo ribereño, es ideal para caminar al atardecer, probar antojitos locales como quesadillas y pozole, o incluso dar un paseo en lancha. Los fines de semana se llena de familias y vendedores ambulantes, creando un ambiente festivo. Además, su cercanía al centro lo hace accesible y es uno de los pocos espacios públicos donde los turistas pueden conectar con la vida cotidiana de los altamiranenses."
-    },
-    {
-      "id": "zocalo-ciudad-altamirano",
-      "text": "Zocalo de Ciudad Altamirano",
-      "className": "card-tall",
-      "backgroundImage": "src/assets/img/destinos-img/cd-altamirano/zocalo-cd-altamirano.webp",
-      "image2":"src/assets/img/destinos-img/cd-altamirano/zocalo-cd-altamirano-2.webp",
-      "image3":"src/assets/img/destinos-img/cd-altamirano/zocalo-cd-altamirano-3.webp",
-      "image4":"src/assets/img/destinos-img/cd-altamirano/zocalo-cd-altamirano-4.webp",
-      "title": "Zocalo de Ciudad Altamirano",
-      "description": "¿Por qué visitarla? El Zócalo de Ciudad Altamirano es el corazón social y cultural de la ciudad, un lugar lleno de vida donde convergen tradición y vida cotidiana. Rodeado de portales, pequeños comercios y el emblemático Templo de San Juan Bautista, es ideal para probar nieves artesanales, café de olla o antojitos como gorditas y enchiladas. Los fines de semana, la plaza se anima con música, familias y eventos culturales, mientras que sus bancas y jardines ofrecen un espacio para relajarse bajo la sombra de árboles. Es el punto de partida para explorar la esencia de Altamirano: sencillo, auténtico y lleno de calidez guerrerense. Un must para vivir el ritmo local."
-    },
-    {
-      "id": "mercado-municipal",
-      "text": "Mercado Municipal",
-      "className": "",
-      "backgroundImage": "src/assets/img/destinos-img/cd-altamirano/mercado-municipal.webp",
-      "image2":"src/assets/img/destinos-img/cd-altamirano/mercado-municipal-2.webp",
-      "image3":"src/assets/img/destinos-img/cd-altamirano/mercado-municipal-3.webp",
-      "image4":"src/assets/img/destinos-img/cd-altamirano/mercado-municipal-4.webp",
-      "title": "Mercado Municipal",
-      "description": "¿Por qué visitarla? El Mercado Municipal de Ciudad Altamirano es una experiencia sensorial que captura la esencia de la Tierra Caliente guerrerense. Aquí los aromas de barbacoa de chivo, pozole verde y tamales de iguana te guiarán entre puestos llenos de color, donde productores locales ofrecen desde especias hasta artesanías. Es el mejor lugar para probar platillos auténticos como las carnitas estilo Guerrero o los atoles de sabores, preparados al instante. Más que un sitio de compras, es un espacio de encuentro social donde la calidez de su gente y las historias detrás de cada puesto revelan la identidad cultural de la región."
-    },
-    {
-      "id": "quebrada-acapulco",
-      "text": "La Quebrada de Acapulco",
-      "className": "",
-      "backgroundImage": "src/assets/img/destinos-img/acapulco/quebrada-acapulco.webp",
-      "image2":"src/assets/img/destinos-img/acapulco/quebrada-acapulco-2.webp",
-      "image3":"src/assets/img/destinos-img/acapulco/quebrada-acapulco-3.webp",
-      "image4":"src/assets/img/destinos-img/acapulco/quebrada-acapulco-4.webp",
-      "title": "Quebrada de Acapulco",
-      "description": "La Quebrada, ubicada en la zona tradicional de Acapulco, es un espectáculo icónico dedicado a la tradición y valentía de sus mundialmente famosos clavadistas. Situada en un acantilado de 45 metros, la atracción ofrece demostraciones en vivo donde los clavadistas realizan impresionantes saltos al mar, un ritual que se ha transmitido por generaciones. Los visitantes también pueden disfrutar de vistas panorámicas del espectáculo y del Océano Pacífico desde el mirador público."
-    }
-  ]
+  {
+    "id": "laguna-de-coyuca",
+    "text": "Laguna de Coyuca de Benítez",
+    "className": "card-wide",
+    "backgroundImage": "src/assets/img/destinos-img/coyuca-de-benitez/laguna-coyuca.webp",
+    "image2": "src/assets/img/destinos-img/coyuca-de-benitez/laguna-coyuca-2.webp",
+    "image3": "src/assets/img/destinos-img/coyuca-de-benitez/laguna-coyuca-3.webp",
+    "image4": "src/assets/img/destinos-img/coyuca-de-benitez/laguna-coyuca-4.webp",
+    "title": "Laguna de Coyuca de Benítez",
+    "description": "¿Por qué visitarla? La Laguna de Coyuca de Benítez, ubicada cerca de Acapulco, es un impresionante oasis natural. Este cuerpo de agua dulce, separado del océano Pacífico por una estrecha franja de tierra, alberga una rica biodiversidad. Los visitantes pueden realizar paseos en lancha para admirar la exuberante vegetación, observar aves acuáticas y disfrutar de la tranquilidad del entorno. Se ofrecen recorridos guiados que explican la importancia ecológica de la laguna y su impacto en la vida de la comunidad local. Además, los restaurantes a orillas de la laguna ofrecen deliciosos platillos de mariscos frescos, complementando la experiencia con sabores auténticos de la región."
+  },
+  {
+    "id": "cascada-el-salto",
+    "text": "Cascada el Salto",
+    "className": "card-tall",
+    "backgroundImage": "src/assets/img/destinos-img/coyuca-de-benitez/cascada-el-salto.webp",
+    "image2": "src/assets/img/destinos-img/coyuca-de-benitez/cascada-el-salto-2.webp",
+    "image3": "src/assets/img/destinos-img/coyuca-de-benitez/cascada-el-salto-3.webp",
+    "image4": "src/assets/img/destinos-img/coyuca-de-benitez/cascada-el-salto-4.webp",
+    "title": "Cascada el Salto",
+    "description": "¿Por qué visitarla? La Cascada El Salto, cerca de Coyuca de Benítez, es un impresionante espectáculo natural de agua y roca. Esta cascada, alimentada por un río que serpentea entre la vegetación tropical, ofrece un refrescante escape del calor costero. Los visitantes pueden disfrutar de la vista del agua que cae desde las alturas, nadar en las pozas naturales que se forman en la base de la cascada y explorar los alrededores a través de senderos en la selva. Se puede contratar a guías locales para conocer la flora y fauna de la zona y disfrutar de la aventura de manera segura. La cascada es un lugar ideal para conectar con la naturaleza y disfrutar de un día de aventura y relajación."
+  },
+  {
+    "id": "mercado-municipal",
+    "text": "Mercado Municipal",
+    "className": "",
+    "backgroundImage": "src/assets/img/destinos-img/coyuca-de-benitez/.webp",
+    "image2": "src/assets/img/destinos-img/coyuca-de-benitez/-2.webp",
+    "image3": "src/assets/img/destinos-img/coyuca-de-benitez/-3.webp",
+    "image4": "src/assets/img/destinos-img/coyuca-de-benitez/-4.webp",
+    "title": "Mercado Municipal",
+    "description": "¿Por qué visitarla? El Mercado Municipal de Ciudad Altamirano es una experiencia sensorial que captura la esencia de la Tierra Caliente guerrerense. Aquí los aromas de barbacoa de chivo, pozole verde y tamales de iguana te guiarán entre puestos llenos de color, donde productores locales ofrecen desde especias hasta artesanías. Es el mejor lugar para probar platillos auténticos como las carnitas estilo Guerrero o los atoles de sabores, preparados al instante. Más que un sitio de compras, es un espacio de encuentro social donde la calidez de su gente y las historias detrás de cada puesto revelan la identidad cultural de la región."
+  },
+  {
+    "id": "quebrada-acapulco",
+    "text": "La Quebrada de Acapulco",
+    "className": "",
+    "backgroundImage": "src/assets/img/destinos-img/coyuca-de-benitez/.webp",
+    "image2": "src/assets/img/destinos-img/coyuca-de-benitez/-2.webp",
+    "image3": "src/assets/img/destinos-img/coyuca-de-benitez/-3.webp",
+    "image4": "src/assets/img/destinos-img/coyuca-de-benitez/-4.webp",
+    "title": "Quebrada de Acapulco",
+    "description": "La Quebrada, ubicada en la zona tradicional de Acapulco, es un espectáculo icónico dedicado a la tradición y valentía de sus mundialmente famosos clavadistas. Situada en un acantilado de 45 metros, la atracción ofrece demostraciones en vivo donde los clavadistas realizan impresionantes saltos al mar, un ritual que se ha transmitido por generaciones. Los visitantes también pueden disfrutar de vistas panorámicas del espectáculo y del Océano Pacífico desde el mirador público."
+  }
+]
