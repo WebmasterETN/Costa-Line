@@ -32,8 +32,13 @@ class AppDropdown extends HTMLElement {
   _renderSingleItem() {
     this._clearEventListeners();
     const title = this.getAttribute("title-dropdown") || "Título del Dropdown";
-    const content =
-      this.getAttribute("content-dropdown") || "Contenido no disponible.";
+    let content;
+    try {
+      content = JSON.parse(this.getAttribute("content-dropdown"));
+    } catch {
+      content =
+        this.getAttribute("content-dropdown") || "Contenido no disponible.";
+    }
     this.innerHTML = this._getDropdownItemHTML(title, content);
     this._attachToggleBehavior(
       this.querySelector(".app-dropdown__title-button")
@@ -61,9 +66,10 @@ class AppDropdown extends HTMLElement {
 
       let allItemsHTML = "";
       itemsData.forEach((item) => {
-        const title = item["title-dropdown"] || "Título no disponible";
-        const content = item["content-dropdown"] || "Contenido no disponible.";
-        allItemsHTML += this._getDropdownItemHTML(title, content);
+        allItemsHTML += this._getDropdownItemHTML(
+          item["title-dropdown"],
+          item["content-dropdown"]
+        );
       });
 
       this.innerHTML = allItemsHTML;
@@ -82,6 +88,8 @@ class AppDropdown extends HTMLElement {
   }
 
   _getDropdownItemHTML(title, content) {
+    let contentHTML = this._renderContent(content);
+
     return `
       <div class="app-dropdown__item">
         <button type="button" class="app-dropdown__title-button" aria-expanded="false">
@@ -96,11 +104,105 @@ class AppDropdown extends HTMLElement {
         </button>
         <div class="app-dropdown__content-panel" style="overflow: hidden; max-height: 0; transition: max-height 0.3s ease;">
           <div class="app-dropdown__content-inner">
-            ${content}
+            ${contentHTML}
           </div>
         </div>
       </div>
     `;
+  }
+
+  _renderContent(content) {
+    if (!content) return "<p>Contenido no disponible.</p>";
+
+    // Si es string plano, lo envuelve en <p>
+    if (typeof content === "string") {
+      return `<p>${content}</p>`;
+    }
+
+    // Si es objeto estructurado
+    if (typeof content === "object") {
+      // Soporte para bloques complejos (varios tipos en un array)
+      if (content.type === "complex" && Array.isArray(content.blocks)) {
+        return content.blocks
+          .map((block) => this._renderContent(block))
+          .join("");
+      }
+
+      // Párrafo
+      if (content.type === "paragraph") {
+        return `<p>${content.text}</p>`;
+      }
+
+      // Lista
+      if (content.type === "list" && Array.isArray(content.items)) {
+        return `<ul>${content.items
+          .map((item) => this._renderListItem(item))
+          .join("")}</ul>`;
+      }
+
+      // Tabla
+      if (content.type === "table" && Array.isArray(content.rows)) {
+        let headers = "";
+        if (Array.isArray(content.headers)) {
+          headers = `<tr>${content.headers
+            .map((h) => `<th>${h}</th>`)
+            .join("")}</tr>`;
+        }
+        const rows = content.rows
+          .map(
+            (row) =>
+              `<tr>${row.map((cell) => `<td>${cell}</td>`).join("")}</tr>`
+          )
+          .join("");
+        return `<table>${headers}${rows}</table>`;
+      }
+
+      // Imágenes
+      if (content.type === "images" && Array.isArray(content.images)) {
+        return `
+          <div class="dropdown-img-grid">
+            ${content.images
+              .map((img) => `<img src="${img.src}" alt="${img.alt || ""}">`)
+              .join("")}
+          </div>
+        `;
+      }
+    }
+
+    return "<p>Contenido no disponible.</p>";
+  }
+
+  _renderListItem(item) {
+    // Si es string simple
+    if (typeof item === "string") {
+      return `<li>${item}</li>`;
+    }
+    // Si es objeto con links
+    if (typeof item === "object") {
+      // Varios links
+      if (item.links) {
+        return `<li>${item.text} ${item.links
+          .map(
+            (link) => `<a href="${link.url}" target="_blank">${link.label}</a>`
+          )
+          .join(" y ")}</li>`;
+      }
+      // Teléfonos
+      if (item.phones) {
+        return `<li>${item.text} ${item.phones
+          .map((phone) => `<a href="tel:${phone.tel}">${phone.label}</a>`)
+          .join(" / ")}</li>`;
+      }
+      // Un solo link
+      if (item.link) {
+        return `<li><a href="${item.link}" target="_blank">${item.text}</a></li>`;
+      }
+      // Solo texto
+      if (item.text) {
+        return `<li>${item.text}</li>`;
+      }
+    }
+    return "";
   }
 
   _attachToggleBehavior(buttonElement) {

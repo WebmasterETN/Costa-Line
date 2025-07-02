@@ -46,7 +46,7 @@ class AppBoletosAutobusCuernavaca extends HTMLElement {
              <section class="__section __section__destiny__ask">
                 <app-section-title section-title="Preguntas Frecuentes"></app-section-title>
                  <article class="__grid-cards-container__dropdown" id="dropdowns-container">
-                    <app-dropdown items-src="../src/data/dropdown-preguntas-monterrey.json"></app-dropdown>
+                    <app-dropdown items-src="../src/data/dropdown-preguntas-cuernavaca.json"></app-dropdown>
                 </article>
              </section>
 
