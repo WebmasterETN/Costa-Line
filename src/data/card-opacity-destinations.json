@@ -21,7 +21,7 @@
     "destinationName": "Ciudad de México, CDMX",
     "destinationTagline": "Tradición y modernidad en la gran capital.",
     "buttonText": "Explorar CDMX",
-    "buttonLink": "../../boletos-de-autobus-a-cdmx.html"
+    "buttonLink": "../../boletos-de-autobus-a-ciudad-de-mexico.html"
   },
   {
     "imageSrc": "src/assets/img/destinos-img/chilpancingo/chilpancingo-m.webp",
@@ -37,7 +37,7 @@
     "destinationName": "Coyuca de Benítez, Guerrero",
     "destinationTagline": "Laguna, mar y naturaleza en un solo lugar.",
     "buttonText": "Explorar Coyuca",
-    "buttonLink": "../../boletos-de-autobus-a-coyuca.html"
+    "buttonLink": "../../boletos-de-autobus-a-coyuca-de-benitez.html"
   },
   {
     "imageSrc": "src/assets/img/destinos-img/cuernavaca/cuernavaca-m.webp",
