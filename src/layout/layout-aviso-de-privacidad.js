@@ -415,7 +415,7 @@ class LayoutAvisoDePrivacidad extends HTMLElement {
                         <h3 class="__subtitle-section">L. REVOCACIÓN DEL CONSENTIMIENTO</h3>
 
                         <p class="__terms-purchase-text">
-                            El consentimiento podrá ser revocado en cualquier momento sin que se le atribuyan efectos retroactivos. Para revocar el consentimiento el Titular debe de enviar una Solicitud por escrito a atencionaclientes@grupoaers.com.mx con los siguientes requisitos:
+                            El consentimiento podrá ser revocado en cualquier momento sin que se le atribuyan efectos retroactivos. Para revocar el consentimiento el Titular debe de enviar una Solicitud por escrito a <a class="__link-text" href="#">atencionaclientes@grupoaers.com.mx</a> con los siguientes requisitos:
                         </p>
                         
                         <ul class="__terms-purchase-list">
