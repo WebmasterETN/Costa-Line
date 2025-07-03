@@ -33,7 +33,7 @@ class AppFooter extends HTMLElement {
       {
         title: "Sobre la empresa",
         links: [
-          { text: "Acerca de nosotros", href: "#" },
+          { text: "Acerca de nosotros", href: "../../acerca-de-nosotros.html" },
           { text: "Bolsa de trabajo", href: "#" },
           { text: "Evalua tu viaje", href: "#" },
         ],

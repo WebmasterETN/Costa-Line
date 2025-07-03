@@ -173,6 +173,16 @@ ol.__terms-purchase-list {
     white-space: normal;
 }
 
+.__terms-purchase-text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $primary-color;
+    text-align: center;
+    font-size: 20px;
+
+}
+
 .__order-list-row {
     display: flex;
     align-items: center;
