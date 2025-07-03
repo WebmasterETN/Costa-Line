@@ -41,7 +41,10 @@ class AppFooter extends HTMLElement {
       {
         title: "Legales",
         links: [
-          { text: "Avisos de privacidad", href: "#" },
+          {
+            text: "Avisos de privacidad",
+            href: "../../aviso-de-privacidad.html",
+          },
           {
             text: "Términos y condiciones",
             href: "../terminos-condiciones.html",
