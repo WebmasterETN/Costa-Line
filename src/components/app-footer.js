@@ -54,7 +54,7 @@ class AppFooter extends HTMLElement {
       {
         title: "Servicio al cliente",
         links: [
-          { text: "Viaje protegido MAX", href: "#" },
+          { text: "Viaje protegido", href: "../../viajero-protegido.html" },
           { text: "Agencias", href: "#" },
         ],
       },

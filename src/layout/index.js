@@ -19,6 +19,7 @@ import "./layout-terminos-buen-fin.js?v=1.0.2";
 import "./layout-terminos-hot-sale.js?v=1.0.2";
 import "./layout-aviso-de-privacidad.js?v=1.0.2"; 
 import "./layout-acerca-de-nosotros.js?v=1.0.2";
+import "./layout-viajero-protegido.js?v=1.0.2";
 import "./layout-promociones.js?v=1.0.2";
 import "./layout-ofertas-en-1-click.js?v=1.0.2";
 import "./layout-festival-de-viajes.js?v=1.0.2";

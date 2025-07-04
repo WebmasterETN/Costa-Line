@@ -173,7 +173,7 @@ ol.__terms-purchase-list {
     white-space: normal;
 }
 
-.__terms-purchase-text-center{
+.__terms-purchase-text-center {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -356,5 +356,32 @@ ol.__terms-purchase-list {
 
     &:hover {
         background: darken($primary-color, 10%);
+    }
+}
+
+
+.__img-viajero-protegido-group {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 24px;
+
+    @include media("md") {
+        width: 100%;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+.__img-viajero-protegido {
+    width: calc(100% / 3 - 16px);
+    height: auto;
+    object-fit: contain;
+
+    @include media("md") {
+        width: 80%;
     }
 }

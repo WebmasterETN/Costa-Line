@@ -8,9 +8,9 @@ import "../js/slick.js?v=1.0.2";
 import "../components/app-destinations-table.js";
 
 class LayoutAcercaDeNosotros extends HTMLElement {
-  connectedCallback() {
+connectedCallback() {
     this.innerHTML = `
-           <app-cotiza></app-cotiza>
+        <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
 
@@ -20,7 +20,6 @@ class LayoutAcercaDeNosotros extends HTMLElement {
                 ]'
             >
             </app-banner-slider>
-
 
             <app-payments></app-payments>
 
@@ -35,18 +34,16 @@ class LayoutAcercaDeNosotros extends HTMLElement {
                     <p class="__terms-purchase-text">
                         Siempre seguros, siempre confiables, siempre precios bajos.
                     </p>
-                   
                 </article>
             </section>
 
-             <section class="__sections">
+            <section class="__sections">
                 <article class="__bg-white">
                     <h3 class="__subtitle-section">VISIÓN</h3>
 
                     <p class="__terms-purchase-text">
                         Ser la empresa número uno de conectividad de pasajeros con el mejor servicio al cliente y al menor costo
                     </p>
-                   
                 </article>
             </section>
 
@@ -57,14 +54,14 @@ class LayoutAcercaDeNosotros extends HTMLElement {
                     <p class="__terms-purchase-text">
                         En Autotransportes Estrella Roja del Sur estamos comprometidos en la movilidad de personas y sus pertenencias con seguridad, comodidad y atención personalizada a través de la mejora continua, eficacia y transparencia en nuestros procesos cumpliendo con los requisitos del cliente con las mejores prácticas de operación a menor costo.
                     </p>
-                   
+                
                 </article>
             </section>
 
             <section class="__sections">
                 <article class="__bg-white">
                     <h3 class="__subtitle-section">VALORES</h3>
-                     <ul class="__terms-purchase-list">
+                    <ul class="__terms-purchase-list">
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
                                 El cliente es primero
@@ -105,7 +102,7 @@ class LayoutAcercaDeNosotros extends HTMLElement {
                 </article>
             </section> 
     `;
-  }
+    }
 }
 
 customElements.define("layout-acerca-de-nosotros", LayoutAcercaDeNosotros);

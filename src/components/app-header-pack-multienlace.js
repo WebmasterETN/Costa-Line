@@ -41,7 +41,7 @@ class AppHeaderPackMultienlace extends HTMLElement {
             
             <div id="dropdown-menu" class="show">
                 <ul>
-                    <li><a href="../index.html" aria-label="Ir a inicio">ETN</a></li>
+                    <li><a href="../index.html" aria-label="Ir a inicio">COSTA LINE</a></li>
                     <li class="submenu__media-queries">
                         <a href="#" aria-label="Facturar su viaje" aria-haspopup="true" aria-expanded="false">DETAILS DEL SERVICIO <span class="icon-arrow-down"></span></a>
                         <ul>
