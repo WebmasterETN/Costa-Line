@@ -33,7 +33,7 @@ class AppFooter extends HTMLElement {
       {
         title: "Sobre la empresa",
         links: [
-          { text: "Acerca de nosotros", href: "#" },
+          { text: "Acerca de nosotros", href: "../../acerca-de-nosotros.html" },
           { text: "Bolsa de trabajo", href: "#" },
           { text: "Evalua tu viaje", href: "#" },
         ],
@@ -41,7 +41,10 @@ class AppFooter extends HTMLElement {
       {
         title: "Legales",
         links: [
-          { text: "Avisos de privacidad", href: "#" },
+          {
+            text: "Avisos de privacidad",
+            href: "../../aviso-de-privacidad.html",
+          },
           {
             text: "Términos y condiciones",
             href: "../terminos-condiciones.html",
@@ -51,7 +54,7 @@ class AppFooter extends HTMLElement {
       {
         title: "Servicio al cliente",
         links: [
-          { text: "Viaje protegido MAX", href: "#" },
+          { text: "Viaje protegido", href: "../../viajero-protegido.html" },
           { text: "Agencias", href: "#" },
         ],
       },
