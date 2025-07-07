@@ -7,7 +7,7 @@ import "../components/app-table-pets.js";
 import "../js/slick.js?v=1.0.2";
 import "../components/app-destinations-table.js";
 
-class LayoutViajeroProtegido extends HTMLElement {
+class LayoutViajeroProtegidoPlus extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
         <app-cotiza></app-cotiza>
@@ -24,16 +24,16 @@ class LayoutViajeroProtegido extends HTMLElement {
             <app-payments></app-payments>
 
             <section class="__section">
-                <app-section-title section-title="Términos y condiciones"></app-section-title>
+                <app-section-title section-title="Términos y condiciones PLUS"></app-section-title>
             </section>
 
             <div class="btn-group-pages">
-                <a class="btn-enable" href="../../viajero-protegido-plus.html" class="__btn">Servicio Plus</a>
-                <a class="btn-disable" class="__btn">Servicio Basico</a> 
+                <a class="btn-enable" href="../../viajero-protegido.html" class="__btn">Servicio Basico</a>
+                <a class="btn-disable" class="__btn">Servicio Plus</a> 
                 <a class="btn-enable" href="../../viajero-protegido-lujo.html" class="__btn">Servicio de Lujo</a> 
             </div>
 
-            <h3 class="__title__section">Condiciones Generales IAMSA Básico</h3>
+            <h3 class="__title__section">Condiciones Generales IAMSA Plus</h3>
 
 
             <section class="__sections">
@@ -46,6 +46,247 @@ class LayoutViajeroProtegido extends HTMLElement {
                         <img src="../src/assets/img/viajero-protegido/Paso_1_Basico-2.webp" alt="Seguro 2" class="__img-viajero-protegido">
                         <img src="../src/assets/img/viajero-protegido/Paso_1_Basico-3.webp" alt="Seguro 3" class="__img-viajero-protegido">
                     </div>
+                    <h3 class="__subtitle-section">MUERTE ACCIDENTAL</h3>
+                    <p class="__terms-purchase-text">
+                        Fallecimiento a consecuencia de un accidente sufrido por el pasajero durante el viaje y dentro de los noventa (90) días naturales siguientes a la fecha de este, en cuyo caso la compañía pagará el importe de la suma asegurada contratada a los beneficiarios designados.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        De la suma asegurada anterior, se deducirá cualquier cantidad pagada con anterioridad al pasajero por prestaciones amparadas por la cobertura de Pérdidas Orgánicas de esta póliza, cuando dichas pérdidas hayan sido por el mismo accidente que provocó la muerte.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Edad mínima de aceptación para este beneficio: 12 años.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Beneficiarios: El cónyuge e hijos del pasajero y en ausencia de los anteriores, a sus padres; a falta de los anteriores, a la sucesión legal del pasajero.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Requisitos: Acta de defunción, denuncia ante las autoridades, identificación oficial del pasajero y sus beneficiarios.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        La suma asegurada máxima que se pagará por la ocurrencia de más de un fallecimiento en un solo evento, al amparo de esta póliza será de $500,000. M.N. amparando el número de vidas que ello implique, en caso de exceder el monto citado por un solo evento, la suma asegurada se distribuirá en proporción entre los afectados.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura aplicable únicamente si el siniestro ocurre durante al viaje.</strong>
+                    </p>
+                    <h3 class="__subtitle-section">Exclusiones:</h3>
+                    <ol type="A" class="__terms-purchase-list">
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Accidentes de tránsito no reportados a las autoridades.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Por culpa o accidente al encontrarse bajo los efectos del alcohol, drogas o medicamentos
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Enfermedades o deficiencias mentales, trastornos de la personalidad.
+                            </p>
+                        </li>
+
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Infección, envenenamiento o por inhalación de humos, gases, excepto por un accidente.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Lesiones provocadas intencionalmente por el pasajero, suicidio o su intento.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Accidentes, lesiones o muerte que ocurran cuando el pasajero se encuentre como piloto, mecánico o miembro de la tripulación de una línea aérea, marítima o terrestre, que no sea de una empresa concesionada de transporte público de pasajeros sobre una ruta establecida normalmente y sujeta a itinerarios regulares.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Accidentes, lesiones o muerte del pasajero cuando esté como ocupante o piloto de algún automóvil o cualquier otro vehículo de carreras, pruebas o contiendas de seguridad, resistencia o velocidad excepto que participe como espectador.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Lesiones sufridas en servicio militar de cualquier clase, en riñas cuando él es el provocador, actos de rebelión, delictivos, de insurrección o manifestaciones violentas en las que participe el pasajero en forma directa
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Lesiones que sufra el pasajero mientras se encuentre realizando actividades de paracaidismo, buceo, futbol americano, alpinismo, montañismo, boxeo, lucha, charrería, esquí, tauromaquia, deporte aéreo, artes marciales, equitación, espeleología, rugby y rapel ya sea de manera amateur o profesional
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Enfermedades preexistentes a la contratación de la póliza.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Cuando el pasajero se transporte en motocicleta como conductor o acompañante.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                La invalidez total y permanente a consecuencia por cualquier enfermedad.
+                            </p>
+                        </li>
+                    </ol>
+
+                    <h3 class="__subtitle-section">PERDIDAS ORGÁNICAS ESCALA “A”</h3>
+                    <p class="__terms-purchase-text">
+                        En caso de que el pasajero sufra cualquiera de las pérdidas orgánicas estipuladas en la tabla de indemnizaciones contratada, a consecuencia de un accidente cubierto y dentro de los 90 días siguientes a la ocurrencia de este, se indemnizará con base en el porcentaje de suma asegurada indicado en la tabla de indemnizaciones.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Requisitos: Acta de hechos, identificación oficial del pasajero e informe médico más los estudios practicados
+                    </p>
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura aplicable únicamente si el siniestro ocurre durante al viaje.</strong>
+                    </p>
+
+                    <h3 class="__subtitle-section">INVALIDEZ TOTAL Y PERMANENTE POR ACCIDENTE</h3>
+                    <p class="__terms-purchase-text">
+                        En caso de que el pasajero sufra una invalidez total y permanente a consecuencia de un accidente cubierto, cuyo estado se dictamine dentro de los noventa (90) días naturales siguientes a la fecha de este, la compañía pagará al pasajero el importe de la suma asegurada contratada.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Los límites de edad que aplican son: mínimo 15 años y máximo 64 años 11 meses Requisitos: Identificación oficial del pasajero, dictamen de invalidez total y permanente emitido por una Institución de Seguridad Social o médico especialista en medicina del trabajo con cédula profesional, certificados y especialistas en la materia, así como todos los exámenes, análisis y documentos que sirvieron de base para determinar su invalidez total y permanente, mismo que será evaluado por un médico especialista en la materia certificado por el Consejo de la Especialidad de Medicina del Trabajo
+                    </p>
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura aplicable únicamente si el siniestro ocurre durante al viaje.</strong>
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Condiciones:
+                    </p>
+                    <ul class="__terms-purchase-list">
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                El equipaje se haya perdido definitivamente o dañado o haya sido robado en el trayecto y durante el traslado regular.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                El equipaje haya sido registrado y despachado por la empresa transportista.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                La empresa transportista comercial haya reconocido por escrito la pérdida definitiva o robo del equipaje.
+                            </p>
+                        </li>
+                    </ul>
+                    <p class="__terms-purchase-text">
+                        Requisitos: Carta por parte de IAMSA/GHO avalando el siniestro.
+                    </p>
+
+
+                    <h3 class="__subtitle-section">PÉRDIDA, ROBO O DAÑO DE EQUIPAJE REGISTRADO</h3>
+                    <p class="__terms-purchase-text">
+                        En caso de que se sufra robo total, pérdida definitiva o daño del equipaje registrado durante el traslado cubierto, se coordinará el pago al pasajero de la suma asegurada establecida en la póliza
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Condiciones:
+                    </p>
+                    <ul class="__terms-purchase-list">
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                El equipaje se haya perdido definitivamente o dañado o haya sido robado en el trayecto y durante el traslado regular.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                El equipaje haya sido registrado y despachado por la empresa transportista
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                La empresa transportista comercial haya reconocido por escrito la pérdida definitiva o robo del equipaje.
+                            </p>
+                        </li>
+                    </ul>
+                    <p class="__terms-purchase-text">
+                        Requisitos: Contra-ticket de la maleta de viaje cuando va en el maletero del autobús y carta responsiva de la línea de autobús.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura aplicable únicamente si el siniestro ocurre durante al viaje.</strong>
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Exclusiones:
+                    </p>
+                    <p class="__terms-purchase-text">
+                        La Compañía en ningún caso será responsable por pérdidas y/o daños a los bienes materiales del seguro por:
+                    </p>
+                    <ol type="A" class="__terms-purchase-list">
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Pérdidas o Robos Parciales
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Daños estéticos o funcionales al equipaje registrado.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Desaparición o extravío. (No se tomará en consideración el valor real del equipaje extraviado.)
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Las reclamaciones posteriores a 12 horas después de que el Asegurado llegó a su destino.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Equipaje cuando haya sido enviado como: flete o mensajería.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Con anterioridad a la fecha prevista de salida del viaje del Asegurado e indicado en el boleto de transporte emitido por la empresa transportista comercial.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Pérdida o robo total del equipaje registrado. No tienen cobertura los siguientes bienes (La enumeración es taxativa y no enunciativa):
+                            </p>
+                        </li>
+
+                        <ol type="a" class="__terms-purchase-list">
+
+                            <li class="__terms-purchase-item">
+                                <p class="__terms-purchase-text">
+                                    Arpas, piano, equipo de paintball, alfombras y tapetes, animales de cualquier especie, artículos que se presuman para reventa y/o comercio, salvo prueba en contrario y que no sean de uso personal, audífonos, prótesis auditivas, dientes artificiales, dentaduras, accesorios médicos y dentales y aparatos ortopédicos, anteojos y lentes de contacto, bicicletas, tablas de snowboard y esquís, cheques, cheques de viajero, billetes de banco monedas, títulos, órdenes postales, timbres postales o fiscales letras, pagarés, cupón prepago, boletos de viaje, boletos de entrada a eventos de entretenimiento, obligaciones o documentos de cualquier clase, libros de contabilidad y libros de comercio, así como contenidos en general de cajas fuertes, bóvedas o cajas registradoras, pasaportes, visa, documentos de identidad personal, boletos de transporte, actas y otros documentos como escrituras, dinero en efectivo, tarjetas de crédito, tarjetas de débito, tarjetas de pago, valores negociables, oro, plata, sellos y llaves, sillas de ruedas, carriolas, bastones y otros dispositivos de movilidad, en razón de que se entiende que estos artículos se requieren para la movilidad del Asegurado y no se consideran bienes que deban estar por su naturaleza contenidos en el equipaje registrado, vehículos de locomoción, motocicletas, accesorios de motocicletas y motores, aviones, barcos y en general todo medio de transporte que permita el traslado de un lugar a otro de personas o cosas. Pasaportes, visa, documentos de identidad personal, boletos de transporte, actas y otros documentos como escrituras, dinero en efectivo, tarjetas de crédito, tarjetas de débito, tarjetas de pago, valores negociables, oro, plata, sellos y llaves. Sillas de ruedas, carriolas, bastones y otros dispositivos de movilidad, debido a que se entiende que estos artículos se requieren para la movilidad del Asegurado y no se consideran bienes que deban estar por su naturaleza contenidos en el equipaje registrado. Vehículos de locomoción, motocicletas, accesorios de motocicletas y motores, aviones, barcos y en general todo medio de transporte que permita el traslado de un lugar a otro de personas o cosas.
+                                </p>
+                            </li>
+                            <li class="__terms-purchase-item">
+                                <p class="__terms-purchase-text">
+                                    Las mercancías y el material de uso profesional, la moneda, los billetes de banco, billetes de viaje, colecciones de sellos, títulos de cualquier naturaleza, documentos de identidad y en general, todo documento y valores en papel, tarjetas de crédito, cintas, discos y o portadores de datos o con memoria, documentos registrados en bandas magnéticas o filmados, colecciones y material de carácter profesional, prótesis, animales, plantas, dientes postizos o puentes dentales, equipo deportivo, objetos de arte, equipaje no registrado con la empresa transportista comercial, salvo que se trate de equipaje de mano, conforme al inciso c"" robo de equipaje de mano de la presente sección.
+                                </p>
+                            </li>
+                            <li class="__terms-purchase-item">
+                                <p class="__terms-purchase-text">
+                                    Cualquier objeto de valor y/o equipo electrónico y/o de cómputo, dispositivos electrónicos identificados como «gadgets», «wearables», «pocket» o de bolsillo y sus accesorios como celulares, tabletas, laptops, videojuegos o cámara y/o equipo electrónico, salvo que se tenga contratado conforme al inciso "c" robo de equipaje de mano de la presente sección y siempre y cuando se lleve como equipaje de mano. "c" Saqueo del equipaje registrado de la presente sección.
+                                </p>
+                            </li>
+                            <li class="__terms-purchase-item">
+                                <p class="__terms-purchase-text">
+                                    Cualquier tipo de robo sin violencia, extravío o demora del equipaje si no se encuentra bajo custodia de la empresa transportista comercial y/o proveedor del hospedaje. Está exclusión no opera para el inciso "c" Robo de equipaje de mano de la presente sección.
+                                </p>
+                            </li>
+                            <li class="__terms-purchase-item">
+                                <p class="__terms-purchase-text">
+                                    La pérdida, extravío u olvido, robo sin violencia y demora del equipaje causado por cualquier tipo de negligencia del Asegurado.
+                                </p>
+                            </li>
+                            <li class="__terms-purchase-item">
+                                <p class="__terms-purchase-text">
+                                    La demora del equipaje cuando se produzca en el viaje de regreso al lugar de residencia permanente del Asegurado.
+                                </p>
+                            </li>
+                        </ol>
+                    </ol>
+
                     <h3 class="__subtitle-section">ROBO DE EQUIPAJE DE MANO</h3>
                     <p class="__terms-purchase-text">
                         Se indemnizará mediante reembolso y hasta por el total de la suma asegurada contratada, en caso de un robo del equipaje de mano, incluyendo equipo electrónico y/o de cómputo, dispositivos electrónicos identificados como «gadgets», «wearables», «pocket» o de bolsillo y sus accesorios como celulares, tabletas, laptops, videojuegos, entre otros dentro de su equipaje de mano.
@@ -56,25 +297,6 @@ class LayoutViajeroProtegido extends HTMLElement {
                     <p class="__terms-purchase-text">
                         <strong>Cobertura aplicable únicamente si el siniestro ocurre durante al viaje.</strong>
                     </p>
-                    <h3 class="__subtitle-section">Exclusiones:</h3>
-                    <ol type="A" class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Pasaportes, visa, documentos de identidad personal, boletos de transporte, actas y otros documentos como escrituras, dinero en efectivo, tarjetas de crédito, tarjetas de débito, tarjetas de pago, valores negociables, oro, plata, sellos y llaves.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Derivados de cualquier delito que cuente con la participación directa del Asegurado, alguno de sus ascendientes o descendientes hasta el segundo grado y/o parientes por afinidad hasta el segundo grado, así como de un empleado, dependiente o sirviente del Asegurado.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                A consecuencia de atentados, motines, desórdenes populares o de otros hechos que las leyes califican como delitos contra el orden público.
-                            </p>
-                        </li>
-                    </ol>
-
 
                     <h3 class="__subtitle-section">TRASLADO DE CUERPO POR MUERTE ACCIDENTAL</h3>
                     <p class="__terms-purchase-text">
@@ -255,6 +477,198 @@ class LayoutViajeroProtegido extends HTMLElement {
                                 Si el destino al que se viaja cuenta con alertas de viaje ya sea por temas de salud, seguridad, climática entre otras, por parte de las autoridades locales o internacionales.
                             </p>
                         </li>
+                    </ol>
+
+                    <h3 class="__subtitle-section">RC MASCOTAS</h3>
+
+                    <p class="__terms-purchase-text">
+                        Ampara los gastos por los que resulte civilmente responsable el pasajero ante un tercero a consecuencia de hechos realizados sin dolo, ya sea por culpa en el cuidado, vigilancia o por agresividad de la mascota asegurada, siempre y cuando los hechos hayan ocurrido durante el periodo cubierto.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Requisitos: Carta reclamación emitida por el tercero afectado, carta reclamación del pasajero, ambas debidamente cuantificadas e indicando la fecha del suceso y en caso de haberse presentado la denuncia ante las autoridades.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura aplicable únicamente si el siniestro ocurre durante al viaje. Exclusiones:</strong>
+                    </p>
+                    <ol type="a" class="__terms-purchase-list">
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Actos del asegurado realizados con la intención de que la mascota produzca un daño a terceros.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Daños no causados por la Mascota. Daño Moral Consecuencial y/o Perjuicio Consecuencial general.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Daños que la Mascota pudiera ocasionar a familiares o personas con las que el Asegurado tenga algún parentesco.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Sanciones, multas o cualquier tipo de amonestación que el Asegurado tenga por la falta de vigilancia de la Mascota.
+                            </p>
+                        </li>
+                    </ol>
+
+                    <h3 class="__subtitle-section">CANCELACIÓN E INTERRUPCIÓN DE VIAJE</h3>
+
+                    <p class="__terms-purchase-text">
+                        Opera desde la compra del pasaje hasta el momento de inicio del viaje para el ticket comprado y cubre:
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Cancelación de viaje, antes de iniciarlo
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Gastos no reembolsables por concepto de cualquier transporte, tour, excursión y/u hospedaje pagado que no hubieren sido utilizados y que sean irrecuperables Cancelaciones realizadas por el pasajero antes de la fecha de inicio del viaje.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Requisitos:
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Facturas o comprobantes de pago total por el viaje Comprobantes de indemnización por parte de la empresa transportista comercial y/o agencia de viaje o similares Documento comprobante que acredite la cancelación del viaje Identificación del pasajero o del acompañante de viaje, en su caso Informe del pasajero de lo sucedido y cualquier información necesaria relacionada con los hechos ocurridos, con base en los términos del artículo 69 de la Ley Sobre el Contrato de Seguro.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Sujeto a los siguientes motivos que impidan al pasajero realizar el viaje:
+                    </p>
+
+                    <ul class="__terms-purchase-list">
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Fallecimiento, accidente o enfermedad grave o emergencia médica, o cirugía de emergencia, o la aparición de una enfermedad no preexistente a la contratación de la cobertura.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Accidente del pasajero o familiares, que supongan al menos 24 horas de hospitalización o incapacidad temporal durante los diez (10) días previos al viaje y posteriores a la contratación de la cobertura.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Cancelaciones que resulten de clima adverso.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Huelgas que afecten el transporte público por más de 72 horas, tales que impidan al pasajero realizar el viaje
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Pérdida o Daño a propiedad del pasajero debido a un incendio, explosión, tormenta, granizo, caída de rayo, inundación, avalancha, erupción volcánica, terremoto, deslave o crimen perpetrado por un tercero
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                La declaración oficial de zona catastrófica en su lugar de residencia o en el lugar de destino del viaje o de tránsito al destino
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Si antes de iniciar el viaje pasajero y posterior a la contratación de la póliza, el embarazo de la titular, o cónyuge o concubina presenta complicaciones las cuales sean sustentadas con el soporte médico correspondiente.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                El robo o extravío dentro de las 48 horas antes de su partida de documentos de identificación oficial necesarios para abordar.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Por error u omisión por parte de las autoridades que emitan visados y permisos para el ingreso al destino correspondiente y que funjan como documento de identidad necesario para realizar el viaje al momento de abordar.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Una contraindicación de la vacunación, la secuela de la vacunación o la imposibilidad médica de seguir un tratamiento preventivo necesario para el destino de su viaje.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Por un accidente del medio de transporte o en su trayecto hacia el aeropuerto, muelle o puerto, estación de ferrocarril o de autobuses, que resulte en una demora de más de 2 horas.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Entrega en adopción de un menor al pasajero
+                            </p>
+                        </li>
+
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Requerimiento judicial de comparecencia, como demandado, actor, testigo o jurado del pasajero
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Convocatoria para presentar y/o firmar documentos oficiales a requerimiento de organismos de la Administración Pública
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Convocatoria al pasajero para prestar un servicio médico o público por parte de las autoridades locales competentes
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Costos adicionales generados en caso de que algún compañero/a de viaje cancele el viaje por alguno de los riesgos cubiertos, y el pasajero decida realizar el viaje existiendo un costo extra en el precio de alojamiento por persona al contratado.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura aplicable únicamente si el siniestro ocurre durante al viaje.</strong>
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Exclusiones:
+                    </p>
+
+                    <ol type="A" class="__terms-purchase-list">
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Si a la fecha de contratación de la cobertura no ha quedado completamente pagado el viaje o por adeudos a la agencia de viajes y/o proveedor de viajes.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Si el pasajero y/o su (s) acompañante (s) de viaje presentan:
+                            </p>
+                        </li>
+                        <ol type="a" class="__terms-purchase-list">
+
+                            <li class="__terms-purchase-item">
+                                <p class="__terms-purchase-text">
+                                    Una contraindicación médica para realizar el viaje.
+                                </p>
+                            </li>
+                            <li class="__terms-purchase-item">
+                                <p class="__terms-purchase-text">
+                                    Intento de suicidio o participación en cualquier acto delictivo de manera activa.
+                                </p>
+                            </li>
+                            <li class="__terms-purchase-item">
+                                <p class="__terms-purchase-text">
+                                    Estado de embriaguez, drogadicción o encontrarse bajo estupefacientes no recetados bajo la supervisión de un médico.
+                                </p>
+                            </li>
+                            <li class="__terms-purchase-item">
+                                <p class="__terms-purchase-text">
+                                    Prohibiciones legales o por estar privado o limitado de su libertad por parte de las autoridades competentes.
+                                </p>
+                            </li>
+                            <li class="__terms-purchase-item">
+                                <p class="__terms-purchase-text">
+                                    La realización de tratamientos médicos u odontológicos no catalogados como emergencia médica y tratamientos de rehabilitación de cualquier índole.
+                                </p>
+                            </li>
+                            <li class="__terms-purchase-item">
+                                <p class="__terms-purchase-text">
+                                    Enfermedades o lesiones preexistentes a la contratación de la cobertura siempre y cuando la contratación de esta se haya realizado 48 horas antes de iniciar el viaje.
+                                </p>
+                            </li>
+                        </ol>
                     </ol>
                 </article>
             </section>
@@ -846,4 +1260,4 @@ class LayoutViajeroProtegido extends HTMLElement {
   }
 }
 
-customElements.define("layout-viajero-protegido", LayoutViajeroProtegido);
+customElements.define("layout-viajero-protegido-plus", LayoutViajeroProtegidoPlus);

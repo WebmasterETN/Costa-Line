@@ -23,7 +23,6 @@ class LayoutPromociones extends HTMLElement {
             >
             </app-banner-slider>
 
-
             <app-payments></app-payments>
 
             <section class="__section __section__promo">
@@ -31,11 +30,11 @@ class LayoutPromociones extends HTMLElement {
                   <div class="__grid-container">
                     <article class="__article__promo">
                         <h3 class="__article-title">Compra con descuento </h3>
-                       <a class="__article-link" href="../../../ofertas-en-1-click.html">  <img src="src/assets/img/programs/mosaico-web-5-10-2025_small.jpg" alt="Atencion a clientes"> </a>
+                       <a class="__article-link" href="../../../ofertas-en-1-click.html">  <img src="src/assets/img/promociones/costa-descuentos.webp" alt="Atencion a clientes"> </a>
                     </article>
                     <article class="__article__promo">
                         <h3 class="__article-title">Acumula Puntos Doters</h3>
-                       <a class="__article-link" href="https://etn.com.mx/doters/"> <img src="src/assets/img/programs/Mosaico_Doters_ETN_small.jpg" alt="Atencion a clientes">  </a>
+                       <a class="__article-link" href="https://etn.com.mx/doters/"> <img src="src/assets/img/promociones/costa-doters.webp" alt="Atencion a clientes">  </a>
                     </article>
                 </div>
               <app-section-title section-title="Descuentos de Temporadas"></app-section-title>
