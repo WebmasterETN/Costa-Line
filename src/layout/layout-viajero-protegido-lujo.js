@@ -7,7 +7,7 @@ import "../components/app-table-pets.js";
 import "../js/slick.js?v=1.0.2";
 import "../components/app-destinations-table.js";
 
-class LayoutViajeroProtegido extends HTMLElement {
+class LayoutViajeroProtegidoLujo extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
         <app-cotiza></app-cotiza>
@@ -24,13 +24,13 @@ class LayoutViajeroProtegido extends HTMLElement {
             <app-payments></app-payments>
 
             <section class="__section">
-                <app-section-title section-title="Términos y condiciones"></app-section-title>
+                <app-section-title section-title="Términos y condiciones PLUS"></app-section-title>
             </section>
 
             <div class="btn-group-pages">
-                <a class="btn-enable" href="../../viajero-protegido-plus.html" class="__btn">Servicio Plus</a>
-                <a class="btn-disable" class="__btn">Servicio Basico</a> 
-                <a class="btn-enable" href="../../viajero-protegido-lujo.html" class="__btn">Servicio de Lujo</a> 
+                <a class="btn-enable" href="../../viajero-protegido.html" class="__btn">Servicio Basico</a>
+                <a class="btn-disable" class="__btn">Servicio Lujo</a> 
+                <a class="btn-enable" href="../../viajero-protegido-plus.html" class="__btn">Servicio de Plus</a> 
             </div>
 
             <h3 class="__title__section">Condiciones Generales IAMSA Básico</h3>
@@ -846,4 +846,7 @@ class LayoutViajeroProtegido extends HTMLElement {
   }
 }
 
-customElements.define("layout-viajero-protegido", LayoutViajeroProtegido);
+customElements.define(
+  "layout-viajero-protegido-lujo",
+  LayoutViajeroProtegidoLujo
+);

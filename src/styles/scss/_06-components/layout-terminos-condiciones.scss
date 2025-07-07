@@ -385,3 +385,47 @@ ol.__terms-purchase-list {
         width: 80%;
     }
 }
+
+.btn-group-pages {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+
+    .btn-enable {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 10px;
+        border-radius: 15px;
+        background-color: $primary-color;
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+        border: 2px solid $primary-color;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            background-color: white;
+            color: $primary-color;
+            border: 2px solid $primary-color;
+        }
+    }
+
+    .btn-disable {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 10px;
+        border-radius: 15px;
+        background-color: $gray-light;
+        color: gray;
+        text-decoration: none;
+        cursor: default;
+        font-weight: bolder;
+        border: 2px solid gray;
+    }
+
+}

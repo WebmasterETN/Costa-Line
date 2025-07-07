@@ -1,11 +1,5 @@
 [
   {
-    "href": "#",
-    "imageSrc": "../src/assets/img/services/.webp",
-    "imageAlt": "Flayer del servicio de Renta de autobuses",
-    "title": "Renta de autobuses"
-  },
-  {
     "href": "https://costaline.com.mx/viajero-protegido.html",
     "imageSrc": "../src/assets/img/services/mosaico-viajero-protegido.webp",
     "imageAlt": "Flayer del servicio de Viajero Protegido",
