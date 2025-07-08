@@ -1,7 +1,7 @@
 /*-------------PAGINAS PRINCIPALES -------------------------*/
 
 import "./app-home.js?v=1.0.2";
-
+import "./layout-site-map.js?v=1.0.2";
 /*----------------------------PAGINAS-LANDINGS----------------------------------------*/
 
 import "./layout-boletos-de-autobus.js?v=1.0.2";
@@ -22,9 +22,11 @@ import "./layout-acerca-de-nosotros.js?v=1.0.2";
 import "./layout-viajero-protegido.js?v=1.0.2";
 import "./layout-viajero-protegido-plus.js?v=1.0.2";
 import "./layout-viajero-protegido-lujo.js?v=1.0.2";
+import "./layout-travelpass.js?v=1.0.2";
 import "./layout-promociones.js?v=1.0.2";
 import "./layout-ofertas-en-1-click.js?v=1.0.2";
 import "./layout-festival-de-viajes.js?v=1.0.2";
+
 import "./layout-boletos-de-autobus-monterrey.js?v=1.0.2";
 import "./layout-boletos-de-autobus-acapulco.js?v=1.0.2";
 import "./layout-boletos-de-autobus-cd-altamirano.js?v=1.0.2";
