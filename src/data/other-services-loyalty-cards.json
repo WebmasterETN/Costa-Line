@@ -1,7 +1,7 @@
 [
   {
-    "href": "https://www.etn.com.mx/doters",
-    "imageSrc": "../src/assets/img/programs/Mosaico_Doters_ETN.webp",
+    "href": "https://www.costaline.com.mx/doters",
+    "imageSrc": "../src/assets/img/mosaicos/costa-doters.webp",
     "imageAlt": "Flayer de puntos Doters",
     "title": "Puntos Doters"
   },
@@ -13,7 +13,7 @@
   },
   {
     "href": "https://etn.com.mx/viajero-anticipado",
-    "imageSrc": "../src/assets/img/programs/mosaico-viajero-anticipado.webp",
+    "imageSrc": "../src/assets/img/mosaicos/costa-kueski.webp",
     "imageAlt": "Flayer de descuentos viajero anticipado",
     "title": "Descuentos viajero anticipado"
   }
