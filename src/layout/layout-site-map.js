@@ -1,4 +1,3 @@
-/*--------------IMPORT COMPONENTS FROM HOME PAGE -----------------*/
 import "../components/app-cotiza.js";
 import "../components/app-section-title.js";
 
@@ -14,12 +13,10 @@ class LayoutSiteMap extends HTMLElement {
       </section>
     `;
 
-    // Cargar el JSON externo
     try {
       const resp = await fetch("/src/data/sitemap.json");
       const data = await resp.json();
 
-      // Generar HTML de listas por categorías
       const listasHTML = data
         .map(
           (cat) => `
