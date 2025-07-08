@@ -66,6 +66,7 @@ class AppFooter extends HTMLElement {
             href: "../../preguntas-frecuentes.html",
           },
           { text: "Cuentanos tu experiencia", href: "#" },
+          { text: "Mapa de Sitio", href: "../../sitemap.html" }
         ],
       },
       {

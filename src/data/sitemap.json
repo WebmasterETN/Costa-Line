@@ -1,0 +1,91 @@
+[
+    {
+      "categoria": "Home",
+      "landings": [
+        { "nombre": "Inicio", "url": "../../index.html" }
+      ]
+    },
+    {
+      "categoria": "Rutas y Destinos",
+      "landings": [
+        { "nombre": "Destinos", "url": "../../destinos.html" },
+        { "nombre": "Acapulco", "url": "../../boletos-de-autobus-a-acapulco.html" },
+        { "nombre": "Chilpancingo", "url": "../../boletos-de-autobus-a-chilpancingo.html" },
+        { "nombre": "Ciudad Altamirano", "url": "../../boletos-de-autobus-a-cd-altamirano.html" },
+        { "nombre": "Ciudad de México", "url": "../../boletos-de-autobus-a-ciudad-de-mexico.html" },
+        { "nombre": "Coyuca de Benítez", "url": "../../boletos-de-autobus-a-coyuca-de-benitez.html" },
+        { "nombre": "Cuernavaca", "url": "../../boletos-de-autobus-a-cuernavaca.html" },
+        { "nombre": "Iguala", "url": "../../boletos-de-autobus-a-iguala.html" },
+        { "nombre": "Ixtapa Zihuatanejo", "url": "../../boletos-de-autobus-a-ixtapa-zihuatanejo.html" },
+        { "nombre": "Monterrey", "url": "../../boletos-de-autobus-a-monterrey.html" },
+        { "nombre": "Taxco", "url": "../../boletos-de-autobus-a-taxco.html" },
+        { "nombre": "Tecpan", "url": "../../boletos-de-autobus-a-tecpan.html" }
+
+
+      ]
+    },
+    {
+        "categoria": "Comprar Boletos",
+        "landings": [
+            { "nombre": "Boletos de Autobus", "url": "../../boletos-de-autobus.html" },
+            { "nombre": "¿Dónde comprar boletos?", "url": "../../donde-comprar-etn.html" },
+            { "nombre": "Promociones", "url": "../../promociones.html" },
+            { "nombre": "Terminales y Taquillas", "url": "../../taquillas.html" }
+        ]
+    },
+    {
+        "categoria": "Servicios",
+        "landings": [
+          { "nombre": "Renta de Autobuses", "url": "../../turismo/index.html" },
+          { "nombre": "Salas de espera", "url": "../../salas-de-espera-vip.html" },
+          { "nombre": "Servicios a bordo", "url": "../../servicio-a-bordo.html" },
+          { "nombre": "Paquetería", "url": "../../paqueteria.html" }
+        ]
+      },{
+        "categoria": "Costa Line",
+        "landings": [
+          { "nombre": "¿Quienes somos?", "url": "../../acerca-de-nosotros.html" },
+          { "nombre": "Contacto", "url": "../../atencion-a-clientes.html" },
+          { "nombre": "Aviso de privacidad", "url": "../../aviso-de-privacidad.html" },
+          { "nombre": "Preguntas frecuentes", "url": "../../preguntas-frecuentes.html" }
+        ]
+      },
+      {
+        "categoria": "Terminos y Condiciones",
+        "landings": [
+          { "nombre": "Terminos y Condiciones", "url": "../../terminos-condiciones.html" },
+          { "nombre": "Viajero Protegido", "url": "../../viajero-protegido.html" },
+          { "nombre": "Buen fin", "url": "../../buen-fin/index.html" },
+          { "nombre": "Hot travel", "url": "../../hot-travel/index.html" },
+          { "nombre": "Festival de Viajes", "url": "../../festival-de-viajes.html" },
+          { "nombre": "Ofertas en 1 click", "url": "../../ofertas-en-1-click.html" },
+          { "nombre": "Ofertas en 1 click", "url": "../../ofertas-en-1-click.html" },
+          { "nombre": "Pago referenciado oxxo", "url": "../../pago-referenciado-oxxo.html" }
+        ]
+      },
+      {
+        "categoria": "Paquetería",
+        "landings": [
+          { "nombre": "¿Como funciona?", "url": "../../packmultienlace/como-funciona-paqueteria.html" },
+          { "nombre": "Cotizador", "url": "../../packmultienlace/cotizador-paqueteria.html" },
+          { "nombre": "Pack Multienlace", "url": "../../packmultienlace/pack-multienlace.html" },
+          { "nombre": "Proceso de Envio", "url": "../../packmultienlace/proceso-de-envio.html" },
+          { "nombre": "Servicios corporativos", "url": "../../packmultienlace/servicios-corporativos-paqueteria.html" },
+          { "nombre": "Terminales de paqueteria", "url": "../../packmultienlace/terminales-paqueteria.html" },
+          { "nombre": "Restricciones de Envios", "url": "../../packmultienlace/restricciones-envios.html" }
+        ]
+      },
+      {
+        "categoria": "Otros",
+        "landings": [
+          { "nombre": "Blog", "url": "https://costaline.com.mx/blog/category/costaline/" },
+          { "nombre": "Atencion a Clientes", "url": "../../atencion-a-clientes.html" }
+        ]
+      },
+      {
+        "categoria": "Facturación",
+        "landings": [
+          { "nombre": "Facturación electrónica", "url": "../../facturacion.html" }
+        ]
+      }
+  ]

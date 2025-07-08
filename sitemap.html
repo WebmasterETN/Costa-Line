@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Site Map | Viaja con comodidad con ETN Turistar</title>
+
+		<!-- Scripts -->
+		<script src="./src/js/jquery.min.js?v=1.0.0"></script>
+		<script type="module" src="./app.js?v=1.0.0"></script>
+		<!-- Stylesheets -->
+
+		<!-- CSS All Components -->
+
+		<link
+			rel="stylesheet"
+			href="./src/styles/css/css-components/layout-site-map.min.css?v=1.0.7"
+			type="text/css"
+		/>
+
+		<!-- CSS widget de reservamos -->
+		<link
+			rel="stylesheet"
+			href="https://widgets.reservamos.mx/search/5.16.8/search.css?v=1.0.7"
+		/>
+	</head>
+	<body>
+		<app-header
+			logo='{
+        "src": "./src/assets/img/logos/logo.svg", 
+        "alt": "Logo de Etn Turistar Lujo",
+        "href": "https://etn.com.mx/"
+      }'
+		>
+		</app-header>
+		<app-modal-doters></app-modal-doters>
+		<main>
+			<layout-site-map></layout-site-map>
+		</main>
+		<app-footer></app-footer>
+		<app-cookies-policy></app-cookies-policy>
+		<app-button-whats></app-button-whats>
+		<app-button-eva-trip></app-button-eva-trip>
+		<script src="./src/js/doters-cookies.js?v=1.2.1"></script>
+		<!-- JS widget de reservamos -->
+		<script src="https://widgets.reservamos.mx/search/5.16.8/search.js?v=1.2.1"></script>
+	</body>
+</html>
