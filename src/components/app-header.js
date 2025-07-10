@@ -38,7 +38,7 @@ class AppHeader extends HTMLElement {
                               <li><a href="../promociones.html" tabindex="0">Promociones</a></li>
                               <li><a href="https://ventas.costaline.com.mx/request.aspx?APPNAME=Navegante&PRGNAME=AccesoEx&ARGUMENTS=-AAG,-AH,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-AES&_ga=2.70363408.1421465980.1688335622-27413750.1682467979" tabindex="0">Agencias</a></li>
                               <li><a href="../pago-referenciado-oxxo.html" tabindex="0">Pagos OXXO Pay</a></li>
-                              <li><a href="https://costaline.com.mx/viajero-protegido.html" tabindex="0">Viajero protegido</a></li>
+                              <li><a href="../../viajero-protegido.html" tabindex="0">Viajero protegido</a></li>
                               <li><a href="https://costaline.com.mx/blog/" tabindex="0">Blog</a></li>
                               <li><a href="../atencion-a-clientes.html" tabindex="0">Atención a clientes</a></li>
                           </ul>
@@ -86,7 +86,7 @@ class AppHeader extends HTMLElement {
                           <li><a href="../promociones.html" tabindex="0">Promociones</a></li>
                           <li><a href="../index.html" tabindex="0">Agencias</a></li>
                           <li><a href="../pago-referenciado-oxxo.html" tabindex="0">Pagos OXXO Pay</a></li>
-                          <li><a href="https://etn.com.mx/viajero-protegido.html" tabindex="0">Viajero protegido</a></li>
+                          <li><a href="../../viajero-protegido.html" tabindex="0">Viajero protegido</a></li>
                           <li><a href="https://etn.com.mx/blog/" tabindex="0">Blog</a></li>
                           <li><a href="../atencion-a-clientes.html" tabindex="0">Atención a clientes</a></li>
                       </ul>

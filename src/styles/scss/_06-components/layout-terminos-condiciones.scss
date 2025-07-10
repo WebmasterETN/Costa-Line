@@ -369,7 +369,7 @@ ol.__terms-purchase-list {
     margin: auto;
     gap: 24px;
 
-    @include media("md") {
+    @include media("sm") {
         width: 100%;
         flex-direction: column;
         gap: 16px;
@@ -377,11 +377,11 @@ ol.__terms-purchase-list {
 }
 
 .__img-viajero-protegido {
-    width: calc(100% / 3 - 16px);
+    width: calc(100% / 3 - 13px);
     height: auto;
     object-fit: contain;
 
-    @include media("md") {
+    @include media("sm") {
         width: 80%;
     }
 }
@@ -407,6 +407,7 @@ ol.__terms-purchase-list {
         font-weight: bolder;
         border: 2px solid $primary-color;
         transition: all 0.3s ease-in-out;
+
         &:hover {
             background-color: white;
             color: $primary-color;
@@ -430,10 +431,23 @@ ol.__terms-purchase-list {
 
 }
 
-.img-logo{
+.img-logo {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
     width: 300px;
+}
+
+.__welcome-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: 700;
+    color: $primary-color;
+    text-align: center;
+    width: 80%;
 }

@@ -16,7 +16,7 @@ class LayoutViajeroProtegido extends HTMLElement {
 
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/viajero-protegido/viajero_protegido.webp","mediumImage": "../src/assets/img/banner/promociones/tablet/buen-fin-tablet.webp", "smallImage": "../src/assets/img/banner/promociones/movil/buen-fin-mobile.webp", "link": "#index.html/banner1"}
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/promociones/web/viajero-protegido-web.webp","mediumImage": "../src/assets/img/banner/promociones/tablet/viajero-protegido-tablet.webp", "smallImage": "../src/assets/img/banner/promociones/movil/viajero-protegido-mobile.webp", "link": "#index.html/banner1"}
                 ]'
             >
             </app-banner-slider>

@@ -3,41 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Viaja a Coyuca de Benítez con Nuestros Autobuses | Costa Line</title>
+    <title>Viajero Anticipado | Viaja con comodidad con Costa Line</title>
 
+    <!-- Scripts -->
+    <script src="./src/js/jquery.min.js?v=1.0.2"></script>
+    <script type="module" src="./app.js?v=1.0.2"></script>
     <!-- Stylesheets -->
 
     <!-- CSS All Components -->
 
     <link
       rel="stylesheet"
-      href="./src/styles/css/css-components/layout-boletos-de-autobus-destiny.min.css?v=1.0.7"
+      href="./src/styles/css/css-components/layout-terminos-condiciones.min.css?v=1.0..0"
+      type="text/css"
     />
 
-    <!-- Scripts -->
-    <script src="./src/js/jquery.min.js?v=1.0.2"></script>
-    <script type="module" src="./app.js?v=1.0.2"></script>
     <!-- CSS widget de reservamos -->
     <link
       rel="stylesheet"
       href="https://widgets.reservamos.mx/search/5.16.8/search.css?v=1.0..0"
     />
-
-    <script src="https://widgets.reservamos.mx/search/5.16.8/search.js?v=1.2.1"></script>
   </head>
   <body>
     <app-header
       logo='{
         "src": "./src/assets/img/logos/logo.svg", 
         "alt": "Logo de Costa Line",
-        "href": "./index.html"
+        "href": "../index.html"
       }'
     >
     </app-header>
     <app-modal-travelpass></app-modal-travelpass>
     <app-modal-doters></app-modal-doters>
     <main>
-      <layout-boletos-de-autobus-coyuca-de-benitez></layout-boletos-de-autobus-coyuca-de-benitez>
+      <layout-viajero-anticipado></layout-viajero-anticipado>
     </main>
     <app-footer></app-footer>
     <app-cookies-policy></app-cookies-policy>
