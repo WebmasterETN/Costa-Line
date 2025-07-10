@@ -58,7 +58,10 @@
           { "nombre": "Festival de Viajes", "url": "../../festival-de-viajes.html" },
           { "nombre": "Ofertas en 1 click", "url": "../../ofertas-en-1-click.html" },
           { "nombre": "Ofertas en 1 click", "url": "../../ofertas-en-1-click.html" },
-          { "nombre": "Pago referenciado oxxo", "url": "../../pago-referenciado-oxxo.html" }
+          { "nombre": "Pago referenciado oxxo", "url": "../../pago-referenciado-oxxo.html" },
+          { "nombre": "Viajero Anticipado", "url": "../../viajer-anticipado.html" },
+          { "nombre": "Pago Kueski Pay", "url": "../../compra-con-kueski-pay.html" }
+
         ]
       },
       {

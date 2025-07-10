@@ -6,15 +6,15 @@
     "title": "Puntos Doters"
   },
   {
-    "href": "https://etn.com.mx/descuento-autobus-5-mas-10-etn.html",
+    "href": "../../viajer-anticipado.html",
     "imageSrc": "../src/assets/img/mosaicos/costa-30+5.webp",
     "imageAlt": "Flayer de descuentos ida y regreso de 5-10-2025",
     "title": "Descuentos ida y regreso 5% más 10%"
   },
   {
-    "href": "https://etn.com.mx/viajero-anticipado",
+    "href": "../../compra-con-kueski-pay.html",
     "imageSrc": "../src/assets/img/mosaicos/costa-kueski.webp",
-    "imageAlt": "Flayer de descuentos viajero anticipado",
-    "title": "Descuentos viajero anticipado"
+    "imageAlt": "Compra con Kueski Pay",
+    "title": "Compra con Kueski Pay"
   }
 ]

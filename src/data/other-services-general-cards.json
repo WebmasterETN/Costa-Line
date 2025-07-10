@@ -1,13 +1,13 @@
 [
   {
     "href": "./viajero-protegido.html",
-    "imageSrc": "../src/assets/img/services/mosaico-viajero-protegido.webp",
+    "imageSrc": "../src/assets/img/mosaicos/costa-viajero-protegido.webp",
     "imageAlt": "Flayer del servicio de Viajero Protegido",
     "title": "Seguro viajero protegido"
   },
   {
     "href": "./paqueteria.html",
-    "imageSrc": "../src/assets/img/services/multienlace-etn.webp",
+    "imageSrc": "../src/assets/img/mosaicos/costa-pack.webp",
     "imageAlt": "Flayer del servicio de Multienlace",
     "title": "Servicio de paqueteria multienlace"
   }

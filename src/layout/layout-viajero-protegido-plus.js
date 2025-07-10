@@ -16,7 +16,7 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
 
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/viajero-protegido/viajero_protegido.webp","mediumImage": "../src/assets/img/banner/promociones/tablet/buen-fin-tablet.webp", "smallImage": "../src/assets/img/banner/promociones/movil/buen-fin-mobile.webp", "link": "#index.html/banner1"}
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/promociones/web/viajero-protegido-web.webp","mediumImage": "../src/assets/img/banner/promociones/tablet/viajero-protegido-tablet.webp", "smallImage": "../src/assets/img/banner/promociones/movil/viajero-protegido-mobile.webp", "link": "#index.html/banner1"}
                 ]'
             >
             </app-banner-slider>
@@ -676,206 +676,64 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
             <section class="__sections">
                 <article class="__bg-white">
                     <h3 class="__subtitle-section">DESCRIPCIÓN DE LAS ASISTENCIAS.</h3>
-                    <h3 class="__subtitle-section">ASISTENCIAS MÉDICAS</h3>
+                    <h3 class="__subtitle-section">SERVICIOS DE EMERGENCIA.</h3>
                     <div class="__img-viajero-protegido-group">
                         <img src="../src/assets/img/viajero-protegido/Paso_1_Basico-1.webp" alt="Seguro 1" class="__img-viajero-protegido">
                         <img src="../src/assets/img/viajero-protegido/Paso_1_Basico-2.webp" alt="Seguro 2" class="__img-viajero-protegido">
                         <img src="../src/assets/img/viajero-protegido/Paso_2_Basico-3.webp" alt="Seguro 3" class="__img-viajero-protegido">
                     </div>
 
-                    <h3 class="__subtitle-section">ENVIÓ DE MÉDICO A DOMICILIO POR EMERGENCIA.</h3>
+                    <h3 class="__subtitle-section">ENVIO DE MÉDICO A DOMICILIO POR EMERGENCIA.</h3>
 
-                    <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En caso de que el pasajero requiera la asistencia para la atención de un padecimiento no urgente, se coordinará el envío de un médico general a domicilio de acuerdo con la disponibilidad en cada estado, hasta el número de eventos contratados en cada plan.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Eventos subsecuentes a costo preferencial.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                El médico general realiza la auscultación general con fines de diagnóstico físico, esto sin realizar algún tipo de procedimiento que implique equipamiento quirúrgico como curación, inyección, sonda, cateterismo o suturar. Este servicio deberá ser coordinado desde un inicio por SSIST. No aplican reembolsos.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                El cliente referido podrá cancelar la cita con el médico general con anticipación a la cita coordinada. En el caso de que el cliente referido no cancele la cita o no acuda a la cita coordinada por SSIST, se considerará como un servicio prestado y se aplicará el número de eventos a que tenga derecho.
-                            </p>
-                        </li>
-                    </ul>
-
+                    <p class="__terms-purchase-text">
+                        Coordinación de consulta médica con un médico general; el médico designado por SSIST acudirá al domicilio del acreditado a efecto de realizar la consulta médica. Este servicio estará disponible las 24 horas del día, los 365 días del año.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        El médico general realiza la auscultación general con fines de diagnóstico físico, esto sin realizar algún tipo de procedimiento que implique equipamiento quirúrgico como curación, inyección, sonda, cateterismo o suturar. Este servicio deberá ser coordinado desde un inicio por SSIST. No aplican reembolsos.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        El cliente referido podrá cancelar la cita con el médico general con un mínimo de 48 horas de anticipación a la cita coordinada. En el caso de que el cliente referido no cancele la cita dentro de dicho periodo o no acuda a la cita coordinada por SSIST, se considerará como un servicio prestado y se aplicará el número de eventos a que tenga derecho.
+                    </p>
                     <p class="__terms-purchase-text">
                         NO TOME LA INFORMACIÓN DE LOS SERVICIOS COMO CONSEJOS MÉDICOS Y/O DE SALUD. NINGUNA INFORMACIÓN SUMINISTRADA POR LOS SERVICIOS PRETENDE SER UN SUSTITUTO DE LA ATENCIÓN ADECUADA DE LOS PROFESIONALES DE LA SALUD, INCLUYENDO EL DIAGNÓSTICO Y TRATAMIENTO DE CONDICIONES MÉDICAS. NO DEJE DE BUSCAR AL PROFESIONAL MÉDICO, NI DESMIENTA ALGÚN CONSEJO RECIBIDO ANTERIORMENTE POR INFORMACIÓN OBTENIDA POR MEDIO DE LOS SERVICIOS. EN CASO DE QUE UN ACREDITADO UTILICE LA INFORMACIÓN DE ALGÚN SERVICIO, LO HACE EXPRESAMENTE BAJO SU PROPIO RIESGO Y RESPONSABILIDAD.
                     </p>
-
                     <p class="__terms-purchase-text">
                         <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
                     </p>
-
-                    <h3 class="__subtitle-section">ASISTENCIA MEDICA TELEFÓNICA.</h3>
-
-                    <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Se le brindará asesoría telefónica a través de un médico general cuando el acreditado requiera orientación médica por un padecimiento no urgente (embarazo, COVID, planificación familiar y anticonceptivos, alcoholismo y farmacodependencia, así como del uso de medicamentos prescritos por un médico tratante, efectos secundarios de medicamentos, y dosis recomendadas).
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                El servicio no cubre ningún gasto médico generado. Con el fin de respetar las buenas prácticas de la medicina, el médico de cabina en ningún caso y por ningún motivo recetará medicamentos ni podrá dar diagnostico alguno. No aplica reembolso.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                El personal que atiende esta asistencia son únicamente médicos titulados con cédula profesional, con experiencia en atención médica de primer contacto, normas éticas en medicina y con experiencia en identificación de situaciones que requieren otro nivel de atención.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Este servicio estará disponible las 24 horas del día, los 365 días del año. La llamada tendrá una duración máxima de treinta minutos, transcurrido dicho término se cortará la comunicación sin responsabilidad para SSIST.
-                            </p>
-                        </li>
-                    </ul>
-
-                    <p class="__terms-purchase-text">
-                        NO TOME LA INFORMACIÓN DE LOS SERVICIOS COMO CONSEJOS MÉDICOS Y/O DE SALUD. NINGUNA INFORMACIÓN SUMINISTRADA POR LOS SERVICIOS PRETENDE SER UN SUSTITUTO DE LA ATENCIÓN ADECUADA DE LOS PROFESIONALES DE LA SALUD, INCLUYENDO EL DIAGNÓSTICO Y TRATAMIENTO DE CONDICIONES MÉDICAS. NO DEJE DE BUSCAR AL PROFESIONAL MÉDICO, NI DESMIENTA ALGÚN CONSEJO RECIBIDO ANTERIORMENTE POR INFORMACIÓN OBTENIDA POR MEDIO DE LOS SERVICIOS. EN CASO DE QUE UN ACREDITADO UTILICE LA INFORMACIÓN DE ALGÚN SERVICIO, LO HACE EXPRESAMENTE BAJO SU PROPIO RIESGO Y RESPONSABILIDAD.
-                    </p>
-
-                    <p class="__terms-purchase-text">
-                        <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
-                    </p>
-
-                    <h3 class="__subtitle-section">REFERENCIAS Y RED DE DESCUENTOS MÉDICOS.</h3>
-
-                    <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                El acreditado tendrá acceso a la red de proveedores médicos en convenio con SSIST quienes le otorgarán descuentos en farmacias, clínicas, laboratorios y hospitales, que van desde un 5% (cinco por ciento) hasta un 30% (treinta por ciento). Servicio disponible las 24 horas del día los 365 días del año, sin límite de eventos.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                El servicio deberá ser coordinado desde un inicio por SSIST para hacer válido el beneficio. No aplica reembolso.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia.</strong>
-                            </p>
-                    </ul>
-
-                    <h3 class="__subtitle-section">TELEMEDICINA CON MEDICO GENERAL O ESPECIALISTA (INTERNISTA,GINECÓLOGO, PEDIATRA Y GASTRO).</h3>
-
-                    <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En caso de enfermedad o emergencia médica, el acreditado podrá tener contacto inmediato, mediante video conferencia con médicos generales, de manera personalizada virtualmente, quienes ayudarán a tomar las medidas necesarias para estabilizar al acreditado y ayudarlo con su malestar. El servicio deberá ser coordinado desde un inicio por SSIST para hacer válido el beneficio. El servicio no cubre ningún gasto médico generado. En ningún caso, el médico podrá dar un diagnóstico o recetar medicamentos. No aplica reembolso.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                El personal que atiende esta asistencia son únicamente médicos titulados con cédula profesional, con experiencia en atención médica de primer contacto, normas éticas en medicina y con experiencia en identificación de situaciones que requieren otro nivel de atención.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
-                            </p>
-                        </li>
-                    </ul>
-
-                </article>
-            </section>
-
-            <section class="__sections">
-                <article class="__bg-blue">
-                    <h3 class="__subtitle-section">SERVICIOS DE EMERGENCIA</h3>
-
-                    <div class="__img-viajero-protegido-group">
-                        <img src="../src/assets/img/viajero-protegido/Paso_1_Basico-1.webp" alt="Seguro 1" class="__img-viajero-protegido">
-                        <img src="../src/assets/img/viajero-protegido/Paso_1_Basico-2.webp" alt="Seguro 2" class="__img-viajero-protegido">
-                        <img src="../src/assets/img/viajero-protegido/Paso_3_Basico-3.webp" alt="Seguro 3" class="__img-viajero-protegido">
-                    </div>
 
                     <h3 class="__subtitle-section">ENVIO DE AMBULANCIA POR EMERGENCIA.</h3>
 
-                    <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En caso de que el acreditado o algún familiar directo sufra un accidente o enfermedad, y/o requiera ser trasladado a un centro hospitalario por emergencia, se coordinará el envío de una ambulancia básica terrestre para ser trasladado al nosocomio más cercano de su elección.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En caso de que el cliente solicite una ambulancia especial (traslado, COVID, especializada) se cotizará y se brindará el costo al Acreditado. Servicio disponible las 24 horas del día los 365 días del año. El servicio deberá ser coordinado desde un inicio por SSIST para hacer válido el beneficio se entenderá por emergencia: Situación que pone en peligro la vida, la viabilidad de alguno de los órganos o la integridad corporal del beneficiario, para la cual requiere una atención médica inmediata.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                El servicio de ambulancia por emergencia consistirá en una unidad móvil de urgencias básicas, contará con un conductor y un técnico en urgencias médicas a bordo y equipamiento necesario que marca la NOM34.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                El personal técnico en urgencias médicas, del nivel básico, contará con conocimientos de reanimación cardiopulmonar básica, anatomía y fisiología elemental, levantamientos, movilizaciones, inmovilización y empaquetamiento del paciente, manejo básico de la vía aérea, evaluación y exploración, identificación y manejo de problemas de trauma (hemorragias, estado de choque, tejidos blandos, sistema muscular y esquelético, cabeza y columna vertebral), farmacología elemental, identificación y manejo de problemas médico clínicos (urgencias respiratorias, cardiovasculares, diabéticas, alérgicas, ambientales, obstétricas, conductuales y envenenamientos), vías de administración de medicamentos bajo supervisión médica (subcutánea, oral, inhalación), operación general de ambulancias, sistemas de comunicación, manejo inicial de incidentes con materiales peligrosos, técnicas básicas de rescate, selección y clasificación de los beneficiarios, e interacción con aeronaves.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                De la unidad: La Ambulancia de urgencias básicas, será la unidad móvil, terrestre, destinada al servicio de pacientes que requieren atención médica prehospitalaria, mediante soporte básico de vida.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                SSIST, no será responsable de cualquier complicación que se pueda presentar con el traslado médico, ni de resultado alguno, sin embargo, SSIST, coadyuvará con el beneficiario, a fin de reclamar la responsabilidad del tercero que deba asumir la responsabilidad.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Se considera únicamente un traslado al hospital más cercano, en caso de que no exista disponibilidad y el beneficiario tenga que ser trasladado a otro hospital, se considerará como un segundo evento y el costo adicional será cubierto por el beneficiario.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En caso de que el servicio de ambulancia tenga que esperar a que el paciente sea ingresado o esté en esperando a que se le dé de alta para el egreso del hospital, o por cualquier circunstancia ajena al proveedor del servicio, el beneficiario tendrá que pagar directamente al proveedor la hora adicional por cada hora de espera, costo que se le comunicará en el momento a el beneficiario.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En caso de que el beneficiario cuente con sobrepeso y por tanto requiera para su traslado de una ambulancia de dimensiones mayores a las comunes deberá pagar directamente al proveedor de los servicios de ambulancia, el cargo adicional generado por este requerimiento especial.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                El servicio de asistencia de ambulancia no aplica para casos por la enfermedad pandémica por COVID-19, fiebre del mono o cualquier otra enfermedad pandémica, la cual se cotizará por aparte al beneficiario y tendrá que ser cubierta de conformidad con la cotización que se realice en el momento.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                El personal que atiende esta asistencia son únicamente médicos titulados con cédula profesional, con experiencia en atención médica de primer contacto, normas éticas en medicina y con experiencia en identificación de situaciones que requieren otro nivel de atención.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                SSIST, no es responsable de los servicios proporcionados por los proveedores, ni de las funciones realizadas por estos, siendo el proveedor de servicio el responsable directo, en caso de cualquier queja, reclamación o demanda, siendo que el servicio que presta SSIST es únicamente de coordinación y gestión de envío de los proveedores, por lo que SSIST, coadyuvará en todo momento al acreditado para la solución ante el proveedor.
-                            </p>
-                        </li>
-                        
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
-                            </p>
-                        </li>
-                    </ul>
-
+                    <p class="__terms-purchase-text">
+                        En caso de que el acreditado o algún familiar directo sufra un accidente o enfermedad, y/o requiera ser trasladado a un centro hospitalario por emergencia, se coordinará el envío de una ambulancia básica terrestre para ser trasladado al nosocomio más cercano de su elección.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        En caso de que el cliente solicite una ambulancia especial (traslado, COVID, especializada) se cotizará y se brindará el costo al Acreditado. Servicio disponible las 24 horas del día los 365 días del año. El servicio deberá ser coordinado desde un inicio por SSIST para hacer válido el beneficio se entenderá por emergencia: Situación que pone en peligro la vida, la viabilidad de alguno de los órganos o la integridad corporal del beneficiario, para la cual requiere una atención médica inmediata.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        El servicio de ambulancia por emergencia consistirá en una unidad móvil de urgencias básicas, contará con un conductor y un técnico en urgencias médicas a bordo y equipamiento necesario que marca la NOM34.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        El personal técnico en urgencias médicas, del nivel básico, contará con conocimientos de reanimación cardiopulmonar básica, anatomía y fisiología elemental, levantamientos, movilizaciones, inmovilización y empaquetamiento del paciente, manejo básico de la vía aérea, evaluación y exploración, identificación y manejo de problemas de trauma (hemorragias, estado de choque, tejidos blandos, sistema muscular y esquelético, cabeza y columna vertebral), farmacología elemental, identificación y manejo de problemas médico clínicos (urgencias respiratorias, cardiovasculares, diabéticas, alérgicas, ambientales, obstétricas, conductuales y envenenamientos), vías de administración de medicamentos bajo supervisión médica (subcutánea, oral, inhalación), operación general de ambulancias, sistemas de comunicación, manejo inicial de incidentes con materiales peligrosos, técnicas básicas de rescate, selección y clasificación de los beneficiarios, e interacción con aeronaves. De la unidad: La Ambulancia de urgencias básicas, será la unidad móvil, terrestre, destinada al servicio de pacientes que requieren atención médica prehospitalaria, mediante soporte básico de vida.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        SSIST, no será responsable de cualquier complicación que se pueda presentar con el traslado médico, ni de resultado alguno, sin embargo, SSIST, coadyuvará con el beneficiario, a fin de reclamar la responsabilidad del tercero que deba asumir la responsabilidad. Se considera únicamente un traslado al hospital más cercano, en caso de que no exista disponibilidad y el beneficiario tenga que ser trasladado a otro hospital, se considerará como un segundo evento y el costo adicional será cubierto por el beneficiario En caso de que el servicio de ambulancia tenga que esperar a que el paciente sea ingresado o esté en esperando a que se le dé de alta para el egreso del hospital, o por cualquier circunstancia ajena al proveedor del servicio, el beneficiario tendrá que pagar directamente al proveedor la hora adicional por cada hora de espera, costo que se le comunicará en el momento a el beneficiario.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        En caso de que el beneficiario cuente con sobrepeso y por tanto requiera para su traslado de una ambulancia de dimensiones mayores a las comunes deberá pagar directamente al proveedor de los servicios de ambulancia, el cargo adicional generado por este requerimiento especial.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        El servicio de asistencia de ambulancia no aplica para casos por la enfermedad pandémica por COVID-19, fiebre del mono o cualquier otra enfermedad pandémica, la cual se cotizará por aparte al beneficiario y tendrá que ser cubierta de conformidad con la cotización que se realice en el momento.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        SSIST, no es responsable de los servicios proporcionados por los proveedores, ni de las funciones realizadas por estos, siendo el proveedor de servicio el responsable directo, en caso de cualquier queja, reclamación o demanda, siendo que el servicio que presta SSIST es únicamente de coordinación y gestión de envío de los proveedores, por lo que SSIST, coadyuvará en todo momento al acreditado para la solución ante el proveedor.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
+                    </p>
 
                     <h3 class="__subtitle-section">Exclusiones:</h3>
 
-                    <ol type="A" class="__terms-purchase-list">
+                    <ol type="a" class="__terms-purchase-list">
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
                                 El acreditado es quien se encargará de cubrir el costo de dicha hospitalización, así como cualquier costo de medicamentos, material quirúrgico y honorarios médicos.
@@ -888,9 +746,16 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Rescate o aquellas situaciones en las que el Acreditado se encuentre bajo circunstancias que le obstaculicen o impidan el acceso o que pongan en peligro la vida de las personas que pudiesen proporcionarle los servicios de asistencia, por encontrarse en lugares o zonas remotos, inaccesibles, de muy difícil y peligroso acceso, o muy lejanos a una población o vía donde pueda circular con seguridad y adecuadamente una ambulancia, así como cualquier lugar o terreno cuya morfología o circunstancias exijan el concurso de especialistas en rescate de cualquier tipo. A continuación, se expresan de forma enunciativa más no limitativa, algunos ejemplos: bosques, selvas, caminos, desiertos, montañas, mares, lagos, presas, ríos, playas, etc., sitios alejados de carreteras y poblaciones, así como barrancos, cuevas, laderas, picos y cimas de cerros, montañas, sierras, plataformas petroleras, barcos, yates y demás Accidentes del terreno o lugar. La falta de la autorización expresa para el traslado del Acreditado, en servicios programados por parte del Médico tratante, que certifique su estabilidad clínica.
+                                Rescate o aquellas situaciones en las que el Acreditado se encuentre bajo circunstancias que le obstaculicen o impidan el acceso o que pongan en peligro la vida de las personas que pudiesen proporcionarle los servicios de asistencia, por encontrarse en lugares o zonas remotos, inaccesibles, de muy difícil y peligroso acceso, o muy lejanos a una población o vía donde pueda circular con seguridad y adecuadamente una ambulancia, así como cualquier lugar o terreno cuya morfología o circunstancias exijan el concurso de especialistas en rescate de cualquier tipo.
                             </p>
                         </li>
+                    </ol>
+
+                    <p class="__terms-purchase-text">
+                        A continuación, se expresan de forma enunciativa más no limitativa, algunos ejemplos: bosques, selvas, caminos, desiertos, montañas, mares, lagos, presas, ríos, playas, etc., sitios alejados de carreteras y poblaciones, así como barrancos, cuevas, laderas, picos y cimas de cerros, montañas, sierras, plataformas petroleras, barcos, yates y demás Accidentes del terreno o lugar. La falta de la autorización expresa para el traslado del Acreditado, en servicios programados por parte del Médico tratante, que certifique su estabilidad clínica.
+                    </p>
+
+                    <ol type="a" class="__terms-purchase-list">
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
                                 SSIST no será responsable de que el hospital o clínica a la que se pretenda trasladar al acreditado se reserve el derecho de admisión.
@@ -903,7 +768,17 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
                         </li>
                     </ol>
 
-                    <h3 class="__subtitle-section">ASISTENCIA FUNERARIA</h3>
+                    <h3 class="__subtitle-section">ASISTENCIA ODONTOLÓGICA POR EMERGENCIA.</h3>
+
+                    <p class="__terms-purchase-text">
+                        En caso de que el usuario sufra un accidente que requiera la intervención inmediata de un médico odontólogo, SSIST coordinará y brindará apoyo económico por hasta $2,500 al usuario para cubrir los gastos derivados de dicho evento. El excedente de tal servicio deberá ser cubierto por el usuario; eventos subsecuentes, se brindarán con precio preferencial. Atención telefónica las 24 horas del día, los 365 días de año.
+                    </p>
+
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
+                    </p>
+
+                    <h3 class="__subtitle-section">ASISTENCIA FUNERARIA.</h3>
 
                     <p class="__terms-purchase-text">
                         En caso de deceso, se ampara al acreditado, por causas naturales o derivado de un accidente, en las agencias de inhumaciones o agencias integrantes de la red de asistencia funeraria de SSIST la cual comprende los siguientes servicios:
@@ -912,7 +787,7 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
                     <ol type="1" class="__terms-purchase-list">
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Atención personalizada las 24 horas los 365 del año, a través del Centro De Atención Telefónica
+                                Atención personalizada las 24 horas los 365 del año, a través del Centro De Atención Telefónica.
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -924,7 +799,8 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
                             <p class="__terms-purchase-text">
                                 Traslados:
                             </p>
-                            <br><ol type="a" class="__terms-purchase-list">
+
+                            <ol type="a" class="__terms-purchase-list">
                                 <li class="__terms-purchase-item">
                                     <p class="__terms-purchase-text">
                                         Primer traslado del finado del lugar del fallecimiento hacia cualquiera de las agencias de inhumaciones, en el caso de la Ciudad de México, y área metropolitana, a las sucursales J. García López como Casa Observatorio, Casa Satélite, Casa Iztapalapa, Casa Coyoacán y Casa Tlalpan o a la agencia funeraria corresponsal en el Interior de la República Mexicana.
@@ -941,7 +817,6 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
                                     </p>
                                 </li>
                             </ol>
-
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
@@ -950,7 +825,7 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Embalsamamiento (aplica a petición del Acreditado).
+                                Embalsamamiento (aplica a petición del Acreditado)
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -965,7 +840,7 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Sala para el funeral o capilla de velación básica/estándar con capacidad para 20 (veinte) personas en circulación o en caso de requerirlo, equipo de velación a domicilio. (Siempre y cuando la autoridad lo permita).
+                                Sala para el funeral o capilla de velación básica/estándar con capacidad para 20 (veinte) personas en circulación o en caso de requerirlo, equipo de velación a domicilio. (Siempre y cuando la autoridad lo permita)
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -975,7 +850,7 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Cremación y entrega de urna básica (en caso de contar con los SERVICIOS en el área correspondiente del interior de la República Mexicana). (Siempre y cuando la autoridad lo permita).
+                                Cremación y entrega de urna básica (en caso de contar con los SERVICIOS en el área correspondiente del interior de la República Mexicana). (Siempre y cuando la autoridad lo permita)
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -984,6 +859,7 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
                             </p>
                         </li>
                     </ol>
+
                     <p class="__terms-purchase-text">
                         <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
                     </p>
@@ -1003,7 +879,7 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Exhumación de restos áridos.
+                                Exhumación de restos áridos
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -1018,7 +894,7 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Traslados foráneos (trámites, fletes terrestres o aéreos).
+                                Traslados foráneos (trámites, fletes terrestres o aéreos) .
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -1028,17 +904,17 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Repatriación.
+                                Repatriación
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Traslados Internacionales.
+                                Traslados Internacionales
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Servicio de Cafetería.
+                                Servicio de Cafetería
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -1087,14 +963,76 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
                             </p>
                         </li>
                     </ol>
+                </article>
+            </section>
 
+            <section class="__sections">
+                <article class="__bg-blue">
+                    <h3 class="__subtitle-section">ASISTENCIAS MÉDICAS</h3>
+
+                    <div class="__img-viajero-protegido-group">
+                        <img src="../src/assets/img/viajero-protegido/Paso_1_Basico-1.webp" alt="Seguro 1" class="__img-viajero-protegido">
+                        <img src="../src/assets/img/viajero-protegido/Paso_1_Basico-2.webp" alt="Seguro 2" class="__img-viajero-protegido">
+                        <img src="../src/assets/img/viajero-protegido/Paso_3_Basico-3.webp" alt="Seguro 3" class="__img-viajero-protegido">
+                    </div>
+
+                    <h3 class="__subtitle-section">ASISTENCIA MEDICA TELEFÓNICA.</h3>
+
+                    <p class="__terms-purchase-text">
+                        Se le brindará asesoría telefónica a través de un médico general cuando el acreditado y/o familiar directo requiera orientación médica por un padecimiento no urgente (embarazo, COVID, planificación familiar y anticonceptivos, alcoholismo y farmacodependencia, así como del uso de medicamentos prescritos por un médico tratante, efectos secundarios de medicamentos, y dosis recomendadas).
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Asimismo, se elaborará el expediente clínico del acreditado. Servicio disponible las 24 horas del día, los 365 días del año, sin límite de eventos. El servicio deberá ser coordinado desde un inicio por SSIST para hacer válido el beneficio.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        El servicio no cubre ningún gasto médico generado. Con el fin de respetar las buenas prácticas de la medicina, el médico de cabina en ningún caso y por ningún motivo recetará medicamentos ni podrá dar diagnostico alguno. No aplica reembolso.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        El personal que atiende esta asistencia son únicamente médicos titulados con cédula profesional, con experiencia en atención médica de primer contacto, normas éticas en medicina y con experiencia en identificación de situaciones que requieren otro nivel de atención.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Este servicio estará disponible las 24 horas del día, los 365 días del año.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        La llamada tendrá una duración máxima de treinta minutos, transcurrido dicho término se cortará la comunicación sin responsabilidad para SSIST.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        NO TOME LA INFORMACIÓN DE LOS SERVICIOS COMO CONSEJOS MÉDICOS Y/O DE SALUD. NINGUNA INFORMACIÓN SUMINISTRADA POR LOS SERVICIOS PRETENDE SER UN SUSTITUTO DE LA ATENCIÓN ADECUADA DE LOS PROFESIONALES DE LA SALUD, INCLUYENDO EL DIAGNÓSTICO Y TRATAMIENTO DE CONDICIONES MÉDICAS. NO DEJE DE BUSCAR AL PROFESIONAL MÉDICO, NI DESMIENTA ALGÚN CONSEJO RECIBIDO ANTERIORMENTE POR INFORMACIÓN OBTENIDA POR MEDIO DE LOS SERVICIOS. EN CASO DE QUE UN ACREDITADO UTILICE LA INFORMACIÓN DE ALGÚN SERVICIO, LO HACE EXPRESAMENTE BAJO SU PROPIO RIESGO Y RESPONSABILIDAD.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
+                    </p>
+
+                    <h3 class="__subtitle-section">RED DE DESCUENTOS MÉDICOS.</h3>
+
+                    <p class="__terms-purchase-text">
+                        El acreditado tendrá acceso a la red de proveedores médicos en convenio con SSIST quienes le otorgarán descuentos en farmacias, clínicas, laboratorios y hospitales, que van desde un 5% (cinco por ciento) hasta un 30% (treinta por ciento). Servicio disponible las 24 horas del día los 365 días del año, sin límite de eventos.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        El servicio deberá ser coordinado desde un inicio por SSIST para hacer válido el beneficio. No aplica reembolso.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
+                    </p>
+
+                    <h3 class="__subtitle-section">TELEMEDICINA CON MÉDICO GENERAL O ESPECIALISTA (INTERNISTA, GINECÓLOGO, PEDIATRA Y GASTRO)</h3>
+
+                    <p class="__terms-purchase-text">
+                        En caso de enfermedad o emergencia médica, el acreditado podrá tener contacto inmediato, mediante video conferencia con médicos generales, de manera personalizada virtualmente, quienes ayudarán a tomar las medidas necesarias para estabilizar al acreditado y ayudarlo con su malestar. El servicio deberá ser coordinado desde un inicio por SSIST para hacer válido el beneficio. El servicio no cubre ningún gasto médico generado. En ningún caso, el médico podrá dar un diagnóstico o recetar medicamentos. No aplica reembolso.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        El personal que atiende esta asistencia son únicamente médicos titulados con cédula profesional, con experiencia en atención médica de primer contacto, normas éticas en medicina y con experiencia en identificación de situaciones que requieren otro nivel de atención.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
+                    </p>
 
                 </article>
             </section>
 
             <section class="__sections">
                 <article class="__bg-white">
-                    <h3 class="__subtitle-section">SERVICIOS DE EMERGENCIA</h3>
+                    <h3 class="__subtitle-section">ASISTENCIA DE VIAJE Y ORIENTACIÓN LEGAL.</h3>
 
                     <div class="__img-viajero-protegido-group">
                         <img src="../src/assets/img/viajero-protegido/Paso_1_Basico-1.webp" alt="Seguro 1" class="__img-viajero-protegido">
@@ -1104,74 +1042,54 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
 
                     <h3 class="__subtitle-section">TRASLADO DE UN FAMILIAR POR CONVALECENCIA</h3>
 
-                    <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En caso de que el pasajero viaje sin compañía y fuese hospitalizado por más de cinco días continuos, a consecuencia de algún padecimiento o enfermedad no excluida en estas condiciones generales, la Compañía reembolsará el costo de un boleto terrestre en clase económica de ida y vuelta, hasta el límite máximo de responsabilidad contratado.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Es indispensable que el pasajero si su salud lo permite, o algún familiar o representante de él, de aviso de esta situación sin rebasar del plazo de 7 días.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
-                            </p>
-                        </li>
-                    </ul>
+                    <p class="__terms-purchase-text">
+                        En caso de que el pasajero viaje sin compañía y fuese hospitalizado por más de cinco días continuos, a consecuencia de algún padecimiento o enfermedad no excluida en estas condiciones generales, la Compañía reembolsará el costo de un boleto terrestre en clase económica de ida y vuelta, hasta el límite máximo de responsabilidad contratado. Es indispensable que el pasajero si su salud lo permite, o algún familiar o representante de él, de aviso de esta situación sin rebasar del plazo de 7 días.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
+                    </p>
+
+                    <h3 class="__subtitle-section">TRASLADO DE UN FAMILIAR POR CONVALECENCIA</h3>
+
+                    <p class="__terms-purchase-text">
+                        SSIST gestionará y cubrirá los gastos necesarios para la prolongación de la estancia en un hotel, inmediatamente después de haber sido dado de alta del hospital, si esta prolongación ha sido prescrita por el médico local y el equipo de SSIST. SSIST gestionará y cubrirá los costos hasta el límite máximo de Hasta $2,500 M.N. y/o hasta 7 días. Atención telefónica las 24 horas, los 365 días del año.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Importante: Se entiende como los gastos de hotel, exclusivamente al hospedaje simple, sin considerar gastos de supermercado, tiendas de conveniencia, alimentos solicitados a través de alguna aplicación o plataforma digital, bebidas alcohólicas, lavandería, llamadas telefónicas, transportes, acceso a Internet, gastos personales, entre otros. (La anterior enunciación es enunciativa, más no limitativa).
+                    </p>
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
+                    </p>
 
                     <h3 class="__subtitle-section">CONCIERGE Y ASESORIA EN VIAJES, RESERVACIONES EN HOTEL Y REDES DE DESCUENTO CON RELACION A VIAJES.</h3>
 
-                    <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                SSIST le proporcionará referencia e información telefónica, acerca de: agencias de viajes, clima, exhibiciones, tipos de cambio, centros comerciales, exhibiciones, hoteles, restaurantes, museos, galerías, Información de consulados en el extranjero, reservaciones, espectáculos, carteleras, teatros, conciertos, vida nocturna, Orientación en la reposición de pasaporte en caso de robo o pérdida, entre otros. Atención telefónica las 24 horas, los 365 días del año. Ilimitado.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Acceso ilimitado a nuestra red de descuentos en renta de automóviles, agencias de viajes, hoteles, y muchos otros servicios más. Servicio disponible las 24 horas del día los 365 días del año. Sin límite de eventos.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
-                            </p>
-                        </li>
-                    </ul>
+                    <p class="__terms-purchase-text">
+                        SSIST le proporcionará referencia e información telefónica, acerca de: agencias de viajes, clima, exhibiciones, tipos de cambio, centros comerciales, exhibiciones, hoteles, restaurantes, museos, galerías, Información de consulados en el extranjero, reservaciones, espectáculos, carteleras, teatros, conciertos, vida nocturna, Orientación en la reposición de pasaporte en caso de robo o pérdida, entre otros. Atención telefónica las 24 horas, los 365 días del año. Ilimitado.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Acceso ilimitado a nuestra red de descuentos en renta de automóviles, agencias de viajes, hoteles, y muchos otros servicios más. Servicio disponible las 24 horas del día los 365 días del año. Sin límite de eventos.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
+                    </p>
 
                     <h3 class="__subtitle-section">ASISTENCIA LEGAL TELEFÓNICA.</h3>
 
-                    <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En caso de que el acreditado requiera de los servicios de un abogado, SSIST brindará asesoría telefónica con abogados titulados especialistas en las diferentes ramas del Derecho, las 24 horas del día, los 365 días del año.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                El personal que atiende esta asistencia son únicamente abogados titulados con cédula profesional, con experiencia en su ramo, y con experiencia en identificación de situaciones que requieren otro nivel de atención y actúan de forma independiente a SSIST.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                SSIST, no proporciona opiniones legales, consejos jurídicos y/o de otra índole. El abogado únicamente se limitará a brindar una orientación legal en el momento, y ningún contacto con SSIST puede ser usado para hacer preguntas legales y/o jurídicas. Además, SSIST, no actúa como asesor legal, y/o abogado, por lo que no es responsable de la información transmitida entre el beneficiario o proveedor.
-                            </p>
-                        </li>
-
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                NO TOME LA INFORMACIÓN DE LOS SERVICIOS COMO CONSEJOS LEGALES Y/O JURÍDICOS. NINGUNA INFORMACIÓN SUMINISTRADA POR LOS SERVICIOS PRETENDE SER UN SUSTITUTO DE LA ATENCIÓN ADECUADA DE LOS PROFESIONALES, INCLUYENDO EL ESTUDIO U OPINIÓN, REVISIONES DE EXPEDIENTES DE POSIBLES INICIOS DE INDAGATORIAS PENALES Y/O CIVILES, O ADMINISTRATIVAS. NO DEJE DE BUSCAR UN CONSEJO PROFESIONAL, NI DESMIENTA ALGÚN CONSEJO RECIBIDO ANTERIORMENTE POR INFORMACIÓN OBTENIDA POR MEDIO DE LOS SERVICIOS DE ASISTENCIA. EN CASO DE QUE EL ACREDITADO UTILICE LA INFORMACIÓN DE ALGÚN SERVICIO DE ASISTENCIA, LO HACE EXPRESAMENTE BAJO SU PROPIO RIESGO Y RESPONSABILIDAD.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
-                            </p>
-                        </li>
-                    </ul>
+                    <p class="__terms-purchase-text">
+                        En caso de que el acreditado requiera de los servicios de un abogado, SSIST brindará asesoría telefónica con abogados titulados especialistas en las diferentes ramas del Derecho, las 24 horas del día, los 365 días del año.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        El personal que atiende esta asistencia son únicamente abogados titulados con cédula profesional, con experiencia en su ramo, y con experiencia en identificación de situaciones que requieren otro nivel de atención y actúan de forma independiente a SSIST.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        SSIST, no proporciona opiniones legales, consejos jurídicos y/o de otra índole. El abogado únicamente se limitará a brindar una orientación legal en el momento, y ningún contacto con SSIST puede ser usado para hacer preguntas legales y/o jurídicas. Además, SSIST, no actúa como asesor legal, y/o abogado, por lo que no es responsable de la información transmitida entre el beneficiario o proveedor.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        NO TOME LA INFORMACIÓN DE LOS SERVICIOS COMO CONSEJOS LEGALES Y/O JURÍDICOS. NINGUNA INFORMACIÓN SUMINISTRADA POR LOS SERVICIOS PRETENDE SER UN SUSTITUTO DE LA ATENCIÓN ADECUADA DE LOS PROFESIONALES, INCLUYENDO EL ESTUDIO U OPINIÓN, REVISIONES DE EXPEDIENTES DE POSIBLES INICIOS DE INDAGATORIAS PENALES Y/O CIVILES, O ADMINISTRATIVAS. NO DEJE DE BUSCAR UN CONSEJO PROFESIONAL, NI DESMIENTA ALGÚN CONSEJO RECIBIDO ANTERIORMENTE POR INFORMACIÓN OBTENIDA POR MEDIO DE LOS SERVICIOS DE ASISTENCIA. EN CASO DE QUE EL ACREDITADO UTILICE LA INFORMACIÓN DE ALGÚN SERVICIO DE ASISTENCIA, LO HACE EXPRESAMENTE BAJO SU PROPIO RIESGO Y RESPONSABILIDAD.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
+                    </p>
 
                     <h3 class="__subtitle-section">Exclusiones:</h3>
 
@@ -1183,15 +1101,9 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                El personal que atiende esta asistencia son únicamente abogados titulados con cédula profesional, con experiencia en su ramo, y con experiencia en identificación de situaciones que requieren otro nivel de atención y actúan de forma independiente a SSIST.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
                                 Elaboración de documentos y/o escritos que requieran ser presentados en cualquier tipo de juicio, denuncia, procedimiento, controversia, iniciado por el acreditado; tampoco comprende la elaboración de documentos y/o escritos en cualquier juicio, denuncia, procedimiento, controversia en el cual hubiera sido emplazado, demandado o llamado a juicio bajo cualquier figura procesal el acreditado.
                             </p>
                         </li>
-
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
                                 Actos, hechos u omisiones que sean contrarios al Derecho, a las buenas prácticas profesionales o comerciales, a la moral o las buenas costumbres.
@@ -1227,6 +1139,8 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
                                 El presente SERVICIO queda limitado únicamente al acreditado titular de la membresía cuando se trate de asuntos relacionados con temas de divorcio, alimentos, guarda y custodia cuando el cónyuge sea parte contraria en estos asuntos.
                             </p>
                         </li>
+
+
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
                                 Cualquier gasto, gratificación, pago judicial o extrajudicial diferente al pago de honorarios del abogado.
@@ -1253,11 +1167,199 @@ class LayoutViajeroProtegidoPlus extends HTMLElement {
                     <p class="__terms-purchase-text">
                         El acreditado deberá de comunicarse a la línea de atención y en caso de requerir video consulta médica, se le hará llegar a su correo o a su celular una liga de la plataforma que opera SSIST con los datos para acceder a la video consulta.
                     </p>
-
                 </article>
-            </section> 
+            </section>
+            
+            <section class="__sections">
+                <article class="__bg-blue">
+                    <h3 class="__subtitle-section">ASISTENCIA MASCOTA.</h3>
+
+                    <div class="__img-viajero-protegido-group">
+                        <img src="../src/assets/img/viajero-protegido/Paso_1_Basico-1.webp" alt="Seguro 1" class="__img-viajero-protegido">
+                        <img src="../src/assets/img/viajero-protegido/Paso_1_Basico-2.webp" alt="Seguro 2" class="__img-viajero-protegido">
+                        <img src="../src/assets/img/viajero-protegido/Paso_4_Basico-3.webp" alt="Seguro 3" class="__img-viajero-protegido">
+                    </div>
+
+                    <h3 class="__subtitle-section">TELEVETERINARIA (PERRO Y/O GATO)</h3>
+
+                    <p class="__terms-purchase-text">
+                        Se brindará a petición del usuario asistencia telefónica de médicos veterinarios de forma ilimitada, para asesorar en diferentes casos, tales como:
+                    </p>
+
+                    <ul class="__terms-purchase-list">
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Emergencias
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Salud preventiva
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Nutrición
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Educación y conducta
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Plan de vacunación
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Preconsulta veterinaria
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Salud reproductiva
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Orientación en costo de medicamentos
+                            </p>
+                        </li>
+                    </ul>
+
+                    <p class="__terms-purchase-text">
+                        Este servicio estará disponible de lunes a viernes de 9:00 a 19:00 hrs. y sábado de 9:00 a 14:00 hrs.
+                    </p>
+
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no te encuentres en tu lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
+                    </p>
+
+                    <h3 class="__subtitle-section">REGLAMENTACION PARA VIAJES CON MASCOTAS Y ANIMALES DE SERVICIO</h3>
+
+                    <h3 class="__subtitle-section">ORIENTACIÓN PARA TRANSPORTAR MASCOTAS A BORDO DEL AUTOBÚS</h3>
+
+                    <p class="__terms-purchase-text">
+                        Los clientes podrán llevar consigo mascotas en la cabina de pasajeros: solo se permitirán perros y gatos cumpliendo los siguientes requisitos:
+                    </p>
+
+                    <ol type="a" class="__terms-purchase-list">
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Las mascotas deberán viajar dentro de un contenedor o transportadora rígida tipo Kennel o semirrígida que cumpla las siguientes especificaciones:
+                            </p>
+                            <ul class="__terms-purchase-list">
+                                <li class="__terms-purchase-item">
+                                    <p class="__terms-purchase-text">
+                                        El peso máximo de la mascota deberá de ser de 15 kg (incluyendo transportadora), las dimensiones máximas de la transportadora son: 71 cm de largo x 52 cm de ancho x 54 cm de alto, solo se permite una mascota por transportadora. Debe contar con espacio suficiente para que tu mascota esté parada, y pueda moverse y girar de forma natural sin tocar las paredes. Nota: si excede de 15 kg de peso, NO PODRÁ VIAJAR.
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Debe contar con espacio suficiente para que tu mascota esté parada, y pueda moverse y girar de forma natural sin tocar las paredes.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Se deberá presentar cartilla de vacunación con esquema completo de acuerdo a la edad de la mascota, que especifique la fecha de aplicación de la vacuna contra la rabia y la vigencia de la misma. No es necesario la mascota viaje sedada (Consultar a su médico veterinario).
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Solo se permitirá trasladar una mascota por pasajero, limitado a 2 mascotas por autobús identificados con la imagen o sujeto a disponibilidad.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                El pasajero deberá llevar consigo un kit de limpieza consistente: pañal o tapete absorbente, trapo, bolsa para deshechos. Será responsabilidad del dueño limpiar completamente los desechos de su mascota.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                La empresa transportará Animales Domésticos braquicéfalos en la cabina de pasajeros cumpliendo con las dimensiones, peso y documentos requeridos, en todos los casos el cliente deberá llenar la carta responsiva correspondiente que especifique que el viaje de la mascota será bajo entera responsabilidad del pasajero debido a la posibilidad de desarrollar el síndrome respiratorio propio de dichas razas.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                No se permitirá viajar en la cabina de pasajeros a perros de razas catalogadas como peligrosas: Pit Bull Terrier, Staffordshire Bull Terrier, American Staffordshire Terrier, Rottweiler, Dogo Argentino, Fila Brasileiro, Tosa Inu y Akita Inu. O también, dependiendo de su complexión física, musculatura, altura y peso. Solo se permitirá su transportación documentada en el compartimiento de equipaje.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                Se deberá cubrir el monto establecido para el traslado de la mascota de acuerdo con la temporada: Baja el 75% del valor del asiento; Alta el 100% del valor del asiento, ambos tomando de base la tarifa de adulto.
+                            </p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">
+                                En todos los casos se deberá llenar la carta responsiva correspondiente para poder trasladar la mascota.
+                            </p>
+                        </li>
+                    </ol>
+
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
+                    </p>
+
+                    <h3 class="__subtitle-section">REGLAMENTACION PARA VIAJES CON MASCOTAS Y ANIMALES DE SERVICIO</h3>
+
+                    <h3 class="__subtitle-section">ASISTENCIA FUNERARIA MASCOTA (RECOLECCIÓN, CREMACIÓN Y ENTREGA DE CENIZAS)</h3>
+
+                    <p class="__terms-purchase-text">
+                        En caso de fallecimiento derivado de un accidente o muerte natural, dictaminado por un veterinario titulado con firma autógrafa en original, se llevará a cabo la cremación de la mascota, aplicables solo con la red de proveedores de SSIST. El evento deberá de ser coordinado desde un inicio con SSIST. No aplica reembolso.
+                    </p>
+
+                    <p class="__terms-purchase-text">
+                        Los accidentes cubiertos son: atropellamiento, lesiones por ataques de otras mascotas o animales, traumatismos o lesiones sufridos por accidentes, caídas, y lesiones por acción violenta súbita y externa.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        Al momento de solicitar el servicio de sacrificio de mascota, el usuario deberá contar con la carta emitida por el veterinario donde indique el causal del accidente y cédula profesional. El tiempo de atención del servicio estará sujeto a la disponibilidad de los crematorios de mascotas.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
+                    </p>
+
+                    <h3 class="__subtitle-section">PIPETA ANTIPULGAS POST-VIAJE EN CASO DE REQUERIRLA.</h3>
+
+                    <p class="__terms-purchase-text">
+                        Este beneficio se otorga post viaje en caso de haber adquirido pulgas.
+                    </p>
+
+                    <p class="__terms-purchase-text">
+                        Para hacer válido el beneficio debe comunicarse el pasajero a nuestra línea de Atención Mascota Murguía para que acuda con un veterinario de nuestra red para recibir el servicio.
+                    </p>
+                    <p class="__terms-purchase-text">
+                        <strong>Cobertura: 24 horas antes de iniciar el viaje, siempre y cuando no se encuentre en su lugar de residencia, durante el trayecto y 6 días posteriores hasta llegar al lugar de residencia</strong>
+                    </p>
+                </article>
+
+            </section>
+            
+            <section class="__sections">
+
+                <h3 class="__subtitle-section">REGLAMENTACIÓN PARA VIAJES CON MASCOTAS Y ANIMALES DE SERVICIO</h3><br>
+
+                <div id="pets-table-container" class="table-container">
+                    <app-table-pets id="pets-table"></app-table-pets>
+                </div>
+
+            </section>
+
     `;
+    this.loadAndSetPetsTableData("#pets-table", "../src/data/table-pets-3.json");
+  }
+  async loadAndSetPetsTableData(tableElementSelector, jsonPath) {
+    const tableElement = this.querySelector(tableElementSelector);
+    const response = await fetch(jsonPath);
+    const data = await response.json();
+    tableElement.setTableData(data);
   }
 }
 
-customElements.define("layout-viajero-protegido-plus", LayoutViajeroProtegidoPlus);
+customElements.define(
+  "layout-viajero-protegido-plus",
+  LayoutViajeroProtegidoPlus
+);

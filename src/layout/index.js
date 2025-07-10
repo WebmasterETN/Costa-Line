@@ -12,9 +12,10 @@ import "./layout-terminales-taquillas.js?v=1.0.2";
 import "./layout-salas-de-espera-vip.js?v=1.0.2";
 import "./layout-salidas-charters.js?v=1.0.2";
 import "./layout-servicios-a-bordo.js?v=1.0.2";
+import "./layout-atencion-a-clientes.js?v=1.0.2";
+
 import "./layout-pago-oxxo.js?v=1.0.2";
 import "./layout-terminos-condiciones.js?v=1.0.2";
-import "./layout-atencion-a-clientes.js?v=1.0.2";
 import "./layout-terminos-buen-fin.js?v=1.0.2";
 import "./layout-terminos-hot-sale.js?v=1.0.2";
 import "./layout-aviso-de-privacidad.js?v=1.0.2"; 
@@ -22,10 +23,12 @@ import "./layout-acerca-de-nosotros.js?v=1.0.2";
 import "./layout-viajero-protegido.js?v=1.0.2";
 import "./layout-viajero-protegido-plus.js?v=1.0.2";
 import "./layout-viajero-protegido-lujo.js?v=1.0.2";
+import "./layout-viajero-anticipado.js?v=1.0.2";
 import "./layout-travelpass.js?v=1.0.2";
 import "./layout-promociones.js?v=1.0.2";
 import "./layout-ofertas-en-1-click.js?v=1.0.2";
 import "./layout-festival-de-viajes.js?v=1.0.2";
+import "./layout-kueski-pay.js?v=1.0.2";
 
 import "./layout-boletos-de-autobus-monterrey.js?v=1.0.2";
 import "./layout-boletos-de-autobus-acapulco.js?v=1.0.2";
