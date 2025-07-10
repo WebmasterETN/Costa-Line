@@ -1,0 +1,197 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Página Home -->
+  <url>
+    <loc>https://costaline.com.mx/</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <!-- Páginas principales -->
+  
+  <!-- Página Boletos de autobus-->
+  <url>
+    <loc>https://costaline.com.mx/boletos-de-autobus.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <!-- Página Dónde comprar -->
+  <url>
+    <loc>https://costaline.com.mx/donde-comprar.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <!-- Página Servicios -->
+  <url>
+    <loc>https://costaline.com.mx/servicios.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Página GHO -->
+  <url>
+    <loc>https://costaline.com.mx/gho.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Página Renta de autobuses-->
+  <url>
+    <loc>https://costaline.com.mx/turismo/</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <!-- Página Destinos-->
+  <url>
+    <loc>https://costaline.com.mx/destinos.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <!-- Página Terminales y taquillas-->
+  <url>
+    <loc>https://costaline.com.mx/taquillas.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <!-- Página Servicios a bordo-->
+  <url>
+    <loc>https://costaline.com.mx/servicio-a-bordo.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Página Promociones-->
+  <url>
+    <loc>https://costaline.com.mx/promociones.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Página Pagos OXXO Pay-->
+  <url>
+    <loc>https://costaline.com.mx/pago-referenciado-oxxo.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Página Viajero Protegido-->
+  <url>
+    <loc>https://costaline.com.mx/viajero-protegido.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Página Blog-->
+  <url>
+    <loc>https://costaline.com.mx/blog/</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Página Atencion a clientes-->
+  <url>
+    <loc>https://costaline.com.mx/atencion-a-clientes.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Páginas Footer -->
+
+  <!-- Páginas Sobre la empresa -->
+
+  <!-- Páginas Quiénes somos -->
+  <url>
+    <loc>https://costaline.com.mx/quienes-somos.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Páginas Bolsa de trabajo -->
+  <url>
+    <loc>https://costaline.com.mx/bolsa-de-trabajo/</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Páginas Legales -->
+
+  <!-- Páginas Avisos de privacidad -->
+  <url>
+    <loc>https://costaline.com.mx/aviso-de-privacidad.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Páginas Términos y condiciones -->
+  <url>
+    <loc>https://costaline.com.mx/terminos-condiciones.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Documentos PDF -->
+  <url>
+    <loc>https://costaline.com.mx/aviso-privacidad.pdf</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://costaline.com.mx/servicio-plus.pdf</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://costaline.com.mx/bus-protect.pdf</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://costaline.com.mx/politicas-comerciales.pdf</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Páginas Servicios al cliente -->
+
+  <!-- Páginas Ayuda -->
+
+  <!-- Páginas Preguntas frecuentes -->
+  <url>
+    <loc>https://costaline.com.mx/preguntas-frecuentes.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Páginas en Inglés -->
+  <url>
+    <loc>https://costaline.com.mx/english/index.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://costaline.com.mx/english/servicios.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://costaline.com.mx/english/taquillas.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://costaline.com.mx/english/gho.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://costaline.com.mx/english/aviso-privacidad.pdf</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://costaline.com.mx/english/servicio-plus.pdf</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://costaline.com.mx/english/bus-protect.pdf</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://costaline.com.mx/english/politicas-comerciales.pdf</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset>
