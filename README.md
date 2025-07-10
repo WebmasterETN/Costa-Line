@@ -1,59 +1,130 @@
 # Web Costa Line
-Índice / Index  
-📘 Documentación en Español  
-📙 Documentation in English
 
-Índice  
-📘 Documentación en Español  
-📌 Descripción General  
-🎯 Objetivos del Proyecto  
-🧰 Tecnologías y Herramientas  
-🛠️ Instalación y Configuración  
-Configuración de la Extensión: Live Sass Compiler  
-Pasos de Instalación  
-📁 Estructura del Proyecto  
-🚀 Uso y Ejecución  
-Integración del archivo app.js  
-Importar dependencias locales  
-Inclusión de Estilos  
-🧩 Uso de los componentes personalizados  
-app-destinations-costa-line-grid  
-app-other-services  
-app-blog.js  
-🔡 Tipografía e Íconos  
-Insertar Íconos  
-Actualización de Íconos  
-🧱 Guía de Tipografía y Espaciado  
-Cómo Contribuir  
-Licencia
+## Índice / Index
 
-Documentación en español  
-📌 Descripción General  
-Web Costa Line es una solución web moderna orientada a promover destinos turísticos de forma atractiva e interactiva. Este proyecto ha sido desarrollado con tecnologías actuales como HTML5, SCSS, y metodologías de arquitectura CSS como BEM e ITCSS, garantizando un diseño escalable, mantenible y completamente responsive.
+- [📘 Documentación en Español](#documentación-en-español)
+- [📙 Documentation in English](#documentation-in-english)
 
-🎯 Objetivos del Proyecto  
-- Brindar una experiencia visual inmersiva en la exploración de destinos turísticos.  
-- Asegurar compatibilidad entre dispositivos mediante diseño responsive.  
-- Permitir la personalización modular de componentes y estilos.  
-- Fomentar buenas prácticas de desarrollo frontend escalable.
+---
 
-🧰 Tecnologías y Herramientas  
-- HTML5: Estructura semántica del contenido.  
-- CSS3 + SCSS: Estilización avanzada con preprocesador Sass.  
-- Browserslist: Control de compatibilidad con navegadores modernos.  
-Metodologías CSS:  
-BEM (Block Element Modifier)  
-ITCSS (Inverted Triangle CSS)
+### Índice
 
-🛠️ Instalación y Configuración  
-Configuración de la Extensión: Live Sass Compiler  
-Para compilar archivos .scss a .css automáticamente, se utiliza la extensión Live Sass Compiler en Visual Studio Code.
+- [Web Costa Line](#web-costa-line)
+  - [Índice / Index](#índice--index)
+    - [Índice](#índice)
+  - [Documentación en español](#documentación-en-español)
+  - [📌 Descripción General](#-descripción-general)
+  - [🎯 Objetivos del Proyecto](#-objetivos-del-proyecto)
+  - [🧰 Tecnologías y Herramientas](#-tecnologías-y-herramientas)
+  - [🛠️ Instalación y Configuración](#️-instalación-y-configuración)
+  - [Configuración de la Extensión: Live Sass Compiler](#configuración-de-la-extensión-live-sass-compiler)
+    - [Enlace de la extensión](#enlace-de-la-extensión)
+    - [Configuración recomendada](#configuración-recomendada)
+    - [Pasos para aplicar la configuración:](#pasos-para-aplicar-la-configuración)
+    - [Pasos de Instalación](#pasos-de-instalación)
+  - [📁 Estructura del Proyecto](#-estructura-del-proyecto)
+  - [🚀 Uso y Ejecución](#-uso-y-ejecución)
+    - [Integración del archivo app.js que importa los componentes](#integración-del-archivo-appjs-que-importa-los-componentes)
+    - [Importar dependencias locales](#importar-dependencias-locales)
+  - [Inclusión de Estilos](#inclusión-de-estilos)
+  - [🧩 Uso de los componentes personalizados](#-uso-de-los-componentes-personalizados)
+    - [`app-destinations-etn-grid`](#app-destinations-etn-grid)
+      - [Requisitos:](#requisitos)
+      - [Implementación:](#implementación)
+    - [`app-other-services`](#app-other-services)
+      - [Atributo requerido:](#atributo-requerido)
+      - [Estructura esperada:](#estructura-esperada)
+      - [Ejemplo de uso:](#ejemplo-de-uso)
+    - [`app-blog.js`](#app-blogjs)
+      - [Funcionalidades clave:](#funcionalidades-clave)
+      - [Requisitos:](#requisitos-1)
+  - [🔡 Tipografía e Íconos](#-tipografía-e-íconos)
+    - [Insertar Íconos](#insertar-íconos)
+    - [En CSS](#en-css)
+    - [Actualización de Íconos](#actualización-de-íconos)
+  - [🧱 Guía de Tipografía y Espaciado](#-guía-de-tipografía-y-espaciado)
+      - [Ejemplo:](#ejemplo)
+    - [Cómo Contribuir](#cómo-contribuir)
+    - [Licencia](#licencia)
+  - [Documentation in English](#documentation-in-english)
+    - [Index](#index)
+  - [📌 General Description](#-general-description)
+  - [🎯 Project Objectives](#-project-objectives)
+  - [🧰 Technologies and Tools](#-technologies-and-tools)
+  - [🛠️ Installation and Configuration](#️-installation-and-configuration)
+    - [Extension Configuration: Live Sass Compiler](#extension-configuration-live-sass-compiler)
+      - [Extension link](#extension-link)
+      - [Recommended Configuration](#recommended-configuration)
+    - [Steps to Apply the Configuration](#steps-to-apply-the-configuration)
+    - [Installation Steps](#installation-steps)
+  - [📁 Project Structure](#-project-structure)
+  - [🚀 Usage and Execution](#-usage-and-execution)
+    - [Integration of the `app.js` file that imports the components](#integration-of-the-appjs-file-that-imports-the-components)
+    - [Import Local Dependencies](#import-local-dependencies)
+  - [Styles Inclusion](#styles-inclusion)
+  - [🧩 Use of Custom Components](#-use-of-custom-components)
+    - [`app-destinations-etn-grid`](#app-destinations-etn-grid-1)
+      - [Requirements:](#requirements)
+      - [Implementation:](#implementation)
+    - [`app-other-services`](#app-other-services-1)
+      - [Required Attribute:](#required-attribute)
+      - [Expected Structure:](#expected-structure)
+      - [Example Usage:](#example-usage)
+    - [`app-blog.js`](#app-blogjs-1)
+      - [Key Features:](#key-features)
+      - [Requirements:](#requirements-1)
+  - [🔡 Typography and Icons](#-typography-and-icons)
+    - [Insert Icons](#insert-icons)
+    - [In CSS](#in-css)
+    - [Icon Update](#icon-update)
+  - [🧱 Typography and Spacing Guide](#-typography-and-spacing-guide)
+      - [Example:](#example)
+    - [How to Contribute](#how-to-contribute)
+    - [License](#license)
 
-Enlace de la extensión  
-👉 Live Sass Compiler - VS Code Marketplace
+---
 
-Configuración recomendada  
-Modifica tu archivo settings.json en la configuración de VS Code del compilador SASS con el siguiente fragmento:
+## Documentación en español
+
+## 📌 Descripción General
+
+**Web Costa Line** es una solución web moderna orientada a promover destinos turísticos de forma atractiva e interactiva. Este proyecto ha sido desarrollado con tecnologías actuales como **HTML5**, **SCSS**, y metodologías de arquitectura CSS como **BEM** e **ITCSS**, garantizando un diseño escalable, mantenible y completamente *responsive*.
+
+---
+
+## 🎯 Objetivos del Proyecto
+
+- Brindar una experiencia visual inmersiva en la exploración de destinos turísticos.
+- Asegurar compatibilidad entre dispositivos mediante diseño *responsive*.
+- Permitir la personalización modular de componentes y estilos.
+- Fomentar buenas prácticas de desarrollo *frontend* escalable.
+
+---
+
+## 🧰 Tecnologías y Herramientas
+
+- **HTML5**: Estructura semántica del contenido.
+- **CSS3 + SCSS**: Estilización avanzada con preprocesador Sass.
+- **Browserslist**: Control de compatibilidad con navegadores modernos.
+- **Metodologías CSS**:
+  - BEM (Block Element Modifier)
+  - ITCSS (Inverted Triangle CSS)
+
+---
+
+## 🛠️ Instalación y Configuración
+
+## Configuración de la Extensión: Live Sass Compiler
+
+Para compilar archivos `.scss` a `.css` automáticamente, se utiliza la extensión **Live Sass Compiler** en Visual Studio Code.
+
+### Enlace de la extensión
+
+👉 [Live Sass Compiler - VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass)
+
+### Configuración recomendada
+
+Modifica tu archivo `settings.json` en la configuración de VS Code  del compilador SASS con el siguiente fragmento:
 
 ```json
   //"liveSassCompile.settings.forceBaseDirectory": "/d:/Documents/Proyects/WebIAMSA/src/styles",
@@ -69,43 +140,44 @@ Modifica tu archivo settings.json en la configuración de VS Code del compilador
   ],
   "liveSassCompile.settings.generateMap": true,
   "liveSassCompile.settings.autoprefix": [
+  
+  
     "> 1%",
     "last 2 versions"
   ],
-Pasos para aplicar la configuración:
+```
 
-Abre el Command Palette con Ctrl + Shift + P.
+### Pasos para aplicar la configuración:
 
-Escribe Preferences: Open Settings (JSON) y selecciónalo.
+1. Abre el **Command Palette** con `Ctrl + Shift + P`.
+2. Escribe `Preferences: Open Settings (JSON)` y selecciónalo.
+3. Agrega o reemplaza el fragmento indicado.
+4. Guarda y reinicia Visual Studio Code si es necesario.
 
-Agrega o reemplaza el fragmento indicado.
+Esta configuración permitirá compilar los estilos de forma automática al guardar los archivos `.scss`, generando los `.min.css` correspondientes en la ruta definida.
 
-Guarda y reinicia Visual Studio Code si es necesario.
+### Pasos de Instalación
 
-Esta configuración permitirá compilar los estilos de forma automática al guardar los archivos .scss, generando los .min.css correspondientes en la ruta definida.
-
-Pasos de Instalación
-
-bash
-Copiar
-Editar
+```bash
 # Clonar el repositorio
-git clone https://github.com/WebmasterETN/WebIAMSA.git
+git clone https://github.com/WebmasterETN/Costa-Line.git
 
 # Acceder al proyecto
-cd WEBIAMSA
+cd COSTA-LINE
 
 # Compilar SCSS
 sass src/styles/scss:src/styles/css --style compressed
 
 # Visualizar en navegador
 open index.html
-📁 Estructura del Proyecto
+```
 
-css
-Copiar
-Editar
-WEBIAMSA/
+---
+
+## 📁 Estructura del Proyecto
+
+```plaintext
+COSTA-LINE/
 ├── .vscode/
 ├── src/
 │   ├── assets/
@@ -131,68 +203,71 @@ WEBIAMSA/
 ├── manifest.json
 ├── package.json
 └── README.md
-🚀 Uso y Ejecución
-Integración del archivo app.js que importa los componentes
+```
 
-html
-Copiar
-Editar
+---
+
+## 🚀 Uso y Ejecución
+
+### Integración del archivo app.js que importa los componentes
+
+```html
 <head>
   <script type="module" src="./app.js?v=1.2.0"></script>
 </head>
-Importar dependencias locales
+```
 
-html
-Copiar
-Editar
+### Importar dependencias locales
+
+```html
 <script src="./src/components/doters-cookies.js"></script>
 <script src="./src/js/jquery.min.js?v=1.0.4"></script>
 <script src="./src/js/slick.js?v=1.0.4"></script>
-Inclusión de Estilos
-Carga completa (solo en home)
+```
 
-html
-Copiar
-Editar
-<link rel="stylesheet" href="./src/styles/css/_css-components/home.min.css?v=1.0.6"/>
-IMPORTANTE: Las rutas deben estar actualizadas. Este archivo de estilos solo se recomienda para la página home. Si deseas usar los componentes en otras páginas, deben cargarse los estilos de manera modular.
+## Inclusión de Estilos
 
-Carga modular (ejemplo)
+- **Carga completa (solo en **`home`**)**
 
-html
-Copiar
-Editar
-<link rel="stylesheet" href="/src/styles/css/_css-components/header.min.css" />
-<link rel="stylesheet" href="/src/styles/css/_css-components/payments-logos.min.css" />
-<link rel="stylesheet" href="/src/styles/css/_css-components/destinations-grid.min.css" />
-<link rel="stylesheet" href="/src/styles/css/_css-components/list-destinations.min.css" />
-IMPORTANTE: Las rutas deben estar actualizadas o los estilos no se cargarán correctamente.
+  ```html
+  <link rel="stylesheet" href="./src/styles/css/_css-components/home.min.css?v=1.0.6"/>
+  ```
 
-🧩 Uso de los componentes personalizados
+> **IMPORTANTE**: Las rutas deben estar actualizadas. Este archivo de estilos solo se recomienda para la página **`home`**. Si deseas usar los componentes en otras páginas, deben cargarse los estilos de manera modular.
 
-app-destinations-costa-line-grid
-Este componente permite la visualización dinámica de destinos turísticos mediante una grilla adaptable y cambiando a un slider en dispositivos móviles utilizando la librería Slick Slider.
+- **Carga modular (ejemplo)**
 
-Requisitos:
-Entre 1 y 5 elementos por instancia.
-Cada destino debe incluir:
+  ```html
+  <link rel="stylesheet" href="/src/styles/css/_css-components/header.min.css" />
+  <link rel="stylesheet" href="/src/styles/css/_css-components/payments-logos.min.css" />
+  <link rel="stylesheet" href="/src/styles/css/_css-components/destinations-grid.min.css" />
+  <link rel="stylesheet" href="/src/styles/css/_css-components/list-destinations.min.css" />
+  ```
 
-title (Nombre del destino)
+> **IMPORTANTE**: Las rutas deben estar actualizadas o los estilos no se cargarán correctamente.
 
-content (Descripción)
+---
 
-image (URL de imagen)
+## 🧩 Uso de los componentes personalizados
 
-link (URL opcional)
+### `app-destinations-etn-grid`
 
-titleText (Título de sección)
+Este componente permite la visualización dinámica de destinos turísticos mediante una grilla adaptable y cambiando a un *slider* en dispositivos móviles utilizando la librería Slick Slider.
 
-Implementación:
+#### Requisitos:
 
-html
-Copiar
-Editar
-<app-destinations-costa-line-grid
+- Entre **1 y 5 elementos** por instancia.
+- Cada destino debe incluir:
+  - `title` (Nombre del destino)
+  - `content` (Descripción)
+  - `image` (URL de imagen)
+  - `link` (URL opcional)
+  - `titleText` (Título de sección)
+
+#### Implementación:
+
+```html
+<app-destinations-etn-grid
   titlesText='[
     {"id": "title1, 2, 3...", "title": "título de la sección", "text": "texto del parráfo de la sección"}
   ]'
@@ -216,30 +291,35 @@ Editar
       "link": "(url de la landing page del destino)https://example.com/aguascalientes"
     }
   ]'
-></app-destinations-costa-line-grid>
-IMPORTANTE: Las rutas de los enlaces, así como las de las imágenes, deben estar actualizadas.
+></app-destinations-etn-grid>
+```
 
-app-other-services
+> **IMPORTANTE**: Las rutas de los enlaces, así como las de las imágenes, deben estar actualizadas.
+
+---
+
+### `app-other-services`
+
 Componente para mostrar programas de lealtad y otros servicios clave.
 
-Atributo requerido:
-cards-data (arreglo JSON con contenido de las tarjetas)
-Estructura esperada:
+#### Atributo requerido:
 
-json
-Copiar
-Editar
+- `cards-data` (arreglo JSON con contenido de las tarjetas)
+
+#### Estructura esperada:
+
+```json
 {
   "title": "Nombre del servicio",
   "imageSrc": "ruta/de/imagen.webp",
   "imageAlt": "descripción alternativa",
   "href": "https://url-del-servicio.com"
 }
-Ejemplo de uso:
+```
 
-html
-Copiar
-Editar
+#### Ejemplo de uso:
+
+```html
 <app-other-services
   title-data='[
     {"title": "Título de la sección"}
@@ -265,70 +345,68 @@ Editar
     }
   ]'
 ></app-other-services>
-IMPORTANTE: Las rutas de los enlaces, así como las de las imágenes, deben estar actualizadas.
+```
 
-app-blog.js
-Componente que consume la API REST de WordPress y visualiza los últimos posts en un slider vertical.
+> **IMPORTANTE**: Las rutas de los enlaces, así como las de las imágenes, deben estar actualizadas.
 
-Funcionalidades clave:
+---
 
-fetchLatestPosts(): Obtiene datos de WordPress.
+### `app-blog.js`
 
-render(): Renderiza HTML dinámico.
+Componente que consume la API REST de WordPress y visualiza los últimos *posts* en un *slider* vertical.
 
-initializeSlider(): Inicializa el slider con Slick.
+#### Funcionalidades clave:
 
-Soporte para fallback en caso de datos vacíos.
+- `fetchLatestPosts()`: Obtiene datos de WordPress.
+- `render()`: Renderiza HTML dinámico.
+- `initializeSlider()`: Inicializa el *slider* con Slick.
+- Soporte para *fallback* en caso de datos vacíos.
 
-Requisitos:
+#### Requisitos:
 
-Incluir jQuery y Slick en el proyecto.
+- Incluir jQuery y Slick en el proyecto.
+- Agregar `<app-blog></app-blog>` donde se desea renderizar.
+- Personalizar *endpoint* en `fetchLatestPosts()` según la fuente deseada.
 
-Agregar <app-blog></app-blog> donde se desea renderizar.
+---
 
-Personalizar endpoint en fetchLatestPosts() según la fuente deseada.
+## 🔡 Tipografía e Íconos
 
-🔡 Tipografía e Íconos
-Insertar Íconos
+### Insertar Íconos
 
-html
-Copiar
-Editar
+```html
 <div class="icon-Icon-lupa"></div>
-En CSS
+```
 
-css
-Copiar
-Editar
+### En CSS
+
+```css
 .icon-class:before {
   content: "\e900";
 }
-Actualización de Íconos
+```
 
-Solicita el archivo selection.json.
+### Actualización de Íconos
 
-Optimiza los SVGs en svgviewer.dev.
+1. Solicita el archivo `selection.json`.  
+2. Optimiza los SVGs en [svgviewer.dev](https://www.svgviewer.dev/).  
+3. Importa todo en [icomoon.io](https://icomoon.io/app).  
+4. Genera y descarga el nuevo paquete.  
+5. Sustituye archivos en `src/assets/icons/`.  
+6. Copia clases CSS a `_icons.scss`.  
+7. Actualiza `demo.html` y `demo-files/`.
 
-Importa todo en icomoon.io.
+> **IMPORTANTE**: El archivo `selection.json` debe estar actualizado y debe ser solicitado a tu líder de proyecto para su actualización si lo requieres.
 
-Genera y descarga el nuevo paquete.
+---
 
-Sustituye archivos en src/assets/icons/.
+## 🧱 Guía de Tipografía y Espaciado
 
-Copia clases CSS a _icons.scss.
+Definidos mediante `clamp()` o `rem` para garantizar una buena escalabilidad visual según el caso.
 
-Actualiza demo.html y demo-files/.
+#### Ejemplo:
 
-IMPORTANTE: El archivo selection.json debe estar actualizado y debe ser solicitado a tu líder de proyecto para su actualización si lo requieres.
-
-🧱 Guía de Tipografía y Espaciado
-Definidos mediante clamp() o rem para garantizar una buena escalabilidad visual según el caso.
-
-Ejemplo:
-
-scss
-Copiar
-Editar
+```scss
 $fs-h1: clamp(2em, 5vw, 3em);
 $lh-default: 1.5;
 
@@ -336,83 +414,100 @@ h1 {
   font-size: $fs-h1;
   line-height: $lh-default;
 }
-Cómo Contribuir
+```
 
-bash
-Copiar
-Editar
+---
+
+### Cómo Contribuir
+
+```bash
 git clone [repo-url]
 git checkout -b feature-[nombre]
 git add .
 git commit -m "Descripción"
 git push origin feature-[nombre]
-Haz Pull Request a la rama dev.
+```
 
-Licencia
-Este proyecto se encuentra bajo licencia propietaria. Consulta el archivo LICENSE.
+Haz *Pull Request* a la rama `dev`.
 
-Documentation in English
-Index
-📘 Documentation in Spanish
-📌 General Description
-🎯 Project Objectives
-🧰 Technologies and Tools
-🛠️ Installation and Configuration
-Extension Configuration: Live Sass Compiler
-Installation Steps
-📁 Project Structure
-🚀 Usage and Execution
-Integration of app.js file
-Import local dependencies
-Styles Inclusion
-🧩 Use of Custom Components
-app-destinations-costa-line-grid
-app-other-services
-app-blog.js
-🔡 Typography and Icons
-Insert Icons
-Icon Update
-🧱 Typography and Spacing Guide
-How to Contribute
-License
+---
 
-📌 General Description
-Web Costa Line is a modern web solution aimed at promoting tourist destinations in an attractive and interactive way. This project was developed using current technologies such as HTML5, SCSS, and CSS architecture methodologies like BEM and ITCSS, ensuring a scalable, maintainable, and fully responsive design.
+### Licencia
 
-🎯 Project Objectives
+Este proyecto se encuentra bajo **licencia propietaria**. Consulta el archivo `LICENSE`.
 
-Deliver an immersive visual experience when exploring tourist destinations.
+## Documentation in English
 
-Ensure device compatibility through responsive design.
+---
 
-Enable modular customization of components and styles.
+### Index
 
-Encourage best practices for scalable frontend development.
+1. [📘 Documentation in Spanish](#documentación-en-español)  
+   - [📌 General Description](#📌-general-description)  
+   - [🎯 Project Objectives](#🎯-project-objectives)  
+   - [🧰 Technologies and Tools](#🧰-technologies-and-tools)  
+   - [🛠️ Installation and Configuration](#🛠️-installation-and-configuration)  
+     - [Extension Configuration: Live Sass Compiler](#extension-configuration-live-sass-compiler)  
+     - [Installation Steps](#installation-steps)  
+   - [📁 Project Structure](#📁-project-structure)  
+   - [🚀 Usage and Execution](#🚀-usage-and-execution)  
+     - [Integration of app.js file](#integration-of-the-appjs-file-that-imports-the-components)  
+     - [Import local dependencies](#import-local-dependencies)  
+     - [Styles Inclusion](#styles-inclusion)  
+   - [🧩 Use of Custom Components](#🧩-use-of-custom-components)  
+     - [`app-destinations-etn-grid`](#app-destinations-etn-grid)  
+     - [`app-other-services`](#app-other-services)  
+     - [`app-blog.js`](#app-blogjs)  
+   - [🔡 Typography and Icons](#🔡-typography-and-icons)  
+     - [Insert Icons](#insert-icons)  
+     - [Icon Update](#icon-update)  
+   - [🧱 Typography and Spacing Guide](#🧱-typography-and-spacing-guide)  
+   - [How to Contribute](#how-to-contribute)  
+   - [License](#license)  
 
-🧰 Technologies and Tools
+---
 
-HTML5: Semantic content structure.
+## 📌 General Description
 
-CSS3 + SCSS: Advanced styling with Sass preprocessor.
+**Web Costa Line** is a modern web solution aimed at promoting tourist destinations in an attractive and interactive way. This project was developed using current technologies such as **HTML5**, **SCSS**, and CSS architecture methodologies like **BEM** and **ITCSS**, ensuring a scalable, maintainable, and fully responsive design.
 
-Browserslist: Controls compatibility with modern browsers.
-CSS Methodologies:
-BEM (Block Element Modifier)
-ITCSS (Inverted Triangle CSS)
+---
 
-🛠️ Installation and Configuration
-Extension Configuration: Live Sass Compiler
-To automatically compile .scss files to .css, the Live Sass Compiler extension is used in Visual Studio Code.
+## 🎯 Project Objectives
 
-Extension link
-👉 Live Sass Compiler - VS Code Marketplace
+- Deliver an immersive visual experience when exploring tourist destinations.  
+- Ensure device compatibility through responsive design.  
+- Enable modular customization of components and styles.  
+- Encourage best practices for scalable frontend development.  
 
-Recommended Configuration
-Modify your settings.json file in VS Code with the following snippet:
+---
 
-json
-Copiar
-Editar
+## 🧰 Technologies and Tools
+
+- **HTML5**: Semantic content structure.  
+- **CSS3 + SCSS**: Advanced styling with Sass preprocessor.  
+- **Browserslist**: Controls compatibility with modern browsers.  
+- **CSS Methodologies**:  
+  - BEM (Block Element Modifier)  
+  - ITCSS (Inverted Triangle CSS)  
+
+---
+
+## 🛠️ Installation and Configuration
+
+### Extension Configuration: Live Sass Compiler
+
+To automatically compile `.scss` files to `.css`, the **Live Sass Compiler** extension is used in Visual Studio Code.
+
+#### Extension link
+
+👉 [Live Sass Compiler - VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass)
+
+#### Recommended Configuration
+
+Modify your `settings.json` file in VS Code with the following snippet:
+
+```json
   //"liveSassCompile.settings.forceBaseDirectory": "/d:/Documents/Proyects/WebIAMSA/src/styles",
   "liveSassCompile.settings.formats": [
     {
@@ -426,43 +521,45 @@ Editar
   ],
   "liveSassCompile.settings.generateMap": true,
   "liveSassCompile.settings.autoprefix": [
+  
+  
     "> 1%",
     "last 2 versions"
   ],
-Steps to Apply the Configuration:
+```
 
-Open Command Palette with Ctrl + Shift + P.
+### Steps to Apply the Configuration
 
-Type Preferences: Open Settings (JSON) and select it.
+1. Open **Command Palette** with `Ctrl + Shift + P`.  
+2. Type `Preferences: Open Settings (JSON)` and select it.  
+3. Add or replace the indicated snippet.  
+4. Save and restart Visual Studio Code if necessary.
 
-Add or replace the snippet above.
+This setup allows for automatic style compilation on `.scss` file save, generating the corresponding `.min.css` in the defined path.
 
-Save and restart Visual Studio Code if necessary.
+### Installation Steps
 
-This setup allows automatic compilation of styles when saving .scss files, generating the corresponding .min.css files in the defined path.
-
-Installation Steps
-
-bash
-Copiar
-Editar
+```bash
 # Clone the repository
-git clone https://github.com/WebmasterETN/WebIAMSA.git
+git clone https://github.com/WebmasterETN/Costa-Line.git
 
 # Enter the project
-cd WEBIAMSA
+cd COSTA-LINE
+
 
 # Compile SCSS
 sass src/styles/scss:src/styles/css --style compressed
 
 # View in browser
 open index.html
-📁 Project Structure
+```
 
-css
-Copiar
-Editar
-WEBIAMSA/
+---
+
+## 📁 Project Structure
+
+```plaintext
+COSTA-LINE/
 ├── .vscode/
 ├── src/
 │   ├── assets/
@@ -488,68 +585,71 @@ WEBIAMSA/
 ├── manifest.json
 ├── package.json
 └── README.md
-🚀 Usage and Execution
-Integration of the app.js file that imports components
+```
 
-html
-Copiar
-Editar
+---
+
+## 🚀 Usage and Execution
+
+### Integration of the `app.js` file that imports the components
+
+```html
 <head>
   <script type="module" src="./app.js?v=1.2.0"></script>
 </head>
-Import local dependencies
+```
 
-html
-Copiar
-Editar
+### Import Local Dependencies
+
+```html
 <script src="./src/components/doters-cookies.js"></script>
 <script src="./src/js/jquery.min.js?v=1.0.4"></script>
 <script src="./src/js/slick.js?v=1.0.4"></script>
-Styles Inclusion
-Full load (only on home)
+```
 
-html
-Copiar
-Editar
-<link rel="stylesheet" href="./src/styles/css/_css-components/home.min.css?v=1.0.6"/>
-IMPORTANT: Paths must be up to date. This style file is recommended only for the home page. To use components on other pages, styles must be loaded modularly.
+## Styles Inclusion
 
-Modular load (example)
+- **Full load (only for `home`)**
 
-html
-Copiar
-Editar
-<link rel="stylesheet" href="/src/styles/css/_css-components/header.min.css" />
-<link rel="stylesheet" href="/src/styles/css/_css-components/payments-logos.min.css" />
-<link rel="stylesheet" href="/src/styles/css/_css-components/destinations-grid.min.css" />
-<link rel="stylesheet" href="/src/styles/css/_css-components/list-destinations.min.css" />
-IMPORTANT: Paths must be up to date or styles will not load correctly.
+  ```html
+  <link rel="stylesheet" href="./src/styles/css/_css-components/home.min.css?v=1.0.6"/>
+  ```
 
-🧩 Use of Custom Components
+> **IMPORTANT**: Paths must be up to date. This style file is recommended only for the **`home`** page. To use components on other pages, styles must be loaded modularly.
 
-app-destinations-costa-line-grid
-This component allows dynamic visualization of tourist destinations through a responsive grid that switches to a slider on mobile devices using the Slick Slider library.
+- **Modular load (example)**
 
-Requirements:
-Between 1 and 5 items per instance.
-Each destination must include:
+  ```html
+  <link rel="stylesheet" href="/src/styles/css/_css-components/header.min.css" />
+  <link rel="stylesheet" href="/src/styles/css/_css-components/payments-logos.min.css" />
+  <link rel="stylesheet" href="/src/styles/css/_css-components/destinations-grid.min.css" />
+  <link rel="stylesheet" href="/src/styles/css/_css-components/list-destinations.min.css" />
+  ```
 
-title (Destination name)
+> **IMPORTANT**: Paths must be up to date or styles will not load properly.
 
-content (Description)
+---
 
-image (Image URL)
+## 🧩 Use of Custom Components
 
-link (Optional URL)
+### `app-destinations-etn-grid`
 
-titleText (Section title)
+This component enables dynamic display of tourist destinations using a responsive grid that switches to a slider on mobile devices with the Slick Slider library.
 
-Implementation:
+#### Requirements:
 
-html
-Copiar
-Editar
-<app-destinations-costa-line-grid
+- Between **1 and 5 items** per instance.  
+- Each destination must include:  
+  - `title` (Destination name)  
+  - `content` (Description)  
+  - `image` (Image URL)  
+  - `link` (Optional URL)  
+  - `titleText` (Section title)  
+
+#### Implementation:
+
+```html
+<app-destinations-etn-grid
   titlesText='[
     {"id": "title1, 2, 3...", "title": "section title", "text": "paragraph text for the section"}
   ]'
@@ -573,119 +673,123 @@ Editar
       "link": "(destination landing page URL)https://example.com/aguascalientes"
     }
   ]'
-></app-destinations-costa-line-grid>
-IMPORTANT: Links and image URLs must be updated.
+></app-destinations-etn-grid>
 
-app-other-services
-Component to display loyalty programs and key services.
+```
 
-Required attribute:
-cards-data (JSON array with card content)
-Expected structure:
+> **IMPORTANT**: Link and image paths must be up to date.
 
-json
-Copiar
-Editar
+---
+
+### `app-other-services`
+
+Component to display loyalty programs and other key services.
+
+#### Required Attribute:
+
+- `cards-data` (JSON array with card content)
+
+#### Expected Structure:
+
+```json
 {
   "title": "Service name",
   "imageSrc": "image/path.webp",
-  "imageAlt": "alternative description",
+  "imageAlt": "alt description",
   "href": "https://service-url.com"
 }
-Example usage:
+```
 
-html
-Copiar
-Editar
+#### Example Usage:
+
+```html
 <app-other-services
   title-data='[
-    {"title": "Section Title"}
+    {"title": "Section title"}
   ]'
   cards-data='[
     {
-      "title": "element title",
+      "title": "item title",
       "imageSrc": "(relative image URL)./assets/other-services-img/seguro-viajero.webp",
-      "imageAlt": "alt attribute text",
+      "imageAlt": "alt attribute text for the image",
       "href": "(destination landing page URL) https://example.com/seguro-viajero"
     },
     {
-      "title": "element title",
+      "title": "item title",
       "imageSrc": "(relative image URL)./assets/other-services-img/seguro-viajero.webp",
-      "imageAlt": "alt attribute text",
+      "imageAlt": "alt attribute text for the image",
       "href": "(destination landing page URL) https://example.com/seguro-viajero"
     },
     {
-      "title": "element title",
+      "title": "item title",
       "imageSrc": "(relative image URL)./assets/other-services-img/seguro-viajero.webp",
-      "imageAlt": "alt attribute text",
+      "imageAlt": "alt attribute text for the image",
       "href": "(destination landing page URL) https://example.com/seguro-viajero"
     }
   ]'
 ></app-other-services>
-IMPORTANT: Links and image URLs must be updated.
+```
 
-app-blog.js
-Component that consumes WordPress REST API and displays the latest posts in a vertical slider.
+> **IMPORTANT**: Link and image paths must be up to date.
 
-Key features:
+---
 
-fetchLatestPosts(): Fetches WordPress data.
+### `app-blog.js`
 
-render(): Dynamically renders HTML.
+Component that consumes the WordPress REST API and displays the latest posts in a vertical slider.
 
-initializeSlider(): Initializes slider with Slick.
+#### Key Features:
 
-Fallback support if no data.
+- `fetchLatestPosts()`: Fetches data from WordPress.  
+- `render()`: Renders dynamic HTML.  
+- `initializeSlider()`: Initializes Slick slider.  
+- Fallback support if data is empty.
 
-Requirements:
+#### Requirements:
 
-Include jQuery and Slick in the project.
+- Include jQuery and Slick in the project.  
+- Add `<app-blog></app-blog>` where the component should render.  
+- Customize endpoint in `fetchLatestPosts()` to match desired source.
 
-Add <app-blog></app-blog> where rendering is desired.
+---
 
-Customize fetchLatestPosts() endpoint as needed.
+## 🔡 Typography and Icons
 
-🔡 Typography and Icons
-Insert Icons
+### Insert Icons
 
-html
-Copiar
-Editar
+```html
 <div class="icon-Icon-lupa"></div>
-CSS
+```
 
-css
-Copiar
-Editar
+### In CSS
+
+```css
 .icon-class:before {
   content: "\e900";
 }
-Icon Update
+```
 
-Request selection.json file.
+### Icon Update
 
-Optimize SVGs on svgviewer.dev.
+1. Request the `selection.json` file  
+2. Optimize SVGs at [svgviewer.dev](https://www.svgviewer.dev/)  
+3. Import everything into [icomoon.io](https://icomoon.io/app)  
+4. Generate and download the new package  
+5. Replace files in `src/assets/icons/`  
+6. Copy CSS classes to `_icons.scss`  
+7. Update `demo.html` and `demo-files/`
 
-Import all to icomoon.io.
+> **IMPORTANT**: The `selection.json` file must be up to date and should be requested from your project lead if needed.
 
-Generate and download new package.
+---
 
-Replace files in src/assets/icons/.
+## 🧱 Typography and Spacing Guide
 
-Copy CSS classes to _icons.scss.
+Defined using `clamp()` or `rem` to ensure good visual scalability as needed.
 
-Update demo.html and demo-files/.
+#### Example:
 
-IMPORTANT: selection.json must be updated and requested from your project lead if needed.
-
-🧱 Typography and Spacing Guide
-Defined using clamp() or rem to ensure good visual scalability.
-
-Example:
-
-scss
-Copiar
-Editar
+```scss
 $fs-h1: clamp(2em, 5vw, 3em);
 $lh-default: 1.5;
 
@@ -693,17 +797,24 @@ h1 {
   font-size: $fs-h1;
   line-height: $lh-default;
 }
-How to Contribute
+```
 
-bash
-Copiar
-Editar
+---
+
+### How to Contribute
+
+```bash
 git clone [repo-url]
 git checkout -b feature-[name]
 git add .
 git commit -m "Description"
 git push origin feature-[name]
-Make Pull Request to dev branch.
+```
 
-License
-This project is under proprietary license. See LICENSE file.
+Make a Pull Request to the `dev` branch.
+
+---
+
+### License
+
+This project is under a **proprietary license**. See the `LICENSE` file.
