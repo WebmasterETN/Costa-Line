@@ -1,4 +1,4 @@
-# Web ETN Turistar Lujo
+# Web Costa Line
 
 ## Índice / Index
 
@@ -9,28 +9,78 @@
 
 ### Índice
 
-1. [📘 Documentación en Español](#documentación-en-español)
-   - [📌 Descripción General](#📌-descripción-general)
-   - [🎯 Objetivos del Proyecto](#🎯-objetivos-del-proyecto)
-   - [🧰 Tecnologías y Herramientas](#🧰-tecnologías-y-herramientas)
-   - [🛠️ Instalación y Configuración](#🛠️-instalación-y-configuración)
-     - [Configuración de la Extensión: Live Sass Compiler](#configuración-de-la-extensión-live-sass-compiler)
-     - [Pasos de Instalación](#pasos-de-instalación)
-   - [📁 Estructura del Proyecto](#📁-estructura-del-proyecto)
-   - [🚀 Uso y Ejecución](#🚀-uso-y-ejecución)
-     - [Integración del archivo app.js](#integración-del-archivo-appjs-que-importa-los-componentes)
-     - [Importar dependencias locales](#importar-dependencias-locales)
-     - [Inclusión de Estilos](#inclusión-de-estilos)
-   - [🧩 Uso de los componentes personalizados](#🧩-uso-de-los-componentes-personalizados)
-     - [`app-destinations-etn-grid`](#app-destinations-etn-grid)
-     - [`app-other-services`](#app-other-services)
-     - [`app-blog.js`](#app-blogjs)
-   - [🔡 Tipografía e Íconos](#🔡-tipografía-e-íconos)
-     - [Insertar Íconos](#insertar-íconos)
-     - [Actualización de Íconos](#actualización-de-íconos)
-   - [🧱 Guía de Tipografía y Espaciado](#🧱-guía-de-tipografía-y-espaciado)
-   - [Cómo Contribuir](#cómo-contribuir)
-   - [Licencia](#licencia)
+- [Web Costa Line](#web-costa-line)
+  - [Índice / Index](#índice--index)
+    - [Índice](#índice)
+  - [Documentación en español](#documentación-en-español)
+  - [📌 Descripción General](#-descripción-general)
+  - [🎯 Objetivos del Proyecto](#-objetivos-del-proyecto)
+  - [🧰 Tecnologías y Herramientas](#-tecnologías-y-herramientas)
+  - [🛠️ Instalación y Configuración](#️-instalación-y-configuración)
+  - [Configuración de la Extensión: Live Sass Compiler](#configuración-de-la-extensión-live-sass-compiler)
+    - [Enlace de la extensión](#enlace-de-la-extensión)
+    - [Configuración recomendada](#configuración-recomendada)
+    - [Pasos para aplicar la configuración:](#pasos-para-aplicar-la-configuración)
+    - [Pasos de Instalación](#pasos-de-instalación)
+  - [📁 Estructura del Proyecto](#-estructura-del-proyecto)
+  - [🚀 Uso y Ejecución](#-uso-y-ejecución)
+    - [Integración del archivo app.js que importa los componentes](#integración-del-archivo-appjs-que-importa-los-componentes)
+    - [Importar dependencias locales](#importar-dependencias-locales)
+  - [Inclusión de Estilos](#inclusión-de-estilos)
+  - [🧩 Uso de los componentes personalizados](#-uso-de-los-componentes-personalizados)
+    - [`app-destinations-etn-grid`](#app-destinations-etn-grid)
+      - [Requisitos:](#requisitos)
+      - [Implementación:](#implementación)
+    - [`app-other-services`](#app-other-services)
+      - [Atributo requerido:](#atributo-requerido)
+      - [Estructura esperada:](#estructura-esperada)
+      - [Ejemplo de uso:](#ejemplo-de-uso)
+    - [`app-blog.js`](#app-blogjs)
+      - [Funcionalidades clave:](#funcionalidades-clave)
+      - [Requisitos:](#requisitos-1)
+  - [🔡 Tipografía e Íconos](#-tipografía-e-íconos)
+    - [Insertar Íconos](#insertar-íconos)
+    - [En CSS](#en-css)
+    - [Actualización de Íconos](#actualización-de-íconos)
+  - [🧱 Guía de Tipografía y Espaciado](#-guía-de-tipografía-y-espaciado)
+      - [Ejemplo:](#ejemplo)
+    - [Cómo Contribuir](#cómo-contribuir)
+    - [Licencia](#licencia)
+  - [Documentation in English](#documentation-in-english)
+    - [Index](#index)
+  - [📌 General Description](#-general-description)
+  - [🎯 Project Objectives](#-project-objectives)
+  - [🧰 Technologies and Tools](#-technologies-and-tools)
+  - [🛠️ Installation and Configuration](#️-installation-and-configuration)
+    - [Extension Configuration: Live Sass Compiler](#extension-configuration-live-sass-compiler)
+      - [Extension link](#extension-link)
+      - [Recommended Configuration](#recommended-configuration)
+    - [Steps to Apply the Configuration](#steps-to-apply-the-configuration)
+    - [Installation Steps](#installation-steps)
+  - [📁 Project Structure](#-project-structure)
+  - [🚀 Usage and Execution](#-usage-and-execution)
+    - [Integration of the `app.js` file that imports the components](#integration-of-the-appjs-file-that-imports-the-components)
+    - [Import Local Dependencies](#import-local-dependencies)
+  - [Styles Inclusion](#styles-inclusion)
+  - [🧩 Use of Custom Components](#-use-of-custom-components)
+    - [`app-destinations-etn-grid`](#app-destinations-etn-grid-1)
+      - [Requirements:](#requirements)
+      - [Implementation:](#implementation)
+    - [`app-other-services`](#app-other-services-1)
+      - [Required Attribute:](#required-attribute)
+      - [Expected Structure:](#expected-structure)
+      - [Example Usage:](#example-usage)
+    - [`app-blog.js`](#app-blogjs-1)
+      - [Key Features:](#key-features)
+      - [Requirements:](#requirements-1)
+  - [🔡 Typography and Icons](#-typography-and-icons)
+    - [Insert Icons](#insert-icons)
+    - [In CSS](#in-css)
+    - [Icon Update](#icon-update)
+  - [🧱 Typography and Spacing Guide](#-typography-and-spacing-guide)
+      - [Example:](#example)
+    - [How to Contribute](#how-to-contribute)
+    - [License](#license)
 
 ---
 
@@ -38,7 +88,7 @@
 
 ## 📌 Descripción General
 
-**Web ETN Turistar Lujo** es una solución web moderna orientada a promover destinos turísticos de forma atractiva e interactiva. Este proyecto ha sido desarrollado con tecnologías actuales como **HTML5**, **SCSS**, y metodologías de arquitectura CSS como **BEM** e **ITCSS**, garantizando un diseño escalable, mantenible y completamente *responsive*.
+**Web Costa Line** es una solución web moderna orientada a promover destinos turísticos de forma atractiva e interactiva. Este proyecto ha sido desarrollado con tecnologías actuales como **HTML5**, **SCSS**, y metodologías de arquitectura CSS como **BEM** e **ITCSS**, garantizando un diseño escalable, mantenible y completamente *responsive*.
 
 ---
 
@@ -110,10 +160,10 @@ Esta configuración permitirá compilar los estilos de forma automática al guar
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/WebmasterETN/WebIAMSA.git
+git clone https://github.com/WebmasterETN/Costa-Line.git
 
 # Acceder al proyecto
-cd WEBIAMSA
+cd COSTA-LINE
 
 # Compilar SCSS
 sass src/styles/scss:src/styles/css --style compressed
@@ -127,7 +177,7 @@ open index.html
 ## 📁 Estructura del Proyecto
 
 ```plaintext
-WEBIAMSA/
+COSTA-LINE/
 ├── .vscode/
 ├── src/
 │   ├── assets/
@@ -419,7 +469,7 @@ Este proyecto se encuentra bajo **licencia propietaria**. Consulta el archivo `L
 
 ## 📌 General Description
 
-**Web ETN Turistar Lujo** is a modern web solution aimed at promoting tourist destinations in an attractive and interactive way. This project was developed using current technologies such as **HTML5**, **SCSS**, and CSS architecture methodologies like **BEM** and **ITCSS**, ensuring a scalable, maintainable, and fully responsive design.
+**Web Costa Line** is a modern web solution aimed at promoting tourist destinations in an attractive and interactive way. This project was developed using current technologies such as **HTML5**, **SCSS**, and CSS architecture methodologies like **BEM** and **ITCSS**, ensuring a scalable, maintainable, and fully responsive design.
 
 ---
 
@@ -491,10 +541,11 @@ This setup allows for automatic style compilation on `.scss` file save, generati
 
 ```bash
 # Clone the repository
-git clone https://github.com/WebmasterETN/WebIAMSA.git
+git clone https://github.com/WebmasterETN/Costa-Line.git
 
 # Enter the project
-cd WEBIAMSA
+cd COSTA-LINE
+
 
 # Compile SCSS
 sass src/styles/scss:src/styles/css --style compressed
@@ -508,7 +559,7 @@ open index.html
 ## 📁 Project Structure
 
 ```plaintext
-WEBIAMSA/
+COSTA-LINE/
 ├── .vscode/
 ├── src/
 │   ├── assets/
@@ -766,7 +817,4 @@ Make a Pull Request to the `dev` branch.
 
 ### License
 
-This project is under a **proprietary license**. See the `LICENSE` file.#   C o s t a - L i n e  
- #   C o s t a - L i n e  
- #   C o s t a - L i n e  
- 
+This project is under a **proprietary license**. See the `LICENSE` file.
