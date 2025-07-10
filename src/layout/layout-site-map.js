@@ -8,7 +8,7 @@ class LayoutSiteMap extends HTMLElement {
       <app-modal-doters></app-modal-doters>
       <div class="space"></div>
       <section class="__section">
-        <app-section-title section-title="Site Map | ETN Turistar Lujo"></app-section-title>
+        <app-section-title section-title="Site Map | Costa Line AERS"></app-section-title>
         <div id="site-map-listas">Cargando...</div>
       </section>
     `;
