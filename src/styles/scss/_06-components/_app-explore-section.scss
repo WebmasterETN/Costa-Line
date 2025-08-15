@@ -1,0 +1,86 @@
+app-explore-section {
+  display: block;
+  width: 100%;
+}
+
+.__explore-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .explore-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    width: 100%;
+    gap: 2rem;
+    align-items: stretch;
+    margin-bottom: 2rem;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 0;
+      // En móvil, la tarjeta se unifica, así que la sombra y el borde se aplican al contenedor principal.
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .__img-card {
+      display: block;
+      max-width: 427px;
+      height: auto;
+      aspect-ratio: 427/259;
+      object-fit: cover;
+      width: 100%;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+      border-radius: 12px;
+
+      @media (max-width: 768px) {
+        max-width: 100%;
+        box-shadow: none;
+        border-radius: 12px 12px 0 0;
+      }
+    }
+
+    .__description-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: stretch;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+      overflow: hidden;
+
+      .__title-card {
+        background-color: $primary-color;
+        width: 100%;
+        padding: 0.5rem 1rem;
+        text-align: start;
+        font-size: 2rem;
+        color: #fff;
+        font-weight: 600;
+      }
+
+      .__paragraph-card {
+        background-color: #fff;
+        width: 100%;
+        padding: 1rem;
+        text-align: start;
+        font-size: 1.5rem;
+        color: $primary-color;
+        flex-grow: 1;
+        @media (max-width: 768px) {
+          background-color: $primary-color;
+          color: #fff;
+        }
+      }
+
+      @media (max-width: 768px) {
+        box-shadow: none;
+        border-radius: 0 0 12px 12px;
+        overflow: visible;
+      }
+    }
+  }
+}

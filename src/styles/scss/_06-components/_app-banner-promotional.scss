@@ -1,0 +1,16 @@
+.__banner-promotional {
+  display: flex;
+  width: 100%;
+  
+  .__banner-promotional__link {
+    display: block;
+    width: 100%;
+
+    .__banner-promotional__img {
+      display: block;
+      width: 100%;
+      max-width: 1900px;
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.__banner-container {
+  display: block;
+  width: 100%;
+  max-width: 1900px;
+  margin-top: $spacing-xl;
+  padding: $spacing-xl $spacing-xxl $spacing-xxl $spacing-xxl;
+  box-sizing: border-box;
+
+  .__banner-img { /* Corrección del nombre de la clase */
+    display: block;
+    width: 100%;
+    height: auto; /* Permite que la altura se ajuste para mantener la proporción */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+  }
+}
+
+@include media("lg") {
+  .__banner-container {
+    margin-top: 0;
+    padding: 0;
+  }
+}

@@ -1,0 +1,404 @@
+.app-grid-text {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    align-items: flex-start;
+
+    .grid-slider-wrapper {
+        flex: 1;
+        width: 50%;
+    }
+
+    .grid-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        .card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 1rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            aspect-ratio: 1 / 1; 
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+                filter: brightness(0.65); 
+                transition: transform 0.3s ease, filter 0.3s ease;
+            }
+
+            .button-grid {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: rgba(255, 255, 255);
+                padding: 0.3rem 0.8rem;
+                border-radius: 1rem;
+                font-weight: 600;
+                font-size: 0.95rem;
+                white-space: nowrap;
+                transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+                text-decoration: none;
+                color: $primary-color;
+
+                &:hover {
+                    background: #004b6f;   
+                    color: $primary-color;   
+                    color: white;
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); 
+                }
+            }
+
+
+            &:hover img {
+                transform: scale(1.05);
+                filter: brightness(1); 
+            }
+        }
+    }
+
+    .text-section {
+        flex: 1;
+        width: 50%;
+        color: #0f3b53;
+        font-size: 1.5vw;
+        line-height: 1.6;
+
+        strong {
+            color: #004b6f;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+    }
+
+    .slider-btn {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .app-grid-text {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: flex-start;
+
+        .grid-slider-wrapper {
+            position: relative;
+            width: 100%;
+            flex: none; /* Resetea las propiedades flex de escritorio */
+        }
+
+        .grid-section {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            justify-content: flex-start;
+            scroll-snap-type: x mandatory;
+            width: 100vw;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            scroll-padding-left: 1rem;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+
+            .card {
+                flex: 0 0 300px;
+                scroll-snap-align: start;
+                position: relative;
+                overflow: hidden;
+                border-radius: 0;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+                    filter: brightness(0.65);
+                    transition: transform 0.3s ease, filter 0.3s ease;
+                }
+
+                .button-grid {
+                    position: realtive;
+                    width: 100%;
+                    margin-top: 42%;
+                    background-color: $primary-color;
+                    padding: 1rem 0.8rem;
+                    border-radius: 0;
+                    font-weight: 600;
+                    font-size: 0.95rem;
+                    white-space: nowrap;
+                    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+                    text-decoration: none;
+                    color: white;
+
+                    &:hover {
+                        background-color: white;
+                        color: $primary-color;
+                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+                    }
+                }
+
+                &:hover img {
+                    transform: scale(1.05);
+                    filter: brightness(1);
+                }
+            }
+        }
+
+        .text-section {
+            flex: 1;
+            width: 90%;
+            color: #0f3b53;
+            font-size: 1;
+            line-height: 1.6;
+            margin: auto;
+
+            strong {
+                color: #004b6f;
+            }
+
+            p {
+                margin-bottom: 1rem;
+                text-align: justify;
+            }
+        }
+
+        .slider-btn {
+            display: flex;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 2;
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            width: 44px;
+            height: 44px;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            color: $primary-color;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            transition: background-color 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+
+            &:hover {
+                background-color: #fff;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            }
+
+            &.prev {
+                left: 1.5rem; 
+            }
+
+            &.next {
+                right: 1.5rem;
+            }
+
+            &[disabled] {
+                opacity: 0;
+                cursor: not-allowed;
+                pointer-events: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 780px) {
+    .app-grid-text {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: flex-start;
+
+        .grid-section {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            justify-content: flex-start;
+            scroll-snap-type: x mandatory;
+            width: 100vw;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            scroll-padding-left: 1rem;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+
+            .card {
+                flex: 0 0 300px;
+                scroll-snap-align: start;
+                position: relative;
+                overflow: hidden;
+                border-radius: 0;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+                    filter: brightness(0.65);
+                    transition: transform 0.3s ease, filter 0.3s ease;
+                }
+
+                .button-grid {
+                    position: realtive;
+                    width: 100%;
+                    margin-top: 42%;
+                    background-color: $primary-color;
+                    padding: 1rem 0.8rem;
+                    border-radius: 0;
+                    font-weight: 600;
+                    font-size: 0.95rem;
+                    white-space: nowrap;
+                    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+                    text-decoration: none;
+                    color: white;
+
+                    &:hover {
+                        background-color: white;
+                        color: $primary-color;
+                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+                    }
+                }
+
+                &:hover img {
+                    transform: scale(1.05);
+                    filter: brightness(1);
+                }
+            }
+        }
+
+        .text-section {
+            flex: 1;
+            width: 90%;
+            color: #0f3b53;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: auto;
+
+            strong {
+                color: #004b6f;
+            }
+
+            p {
+                margin-bottom: 1rem;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+@media (max-width: 481px) {
+.app-grid-text {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: flex-start;
+
+        .grid-section {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            justify-content: flex-start;
+            scroll-snap-type: x mandatory;
+            width: 100vw;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            scroll-padding-left: 1rem;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+
+            .card {
+                flex: 0 0 80vw;
+                scroll-snap-align: start;
+                position: relative;
+                overflow: hidden;
+                border-radius: 0;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+                    filter: brightness(0.65);
+                    transition: transform 0.3s ease, filter 0.3s ease;
+                }
+
+                .button-grid {
+                    position: realtive;
+                    width: 100%;
+                    margin-top: 42%;
+                    background-color: $primary-color;
+                    padding: 1rem 0.8rem;
+                    border-radius: 0;
+                    font-weight: 600;
+                    font-size: 0.95rem;
+                    white-space: nowrap;
+                    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+                    text-decoration: none;
+                    color: white;
+
+                    &:hover {
+                        background-color: white;
+                        color: $primary-color;
+                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+                    }
+                }
+
+                &:hover img {
+                    transform: scale(1.05);
+                    filter: brightness(1);
+                }
+            }
+        }
+
+        .text-section {
+            flex: 1;
+            width: 90%;
+            color: #0f3b53;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: auto;
+
+            strong {
+                color: #004b6f;
+            }
+
+            p {
+                margin-bottom: 1rem;
+                text-align: justify;
+            }
+        }
+    }
+}

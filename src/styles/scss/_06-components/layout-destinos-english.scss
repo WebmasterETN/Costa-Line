@@ -1,0 +1,41 @@
+@import '../main';
+
+// Import components
+@import './header';
+@import './modal-doters';
+@import './cotiza';
+@import './button-eva-trip';
+@import './button-whats';
+@import './section-title';
+@import './app-banner-image';
+@import './app-description-destination';
+@import './app-explore-section';
+@import './footer';
+
+// Import utilities
+@import '../_07-utilities/utilities';
+
+
+/*--------------------ESTILOS REPETITIVOS DEL LAYOUT RENTA DE AUTOBUSES---------------------*/
+
+.__first-section {
+  margin-top: 12rem;
+}
+
+@include media("lg") {
+  .__first-section {
+    margin-top: 10rem; // 13rem
+  }
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+  .__first-section {
+    margin-top: 5rem !important;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .__first-section {
+    margin-top: 4rem !important; // 4rem
+  }
+}

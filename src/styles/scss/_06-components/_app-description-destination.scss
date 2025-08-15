@@ -1,0 +1,61 @@
+app-description-destination {
+  display: block;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.__description-destination {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1900px;
+  overflow: hidden;
+
+  .__subtitle-section {
+    text-align: center;
+    color: $primary-color;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .__destinations-scroll-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    /* Aquí se controla el scroll horizontal */
+    margin-bottom: 2rem;
+    -webkit-overflow-scrolling: touch;
+
+    .__list__destinations-images {
+      display: flex;
+      gap: 57px;
+      flex-wrap: nowrap;
+      /* Evita salto de línea */
+      padding-bottom: 0.5rem;
+      /* espacio para barra de scroll */
+
+      .__item-image {
+        flex: 0 0 auto;
+        /* No se encoge */
+        width: clamp(24rem, 80vw, 30rem);
+        aspect-ratio: 427 / 285;
+
+        .__img-destination {
+          display: block;
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+
+  .__paragraph-description {
+    color: $primary-color;
+    text-align: left;
+    font-size: 1.25rem;
+  }
+
+}

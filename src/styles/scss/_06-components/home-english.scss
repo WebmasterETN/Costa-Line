@@ -1,0 +1,61 @@
+@import '../_02-tools/mixin';
+
+// Import generic
+@import '../_03-generic/reset';
+
+// Import elements
+@import '../_04-elements/elements';
+
+// Import object
+@import '../_05-object/animations';
+@import '../_05-object/layout';
+
+// Import components
+@import './header';
+@import './footer';
+@import './payments-logos';
+@import './button-whats';
+@import './button-eva-trip';
+@import './modal-doters';
+@import './modalDoters';
+@import './cotiza';
+@import './section-title';
+@import './app-destinations-grid-english';
+@import './app-banner-promotional';
+@import './card-left-description';
+@import './grid-text';
+
+// Import utilities
+@import './cookies-policy';
+
+.description_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1px 15px;
+    font-size: 30px;
+    color: $primary-color;
+    text-align: center;
+}
+
+.subtitle_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1px 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: $primary-color;
+    text-align: center;
+}
+
+@media (max-width: 780px) {
+.description_text {
+        font-size: 20px;
+    }
+    .subtitle_text {
+        font-size: 15px;
+    }
+}
