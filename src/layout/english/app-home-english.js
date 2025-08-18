@@ -49,18 +49,19 @@ class AppHomeEnglish extends HTMLElement {
 
       <section class="__section">
         <app-section-title section-title="Your comfort is our top priority."></app-section-title>
-        <article class="description_text">
-          At ETN, we know the journey matters just as much as the destination. That’s why our luxury coaches are designed for you to enjoy every kilometer with peace of mind, style, and attention to detail.
-        </article>
+        <article class="description_text">Costa Line welcomes you to Mexico from the very first kilometer.Travel in comfort, with safety—and views that already tell stories.        </article>
         <article class="subtitle_text">
-          These are just a few of the services that make your journey truly special:
+          These are just some of the services that make your journey special:
         </article>
         <app-card-left-description src="../../src/data/special-services-data.json"></app-card-left-description>
       </section>
 
       <section class="__section">
-        <app-section-title section-title="Mexico awaits with unforgettable routes. Travel comfortably, safely, and at your own pace with ETN."></app-section-title>
-        <app-grid-text src="../../src/data/grid-text-data.json"></app-grid-text>
+        <app-section-title section-title="Discover Mexico with the comfort and confidence of Costa Line"></app-section-title>
+        <article class="subtitle_text">
+          At Costa Line, every journey is a way to discover Mexico. Your adventure starts here.
+        </article>
+        <app-grid-text src="../../src/data/english/grid-text-data.json"></app-grid-text>
       </section>
 
     `;

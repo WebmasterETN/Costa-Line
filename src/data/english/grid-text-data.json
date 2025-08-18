@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "imageSrc": "../../src/assets/img/destinos-img/lazaro-cardenas.webp",
+      "alt": "Lazaro Cardenas",
+      "href": "https://www.etn.com.mx/destinos/puebla",
+      "text": "Lazaro Cardenas"
+    },
+    {
+      "imageSrc": "../../src/assets/img/destinos-img/puerto-escondido.webp",
+      "alt": "Puerto Escondido",
+      "href": "https://www.etn.com.mx/destinos/Puerto Escondido",
+      "text": "Puerto Escondido"
+    },
+    {
+      "imageSrc": "../../src/assets/img/destinos-img/cd-altamirano.webp",
+      "alt": "Cd. Altamirano",
+      "href": "https://www.etn.com.mx/destinos/san-luis-potosi",
+      "text": "Cd. Altamirano"
+    },
+    {
+      "imageSrc": "../../src/assets/img/destinos-img/coyuca-benitez.webp",
+      "alt": "Coyuca de Benitez",
+      "href": "https://www.etn.com.mx/destinos/ciudad-de-mexico",
+      "text": "Coyuca de Benitez"
+    }
+  ],
+  "textSection": {
+    "paragraphs": [
+      "At <strong>Costa Line</strong>, every destination is an experience designed just for you. Travel in the comfort of our buses and discover routes that connect you with the most authentic side of Mexico. Because discovering the country isn’t just about arriving—it’s about enjoying the journey, being moved by every landscape, and letting each stop surprise you.",
+      "Your next destination isn’t on the map—it’s part of your story. Discover Mexico in comfort and turn every journey into a memory worth sharing."
+    ]
+  }
+}
