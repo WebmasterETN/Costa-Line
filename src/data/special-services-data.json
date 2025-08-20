@@ -1,0 +1,27 @@
+[
+  
+  {
+    "imageSrc": "../src/assets/img/autobuses/asientos.webp",
+    "imageAlt": "Asientos reclinables",
+    "title": "Relax as Mexico unfolds before your window.",
+    "description": "Every journey invites you to relax and take in the view. Comfort is part of the experience. Around every bend, Mexico awaits with vibrant flavors, colors, and unforgettable moments."
+  },
+  {
+    "imageSrc": "../src/assets/img/autobuses/pantallas-autobus.webp",
+    "imageAlt": "Pantallas individuales",
+    "title": "Individual screens",
+    "description": "Whether you're crossing cities or exploring new landscapes, our spacious, ergonomic seats let you relax in comfort—so you arrive refreshed and ready for your next adventure."
+  },
+  {
+    "imageSrc": "../src/assets/img/autobuses/banos.webp",
+    "imageAlt": "Baño en el autobús",
+    "title": "Separate restrooms for men and women—always clean and available throughout your journey.",
+    "description": "Hygiene, maintenance, and availability at all times. Every space is carefully maintained to offer you a safe and comfortable travel experience."
+  },
+  {
+    "imageSrc": "../src/assets/img/autobuses/enchufes.webp",
+    "imageAlt": "Enchufes individuales",
+    "title": "Travel in comfort, travel connected.",
+    "description": "Whether you're sharing moments, working on the go, or relaxing with your favorite playlist, our individual power outlets keep you fully charged throughout the journey."
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "imageSrc": "../../src/assets/img/english/food/cabrito-english.webp",
+    "imageAlt": "Cabrito",
+    "tag": "Cabrito al horno",
+    "text": "Tender, juicy goat meat, marinated and slow-roasted to perfection, served with traditional side dishes from the Bajío region."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/sopa-campesina-english.webp",
+    "imageAlt": "Sopa Campesina",
+    "tag": "Sopa Campesina",
+    "text": "A comforting broth with vegetables, meat, and spices perfect for cool days. It’s a reflection of traditional, homemade Mexican cooking"
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/flan-english.webp",
+    "imageAlt": "Flan de queso y guayaba",
+    "tag": "Flan de queso y guayaba",
+    "text": "A smooth, creamy dessert that blends the rich flavor of cheese with the sweetness of guava—a festive favorite in local celebrations."
+  }
+]

@@ -1,0 +1,184 @@
+app-destiny-slider {
+    width: 100%;
+
+    .destiny-slider {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: flex-start;
+
+        .destiny-slider-wrapper {
+            position: relative;
+            width: 100%;
+            flex: none;
+            padding: 0 40px; // espacio lateral para botones   
+            box-sizing: border-box;
+        }
+
+        .destiny-slide-track {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            justify-content: flex-start;
+            scroll-snap-type: x mandatory;
+            width: 100%;
+            padding: 1rem;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+
+            &::-webkit-scrollbar {
+                height: 8px;
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background-color: rgba(0, 0, 0, 0.3);
+                border-radius: 4px;
+            }
+
+            &::-webkit-scrollbar-track {
+                background-color: transparent;
+            }
+
+            -ms-overflow-style: auto;
+            scrollbar-width: thin;
+
+            .destiny-card {
+                flex: 0 0 80%;
+                max-width: 400px;
+                margin: 0 0.5rem;
+                scroll-snap-align: start;
+                position: relative;
+                overflow: hidden;
+                border-radius: 0;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+                aspect-ratio: 1 / 1;
+                transition: transform 0.3s ease;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+                    filter: brightness(0.65);
+                    transition: transform 0.3s ease, filter 0.3s ease;
+                }
+
+                .destiny-card-btn {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    background: $primary-color;
+                    color: white;
+                    padding: 0.5rem 1rem;
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 1rem;
+                    text-decoration: none;
+                    transition: background-color 0.3s ease;
+
+                    &:hover {
+                        background-color: rgba(0, 0, 0, 0.8);
+                    }
+                }
+
+                &:hover img {
+                    transform: scale(1.05);
+                    filter: brightness(1);
+                }
+            }
+        }
+
+        .destiny-slider-btn {
+            display: flex;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 2;
+            background: none;
+            border: none;
+            width: 44px;
+            height: 44px;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            color: $primary-color;
+            font-weight: bold;
+            transition: all 0.2s ease;
+
+            &:hover {
+                color: gray;
+            }
+
+            &.prev {
+                left: 0;
+            }
+
+            &.next {
+                right: 0;
+            }
+
+            &[disabled] {
+                opacity: 1;
+                cursor: pointer;
+                pointer-events: auto;
+            }
+        }
+
+        .destiny-text-section {
+            display: none;
+        }
+    }
+
+    @media (min-width: 581px) {
+        .destiny-slider-btn {
+            display: none !important;
+        }
+
+        .destiny-slider-wrapper {
+            padding: 0 !important;
+        }
+
+        .destiny-slide-track {
+            padding: 0 !important;
+
+            &::-webkit-scrollbar {
+                display: block;
+                height: 8px;
+            }
+
+            scrollbar-width: thin;
+        }
+    }
+
+    @media (max-width: 580px) {
+        .destiny-slider-wrapper {
+            padding: 0 30px;
+        }
+
+        .destiny-slide-track {
+            padding: 0 !important;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            -ms-overflow-style: none;
+            scrollbar-width: none !important;
+        }
+
+        .destiny-slide-track .destiny-card {
+            flex: 0 0 100% !important;
+            max-width: none !important;
+        }
+
+        .destiny-slider-btn {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    
+}

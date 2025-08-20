@@ -34,7 +34,12 @@ class AppGridText extends HTMLElement {
   }
 
   _render(data) {
-    if (!data || !Array.isArray(data.cards) || !data.textSection || !Array.isArray(data.textSection.paragraphs)) {
+    if (
+      !data ||
+      !Array.isArray(data.cards) ||
+      !data.textSection ||
+      !Array.isArray(data.textSection.paragraphs)
+    ) {
       console.error("Invalid data structure for app-grid-text:", data);
       this.innerHTML = "<p>Error: Invalid data format.</p>";
       return;
@@ -46,20 +51,33 @@ class AppGridText extends HTMLElement {
       .map(
         (card) => `
           <div class="card">
-            <img src="${card.imageSrc || ''}" alt="${card.alt || ''}">
-            <a class="button-grid" href="${card.href || '#'}" target="_blank" rel="noopener noreferrer">
-              ${card.text || ''}
+            <img src="${card.imageSrc || ""}" alt="${card.alt || ""}">
+            <a class="button-grid" href="${
+              card.href || "#"
+            }" target="_blank" rel="noopener noreferrer">
+              ${card.text || ""}
             </a>
           </div>
         `
       )
       .join("");
 
-    const paragraphsHtml = textSection.paragraphs.map((p) => `<p>${p}</p>`).join("");
+    const paragraphsHtml = textSection.paragraphs
+      .map((p) => `<p>${p}</p>`)
+      .join("");
 
     // Iconos SVG para los botones del slider
-    const prevIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>`;
-    const nextIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>`;
+    const prevIcon = `
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="144" viewBox="0 0 24 144" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <polyline points="15 108 9 72 15 36" stroke="white" stroke-width="10"></polyline>
+  <polyline points="15 108 9 72 15 36" stroke="currentColor" stroke-width="6"></polyline>
+</svg>`;
+
+    const nextIcon = `
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="144" viewBox="0 0 24 144" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <polyline points="9 108 15 72 9 36" stroke="white" stroke-width="10"></polyline>
+  <polyline points="9 108 15 72 9 36" stroke="currentColor" stroke-width="6"></polyline>
+</svg>`;
 
     this.innerHTML = `
       <div class="app-grid-text">
@@ -81,9 +99,9 @@ class AppGridText extends HTMLElement {
   }
 
   _setupSliderControls() {
-    const gridSection = this.querySelector('.grid-section');
-    const prevBtn = this.querySelector('.slider-btn.prev');
-    const nextBtn = this.querySelector('.slider-btn.next');
+    const gridSection = this.querySelector(".grid-section");
+    const prevBtn = this.querySelector(".slider-btn.prev");
+    const nextBtn = this.querySelector(".slider-btn.next");
 
     if (!gridSection || !prevBtn || !nextBtn) {
       return;
@@ -92,46 +110,53 @@ class AppGridText extends HTMLElement {
     const updateButtons = () => {
       const tolerance = 1;
       const isAtStart = gridSection.scrollLeft <= tolerance;
-      const isAtEnd = gridSection.scrollLeft >= gridSection.scrollWidth - gridSection.clientWidth - tolerance;
+      const isAtEnd =
+        gridSection.scrollLeft >=
+        gridSection.scrollWidth - gridSection.clientWidth - tolerance;
 
       prevBtn.disabled = isAtStart;
       nextBtn.disabled = isAtEnd;
     };
 
-    gridSection.addEventListener('scroll', updateButtons, { passive: true });
+    gridSection.addEventListener("scroll", updateButtons, { passive: true });
 
-    prevBtn.addEventListener('click', () => {
-      const card = gridSection.querySelector('.card');
+    prevBtn.addEventListener("click", () => {
+      const card = gridSection.querySelector(".card");
       if (!card) return;
-      
-      const scrollAmount = card.offsetWidth + parseFloat(getComputedStyle(gridSection).gap);
+
+      const scrollAmount =
+        card.offsetWidth + parseFloat(getComputedStyle(gridSection).gap);
       gridSection.scrollBy({
         left: -scrollAmount,
-        behavior: 'smooth'
+        behavior: "smooth",
       });
     });
 
-    nextBtn.addEventListener('click', () => {
-      const card = gridSection.querySelector('.card');
+    nextBtn.addEventListener("click", () => {
+      const card = gridSection.querySelector(".card");
       if (!card) return;
 
-      const scrollAmount = card.offsetWidth + parseFloat(getComputedStyle(gridSection).gap);
+      const scrollAmount =
+        card.offsetWidth + parseFloat(getComputedStyle(gridSection).gap);
       gridSection.scrollBy({
         left: scrollAmount,
-        behavior: 'smooth'
+        behavior: "smooth",
       });
     });
 
-    const observer = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting) {
-        updateButtons();
-        observer.unobserve(this);
-      }
-    }, { threshold: 0.1 });
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          updateButtons();
+          observer.unobserve(this);
+        }
+      },
+      { threshold: 0.1 }
+    );
 
     observer.observe(this);
 
-    window.addEventListener('resize', updateButtons);
+    window.addEventListener("resize", updateButtons);
   }
 }
 customElements.define("app-grid-text", AppGridText);
