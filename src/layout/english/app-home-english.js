@@ -17,21 +17,21 @@ class AppHomeEnglish extends HTMLElement {
         <app-payments></app-payments>
       </div>
       <section class="__section">
-        <app-section-title section-title="Is this your first trip with ETN? Discover everything we’ve prepared for you."></app-section-title>
+        <app-section-title section-title="Welcome aboard Costa Line. Let us take you to the heart of Mexico."></app-section-title>
         <!-- Grid here -->
         <app-destinations-grid-english
           destinations='[
-            {"id": "destination1", "title": "Aguascalientes", "content": "Discover the beauty of Aguascalientes", "image": "../../src/assets/img/destinos-img/grid-english/aguascalientes-background.webp", "link": "../../-de-autobus-a-aguascalientes.html"},
+            {"id": "destination1", "title": "Acapulco", "content": "Where the ocean and excitement never sleep.", "image": "../../src/assets/img/destinos-img/grid-english/acapulco-background.webp", "link": "../../-de-autobus-a-aguascalientes.html"},
 
-            {"id": "destination2", "title": "Culiacán", "content": "Explore the city of gardensCuliacán It welcomes you with gardens, ocean flavors, and sunsets that stay with you.", "image": "../../src/assets/img/destinos-img/grid-english/culiacan-background.webp", "link": "../../-de-autobus-a-culiacan.html"},
+            {"id": "destination2", "title": "Chilpancingo", "content": "Living tradition in the heart of Guerrero", "image": "../../src/assets/img/destinos-img/grid-english/chilpancingo-background.webp", "link": "../../-de-autobus-a-culiacan.html"},
 
-            {"id": "destination3", "title": "Guadalajara", "content": "It’s the art that blooms between colonial walls, and the design that reinvents itself every day.", "image": "../../src/assets/img/destinos-img/grid-english/guadalajara-background.webp", "link": "../../-de-autobus-a-guadalajara.html"},
+            {"id": "destination3", "title": "Taxco", "content": "Where silver shines and legends live on.", "image": "../../src/assets/img/destinos-img/grid-english/taxco-background.webp", "link": "../../-de-autobus-a-guadalajara.html"},
 
-            {"id": "destination4", "title": "León", "content": "It welcomes you with neo-Gothic architecture, urban parks, and a creative scene full of surprises.", "image": "../../src/assets/img/destinos-img/grid-english/leon-background.webp", "link": "../../-de-autobus-a-leon.html"},
+            {"id": "destination4", "title": "Cuernavaca", "content": "A year-round haven of sun and serenity.", "image": "../../src/assets/img/destinos-img/grid-english/cuernavaca-background.webp", "link": "../../-de-autobus-a-leon.html"},
 
-            {"id": "destination5", "title": "Guanajuato", "content": "It’s a journey to the heart of history—colorful alleys, living legends, and plazas that sing at sunset.", "image": "../../src/assets/img/destinos-img/grid-english/guanajuato-background.webp", "link": "../../-de-autobus-a-guanajuato.html"},
+            {"id": "destination5", "title": "Ixtapa Zihuatanejo", "content": "Two souls, one paradise by the sea.", "image": "../../src/assets/img/destinos-img/grid-english/zihuatanejo-background.webp", "link": "../../-de-autobus-a-guanajuato.html"},
             
-            {"id": "destination6", "title": "Querétaro", "content": "It invites you to savor Mexico with all your senses.", "image": "../../src/assets/img/destinos-img/grid-english/queretaro-background.webp", "link": "../../-de-autobus-a-queretaro.html"}
+            {"id": "destination6", "title": "Iguala", "content": "Where Mexico’s history comes to life.", "image": "../../src/assets/img/destinos-img/grid-english/iguala-background.webp", "link": "../../-de-autobus-a-queretaro.html"}
             ]'
         ></app-destinations-grid-english>
       </section>

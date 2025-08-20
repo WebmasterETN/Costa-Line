@@ -7,8 +7,8 @@ class AppDestinationsGridEnglish extends HTMLElement {
 
 		this.innerHTML = `
       <article class="__section__destinations">
-        <h3 class="__destinations-title">Welcome to ETN.</h3>
-        <p>Your journey through Mexico starts here.</p>
+        <h3 class="__destinations-title">Welcome to Costa Line.</h3>
+        <p>Let the journey through Mexico begin.</p>
         
         <ul class="__destinations__list-grid">
           ${this.renderDestinations(destinations)}
