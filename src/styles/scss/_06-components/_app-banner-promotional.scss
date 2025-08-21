@@ -1,3 +1,11 @@
+app-banner-promotional .banner-promotional-link,
+app-banner-promotional .banner-promotional-link picture,
+app-banner-promotional .banner-promotional-link img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .__banner-promotional {
   display: flex;
   width: 100%;
