@@ -58,6 +58,8 @@ import "./layout-facturacion-pack.js?v=1.3.3";
 import "./layout-terminales-pack.js?v=1.3.3";
 
 
+import "../components/english/footer-english.js?v=1.0.2";
+
 /*-------------COMPONENTES PRINCIPALES ------------------------- */
 
 import "../components/app-header.js?v=1.0.2";
