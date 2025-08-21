@@ -1,15 +1,35 @@
 class AppBannerPromotional extends HTMLElement {
 	connectedCallback() {
-    const imgSrc = this.getAttribute('image-src') || '../../src/assets/img/banner/banner-viajero-protegido.webp';
-    const linkHref = this.getAttribute('link-href') || '#';
-    const imgAlt = this.getAttribute('image-alt') || 'Banner promocional';
+		const desktopSrc = this.getAttribute("image-src");
+		const tabletSrc = this.getAttribute("image-src-tablet");
+		const mobileSrc = this.getAttribute("image-src-mobile");
+		const imgAlt = this.getAttribute("image-alt") || "Banner promocional";
+		const linkHref = this.getAttribute("link-href") || "#";
+
+		if (!desktopSrc) {
+			console.error(
+				'AppBannerPromotional: El atributo "image-src" es obligatorio.'
+			);
+			this.innerHTML = ""; // Limpiar el componente si no se proporciona la imagen principal
+			return;
+		}
 
 		this.innerHTML = `
-      <article class="__banner-promotional">
-        <a href="${linkHref}" class="__banner-promotional__link" target="_blank" rel="noopener noreferrer" >
-          <img src="${imgSrc}" alt="${imgAlt}" class="__banner-promotional__img" width="1900" height="520" loading="lazy" />
-        </a>
-      </article>
+      <a href="${linkHref}" class="banner-promotional-link" title="${imgAlt}">
+        <picture>
+          ${
+						mobileSrc
+							? `<source media="(max-width: 767px)" srcset="${mobileSrc}">`
+							: ""
+					}
+          ${
+						tabletSrc
+							? `<source media="(max-width: 1023px)" srcset="${tabletSrc}">`
+							: ""
+					}
+          <img src="${desktopSrc}" alt="${imgAlt}" class="banner-promotional-image" loading="lazy">
+        </picture>
+      </a>
     `;
 	}
 }

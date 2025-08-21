@@ -21,17 +21,17 @@ class AppHomeEnglish extends HTMLElement {
         <!-- Grid here -->
         <app-destinations-grid-english
           destinations='[
-            {"id": "destination1", "title": "Acapulco", "content": "Where the ocean and excitement never sleep.", "image": "../../src/assets/img/destinos-img/grid-english/acapulco-background.webp", "link": "../../-de-autobus-a-aguascalientes.html"},
+            {"id": "destination1", "title": "Acapulco", "content": "Where the ocean and excitement never sleep.", "image": "../../src/assets/img/destinos-img/grid-english/acapulco-background.webp", "link": "../english/destinations/boletos-de-autobus-a-aguascalientes.html"},
 
-            {"id": "destination2", "title": "Chilpancingo", "content": "Living tradition in the heart of Guerrero", "image": "../../src/assets/img/destinos-img/grid-english/chilpancingo-background.webp", "link": "../../-de-autobus-a-culiacan.html"},
+            {"id": "destination2", "title": "Chilpancingo", "content": "Living tradition in the heart of Guerrero", "image": "../../src/assets/img/destinos-img/grid-english/chilpancingo-background.webp", "link": "../english/destinations/boletos-de-autobus-a-culiacan.html"},
 
-            {"id": "destination3", "title": "Taxco", "content": "Where silver shines and legends live on.", "image": "../../src/assets/img/destinos-img/grid-english/taxco-background.webp", "link": "../../-de-autobus-a-guadalajara.html"},
+            {"id": "destination3", "title": "Taxco", "content": "Where silver shines and legends live on.", "image": "../../src/assets/img/destinos-img/grid-english/taxco-background.webp", "link": "../english/destinations/boletos-de-autobus-a-guadalajara.html"},
 
-            {"id": "destination4", "title": "Cuernavaca", "content": "A year-round haven of sun and serenity.", "image": "../../src/assets/img/destinos-img/grid-english/cuernavaca-background.webp", "link": "../../-de-autobus-a-leon.html"},
+            {"id": "destination4", "title": "Cuernavaca", "content": "A year-round haven of sun and serenity.", "image": "../../src/assets/img/destinos-img/grid-english/cuernavaca-background.webp", "link": "../english/destinations/boletos-de-autobus-a-leon.html"},
 
-            {"id": "destination5", "title": "Ixtapa Zihuatanejo", "content": "Two souls, one paradise by the sea.", "image": "../../src/assets/img/destinos-img/grid-english/zihuatanejo-background.webp", "link": "../../-de-autobus-a-guanajuato.html"},
-            
-            {"id": "destination6", "title": "Iguala", "content": "Where Mexico’s history comes to life.", "image": "../../src/assets/img/destinos-img/grid-english/iguala-background.webp", "link": "../../-de-autobus-a-queretaro.html"}
+            {"id": "destination5", "title": "Ixtapa Zihuatanejo", "content": "Two souls, one paradise by the sea.", "image": "../../src/assets/img/destinos-img/grid-english/zihuatanejo-background.webp", "link": "../english/destinations/boletos-de-autobus-a-guanajuato.html"},
+
+            {"id": "destination6", "title": "Iguala", "content": "Where Mexico’s history comes to life.", "image": "../../src/assets/img/destinos-img/grid-english/iguala-background.webp", "link": "../english/destinations/boletos-de-autobus-a-queretaro.html"}
             ]'
         ></app-destinations-grid-english>
       </section>
@@ -41,9 +41,11 @@ class AppHomeEnglish extends HTMLElement {
         <!-- Banner promotional "viajero protegido" here-->
         
         <app-banner-promotional
-          image-src="../../src/assets/img/banner/banner-viajero-protegido.webp"
-          image-alt="Promotional banner for Aguascalientes"
           link-href="#"
+          image-alt="Banner promocional de Viajero Protegido"
+          image-src="../../src/assets/img/banner/english/viajero/banner-viajero-protegido.webp"
+          image-src-tablet="../../src/assets/img/banner/english/viajero/banner-viajero-protegido-tablet.webp"
+          image-src-mobile="../../src/assets/img/banner/english/viajero/banner-viajero-protegido-mobile.webp"
         ></app-banner-promotional>
       </section>
 
