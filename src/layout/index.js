@@ -2,9 +2,14 @@
 
 import "./app-home.js?v=1.0.2";
 import "./layout-site-map.js?v=1.0.2";
+
 /*----------------PAGINAS-ENGLISH---------------------------------*/
+
 import "./english/app-home-english.js?v=1.0.2";
-import "./english/layout-terms-conditions.js?v=1.0.2";
+import "./english/legal/layout-terms-conditions.js?v=1.0.2";
+import "./english/legal/layout-privacy-policy.js?v=1.0.2";
+import "./english/legal/layout-about-us.js?v=1.0.2";
+
 /*----------------------------PAGINAS-LANDINGS----------------------------------------*/
 import "./layout-boletos-de-autobus.js?v=1.0.2";
 import "./layout-donde-comprar-etn.js?v=1.0.2";
