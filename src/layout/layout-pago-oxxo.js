@@ -48,7 +48,7 @@ class LayoutPagoOxxo extends HTMLElement {
                     <li class="__list-item"><p class="__text-list">Una vez efectuado el pago correspondiente, el sistema enviará de forma automática al correo electrónico capturado en el registro previo, la confirmación del viaje con el pase de abordar.</p></li>
                     <li class="__list-item"><p class="__text-list">En caso de tener alguna duda o aclaración con el servicio o con el número de referencia de su reservación comunicarse al 800 8000 386 en donde un ejecutivo lo asesora de manera personalizada.</p></li>
                     <li class="__list-item"><p class="__text-list">En pagos referenciados NO HAY CANCELACIONES NI DEVOLUCIONES.</p></li>
-                    <li class="__list-item"><p class="__text-list">En pagos referenciados NO HAY CANCELACIONES NI DEVOLUCIONES.</p></li>
+                    <li class="__list-item"><p class="__text-list">Un monto máximo de compra de 10,000 pesos.</p></li>
                 </ol>
             </article>
         </section>

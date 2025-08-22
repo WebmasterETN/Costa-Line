@@ -9,6 +9,15 @@ import "./english/app-home-english.js?v=1.0.2";
 import "./english/legal/layout-terms-conditions.js?v=1.0.2";
 import "./english/legal/layout-privacy-policy.js?v=1.0.2";
 import "./english/legal/layout-about-us.js?v=1.0.2";
+import "./english/legal/layout-early-traveler.js?v=1.0.2";
+import "./english/legal/layout-protected-traveler.js?v=1.0.2";
+import "./english/legal/layout-protected-traveler-plus.js?v=1.0.2";
+import "./english/legal/layout-protected-traveler-luxury.js?v=1.0.2";
+
+import "./english/legal/layout-terms-buen-fin.js?v=1.0.2";
+import "./english/legal/layout-terms-hot-sale.js?v=1.0.2";
+import "./english/legal/layout-oxxo-pay.js?v=1.0.2";
+import "./english/legal/layout-travelpass-english.js?v=1.0.2";
 
 /*----------------------------PAGINAS-LANDINGS----------------------------------------*/
 import "./layout-boletos-de-autobus.js?v=1.0.2";
