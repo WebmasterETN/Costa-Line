@@ -1,50 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Renta de Autobuses ETN | Autobuses ETN Turistar</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renta de Autobuses ETN | Autobuses ETN Turistar</title>
 
-		<!-- Scripts -->
+    <!-- Scripts -->
 
-		<script src="../src/js/jquery.min.js?v=1.0.2"></script>
-		<script type="module" src="../app.js?v=1.0.2"></script>
+    <script src="../src/js/jquery.min.js?v=1.0.2"></script>
+    <script type="module" src="../app.js?v=1.0.2"></script>
 
-		<!-- Stylesheets -->
+    <!-- Stylesheets -->
 
-		<!-- CSS All Components -->
+    <!-- CSS All Components -->
 
-		<link
-			rel="stylesheet"
-			href="../src/styles/css/css-components/layout-renta-de-autobuses.min.css?v=1.0.7"
-		/>
+    <link
+      rel="stylesheet"
+      href="../src/styles/css/css-components/page-renta-de-autobuses.min.css?v=1.0.7"
+    />
 
-		<!-- CSS widget de reservamos -->
-		<link
-			rel="stylesheet"
-			href="https://widgets.reservamos.mx/search/5.18.0/search.css?v=5.18.0"
-		/>
-	</head>
+    <!-- CSS widget de reservamos -->
+    <link
+      rel="stylesheet"
+      href="https://widgets.reservamos.mx/search/5.18.0/search.css?v=5.18.0"
+    />
+  </head>
 
-	<body>
-		<app-header
-			logo='{
+  <body>
+    <app-header
+      logo='{
       "src": "../src/assets/img/logos/logo.svg", 
       "alt": "Logo de Costa Line",
       "href": "../index.html"
     }'
-		>
-		</app-header>
-		<app-modal-travelpass></app-modal-travelpass>
-		<app-modal-doters></app-modal-doters>
-		<main>
-			<layout-renta-de-autobuses></layout-renta-de-autobuses>
-		</main>
-		<app-footer></app-footer>
-		<app-cookies-policy></app-cookies-policy>
-		<!--<app-button-whats></app-button-whats> -->
-		<app-button-eva-trip></app-button-eva-trip>
-		<!-- JS widget de reservamos -->
-		<script src="https://widgets.reservamos.mx/search/5.18.0/search.js?v=5.18.0"></script>
-	</body>
+    >
+    </app-header>
+    <app-modal-travelpass></app-modal-travelpass>
+    <app-modal-doters></app-modal-doters>
+    <main>
+      <page-renta-de-autobuses></page-renta-de-autobuses>
+    </main>
+    <app-footer></app-footer>
+    <app-cookies-policy></app-cookies-policy>
+    <!--<app-button-whats></app-button-whats> -->
+    <app-button-eva-trip></app-button-eva-trip>
+    <!-- JS widget de reservamos -->
+    <script src="https://widgets.reservamos.mx/search/5.18.0/search.js?v=5.18.0"></script>
+  </body>
 </html>
