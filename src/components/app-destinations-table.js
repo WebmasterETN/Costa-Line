@@ -2,13 +2,15 @@ class AppDestinationsTable extends HTMLElement {
   constructor() {
     super();
     this.chunkSize = 62;
+    this.language = "es"; // valor por defecto
   }
 
   static get observedAttributes() {
-    return ["src"];
+    return ["src", "language"];
   }
 
   async connectedCallback() {
+    this.language = this.getAttribute("language") || "es";
     this.innerHTML = `
       <div class="destinations-tables-container" id="destinations-tables-container">
           <p>Cargando rutas...</p>
@@ -21,6 +23,14 @@ class AppDestinationsTable extends HTMLElement {
   }
 
   async attributeChangedCallback(name, oldValue, newValue) {
+    if (name === "language" && oldValue !== newValue) {
+      this.language = newValue || "es";
+      const src = this.getAttribute("src");
+      if (src) {
+        await this.loadAndRenderDestinations(src);
+      }
+    }
+
     if (name === "src" && oldValue !== newValue && newValue) {
       await this.loadAndRenderDestinations(newValue);
     }
@@ -39,7 +49,13 @@ class AppDestinationsTable extends HTMLElement {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
       const destinations = await response.json();
-      container.innerHTML = ""; // Limpiar mensaje de carga
+      container.innerHTML = "";
+
+      // Traducción de encabezados según idioma
+      const headers = {
+        es: { origen: "Origen", destino: "Destino" },
+        en: { origen: "Origin", destino: "Destination" },
+      };
 
       for (let i = 0; i < destinations.length; i += this.chunkSize) {
         const chunk = destinations.slice(i, i + this.chunkSize);
@@ -59,12 +75,13 @@ class AppDestinationsTable extends HTMLElement {
         headerRow.setAttribute("aria-controls", `table-body-${i}`);
 
         const th1 = document.createElement("th");
-        th1.textContent = "Origen";
+        th1.textContent = headers[this.language].origen;
         headerRow.appendChild(th1);
 
-        // Segunda columna con icono dentro del mismo th
         const th2 = document.createElement("th");
-        th2.innerHTML = `Destino <span class="accordion-icon"></span>`;
+        th2.innerHTML = `${
+          headers[this.language].destino
+        } <span class="accordion-icon"></span>`;
         headerRow.appendChild(th2);
 
         const tbody = table.createTBody();
@@ -80,11 +97,9 @@ class AppDestinationsTable extends HTMLElement {
         tableWrapper.appendChild(table);
         container.appendChild(tableWrapper);
 
-        // Función acordeón
         const toggleAccordion = () => {
           const isExpanded = headerRow.getAttribute("aria-expanded") === "true";
 
-          // Cierra todos los acordeones del mismo contenedor
           container
             .querySelectorAll("thead tr")
             .forEach((tr) => tr.setAttribute("aria-expanded", "false"));
@@ -92,7 +107,6 @@ class AppDestinationsTable extends HTMLElement {
             .querySelectorAll("tbody.destinations-table-body")
             .forEach((tb) => tb.classList.remove("active"));
 
-          // Si NO estaba abierto, ábrelo; si SÍ estaba abierto, déjalo cerrado (toggle real)
           if (!isExpanded) {
             headerRow.setAttribute("aria-expanded", "true");
             tbody.classList.add("active");

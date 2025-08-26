@@ -1,5 +1,64 @@
 @import "../main.scss";
+.desktop-doters {
+  @include media ("lg") {
+    display: none;
+  }
+}
+#openDotersModal {
+  border-radius: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 4.5rem;
+  height: 2.1rem;
+  border-radius: 0.625rem;
+  border: 0.125rem solid $primary-color;
+  padding: 0.250rem;
+  background-color: white;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+  margin-left: 0.5rem;
+  margin-right: 1rem;
 
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+#openDotersModalMovil {
+  display: flex;
+  border-radius: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 8rem;
+  height: auto;
+  border-radius: 0.625rem;
+  border: 0.125rem solid $primary-color;
+  padding: 0.250rem;
+  background-color: white;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+  margin: auto;
+  margin-top: 15px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
 .modalDoters-modal {
   position: fixed;
   top: 0;

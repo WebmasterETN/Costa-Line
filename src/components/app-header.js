@@ -4,112 +4,103 @@ class AppHeader extends HTMLElement {
     const { src, alt, href } = logoData;
 
     this.innerHTML = `
-      <header aria-label="Encabezado Costa Line" >
-          <a href="${href}" class="main-header__container-logo" aria-label="Costa Line" tabindex="0">
-          <img src="${src}"
-            alt="${alt}" 
-            class="header__logo" width="922" height="143" loading="lazy"/>
-        </a>
-          
-          <nav aria-label="Menu de navegacion" >
-              
-                  <ul>
-                      <li><a href="../index.html" aria-label="Ir a inicio" tabindex="0">Inicio</a></li>
-                      <li class="submenu">
-                        <a href="#" role="button" aria-label="Facturar su viaje" tabindex="0" aria-haspopup="true" aria-expanded="false">Facture su viaje <span class="icon-arrow-down"></span></a>
-                        <ul>
-                              <li><a href="https://ventas.costaline.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
-                              <li><a href="https://costaline.com.mx/CFDI-datos-receptor.html" tabindex="0">¿Qué datos necesito?</a></li>
-                          </ul>
-                      </li>
-                      <li><a href="https://viaje.costaline.com.mx/download-tickets" aria-label="Imprimir pase de abordar" tabindex="0">Imprimir pase de abordar</a></li> 
-                      <li><a href="https://viaje.costaline.com.mx/exchange/itinerary" aria-label="Modificar itinerario" tabindex="0">Modificar itinerario</a></li> 
-                      <li class="submenu">
-                          <a href="#" role="button" aria-label="Mas opciones" tabindex="0" aria-haspopup="true" aria-expanded="false">Mas<span class="icon-arrow-down"></span></a>
-                          <ul class="submenu__media-items"> 
-
-                              <li><a href="../boletos-de-autobus.html" tabindex="0">Boletos de autobus</a></li>
-                              <li><a href="../donde-comprar-etn.html" tabindex="0">¿Donde comprar?</a></li>
-                              <li><a href="../index.html" tabindex="0">Mascotas a bordo</a></li>
-                              <li><a href="../destinos.html" tabindex="0">Destinos</a></li>
-                              <li><a href="../taquillas.html" tabindex="0">Taquillas</a></li>
-                              <li><a href="../salas-de-espera-vip.html" tabindex="0">Salas de espera</a></li>
-                              <li><a href="../servicio-a-bordo.html" tabindex="0">Servicios a bordo</a></li>
-                              <li><a href="../promociones.html" tabindex="0">Promociones</a></li>
-                              <li><a href="https://ventas.costaline.com.mx/request.aspx?APPNAME=Navegante&PRGNAME=AccesoEx&ARGUMENTS=-AAG,-AH,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-AES&_ga=2.70363408.1421465980.1688335622-27413750.1682467979" tabindex="0">Agencias</a></li>
-                              <li><a href="../pago-referenciado-oxxo.html" tabindex="0">Pagos OXXO Pay</a></li>
-                              <li><a href="../../viajero-protegido.html" tabindex="0">Viajero protegido</a></li>
-                              <li><a href="https://costaline.com.mx/blog/" tabindex="0">Blog</a></li>
-                              <li><a href="../atencion-a-clientes.html" tabindex="0">Atención a clientes</a></li>
-                          </ul>
-                      </li>
-                      </ul>
-          </nav>
-            <button id="login-icon" aria-label="Abrir modal de inicio de sesión TravelPass" title="Ingresa a Travel Pass" class="btn-travelpass btn-travelpass-active js-open-travelpass-login-modal">
-              <a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión" class="btn-travelpass-icon"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" width="100" height="32" style="cursor: pointer;"></a>
-            </button>
-            <button id="openDotersModal" class="btn btn-doters" aria-label="Iniciar sesion con doters" tabindex="0">
-                <img src='../../src/assets/img/logos/doters.svg' alt="Boton de Doters" loading="lazy">
-            </button>
-            <a class="li__languaje" href="../index.html" aria-label="Cambiar idioma" tabindex="0"><img src='../../src/assets/img/icons-img/USA_Flag.webp' style="width:3.125rem;" width="800" height="416" alt="Descripción de la imagen" loading="lazy"></a>
-
-          <button class="container-menu-hamburguer" aria-label="Menu" id="hamburger-icon" aria-label="Abrir menu desplegable">
-              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 72 72">
-                  <path d="M56 48c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 48 54.798 48 56 48zM56 32c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 32 54.798 32 56 32zM56 16c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 16 54.798 16 56 16z"></path>
-              </svg>
+  <header aria-label="Encabezado Costa Line">
+    <a href="${href}" class="main-header__container-logo" aria-label="Costa Line">
+      <img src="${src}" alt="${alt}" class="header__logo" width="160" height="32" loading="lazy"/>
+    </a>
+    <nav aria-label="Menú principal">
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li class="submenu">
+          <a href="#" role="button" aria-haspopup="true" aria-expanded="false">Facturación <span class="icon-arrow-down"></span></a>
+          <ul>
+            <li><a href="https://ventas.costaline.com.mx/request.aspx?PRGNAME=Facturacion">Facture aquí</a></li>
+            <li><a href="https://costaline.com.mx/CFDI-datos-receptor.html">¿Qué datos necesito?</a></li>
+          </ul>
+        </li>
+        <li><a href="https://viaje.costaline.com.mx/download-tickets">Pase de abordar</a></li>
+        <li><a href="https://viaje.costaline.com.mx/exchange/itinerary">Modificar itinerario</a></li>
+        <li class="submenu">
+          <a href="#" role="button" aria-haspopup="true" aria-expanded="false">Más <span class="icon-arrow-down"></span></a>
+          <ul>
+            <li><a href="../boletos-de-autobus.html">Boletos</a></li>
+            <li><a href="../donde-comprar-etn.html">¿Dónde comprar?</a></li>
+            <li><a href="../index.html">Mascotas</a></li>
+            <li><a href="../destinos.html">Destinos</a></li>
+            <li><a href="../taquillas.html">Taquillas</a></li>
+            <li><a href="../salas-de-espera-vip.html">Salas VIP</a></li>
+            <li><a href="../servicio-a-bordo.html">Servicios</a></li>
+            <li><a href="../promociones.html">Promociones</a></li>
+            <li><a href="https://ventas.costaline.com.mx/request.aspx?APPNAME=Navegante&PRGNAME=AccesoEx">Agencias</a></li>
+            <li><a href="../pago-referenciado-oxxo.html">OXXO Pay</a></li>
+            <li><a href="../../viajero-protegido.html">Viajero protegido</a></li>
+            <li><a href="https://costaline.com.mx/blog/">Blog</a></li>
+            <li><a href="../atencion-a-clientes.html">Atención a clientes</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <button id="login-icon" class="btn-travelpass desktop-travelpass js-open-travelpass-login-modal" aria-label="Iniciar sesión TravelPass">
+      <img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Travel Pass" loading="lazy">
+    </button>
+    <button id="openDotersModal" class="btn btn-doters desktop-doters" aria-label="Iniciar sesión Doters">
+      <img src='../../src/assets/img/logos/doters.svg' alt="Doters" loading="lazy">
+    </button>
+    <a class="li__languaje desktop-languaje" href="../english/index.html" aria-label="Cambiar idioma">
+      <img src='../../src/assets/img/icons-img/USA_Flag.webp' alt="English" loading="lazy">
+    </a>
+    <button class="container-menu-hamburguer" id="hamburger-icon" aria-label="Abrir menú">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 72 72">
+        <path d="M56 48c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 48 54.798 48 56 48zM56 32c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 32 54.798 32 56 32zM56 16c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 16 54.798 16 56 16z"></path>
+      </svg>
+    </button>
+    <div id="dropdown-menu">
+      <ul>
+        <li class="lili__languaje">
+          <a class="a__languaje" href="../../english/index.html" aria-label="Cambiar idioma">
+            <img src='../../src/assets/img/icons-img/USA_Flag.webp' alt="English" loading="lazy">
+          </a>
+        </li>
+        <li><a href="../index.html">Inicio</a></li>
+        <li class="submenu__media-queries">
+          <a href="#" aria-haspopup="true" aria-expanded="false">Facturación <span class="icon-arrow-down"></span></a>
+          <ul>
+            <li><a href="https://venta.etn.com.mx/request.aspx?PRGNAME=Facturacion">Facture aquí</a></li>
+            <li><a href="https://etn.com.mx/CFDI-datos-receptor.html">¿Qué datos necesito?</a></li>
+          </ul>
+        </li>
+        <li><a href="https://venta.etn.com.mx/MiViaje/loginMiItinerario.html">Pase de abordar</a></li>
+        <li><a href="https://viaje.etn.com.mx/exchange/openTicket">Modificar itinerario</a></li>
+        <li class="submenu__media-queries">
+          <a href="#" aria-haspopup="true" aria-expanded="false">Más <span class="icon-arrow-down"></span></a>
+          <ul>
+            <li><a href="../boletos-de-autobus.html">Boletos</a></li>
+            <li><a href="../donde-comprar-etn.html">¿Dónde comprar?</a></li>
+            <li><a href="../index.html">Mascotas</a></li>
+            <li><a href="../destinos.html">Destinos</a></li>
+            <li><a href="../taquillas.html">Taquillas</a></li>
+            <li><a href="../salas-de-espera-vip.html">Salas VIP</a></li>
+            <li><a href="../servicio-a-bordo.html">Servicios</a></li>
+            <li><a href="../promociones.html">Promociones</a></li>
+            <li><a href="../index.html">Agencias</a></li>
+            <li><a href="../pago-referenciado-oxxo.html">OXXO Pay</a></li>
+            <li><a href="../../viajero-protegido.html">Viajero protegido</a></li>
+            <li><a href="https://etn.com.mx/blog/">Blog</a></li>
+            <li><a href="../atencion-a-clientes.html">Atención a clientes</a></li>
+          </ul>
+        </li>
+        <li class="li__login">
+          <button id="login-icon" class="btn-travelpass btn-travelpass__submenu js-open-travelpass-login-modal" aria-label="Iniciar sesión TravelPass">
+            <img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Travel Pass" loading="lazy">
           </button>
-
-          <!-- Menú desplegable -->
-          
-          <div id="dropdown-menu" class="show">
-              <ul>
-                  <li><a href="../index.html" aria-label="Ir a inicio">INICIO</a></li>
-                  <li class="submenu__media-queries">
-                      <a href="#" aria-label="Facturar su viaje" aria-haspopup="true" aria-expanded="false">Facture su viaje <span class="icon-arrow-down"></span></a>
-                      <ul>
-                          <li><a href="https://venta.etn.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
-                          <li><a href="https://etn.com.mx/CFDI-datos-receptor.html" tabindex="0">¿Qué datos necesito?</a></li>
-                      </ul>
-                  </li>
-                  <li><a href="https://venta.etn.com.mx/MiViaje/loginMiItinerario.html" aria-label="Imprimir pase de abordar" tabindex="0">Imprimir pase de abordar</a></li>
-                  <li><a href="https://viaje.etn.com.mx/exchange/openTicket" aria-label="Modificar itinerario" tabindex="0">Modificar itinerario</a></li>
-                  <li class="submenu__media-queries">
-                      <a href="#" aria-label="Mas opciones" aria-haspopup="true" aria-expanded="false">Mas <span class="icon-arrow-down"></span></a>
-                      <ul>
-                          <li><a href="../boletos-de-autobus.html" tabindex="0">Boletos de autobus</a></li>
-                          <li><a href="../donde-comprar-etn.html" tabindex="0">¿Donde comprar?</a></li>
-                          <li><a href="../index.html" tabindex="0">Mascotas a bordo</a></li>
-                          <li><a href="../destinos.html" tabindex="0">Destinos</a></li>
-                          <li><a href="../taquillas.html" tabindex="0">Terminales y taquillas</a></li>
-                          <li><a href="../salas-de-espera-vip.html" tabindex="0">Salas de espera</a></li>
-                          <li><a href="../servicio-a-bordo.html" tabindex="0">Servicios a bordo</a></li>
-                          <li><a href="../promociones.html" tabindex="0">Promociones</a></li>
-                          <li><a href="../index.html" tabindex="0">Agencias</a></li>
-                          <li><a href="../pago-referenciado-oxxo.html" tabindex="0">Pagos OXXO Pay</a></li>
-                          <li><a href="../../viajero-protegido.html" tabindex="0">Viajero protegido</a></li>
-                          <li><a href="https://etn.com.mx/blog/" tabindex="0">Blog</a></li>
-                          <li><a href="../atencion-a-clientes.html" tabindex="0">Atención a clientes</a></li>
-                      </ul>
-                  </li>
-                  <li>
-                    <button id="login-icon" aria-label="Abrir modal de inicio de sesión TravelPass" title="Ingresa a Travel Pass" class="btn-travelpass btn-travelpass__submenu js-open-travelpass-login-modal">
-                      <a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión" class="btn-travelpass-icon"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" width="100" height="32" style="cursor: pointer;"></a>
-                    </button>
-                  </li>
-                  <li>
-                      <button id="openDotersModalMovil" class="btn btn-doters" aria-label="Iniciar sesion con doters" tabindex="0">
-                          <img src="../../src/assets/img/logos/doters.svg" loading="lazy" alt="Doters Logo">
-                      </button>
-                  </li>
-                  <li>
-                      <a href="../index.html" aria-label="Cambiar idioma">
-                          <img src='../../src/assets/img/icons-img/USA_Flag.webp' style="width:3.125rem; height:2rem;" alt="Descripción de la imagen"  width="800" height="416" loading="lazy">
-                      </a>
-                  </li>
-              </ul>
-          </div>
-      </header>
-    `;
+          <button id="openDotersModalMovil" class="btn-doters" aria-label="Iniciar sesión Doters">
+            <img src="../../src/assets/img/logos/doters.svg" alt="Doters" loading="lazy">
+          </button>
+        </li>
+      </ul>
+    </div>
+  </header>
+`;
 
     this.openDesktopSubmenuInstance = null;
     this.desktopSubmenuHideTimeout = null;
@@ -169,25 +160,23 @@ class AppHeader extends HTMLElement {
       if (!submenuList || submenuList.tagName !== "UL") return;
 
       trigger.setAttribute("aria-expanded", "false");
-      submenuList.style.display = "none";
 
       trigger.addEventListener("click", (event) => {
         event.preventDefault();
-        const isOpen = submenuList.style.display === "block";
+        const isOpen = submenuList.classList.contains("is-open");
+
+        // Cierra otros submenús que estén abiertos
         this.querySelectorAll(".submenu__media-queries > ul").forEach((ul) => {
-          if (ul !== submenuList && ul.style.display === "block") {
-            ul.style.display = "none";
+          if (ul !== submenuList && ul.classList.contains("is-open")) {
+            ul.classList.remove("is-open");
             ul.previousElementSibling.setAttribute("aria-expanded", "false");
           }
         });
 
-        if (isOpen) {
-          submenuList.style.display = "none";
-          trigger.setAttribute("aria-expanded", "false");
-        } else {
-          submenuList.style.display = "block";
-          trigger.setAttribute("aria-expanded", "true");
-        }
+        // Alterna el estado del submenú actual
+        submenuList.classList.toggle("is-open");
+        trigger.setAttribute("aria-expanded", String(!isOpen));
+
         event.stopPropagation();
       });
 
@@ -195,7 +184,7 @@ class AppHeader extends HTMLElement {
         if (event.key === "Enter" || event.key === " ") {
           event.preventDefault();
           trigger.click();
-          if (submenuList.style.display === "block") {
+          if (submenuList.classList.contains("is-open")) {
             submenuList.querySelector("a")?.focus();
           }
         }
@@ -206,7 +195,7 @@ class AppHeader extends HTMLElement {
         subItem.addEventListener("keydown", (e) => {
           if (e.key === "Escape") {
             e.preventDefault();
-            submenuList.style.display = "none";
+            submenuList.classList.remove("is-open");
             trigger.setAttribute("aria-expanded", "false");
             trigger.focus();
           }

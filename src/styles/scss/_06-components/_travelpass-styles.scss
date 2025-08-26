@@ -1,5 +1,9 @@
 // Estilos del botón
-
+.desktop-travelpass{
+   @include media ("lg") {
+            display: none;
+        }
+}
 .btn-travelpass-active {
   display: block;
   @include media ("lg") {
@@ -14,7 +18,7 @@
   width: auto;
   height: 2.1rem;
   border-radius: 0.625rem;
-  border: 0.125rem solid #15395a;
+  border: 0.125rem solid $primary-color;
   padding: 0.250rem;
   background-color: white;
   cursor: pointer;
@@ -24,11 +28,6 @@
     width: auto;
     height: 100%;
   }
-  @include media("lg") {
-    margin-top: 0 !important;
-    border-radius: 0.625rem;
-    height: 3.5rem;
-  }
 
   &:hover {
     transform: scale(1.1);
@@ -36,9 +35,12 @@
 }
 
 .btn-travelpass__submenu {
-  width: 6rem;
+  display: flex;
+  width: 8rem;
   height: auto;
-  a img {
+  margin: auto;
+  margin-top: 15px;
+  img {
     width: 100%;
     height: auto;
   }
