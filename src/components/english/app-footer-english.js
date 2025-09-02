@@ -1,4 +1,4 @@
-class FooterEnglish extends HTMLElement {
+class AppFooterEnglish extends HTMLElement {
   constructor() {
     super();
     this.handleResize = this.handleResize.bind(this);
@@ -222,4 +222,4 @@ class FooterEnglish extends HTMLElement {
   }
 }
 
-customElements.define("footer-english", FooterEnglish);
+customElements.define("app-footer-english", AppFooterEnglish);

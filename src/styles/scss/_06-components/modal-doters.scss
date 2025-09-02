@@ -1,9 +1,11 @@
 @import "../main.scss";
+
 .desktop-doters {
   @include media ("lg") {
     display: none;
   }
 }
+
 #openDotersModal {
   border-radius: 0.625rem;
   justify-content: center;

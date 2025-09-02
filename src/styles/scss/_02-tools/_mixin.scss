@@ -6,7 +6,9 @@
     @media (max-width: map-get($breakpoints, $size)) {
       @content;
     }
-  } @else {
+  }
+
+  @else {
     @warn "⚠️ El breakpoint `#{$size}` no está definido en el mapa de breakpoints.";
   }
 }
@@ -14,6 +16,6 @@
 // Mixin para orientación horizontal (landscape)
 @mixin media-landscape {
   @media (orientation: landscape) {
-      @content;
+    @content;
   }
 }

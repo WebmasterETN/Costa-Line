@@ -84,7 +84,7 @@ import "../components/app-footer.js?v=1.0.2";
 /*-------------COMPONENTES PRINCIPALES ENGLISH------------------------- */
 
 import "../components/english/app-header-english.js?v=1.0.2";
-import "../components/english/footer-english.js?v=1.0.2";
+import "../components/english/app-footer-english.js?v=1.0.2";
 
 
 
