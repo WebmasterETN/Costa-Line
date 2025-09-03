@@ -1,0 +1,20 @@
+[
+  {
+    "imageSrc": "../../src/assets/img/english/food/ciudad-de-mexico/tacos-al-pastor.webp",
+    "imageAlt": "Tacos al Pastor",
+    "tag": "Tacos al Pastor",
+    "text": "One of Mexico City’s most iconic dishes, tacos al pastor are made with marinated pork cooked on a vertical spit, served on small tortillas, and topped with onion, cilantro, and pineapple. A must-try street food classic."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/ciudad-de-mexico/torta-de-tamal.webp",
+    "imageAlt": "Torta de Tamal",
+    "tag": "Torta de Tamal",
+    "text": "Known locally as 'guajolota,' the torta de tamal is a Mexico City favorite for breakfast. It consists of a tamal placed inside a bolillo roll, making it a hearty and unique street food combination."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/ciudad-de-mexico/quesadillas.webp",
+    "imageAlt": "Quesadillas",
+    "tag": "Quesadillas",
+    "text": "A staple of CDMX street food, quesadillas are folded tortillas filled with cheese or other ingredients like mushrooms, squash blossoms, or huitlacoche. Often fried on a comal, they highlight the city’s culinary diversity."
+  }
+]

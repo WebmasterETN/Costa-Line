@@ -1,0 +1,17 @@
+[
+  {
+    "image": "../../src/assets/img/english/destinations/ciudad-de-mexico/zocalo.webp",
+    "title": "Zócalo of Mexico City",
+    "description": "The Zócalo, or Plaza de la Constitución, is the heart of Mexico City and one of the largest public squares in the world. Surrounded by historic buildings, it hosts cultural events, political gatherings, and daily life in the capital."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/ciudad-de-mexico/paseo-de-la-reforma.webp",
+    "title": "Paseo de la Reforma",
+    "description": "Paseo de la Reforma is one of Mexico City’s most iconic avenues, lined with monuments, skyscrapers, and cultural landmarks. Visitors can admire the Angel of Independence, explore museums, and enjoy the city’s modern and historic blend."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/ciudad-de-mexico/frida-kahlo-museum.webp",
+    "title": "Frida Kahlo Museum",
+    "description": "Also known as the Blue House, the Frida Kahlo Museum in Coyoacán is dedicated to the life and work of the iconic Mexican artist. Visitors can explore her art, personal belongings, and the vibrant spaces where she lived."
+  }
+]
