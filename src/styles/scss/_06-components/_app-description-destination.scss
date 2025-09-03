@@ -23,7 +23,6 @@ app-description-destination {
   .__destinations-scroll-wrapper {
     width: 100%;
     overflow-x: auto;
-    /* Aquí se controla el scroll horizontal */
     margin-bottom: 2rem;
     -webkit-overflow-scrolling: touch;
 
@@ -31,22 +30,40 @@ app-description-destination {
       display: flex;
       gap: 57px;
       flex-wrap: nowrap;
-      /* Evita salto de línea */
       padding-bottom: 0.5rem;
-      /* espacio para barra de scroll */
 
       .__item-image {
         flex: 0 0 auto;
-        /* No se encoge */
-        width: clamp(24rem, 80vw, 30rem);
-        aspect-ratio: 427 / 285;
+        width: 550px; // ancho fijo
+        height: 355px; // alto fijo
+        position: relative;
+        border-radius: 8px;
+        overflow: hidden;
 
         .__img-destination {
-          display: block;
           width: 100%;
-          height: auto;
+          height: 100%;
           object-fit: cover;
           border-radius: 8px;
+        }
+
+        .__image-footer {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 40px;
+          background-color: $primary-color;
+          display: flex;
+          align-items: center;
+          justify-content: left;
+          border-radius: 0 0 8px 8px;
+          padding-left: 15px;
+
+          .__brand-icon {
+            height: 50%;
+            width: auto;
+          }
         }
       }
     }
@@ -57,5 +74,19 @@ app-description-destination {
     text-align: left;
     font-size: 1.25rem;
   }
+}
 
+// Media query para móviles menores a 480px
+@media screen and (max-width: 480px) {
+  .__list__destinations-images {
+    .__item-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto; // mantiene proporción automática
+    }
+
+    .__img-destination {
+      height: auto; // se ajusta al contenedor
+    }
+  }
 }

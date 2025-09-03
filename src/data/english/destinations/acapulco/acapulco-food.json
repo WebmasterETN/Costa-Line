@@ -1,0 +1,20 @@
+[
+  {
+    "imageSrc": "../../src/assets/img/english/food/acapulco/pescado-a-la-talla.webp",
+    "imageAlt": "Pescado a la talla",
+    "tag": "Pescado a la talla",
+    "text": "A whole fish marinated in a blend of chili and spices, grilled over charcoal. A coastal favorite that highlights the fresh seafood of Acapulco."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/acapulco/pozole-guerrero.webp",
+    "imageAlt": "Pozole estilo Guerrero",
+    "tag": "Pozole estilo Guerrero",
+    "text": "Traditional hominy soup prepared with pork or chicken, served with fresh toppings like lettuce, radish, oregano, and lime. A festive dish deeply rooted in Guerrero’s culture."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/acapulco/coco-frio.webp",
+    "imageAlt": "Coco frío",
+    "tag": "Coco frío",
+    "text": "Fresh coconut served chilled, with the option of lime and chili powder. A refreshing treat to enjoy under the sun in Acapulco’s beaches."
+  }
+]

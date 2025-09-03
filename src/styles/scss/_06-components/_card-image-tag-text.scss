@@ -1,0 +1,137 @@
+app-card-image-tag-text {
+    width: 100%;
+
+    .__cards-container {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        width: 87%;
+        height: auto;
+        margin: auto;
+        padding-bottom: 15px;
+        justify-content: flex-start;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+
+        .card-itt {
+            flex: 0 0 auto;
+            scroll-snap-align: start;
+            display: flex;
+            flex-direction: column;
+            width: 430px;
+            height: 410px;
+
+            @media (max-width: 780px) {
+                flex-direction: row;
+                width: 100%;
+                height: 180px;
+            }
+
+            .card-itt__image-container {
+                position: relative;
+                width: 100%;
+                height: 340px;
+                overflow: hidden;
+
+                @media (max-width: 780px) {
+                    flex-direction: row;
+                    width: 50%;
+                    height: 100%;
+                }
+
+                .card-itt__img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                    display: block;
+
+                    @media (max-width: 780px) {
+                        object-position: top;
+                    }
+                }
+
+                .card-itt__tag {
+                    display: flex;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: auto;
+                    padding: 10px 5px;
+                    border-top-right-radius: 15px;
+                    background-color: $primary-color;
+                    color: white;
+                    font-weight: bold;
+
+                    @media (max-width: 780px) {
+                        display: none;
+                    }
+                }
+            }
+
+            .card-itt__text-container {
+                display: flex;
+                width: 100%;
+                height: 70px;
+
+                @media (max-width: 780px) {
+                    width: 50%;
+                    height: 100%;
+                    flex-direction: column;
+                }
+
+                .card-itt__text-tag {
+                    display: none;
+
+                    @media (max-width: 780px) {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: $primary-color;
+                        width: 100%;
+                        height: 15%;
+                        box-shadow: inset 0 4px 6px -4px rgba(0, 0, 0, 0.08);
+                        font-size: 10px;
+                        padding: 3px;
+                    }
+                }
+
+                .card-itt__text {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: justify;
+                    width: 100%;
+                    height: 70px;
+                    color: $primary-color;
+                    font-size: 15px;
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+                        0 6px 6px rgba(0, 0, 0, 0.23);
+                    padding: 5px;
+
+                    @media (max-width: 780px) {
+                        height: 85%;
+                        font-size: 13px;
+                        background-color: $primary-color;
+                        color: white;
+                        box-shadow: none;
+                        padding: 15px 20px;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 780px) {
+            flex-direction: column;
+            gap: 10px;
+            width: 100vw;
+            margin-left: -15px;
+            margin-right: -15px;
+            overflow-x: hidden;
+            scroll-snap-type: none;
+            justify-content: center; // aquí sí centramos cuando no hay scroll
+        }
+    }
+}

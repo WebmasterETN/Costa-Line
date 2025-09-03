@@ -1,0 +1,20 @@
+[
+  {
+    "imageSrc": "../../src/assets/img/english/food/chilpancingo/enchiladas-guerrerenses.webp",
+    "imageAlt": "Enchiladas Guerrerenses",
+    "tag": "Enchiladas Guerrerenses",
+    "text": "Corn tortillas filled with cheese or meat, topped with a rich chili sauce and garnished with onions, lettuce, and cheese. A classic dish that represents the flavors of Chilpancingo."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/chilpancingo/atole-chilpancingo.webp",
+    "imageAlt": "Atole",
+    "tag": "Atole",
+    "text": "A warm corn-based drink flavored with cinnamon, vanilla, or chocolate. Enjoyed throughout Chilpancingo, often paired with tamales or pastries."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/chilpancingo/tacos-de-carnitas.webp",
+    "imageAlt": "Tacos de carnitas",
+    "tag": "Tacos de carnitas",
+    "text": "Soft corn tortillas filled with tender, slow-cooked pork, garnished with onions, cilantro, and salsa. A popular and flavorful street food enjoyed by locals in Chilpancingo."
+  }
+]

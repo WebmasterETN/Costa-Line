@@ -19,6 +19,14 @@ import "./english/legal/page-terms-hot-sale.js?v=1.0.2";
 import "./english/legal/page-oxxo-pay.js?v=1.0.2";
 import "./english/legal/page-travelpass-english.js?v=1.0.2";
 
+import "./english/destinations/page-bus-tickets-to-acapulco.js?v=1.0.2";
+import "./english/destinations/page-bus-tickets-to-cd-altamirano.js?v=1.0.2";
+import "./english/destinations/page-bus-tickets-to-chilpancingo.js?v=1.0.2";
+import "./english/destinations/page-bus-tickets-to-coyuca-de-benitez.js?v=1.02";
+import "./english/destinations/page-bus-tickets-to-cuernavaca.js?v=1.0.2";
+import "./english/destinations/page-bus-tickets-to-iguala.js?v=1.0.2";
+import "./english/destinations/page-bus-tickets-to-cdmx.js?v=1.0.2";
+
 /*----------------------------PAGINAS-LANDINGS----------------------------------------*/
 import "./page-boletos-de-autobus.js?v=1.0.2";
 import "./page-donde-comprar-etn.js?v=1.0.2";
@@ -85,6 +93,10 @@ import "../components/app-footer.js?v=1.0.2";
 
 import "../components/english/app-header-english.js?v=1.0.2";
 import "../components/english/app-footer-english.js?v=1.0.2";
+import "../components/app-banner-multi-image.js?v=1.0.2";
+import "../components/app-card-image-tag-text.js?v=1.0.2";
+import "../components/app-destiny-slider.js?v=1.0.2";
+
 
 
 

@@ -1,0 +1,17 @@
+[
+  {
+    "image": "../../src/assets/img/english/destinations/acapulco/diamante.webp",
+    "title": "Acapulco Diamante",
+    "description": "Acapulco Diamante is the city’s most modern and exclusive area, home to luxury resorts, golf courses, and pristine beaches. A perfect destination for travelers seeking comfort, style, and relaxation by the Pacific Ocean."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/acapulco/papagayo.webp",
+    "title": "Papagayo Park",
+    "description": "Papagayo Park is a green oasis in the heart of Acapulco, featuring gardens, recreational areas, and cultural spaces. It’s the perfect spot to enjoy a family outing surrounded by nature and history."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/acapulco/quebrada.webp",
+    "title": "La Quebrada",
+    "description": "La Quebrada is Acapulco’s most iconic attraction, famous for its daring cliff divers who leap from heights of up to 35 meters into the ocean. It’s a breathtaking spectacle that captures the adventurous spirit of Acapulco."
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "image": "../../src/assets/img/english/destinations/chilpancingo/zocalo-chilpancingo.webp",
+    "title": "Zócalo de Chilpancingo",
+    "description": "The Zócalo of Chilpancingo is the city’s main square, surrounded by historic buildings, shops, and cultural spaces. It’s a central spot for social gatherings, festivals, and enjoying the local atmosphere."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/chilpancingo/museo-regional.webp",
+    "title": "Guerrero Regional Museum",
+    "description": "The Guerrero Regional Museum showcases the history, art, and culture of the region. Visitors can explore exhibits that highlight Chilpancingo’s heritage and the traditions of Guerrero."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/chilpancingo/parque-margarita.webp",
+    "title": "Parque Margarita",
+    "description": "Parque Margarita is a green space in Chilpancingo offering recreational areas, walking paths, and spots to relax. It’s an ideal place for families and visitors to enjoy nature in the heart of the city."
+  }
+]

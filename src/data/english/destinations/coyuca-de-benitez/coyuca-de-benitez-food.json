@@ -1,0 +1,20 @@
+[
+  {
+    "imageSrc": "../../src/assets/img/english/food/coyuca-de-benitez/tepache-pina.webp",
+    "imageAlt": "Tepache de Piña",
+    "tag": "Tepache de Piña",
+    "text": "A lightly fermented pineapple drink, sweetened with piloncillo and flavored with spices. Tepache is a refreshing and traditional beverage unique to Coyuca de Benítez."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/coyuca-de-benitez/camarones-mojo-ajo.webp",
+    "imageAlt": "Camarones al mojo de ajo",
+    "tag": "Camarones al mojo de ajo",
+    "text": "Fresh shrimp cooked in garlic, butter, and regional spices. A delicious dish that highlights the coastal flavors of Coyuca de Benítez."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/coyuca-de-benitez/tamales-coyuca.webp",
+    "imageAlt": "Tamales Coyuca",
+    "tag": "Tamales Coyuca",
+    "text": "Traditional tamales made with corn dough and filled with pork, chicken, or sweet ingredients, wrapped in banana leaves. Commonly served during local festivities and family gatherings."
+  }
+]

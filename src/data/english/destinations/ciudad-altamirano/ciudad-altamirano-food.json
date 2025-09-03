@@ -1,0 +1,20 @@
+[
+  {
+    "imageSrc": "../../src/assets/img/english/food/ciudad-altamirano/aguas-frescas.webp",
+    "imageAlt": "Aguas Frescas",
+    "tag": "Aguas Frescas",
+    "text": "Refreshing drinks made from natural fruits, flowers, or seeds mixed with water and sugar. Perfect for cooling off while enjoying the local streets and markets."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/ciudad-altamirano/mole-rojo.webp",
+    "imageAlt": "Mole rojo",
+    "tag": "Mole rojo",
+    "text": "A rich and flavorful sauce made from dried chilies, spices, and chocolate, typically served over chicken or pork. Mole rojo is a staple of Guerrero cuisine."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/ciudad-altamirano/tamales-cambray.webp",
+    "imageAlt": "Tamales de cambray",
+    "tag": "Tamales de Cambray",
+    "text": "Sweet and savory tamales made with a mix of dried fruits, nuts, and meat, wrapped in banana leaves. Traditionally served during celebrations and special occasions."
+  }
+]

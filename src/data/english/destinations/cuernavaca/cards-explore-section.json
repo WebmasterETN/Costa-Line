@@ -1,0 +1,17 @@
+[
+  {
+    "image": "../../src/assets/img/english/destinations/cuernavaca/palacio-cortes.webp",
+    "title": "Palacio de Cortés",
+    "description": "The Palacio de Cortés is one of the oldest colonial-era buildings in Mexico. Today it houses the Cuauhnáhuac Regional Museum, where visitors can explore the history of Morelos through impressive murals and exhibits."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/cuernavaca/jardin-borda.webp",
+    "title": "Jardín Borda",
+    "description": "Jardín Borda is a historic garden and cultural center once used as a retreat by Emperor Maximilian and Empress Carlota. With fountains, lush vegetation, and art exhibits, it’s a peaceful escape in the heart of the city."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/cuernavaca/catedral-cuernavaca.webp",
+    "title": "Cuernavaca Cathedral",
+    "description": "The Cuernavaca Cathedral is part of a UNESCO World Heritage site and one of the oldest cathedrals in Mexico. Its unique architecture and frescoes make it a must-visit landmark for history and culture lovers."
+  }
+]

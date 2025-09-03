@@ -1,0 +1,38 @@
+[
+    {
+      "imageSrc": "../../src/assets/img/english/destinations/acapulco/acapulco-1.webp",
+      "alt": "Acapulco",
+      "href": "../../english/destinations/bus-tickets-to-acapulco.html",
+      "text": "Acapulco"
+    },
+    {
+      "imageSrc": "../../src/assets/img/english/destinations/ciudad-altamirano/cd-altamirano-2.webp",
+      "alt": "Ciudad Altamirano",
+      "href": "../../english/destinations/bus-tickets-to-cd-altamirano.html",
+      "text": "Ciudad Altamirano"
+    },
+    {
+      "imageSrc": "../../src/assets/img/english/destinations/chilpancingo/chilpancingo-2.webp",
+      "alt": "Chilpancingo",
+      "href": "../../english/destinations/bus-tickets-to-chilpancingo.html",
+      "text": "Chilpancingo"
+    },
+    {
+      "imageSrc": "../../src/assets/img/english/destinations/coyuca-de-benitez/coyuca-de-benitez-1.webp",
+      "alt": "Coyuca de Benitez",
+      "href": "../../english/destinations/bus-tickets-to-coyuca-de-benitez.html",
+      "text": "Coyuca de Benitez"
+    },
+    {
+      "imageSrc": "../../src/assets/img/english/destinations/cuernavaca/cuernavaca-1.webp",
+      "alt": "Cuernavaca",
+      "href": "../../english/destinations/bus-tickets-to-cuernavaca.html",
+      "text": "Cuernavaca"
+    },
+    {
+      "imageSrc": "../../src/assets/img/english/destinations/iguala/iguala-1.webp",
+      "alt": "Iguala",
+      "href": "../../english/destinations/bus-tickets-to-iguala.html",
+      "text": "Iguala"
+    }
+]

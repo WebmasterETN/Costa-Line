@@ -1,0 +1,17 @@
+[
+  {
+    "image": "../../src/assets/img/english/destinations/iguala/museo-bandera.webp",
+    "title": "Museum of the Flag and Sanctuary",
+    "description": "This museum celebrates Iguala’s role as the birthplace of Mexico’s national flag. Visitors can learn about the history of the Trigarante Army, independence, and the city’s significance through exhibits and artifacts."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/iguala/asta-bandera.webp",
+    "title": "Iguala Flagpole",
+    "description": "One of the tallest flagpoles in Mexico, the Iguala Flagpole proudly displays the national flag. It is a symbol of unity and independence, and a must-see for those exploring the city’s historic identity."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/iguala/zocalo-iguala.webp",
+    "title": "Iguala Main Square",
+    "description": "The vibrant main square is the heart of Iguala’s social and cultural life. Surrounded by shops, cafes, and historic buildings, it’s the perfect spot to enjoy the local atmosphere and traditional festivities."
+  }
+]
