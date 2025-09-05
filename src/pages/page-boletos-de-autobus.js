@@ -64,7 +64,7 @@ class PageBoletosDeAutobus extends HTMLElement {
 
     try {
       const response = await fetch(
-        "./src/data/cards-boletos-de-autobus-data.json"
+        "../src/data/cards-boletos-de-autobus-data.json"
       );
       if (!response.ok) {
         throw new Error(

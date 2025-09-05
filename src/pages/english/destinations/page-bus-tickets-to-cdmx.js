@@ -24,11 +24,11 @@ class PageBusTicketsToCdmx extends HTMLElement {
                 {"id": "2", "src": "../../src/assets/img/english/destinations/ciudad-de-mexico/cdmx-2.webp", "alt": "Letrero de Ciudad de Mexico"},
                 {"id": "3", "src": "../../src/assets/img/english/destinations/ciudad-de-mexico/cdmx-3.webp", "alt": "Panoramica Ciudad de Mexico"}
               ]'
-              paragraph-text="Ciudad Altamirano is a charming town in the heart of Guerrero. Known for its rivers, local markets, and lively community events, this destination offers visitors a glimpse into authentic Mexican life. From the bustling Zócalo to scenic spots along the Balsas River and traditional cultural celebrations, Ciudad Altamirano provides an unforgettable mix of relaxation, exploration, and local heritage — all within the warm and welcoming spirit of Guerrero."
+              paragraph-text="Mexico City (CDMX) is a vibrant capital at the heart of Mexico. Known for its historic landmarks, diverse neighborhoods, and lively cultural scene, this destination offers visitors a unique window into the country’s rich heritage and modern spirit. From the bustling Zócalo and iconic Chapultepec Park to world-class museums, traditional markets, and colorful festivals, Mexico City provides an unforgettable mix of history, exploration, and contemporary life — all wrapped in the warm and welcoming essence of the nation’s capital."
             ></app-description-destination>
           </section>
           <section class="__section">
-            <app-section-title section-title=" Explore the Highlights of Ciudad Altamirano"></app-section-title>
+            <app-section-title section-title=" Explore the Highlights of Ciudad de Mexico"></app-section-title>
             <app-explore-section></app-explore-section>
             
           </section>
@@ -36,7 +36,7 @@ class PageBusTicketsToCdmx extends HTMLElement {
           <section class="__section">
             <app-section-title section-title="Hungry for Mexico? Start here."></app-section-title>
             <app-banner-multi-image></app-banner-multi-image>
-            <p class="text-description">The cuisine of Ciudad Altamirano is a vibrant reflection of its local traditions, community, and heritage. Influenced by the flavors of Guerrero, its gastronomy highlights fresh ingredients, regional spices, and time-honored cooking techniques that delight every palate. Each dish embodies the warmth and spirit of the town, offering not only unforgettable flavors but also a cultural journey that celebrates Ciudad Altamirano’s identity, hospitality, and festive essence in every meal.</p>
+            <p class="text-description">The cuisine of Mexico City (CDMX) is a vibrant reflection of its local traditions, community, and heritage. Influenced by the diverse flavors of Mexico, its gastronomy highlights fresh ingredients, regional spices, and time-honored cooking techniques that delight every palate. Each dish embodies the energy and spirit of the capital, offering not only unforgettable flavors but also a cultural journey that celebrates Mexico City’s identity, hospitality, and festive essence in every meal.</p>
             <app-card-image-tag-text data-src="../../src/data/english/destinations/ciudad-de-mexico/ciudad-de-mexico-food.json"></app-card-image-tag-text>
           </section>
             

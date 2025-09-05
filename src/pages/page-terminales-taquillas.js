@@ -28,11 +28,11 @@ class PageTerminalesTaquillas extends HTMLElement {
 
             <section class="__section __section__encuentra-taquilla">
                 <app-section-title section-title="Encuentra tu taquilla Costa Line: ubicaciones y horarios"></app-section-title>
-                <!-- <p class="__paragraph">El sector de renta de autobuses en la Ciudad de México ha experimentado un crecimiento significativo, reflejando la creciente demanda de soluciones de transporte cómodas y seguras para grupos. Desde excursiones escolares hasta viajes corporativos, la renta de autobuses se ha consolidado como una opción ideal para facilitar la movilidad de grupos grandes, ofreciendo un equilibrio entre eficiencia, seguridad y confort.</p>
+                 <p class="__paragraph">El sector de renta de autobuses en la Ciudad de México ha experimentado un crecimiento significativo, reflejando la creciente demanda de soluciones de transporte cómodas y seguras para grupos. Desde excursiones escolares hasta viajes corporativos, la renta de autobuses se ha consolidado como una opción ideal para facilitar la movilidad de grupos grandes, ofreciendo un equilibrio entre eficiencia, seguridad y confort.</p> 
                 <article class="__grid-cards-container">
                     <!-- app-card-image elements will be inserted here by loadAndRenderImageCards -->
                 </article>
-                <p class="__section-paragraph-xl">Explora más rutas y destinos de Costa Line para planificar tu viaje.</>
+                <p class="__section-paragraph-xl">Explora más rutas y destinos de Costa Line para planificar tu viaje.</p>
             </section>
 
             <section class="__section __section__FATQs">

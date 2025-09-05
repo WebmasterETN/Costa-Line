@@ -1,0 +1,17 @@
+[
+  {
+    "image": "../../src/assets/img/english/destinations/zihuatanejo/playa-la-ropa.webp",
+    "title": "Playa La Ropa",
+    "description": "One of Zihuatanejo’s most famous beaches, Playa La Ropa is ideal for swimming, sunbathing, and water sports. Its calm waves and golden sands make it a favorite for families and travelers seeking relaxation by the sea."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/zihuatanejo/muelle-pesquero.webp",
+    "title": "Zihuatanejo Fishermen’s Wharf",
+    "description": "A lively spot where visitors can see the town’s fishing tradition in action. In the mornings, fishermen bring in their fresh catch, offering an authentic glimpse of local life and the maritime heritage of Zihuatanejo."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/zihuatanejo/mercado-artesanal.webp",
+    "title": "Artisanal Market",
+    "description": "Located near the waterfront, this colorful market showcases handicrafts, textiles, and souvenirs made by local artisans. It’s the perfect place to shop for unique gifts while experiencing the vibrant culture of Zihuatanejo."
+  }
+]

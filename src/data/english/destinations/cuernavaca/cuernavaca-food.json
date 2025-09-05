@@ -1,20 +1,21 @@
+
 [
   {
-    "imageSrc": "../../src/assets/img/english/food/iguala/aporreadillo.webp",
-    "imageAlt": "Aporreadillo",
-    "tag": "Aporreadillo",
-    "text": "A traditional breakfast dish from Guerrero, made with dried beef that is pounded, shredded, and cooked in a flavorful red or green sauce with scrambled eggs. It’s hearty, savory, and deeply tied to the region’s culinary identity."
+    "imageSrc": "../../src/assets/img/english/food/cuernavaca/cecina-cuernavaca.webp",
+    "imageAlt": "Cecina de Yecapixtla",
+    "tag": "Cecina de Yecapixtla",
+    "text": "A signature dish from Morelos, especially famous in Cuernavaca’s surroundings. Thinly sliced and salted beef, often served with cream, cheese, avocado, and handmade tortillas. It’s a staple of local gastronomy."
   },
   {
-    "imageSrc": "../../src/assets/img/english/food/iguala/fiambre-iguala.webp",
-    "imageAlt": "Fiambre de Iguala",
-    "tag": "Fiambre de Iguala",
-    "text": "A festive and unique dish from Iguala, made with a mix of meats, vegetables, and pickled ingredients, seasoned with regional spices. Traditionally served during celebrations, it showcases the city’s culinary creativity."
+    "imageSrc": "../../src/assets/img/english/food/cuernavaca/quesadillas-flor-calabaza.webp",
+    "imageAlt": "Squash Blossom Quesadillas",
+    "tag": "Squash Blossom Quesadillas",
+    "text": "A traditional Mexican delight prepared with fresh squash blossoms, folded into corn tortillas with cheese and cooked on a comal. Popular in Cuernavaca’s markets, these quesadillas highlight the region’s use of fresh, seasonal ingredients."
   },
   {
-    "imageSrc": "../../src/assets/img/english/food/iguala/cocoles.webp",
-    "imageAlt": "Cocoles",
-    "tag": "Cocoles",
-    "text": "Sweet bread rolls flavored with anise and sometimes topped with sugar. A beloved local treat, often enjoyed with coffee or at family gatherings, representing Iguala’s traditional bakery flavors."
+    "imageSrc": "../../src/assets/img/english/food/cuernavaca/tepoznieves.webp",
+    "imageAlt": "Tepoznieves",
+    "tag": "Tepoznieves",
+    "text": "Colorful and creative artisanal ice creams from nearby Tepoztlán, loved in Cuernavaca. Known for unique flavors like rose petal, mezcal, and tropical fruits, they reflect the area’s playful and refreshing culinary side."
   }
 ]

@@ -5,7 +5,7 @@ import "../../../components/app-banner-image.js";
 import "../../../components/app-description-destination.js";
 import "../../../components/app-explore-section.js";
 
-class AppBoletosAutobusAguascalientesEnglish extends HTMLElement {
+class PageAutobusAAguascalientesEnglish extends HTMLElement {
   async connectedCallback() {
     this.innerHTML = `
           <app-cotiza></app-cotiza>
@@ -69,6 +69,6 @@ class AppBoletosAutobusAguascalientesEnglish extends HTMLElement {
   }
 }
 customElements.define(
-  "page-boletos-de-autobus-aguascalientes-english",
-  AppBoletosAutobusAguascalientesEnglish
+  "page-autobus-a-aguascalientes-english",
+  PageAutobusAAguascalientesEnglish
 );

@@ -3,16 +3,16 @@ class AppTimeLinePackM extends HTMLElement {
     this.innerHTML = `
       <div class="__timeline-items">
         <div class="__timeline-image">
-          <img src="../src/assets/img/paqueteria/paso-1.webp" alt="Paso 1 del envío">
+          <img src="../../src/assets/img/paqueteria/paso-1.webp" alt="Paso 1 del envío">
         </div>
         <div class="__timeline-image">
-          <img src="../src/assets/img/paqueteria/paso-2.webp" alt="Paso 2 del envío">
+          <img src="../../src/assets/img/paqueteria/paso-2.webp" alt="Paso 2 del envío">
         </div>
         <div class="__timeline-image">
-          <img src="../src/assets/img/paqueteria/paso-3.webp" alt="Paso 3 del envío">
+          <img src="../../src/assets/img/paqueteria/paso-3.webp" alt="Paso 3 del envío">
         </div>
         <div class="__timeline-image">
-          <img src="../src/assets/img/paqueteria/paso-4.webp" alt="Paso 4 del envío">
+          <img src="../../src/assets/img/paqueteria/paso-4.webp" alt="Paso 4 del envío">
         </div>
       </div>
     `;

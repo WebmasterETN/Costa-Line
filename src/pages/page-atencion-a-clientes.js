@@ -31,7 +31,7 @@ class PageAtencionAClientes extends HTMLElement {
                 <div class="__grid-cards-container">
                     <div class="__container-image">
                         <p class="__container__title">Ponte en contacto con nosotros</p>
-                         <img class="__img" src="src/assets/img/sales-location/atencion-clientes.webp" alt="Atencion a clientes" loading="lazy"> 
+                         <img class="__img" src="../src/assets/img/sales-location/atencion-clientes.webp" alt="Atencion a clientes" loading="lazy"> 
                         <p class="__container-image__footer">Resolveremos tus dudas</p>
                     </div>
                     <div class="__container-form">

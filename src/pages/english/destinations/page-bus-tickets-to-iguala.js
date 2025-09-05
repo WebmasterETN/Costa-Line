@@ -37,7 +37,7 @@ class PageBusTicketsToIguala extends HTMLElement {
             <app-section-title section-title="Hungry for Mexico? Start here."></app-section-title>
             <app-banner-multi-image></app-banner-multi-image>
             <p class="text-description">Iguala’s cuisine reflects the rich flavors of Guerrero through fresh ingredients, traditional recipes, and local culinary traditions. From cecina tacos and fiambre to sweet treats like cocoles, the city offers a gastronomic experience that blends history, community, and creativity. Each dish tells a story of the region’s culture, festivals, and daily life, inviting visitors to savor the authentic flavors of Iguala while enjoying the warmth and hospitality of its people.</p>
-            <app-card-image-tag-text data-src="../../src/data/english/destinations/cuernavaca/cuernavaca-food.json"></app-card-image-tag-text>
+            <app-card-image-tag-text data-src="../../src/data/english/destinations/iguala/iguala-food.json"></app-card-image-tag-text>
           </section>
             
           <section class="__section">

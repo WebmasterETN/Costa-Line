@@ -31,7 +31,7 @@ class PageServiciosABordo extends HTMLElement {
                 <p class="__paragraph">Los autobuses de dos pisos se han convertido en una opción popular para el transporte de pasajeros, ofreciendo una combinación de capacidad, comodidad y vistas panorámicas únicas.</p>
 							 <p class="__paragraph">El confort es clave para una experiencia de viaje excepcional, y nuestro diseño de asientos lo refleja.</p> 
 								<article class="__grid-cards-container__travel">
-								 <img class="__aside-img" src="src/assets/img/autobuses/bus-costa.webp" alt="servicios a bordo">
+								 <img class="__aside-img" src="../src/assets/img/autobuses/bus-costa.webp" alt="servicios a bordo">
                     <div class="services-container__comodidad">
                     <h3 class="__subtitle-center-xl">Comodidad</h3>
                         <div class="services-container-comodidad" id="comodidad-cards-container">

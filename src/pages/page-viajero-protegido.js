@@ -28,9 +28,9 @@ class PageViajeroProtegido extends HTMLElement {
             </section>
 
             <div class="btn-group-pages">
-                <a class="btn-enable" href="../../viajero-protegido-plus.html" class="__btn">Servicio Plus</a>
+                <a class="btn-enable" href="./viajero-protegido-plus.html" class="__btn">Servicio Plus</a>
                 <a class="btn-disable" class="__btn">Servicio Basico</a> 
-                <a class="btn-enable" href="../../viajero-protegido-lujo.html" class="__btn">Servicio de Lujo</a> 
+                <a class="btn-enable" href="./viajero-protegido-lujo.html" class="__btn">Servicio de Lujo</a> 
             </div>
 
             <h3 class="__title__section">Condiciones Generales IAMSA Básico</h3>

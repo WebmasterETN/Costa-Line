@@ -7,7 +7,7 @@
         "Viaje seguro: Tu paquete viaja de manera segura en nuestras unidades, con monitoreo constante.",
         "Recoge tu paquete: El destinatario podrá recogerlo en la terminal de llegada, presentando una identificación oficial y el número de guía."
       ],
-      "imageSrc": "../src/assets/img/paqueteria/pack-multienlace-v1.webp",
+      "imageSrc": "../../src/assets/img/paqueteria/pack-multienlace-v1.webp",
       "imageAlt": "Paquete urgente"
     }
   ]

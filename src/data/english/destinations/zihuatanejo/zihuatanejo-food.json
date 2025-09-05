@@ -1,0 +1,20 @@
+[
+  {
+    "imageSrc": "../../src/assets/img/english/food/zihuatanejo/tiritas-pescado.webp",
+    "imageAlt": "Tiritas de Pescado",
+    "tag": "Tiritas de Pescado",
+    "text": "A traditional dish from Zihuatanejo made with thin strips of fresh fish marinated in lime juice and mixed with onion and chili. Light, refreshing, and emblematic of the town’s fishing heritage."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/zihuatanejo/pan-dulce-coco.webp",
+    "imageAlt": "Pan de Coco",
+    "tag": "Pan de Coco",
+    "text": "A lesser-known coastal sweet bread made with grated coconut, offering a soft texture and tropical flavor. Popular in local bakeries, it reflects the creative use of regional ingredients in Guerrero’s coast."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/zihuatanejo/chilpachole-jaiba.webp",
+    "imageAlt": "Chilpachole de Jaiba",
+    "tag": "Chilpachole de Jaiba",
+    "text": "A traditional Zihuatanejo crab stew made with fresh crab, local herbs, tomatoes, and chili. Rich in flavor and deeply tied to the coastal culinary traditions of the region."
+  }
+]

@@ -14,20 +14,20 @@ class AppHeaderPackMultienlace extends HTMLElement {
             <nav aria-label="Menu de navegacion" >
                 
                     <ul>
-                        <li><a href="../index.html" aria-label="Ir a inicio" tabindex="0">Costa Line</a></li>
-                        <li><a href="../../packmultienlace/terminales-paqueteria.html" aria-label="Imprimir pase de abordar" tabindex="0">Terminales</a></li> 
+                        <li><a href="../../index.html" aria-label="Ir a inicio" tabindex="0">Costa Line</a></li>
+                        <li><a href="../../servicios/packmultienlace/terminales-paqueteria.html" aria-label="Imprimir pase de abordar" tabindex="0">Terminales</a></li> 
                         <li class="submenu">
                           <a href="#" role="button" aria-label="Facturar su viaje" tabindex="0" aria-haspopup="true" aria-expanded="false">Detalles del servicio <span class="icon-arrow-down"></span></a>
                           <ul>
-                                <li><a href="../../packmultienlace/servicios-corporativos-paqueteria.html" tabindex="0">Servicios Corporativos</a></li>
-                                <li><a href="../../packmultienlace/restricciones-paqueteria.html" tabindex="0">Restricciones de envíos</a></li>
-                                <li><a href="../../packmultienlace/proceso-de-envio.html" tabindex="0">Proceso de envío</a></li>
-                                <li><a href="../../packmultienlace/como-funciona-paqueteria.html" tabindex="0">¿Cómo funciona?</a></li>
-                                <li><a href="../../packmultienlace/pack-multienlace.html" tabindex="0">Pack Multienlace</a></li>
+                                <li><a href="../../servicios/packmultienlace/servicios-corporativos-paqueteria.html" tabindex="0">Servicios Corporativos</a></li>
+                                <li><a href="../../servicios/packmultienlace/restricciones-paqueteria.html" tabindex="0">Restricciones de envíos</a></li>
+                                <li><a href="../../servicios/packmultienlace/proceso-de-envio.html" tabindex="0">Proceso de envío</a></li>
+                                <li><a href="../../servicios/packmultienlace/como-funciona-paqueteria.html" tabindex="0">¿Cómo funciona?</a></li>
+                                <li><a href="../../servicios/packmultienlace/pack-multienlace.html" tabindex="0">Pack Multienlace</a></li>
                             </ul>
                         </li>
-                        <li><a href="../../packmultienlace/cotizador-paqueteria.html" aria-label="Modificar itinerario" tabindex="0">Cotizador</a></li> 
-                        <li><a href="../../packmultienlace/facturacion-paqueteria.html" aria-label="Modificar itinerario" tabindex="0">Facturación</a></li> 
+                        <li><a href="../../servicios/packmultienlace/cotizador-paqueteria.html" aria-label="Modificar itinerario" tabindex="0">Cotizador</a></li>
+                        <li><a href="../../servicios/packmultienlace/facturacion-paqueteria.html" aria-label="Modificar itinerario" tabindex="0">Facturación</a></li>
 
                         </ul>
             </nav>  
@@ -41,20 +41,19 @@ class AppHeaderPackMultienlace extends HTMLElement {
             
             <div id="dropdown-menu" class="show">
                 <ul>
-                    <li><a href="../index.html" aria-label="Ir a inicio">COSTA LINE</a></li>
+                    <li><a href="../../index.html" aria-label="Ir a inicio">COSTA LINE</a></li>
                     <li class="submenu__media-queries">
                         <a href="#" aria-label="Facturar su viaje" aria-haspopup="true" aria-expanded="false">DETAILS DEL SERVICIO <span class="icon-arrow-down"></span></a>
                         <ul>
-                            <li><a href="../../packmultienlace/servicios-corporativos-paqueteria.html" tabindex="0">Servicios Corporativos</a></li>
-                            <li><a href="../../packmultienlace/restricciones-paqueteria.html" tabindex="0">Restricciones de envíos</a></li>
-                            <li><a href="../src/packmultienlace/proceso-de-envio.html" tabindex="0">Proceso de envío</a></li>
-                            <li><a href="../../packmultienlace/como-funciona-paqueteria.html" tabindex="0">¿Cómo funciona?</a></li>
-                            <li><a href="../../packmultienlace/pack-multienlace.html" tabindex="0">Pack Multienlace</a></li>
+                            <li><a href="../../servicios/packmultienlace/servicios-corporativos-paqueteria.html" tabindex="0">Servicios Corporativos</a></li>
+                            <li><a href="../../servicios/packmultienlace/restricciones-paqueteria.html" tabindex="0">Restricciones de envíos</a></li>
+                            <li><a href="../../servicios/packmultienlace/proceso-de-envio.html" tabindex="0">Proceso de envío</a></li>
+                            <li><a href="../../servicios/packmultienlace/como-funciona-paqueteria.html" tabindex="0">¿Cómo funciona?</a></li>
+                            <li><a href="../../servicios/packmultienlace/pack-multienlace.html" tabindex="0">Pack Multienlace</a></li>
                         </ul>
                     </li>
-                    <li><a href="../../packmultienlace/terminales-paqueteria.html" aria-label="Imprimir pase de abordar" tabindex="0">TERMINALES</a></li>
-                    <li><a href="../../packmultienlace/cotizador-paqueteria.html" aria-label="Modificar itinerario" tabindex="0">COTIZADOR</a></li>
-                    <li><a href="../../packmultienlace/facturacion-paqueteria.html" aria-label="Modificar itinerario" tabindex="0">FACTURACIÓN</a></li>
+                    <li><a href="../../servicios/packmultienlace/cotizador-paqueteria.html" aria-label="Modificar itinerario" tabindex="0">Cotizador</a></li>
+                    <li><a href="../../servicios/packmultienlace/facturacion-paqueteria.html" aria-label="Modificar itinerario" tabindex="0">Facturación</a></li>
 
                 </ul>
             </div>

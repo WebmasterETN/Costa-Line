@@ -1,6 +1,6 @@
 [
   {
-    "imageSrc": "src/assets/img/destinos-img/acapulco/acapulco-m.webp",
+    "imageSrc": "../src/assets/img/destinos-img/acapulco/acapulco-m.webp",
     "imageAlt": "Acapulco",
     "destinationName": "Acapulco, Guerrero",
     "destinationTagline": "Sol, mar y vida nocturna sin igual.",
@@ -8,7 +8,7 @@
     "buttonLink": "../../boletos-de-autobus-a-acapulco.html"
   },
   {
-    "imageSrc": "src/assets/img/destinos-img/cd-altamirano/cd-altamirano-m.webp",
+    "imageSrc": "../src/assets/img/destinos-img/cd-altamirano/cd-altamirano-m.webp",
     "imageAlt": "Ciudad Altamirano",
     "destinationName": "Cd. Altamirano, Guerrero",
     "destinationTagline": "Encuentra tranquilidad junto al río Balsas.",
@@ -16,7 +16,7 @@
     "buttonLink": "../../boletos-de-autobus-a-cd-altamirano.html"
   },
   {
-    "imageSrc": "src/assets/img/destinos-img/cdmx/cdmx-m.webp",
+    "imageSrc": "../src/assets/img/destinos-img/cdmx/cdmx-m.webp",
     "imageAlt": "Ciudad de México",
     "destinationName": "Ciudad de México, CDMX",
     "destinationTagline": "Tradición y modernidad en la gran capital.",
@@ -24,7 +24,7 @@
     "buttonLink": "../../boletos-de-autobus-a-ciudad-de-mexico.html"
   },
   {
-    "imageSrc": "src/assets/img/destinos-img/chilpancingo/chilpancingo-m.webp",
+    "imageSrc": "../src/assets/img/destinos-img/chilpancingo/chilpancingo-m.webp",
     "imageAlt": "Chilpancingo",
     "destinationName": "Chilpancingo, Guerrero",
     "destinationTagline": "La capital del estado con historia y cultura.",
@@ -32,7 +32,7 @@
     "buttonLink": "../../boletos-de-autobus-a-chilpancingo.html"
   },
   {
-    "imageSrc": "src/assets/img/destinos-img/coyuca-de-benitez/coyuca-m.webp",
+    "imageSrc": "../src/assets/img/destinos-img/coyuca-de-benitez/coyuca-m.webp",
     "imageAlt": "Coyuca de Benítez",
     "destinationName": "Coyuca de Benítez, Guerrero",
     "destinationTagline": "Laguna, mar y naturaleza en un solo lugar.",
@@ -40,7 +40,7 @@
     "buttonLink": "../../boletos-de-autobus-a-coyuca-de-benitez.html"
   },
   {
-    "imageSrc": "src/assets/img/destinos-img/cuernavaca/cuernavaca-m.webp",
+    "imageSrc": "../src/assets/img/destinos-img/cuernavaca/cuernavaca-m.webp",
     "imageAlt": "Cuernavaca",
     "destinationName": "Cuernavaca, Morelos",
     "destinationTagline": "La ciudad de la eterna primavera.",
@@ -48,7 +48,7 @@
     "buttonLink": "../../boletos-de-autobus-a-cuernavaca.html"
   },
   {
-    "imageSrc": "src/assets/img/destinos-img/iguala/iguala-m.webp",
+    "imageSrc": "../src/assets/img/destinos-img/iguala/iguala-m.webp",
     "imageAlt": "Iguala",
     "destinationName": "Iguala, Guerrero",
     "destinationTagline": "Cuna de la Bandera Nacional.",
@@ -56,7 +56,7 @@
     "buttonLink": "../../boletos-de-autobus-a-iguala.html"
   },
   {
-    "imageSrc": "src/assets/img/destinos-img/taxco/taxco-m.webp",
+    "imageSrc": "../src/assets/img/destinos-img/taxco/taxco-m.webp",
     "imageAlt": "Taxco",
     "destinationName": "Taxco, Guerrero",
     "destinationTagline": "Pueblo mágico y joya colonial de plata.",
@@ -64,7 +64,7 @@
     "buttonLink": "../../boletos-de-autobus-a-taxco.html"
   },
   {
-    "imageSrc": "src/assets/img/destinos-img/tecpan/tecpan-m.webp",
+    "imageSrc": "../src/assets/img/destinos-img/tecpan/tecpan-m.webp",
     "imageAlt": "Tecpan de Galeana",
     "destinationName": "Tecpan, Guerrero",
     "destinationTagline": "Naturaleza, costa y cultura local.",
@@ -72,7 +72,7 @@
     "buttonLink": "../../boletos-de-autobus-a-tecpan.html"
   },
   {
-    "imageSrc": "src/assets/img/destinos-img/ixtapa/zihuatanejo-m.webp",
+    "imageSrc": "../src/assets/img/destinos-img/ixtapa/zihuatanejo-m.webp",
     "imageAlt": "Zihuatanejo",
     "destinationName": "Zihuatanejo, Guerrero",
     "destinationTagline": "Playas tranquilas y encanto pesquero.",

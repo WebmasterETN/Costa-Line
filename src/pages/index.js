@@ -26,6 +26,7 @@ import "./english/destinations/page-bus-tickets-to-coyuca-de-benitez.js?v=1.02";
 import "./english/destinations/page-bus-tickets-to-cuernavaca.js?v=1.0.2";
 import "./english/destinations/page-bus-tickets-to-iguala.js?v=1.0.2";
 import "./english/destinations/page-bus-tickets-to-cdmx.js?v=1.0.2";
+import "./english/destinations/page-bus-tickets-to-zihuatanejo.js?v=1.0.2";
 
 /*----------------------------PAGINAS-LANDINGS----------------------------------------*/
 import "./page-boletos-de-autobus.js?v=1.0.2";
@@ -54,31 +55,28 @@ import "./page-ofertas-en-1-click.js?v=1.0.2";
 import "./page-festival-de-viajes.js?v=1.0.2";
 import "./page-kueski-pay.js?v=1.0.2";
 
-import "./page-boletos-de-autobus-monterrey.js?v=1.0.2";
-import "./page-boletos-de-autobus-acapulco.js?v=1.0.2";
-import "./page-boletos-de-autobus-cd-altamirano.js?v=1.0.2";
-import "./page-boletos-de-autobus-cdmx.js?v=1.0.2";
-import "./page-boletos-de-autobus-chilpancingo.js?v=1.0.2";
-import "./page-boletos-de-autobus-coyuca-de-benitez.js?v=1.0.2";
-import "./page-boletos-de-autobus-cuernavaca.js?v=1.0.2";
-import "./page-boletos-de-autobus-taxco.js?v=1.0.2";
-import "./page-boletos-de-autobus-ixtapa-zihuatanejo.js?v=1.0.2";
-import "./page-boletos-de-autobus-iguala.js?v=1.0.2";
-import "./page-boletos-de-autobus-tecpan.js?v=1.0.2";
+import "./destinations/page-autobus-a-acapulco.js?v=1.0.2";
+import "./destinations/page-autobus-a-cd-altamirano.js?v=1.0.2";
+import "./destinations/page-autobus-a-cdmx.js?v=1.0.2";
+import "./destinations/page-autobus-a-chilpancingo.js?v=1.0.2";
+import "./destinations/page-autobus-a-coyuca-de-benitez.js?v=1.0.2";
+import "./destinations/page-autobus-a-cuernavaca.js?v=1.0.2";
+import "./destinations/page-autobus-a-taxco.js?v=1.0.2";
+import "./destinations/page-autobus-a-ixtapa-zihuatanejo.js?v=1.0.2";
+import "./destinations/page-autobus-a-iguala.js?v=1.0.2";
+import "./destinations/page-autobus-a-tecpan.js?v=1.0.2";
 
 import "./page-preguntas-frecuentes.js?v=1.0.2";
-import "./page-pack-multienlace.js?v=1.3.3";
-import "./page-cotizador-pack.js?v=1.3.3";
-import "./page-restricciones-pack.js?v=1.3.3";
-import "./page-proceso-envio.js?v=1.3.3";
-import "./page-como-funciona.js?v=1.3.3";
-import "./page-pack-multienlace-info.js?v=1.3.3";
-import "./page-servicios-corporativos-pack.js?v=1.3.3";
-import "./page-cotizador-datos-pack.js?v=1.3.3";
-import "./page-facturacion-pack.js?v=1.3.3";
-
-import "./page-terminales-pack.js?v=1.3.3";
-
+import "./packmultienlace/page-pack-multienlace.js?v=1.3.3";
+import "./packmultienlace/page-cotizador-pack.js?v=1.3.3";
+import "./packmultienlace/page-restricciones-pack.js?v=1.3.3";
+import "./packmultienlace/page-proceso-envio.js?v=1.3.3";
+import "./packmultienlace/page-como-funciona.js?v=1.3.3";
+import "./packmultienlace/page-pack-multienlace-info.js?v=1.3.3";
+import "./packmultienlace/page-servicios-corporativos-pack.js?v=1.3.3";
+import "./packmultienlace/page-cotizador-datos-pack.js?v=1.3.3";
+import "./packmultienlace/page-facturacion-pack.js?v=1.3.3";
+import "./packmultienlace/page-terminales-pack.js?v=1.3.3";
 
 /*-------------COMPONENTES PRINCIPALES ------------------------- */
 
@@ -96,9 +94,6 @@ import "../components/english/app-footer-english.js?v=1.0.2";
 import "../components/app-banner-multi-image.js?v=1.0.2";
 import "../components/app-card-image-tag-text.js?v=1.0.2";
 import "../components/app-destiny-slider.js?v=1.0.2";
-
-
-
 
 /*-------------------------SCRIPTS---------------------------*/
 

@@ -30,17 +30,17 @@ class PagePromociones extends HTMLElement {
                   <div class="__grid-container">
                     <article class="__article__promo">
                         <h3 class="__article-title">Compra con descuento </h3>
-                       <a class="__article-link" href="../../../ofertas-en-1-click.html">  <img src="src/assets/img/promociones/costa-descuentos.webp" alt="Atencion a clientes"> </a>
+                       <a class="__article-link" href="../../../ofertas-en-1-click.html">  <img src="../src/assets/img/promociones/costa-descuentos.webp" alt="Atencion a clientes"> </a>
                     </article>
                     <article class="__article__promo">
                         <h3 class="__article-title">Acumula Puntos Doters</h3>
-                       <a class="__article-link" href="https://etn.com.mx/doters/"> <img src="src/assets/img/promociones/costa-doters.webp" alt="Atencion a clientes">  </a>
+                       <a class="__article-link" href="https://etn.com.mx/doters/"> <img src="../src/assets/img/promociones/costa-doters.webp" alt="Atencion a clientes">  </a>
                     </article>
                 </div>
               <app-section-title section-title="Descuentos de Temporadas"></app-section-title>
                   <article class="__article__banner">
                       <h3 class="__article-title">Buen fin </h3>
-                      <a class="__article-banner-link" href="../../../buen-fin/index.html">  <img src="src/assets/img/banner/promociones/web/buen-fin-web.webp" alt="Atencion a clientes"> </a>
+                      <a class="__article-banner-link" href="../../../buen-fin/index.html">  <img src="../src/assets/img/banner/promociones/web/buen-fin-web.webp" alt="Atencion a clientes"> </a>
                   </article>
               <app-section-title section-title="Convenios"></app-section-title>
                   <article class="__article__guide">

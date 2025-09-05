@@ -38,7 +38,13 @@
     {
       "imageSrc": "../../src/assets/img/english/destinations/ciudad-de-mexico/cdmx-1.webp",
       "alt": "Ciudad de Mexico",
-      "href": "../../english/destinations/bus-tickets-to-ciudad-de-mexico.html",
+      "href": "../../english/destinations/bus-tickets-to-cdmx.html",
       "text": "Ciudad de Mexico"
+    },
+    {
+      "imageSrc": "../../src/assets/img/english/destinations/zihuatanejo/zihuatanejo-1.webp",
+      "alt": "Zihuatanejo",
+      "href": "../../english/destinations/bus-tickets-to-zihuatanejo.html",
+      "text": "Zihuatanejo"
     }
 ]

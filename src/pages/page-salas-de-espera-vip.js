@@ -32,7 +32,7 @@ class PageSalasDeEsperaVip extends HTMLElement {
 de la línea más cómoda desde antes de abordar el autobús.</p>
                 <div class="__grid-container">
                     <aside class="__aside-image">
-                        <img class="__aside-img" src="src/assets/img/salas-espera/salas-de-espera-etn.webp" alt="salas de espera vip">
+                        <img class="__aside-img" src="../src/assets/img/salas-espera/salas-de-espera-etn.webp" alt="salas de espera vip">
                     </aside>
                     <article class="__article-buttons">
                         <h3 class="__article-title">Servicios Disponibles</h3>
