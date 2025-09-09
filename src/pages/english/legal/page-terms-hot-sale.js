@@ -16,7 +16,7 @@ class PageTermsHotSale extends HTMLElement {
 
         <app-banner-slider
             slides-data='[
-            {"id": "slide1", "title": "Banner 1", "image": "../../src/assets/img/banner/promociones/web/hot-sale-web.webp","mediumImage": "../../src/assets/img/banner/promociones/tablet/hot-sale-tablet.webp", "smallImage": "../../src/assets/img/banner/promociones/movil/hot-sale-mobile.webp", "link": "#index.html/banner1"}
+            {"id": "slide1", "title": "Banner 1", "image": "../../../src/assets/img/banner/promociones/web/hot-sale-web.webp","mediumImage": "../../../src/assets/img/banner/promociones/tablet/hot-sale-tablet.webp", "smallImage": "../../../src/assets/img/banner/promociones/movil/hot-sale-mobile.webp", "link": "#index.html/banner1"}
             ]'
         >
         </app-banner-slider>
@@ -197,7 +197,7 @@ class PageTermsHotSale extends HTMLElement {
         <h3 class="__title__section">Routes</h3>
 
         <section class="__sections __destinations-table-section">
-            <app-destinations-table src="../../src/data/destinos-cl.json" language="en"></app-destinations-table>
+            <app-destinations-table src="../../../src/data/destinos-cl.json" language="en"></app-destinations-table>
         </section>
 
     `;

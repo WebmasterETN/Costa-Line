@@ -16,7 +16,7 @@ class PageEarlyTraveler extends HTMLElement {
 
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../../../src/assets/img/banner/promociones/web/35+5-web.webp","mediumImage": "../../../src/assets/img/banner/promociones/tablet/35+5-tablet.webp", "smallImage": "../../../src/assets/img/banner/promociones/movil/35+5-mobile.webp", "link": "#index.html/banner1"}
+                {"id": "slide1", "title": "Banner 1", "image": "../../../../src/assets/img/banner/promociones/web/35+5-web.webp","mediumImage": "../../../../src/assets/img/banner/promociones/tablet/35+5-tablet.webp", "smallImage": "../../../../src/assets/img/banner/promociones/movil/35+5-mobile.webp", "link": "#index.html/banner1"}
                 ]'
             >
             </app-banner-slider>
@@ -146,7 +146,7 @@ class PageEarlyTraveler extends HTMLElement {
             <h3 class="__title__section">Routes</h3>
 
             <section class="__sections __destinations-table-section">
-                <app-destinations-table src="../../src/data/destinos-cl.json" language="en"></app-destinations-table>
+                <app-destinations-table src="../../../src/data/destinos-cl.json" language="en"></app-destinations-table>
             </section>
 
     `;

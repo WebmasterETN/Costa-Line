@@ -16,7 +16,7 @@ class PageTermsBuenFin extends HTMLElement {
 
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../../src/assets/img/banner/promociones/web/buen-fin-web.webp","mediumImage": "../../src/assets/img/banner/promociones/tablet/buen-fin-tablet.webp", "smallImage": "../../src/assets/img/banner/promociones/movil/buen-fin-mobile.webp", "link": "#index.html/banner1"}
+                {"id": "slide1", "title": "Banner 1", "image": "../../../../src/assets/img/banner/promociones/web/buen-fin-web.webp","mediumImage": "../../../../src/assets/img/banner/promociones/tablet/buen-fin-tablet.webp", "smallImage": "../../../../src/assets/img/banner/promociones/movil/buen-fin-mobile.webp", "link": "#index.html/banner1"}
                 ]'
             >
             </app-banner-slider>
@@ -198,7 +198,7 @@ class PageTermsBuenFin extends HTMLElement {
             <h3 class="__title__section">Routes</h3>
 
             <section class="__sections __destinations-table-section">
-                <app-destinations-table src="../../src/data/destinos-cl.json" language="en" /></app-destinations-table>
+                <app-destinations-table src="../../../src/data/destinos-cl.json" language="en" /></app-destinations-table>
             </section>
 
     `;
