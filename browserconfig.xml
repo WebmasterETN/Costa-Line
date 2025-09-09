@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square70x70logo src="/apple-touch-icon-72x72.png"/>
+      <square150x150logo src="/apple-touch-icon-152x152.png"/>
+      <square310x310logo src="/android-chrome-512x512.png"/>
+      <!-- Se recomienda crear una imagen de 310x150 para el tile ancho -->
+      <TileColor>#06255b</TileColor>
+    </tile>
+  </msapplication>
+</browserconfig>
