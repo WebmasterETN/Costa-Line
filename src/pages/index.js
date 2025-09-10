@@ -2,6 +2,7 @@
 
 import "./home/page-home.js?v=1.0.2";
 import "./page-site-map.js?v=1.0.2";
+import "./page-404.js?v=1.0.2";
 
 /*----------------PAGINAS-ENGLISH---------------------------------*/
 
@@ -51,6 +52,9 @@ import "./destinos/page-autobus-a-iguala.js?v=1.0.2";
 import "./destinos/page-autobus-a-tecpan.js?v=1.0.2";
 
 import "./page-preguntas-frecuentes.js?v=1.0.2";
+
+//PACK MULTIENLACE
+
 import "./packmultienlace/page-pack-multienlace.js?v=1.3.3";
 import "./packmultienlace/page-cotizador-pack.js?v=1.3.3";
 import "./packmultienlace/page-restricciones-pack.js?v=1.3.3";
@@ -61,6 +65,7 @@ import "./packmultienlace/page-servicios-corporativos-pack.js?v=1.3.3";
 import "./packmultienlace/page-cotizador-datos-pack.js?v=1.3.3";
 import "./packmultienlace/page-facturacion-pack.js?v=1.3.3";
 import "./packmultienlace/page-terminales-pack.js?v=1.3.3";
+
 //BOLETOS AUTOBUS
 
 import "./boletos-autobus/page-boletos-de-autobus.js?v=1.0.2";
