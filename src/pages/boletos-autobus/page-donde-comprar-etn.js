@@ -1,12 +1,11 @@
-import "../components/app-cotiza.js";
-import "../components/app-modal-doters.js";
-import "../components/app-banner-slider.js";
-import "../components/app-payments.js";
-import "../components/app-img-shop-left.js";
-import "../components/app-img-shop-right.js";
-import "../components/app-section-title.js";
-import "../components/app-card-image.js";
-import "../js/slick.js?v=1.0.2";
+import "../../components/app-cotiza.js";
+import "../../components/app-modal-doters.js";
+import "../../components/app-banner-slider.js";
+import "../../components/app-payments.js";
+import "../../components/app-img-shop-left.js";
+import "../../components/app-img-shop-right.js";
+import "../../components/app-section-title.js";
+import "../../components/app-card-image.js";
 
 class PageDondeComprar extends HTMLElement {
   connectedCallback() {

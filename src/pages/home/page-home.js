@@ -1,26 +1,25 @@
 /*--------------IMPORT COMPONENTS FROM HOME PAGE -----------------*/
-import "../components/app-cotiza.js";
-import "../components/app-banner-slider.js";
-import "../components/app-payments.js";
-import "../components/app-destinations-grid.js";
-import "../components/app-list-destinations.js";
-import "../components/app-tickets-sales-locations.js";
-import "../components/app-other-services.js";
-import "../components/app-blog.js";
-import "../components/app-img-shop-left.js";
-import "../components/app-section-title.js";
-import "../js/slick.js?v=1.0.2";
+import "../../components/app-cotiza.js";
+import "../../components/app-banner-slider.js";
+import "../../components/app-payments.js";
+import "../../components/app-destinations-grid.js";
+import "../../components/app-list-destinations.js";
+import "../../components/app-tickets-sales-locations.js";
+import "../../components/app-other-services.js";
+import "../../components/app-blog.js";
+import "../../components/app-img-shop-left.js";
+import "../../components/app-section-title.js";
 
-class AppHome extends HTMLElement {
+class PageHome extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
             <app-cotiza></app-cotiza>
             <app-modal-doters></app-modal-doters>
              <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/home-doters-web.webp","mediumImage": "../src/assets/img/banner/tablet/home-doters-tablet.webp", "smallImage": "../src/assets/img/banner/movil/home-doters-mobile.webp", "link": "#index.html/banner1"},
-                {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/web/home-pago-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-pago-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-pago-mobile.webp", "link": "#index.html/banner2"},
-                {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/web/home-verano-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-verano-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-verano-mobile.webp", "link": "#index.html/banner3"}
+                {"id": "slide1", "title": "Banner 1", "image": "../../src/assets/img/banner/web/home-doters-web.webp","mediumImage": "../../src/assets/img/banner/tablet/home-doters-tablet.webp", "smallImage": "../../src/assets/img/banner/movil/home-doters-mobile.webp", "link": "#index.html/banner1"},
+                {"id": "slide2", "title": "Banner 2", "image": "../../src/assets/img/banner/web/home-pago-web.webp", "mediumImage": "../../src/assets/img/banner/tablet/home-pago-tablet.webp","smallImage": "../../src/assets/img/banner/movil/home-pago-mobile.webp", "link": "#index.html/banner2"},
+                {"id": "slide3", "title": "Banner 3", "image": "../../src/assets/img/banner/web/home-verano-web.webp", "mediumImage": "../../src/assets/img/banner/tablet/home-verano-tablet.webp","smallImage": "../../src/assets/img/banner/movil/home-verano-mobile.webp", "link": "#index.html/banner3"}
                 ]'
             >
             </app-banner-slider>
@@ -59,17 +58,17 @@ class AppHome extends HTMLElement {
             
             <app-other-services
                 section-title-id="other-programs-section"
-                title-data-src="../src/data/other-services-loyalty-titles.json"
-                cards-data-src="../src/data/other-services-loyalty-cards.json"
+                title-data-src="../../src/data/other-services-loyalty-titles.json"
+                cards-data-src="../../src/data/other-services-loyalty-cards.json"
             >
             </app-other-services>
             <app-other-services
-                title-data-src="../src/data/other-services-general-titles.json"
-                cards-data-src="../src/data/other-services-general-cards.json"
+                title-data-src="../../src/data/other-services-general-titles.json"
+                cards-data-src="../../src/data/other-services-general-cards.json"
             >
             </app-other-services>
             <app-blog></app-blog>
         `;
   }
 }
-customElements.define("app-home", AppHome);
+customElements.define("page-home", PageHome);

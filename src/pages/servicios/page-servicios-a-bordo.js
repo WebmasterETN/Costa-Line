@@ -1,12 +1,11 @@
 /*--------------IMPORT COMPONENTS FROM LANDING PAGE -----------------*/
-import "../components/app-cotiza.js";
-import "../components/app-modal-doters.js";
-import "../components/app-banner-slider.js";
-import "../components/app-payments.js";
-import "../components/app-section-title.js";
-import "../components/app-card-text.js";
-import "../components/app-card-text-bg-blue-gray.js";
-import "../js/slick.js?v=1.0.2";
+import "../../components/app-cotiza.js";
+import "../../components/app-modal-doters.js";
+import "../../components/app-banner-slider.js";
+import "../../components/app-payments.js";
+import "../../components/app-section-title.js";
+import "../../components/app-card-text.js";
+import "../../components/app-card-text-bg-blue-gray.js";
 
 class PageServiciosABordo extends HTMLElement {
   connectedCallback() {
@@ -17,9 +16,9 @@ class PageServiciosABordo extends HTMLElement {
 
              <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/home-doters-web.webp","mediumImage": "../src/assets/img/banner/tablet/home-doters-tablet.webp", "smallImage": "../src/assets/img/banner/movil/home-doters-mobile.webp", "link": "#index.html/banner1"},
-                {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/web/home-pago-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-pago-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-pago-mobile.webp", "link": "#index.html/banner2"},
-                {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/web/home-verano-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-verano-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-verano-mobile.webp", "link": "#index.html/banner3"}
+                {"id": "slide1", "title": "Banner 1", "image": "../../src/assets/img/banner/web/home-doters-web.webp","mediumImage": "../../src/assets/img/banner/tablet/home-doters-tablet.webp", "smallImage": "../../src/assets/img/banner/movil/home-doters-mobile.webp", "link": "#index.html/banner1"},
+                {"id": "slide2", "title": "Banner 2", "image": "../../src/assets/img/banner/web/home-pago-web.webp", "mediumImage": "../../src/assets/img/banner/tablet/home-pago-tablet.webp","smallImage": "../../src/assets/img/banner/movil/home-pago-mobile.webp", "link": "#index.html/banner2"},
+                {"id": "slide3", "title": "Banner 3", "image": "../../src/assets/img/banner/web/home-verano-web.webp", "mediumImage": "../../src/assets/img/banner/tablet/home-verano-tablet.webp","smallImage": "../../src/assets/img/banner/movil/home-verano-mobile.webp", "link": "#index.html/banner3"}
                 ]'
             >
             </app-banner-slider>
@@ -31,7 +30,7 @@ class PageServiciosABordo extends HTMLElement {
                 <p class="__paragraph">Los autobuses de dos pisos se han convertido en una opción popular para el transporte de pasajeros, ofreciendo una combinación de capacidad, comodidad y vistas panorámicas únicas.</p>
 							 <p class="__paragraph">El confort es clave para una experiencia de viaje excepcional, y nuestro diseño de asientos lo refleja.</p> 
 								<article class="__grid-cards-container__travel">
-								 <img class="__aside-img" src="../src/assets/img/autobuses/bus-costa.webp" alt="servicios a bordo">
+								 <img class="__aside-img" src="../../src/assets/img/autobuses/bus-costa.webp" alt="servicios a bordo">
                     <div class="services-container__comodidad">
                     <h3 class="__subtitle-center-xl">Comodidad</h3>
                         <div class="services-container-comodidad" id="comodidad-cards-container">
@@ -90,13 +89,13 @@ class PageServiciosABordo extends HTMLElement {
     };
 
     this.loadAndRenderComponentList(
-      "../src/data/cards-text-image-comodidad.json",
+      "../../../src/data/cards-text-image-comodidad.json",
       "#comodidad-cards-container",
       "app-cards-text-image",
       textImageMapper
     );
     this.loadAndRenderComponentList(
-      "../src/data/cards-text-image-asientos.json",
+      "../../../src/data/cards-text-image-asientos.json",
       "#asientos-cards-container",
       "app-cards-text-image",
       textImageMapper
@@ -117,7 +116,7 @@ class PageServiciosABordo extends HTMLElement {
     }
     try {
       const responseCardsText = await fetch(
-        "../src/data/card-text-servicios-abordo-data.json"
+        "../../../src/data/card-text-servicios-abordo-data.json"
       );
       if (!responseCardsText.ok) {
         throw new Error(
@@ -224,7 +223,7 @@ class PageServiciosABordo extends HTMLElement {
     try {
       // Construye la URL al archivo JSON de forma robusta usando import.meta.url
       const jsonFileUrl = new URL(
-        "../data/card-servicios-disponibles-data.json",
+        "../../data/card-servicios-disponibles-data.json",
         import.meta.url
       );
       const response = await fetch(jsonFileUrl);
@@ -257,7 +256,7 @@ class PageServiciosABordo extends HTMLElement {
     try {
       // Construye la URL al archivo JSON de forma robusta usando import.meta.url
       const jsonFileUrl = new URL(
-        "../data/card-tech-data.json",
+        "../../data/card-tech-data.json",
         import.meta.url
       );
       const response = await fetch(jsonFileUrl);
@@ -290,7 +289,7 @@ class PageServiciosABordo extends HTMLElement {
     try {
       // Construye la URL al archivo JSON de forma robusta usando import.meta.url
       const jsonFileUrl = new URL(
-        "../data/card-futuro-autobuses-data.json",
+        "../../data/card-futuro-autobuses-data.json",
         import.meta.url
       );
       const response = await fetch(jsonFileUrl);

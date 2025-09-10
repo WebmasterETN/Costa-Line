@@ -1,13 +1,12 @@
 /*--------------IMPORT COMPONENTS FROM LANDING PAGE -----------------*/
-import "../components/app-cotiza.js";
-import "../components/app-modal-doters.js";
-import "../components/app-banner-slider.js";
-import "../components/app-payments.js";
-import "../components/app-section-title.js";
-import "../components/app-cards-text-image.js";
-import "../js/slick.js?v=1.0.2";
+import "../../components/app-cotiza.js";
+import "../../components/app-modal-doters.js";
+import "../../components/app-banner-slider.js";
+import "../../components/app-payments.js";
+import "../../components/app-section-title.js";
+import "../../components/app-forms.js";
 
-class PageSalasDeEsperaVip extends HTMLElement {
+class PageAtencionAClientes extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
             <app-cotiza></app-cotiza>
@@ -26,43 +25,35 @@ class PageSalasDeEsperaVip extends HTMLElement {
 
             <app-payments></app-payments>
 
-            <section class="__section __section__salas">
-                <app-section-title section-title="Salas de espera"></app-section-title>
-                <p class="__paragraph">En Costaline Contamos con cómodas salas de espera VIP, para que disfrutes
-de la línea más cómoda desde antes de abordar el autobús.</p>
-                <div class="__grid-container">
-                    <aside class="__aside-image">
-                        <img class="__aside-img" src="../src/assets/img/salas-espera/salas-de-espera-etn.webp" alt="salas de espera vip">
-                    </aside>
-                    <article class="__article-buttons">
-                        <h3 class="__article-title">Servicios Disponibles</h3>
-                          <div class="services-container" id="services-cards-container">
-                                <!-- Las tarjetas de tiendas se cargarán aquí -->
-                          </div>
-                    </article>
+            <section class="__section __section__atencion-clientes">
+                <app-section-title section-title="Atencion a Clientes""></app-section-title>
+                <div class="__grid-cards-container">
+                    <div class="__container-image">
+                        <p class="__container__title">Ponte en contacto con nosotros</p>
+                         <img class="__img" src="../src/assets/img/sales-location/atencion-clientes.webp" alt="Atencion a clientes" loading="lazy"> 
+                        <p class="__container-image__footer">Resolveremos tus dudas</p>
+                    </div>
+                    <div class="__container-form">
+                        <p class="__container__title">Completa el formulario y estaremos en contacto</p>
+                        <app-forms></app-forms>
+                    </div>
                 </div>
             </section>
-           
+
+            
         `;
 
-    // Mapper para app-cards-text-image
-    const textImageMapper = (element, data) => {
-      if (data.title) {
-        element.setAttribute("title-text", data.title);
-      }
-      if (data.iconSrc) {
-        element.setAttribute("icon-src", data.iconSrc);
-      }
-    };
-
-    this.loadAndRenderComponentList(
-      "../src/data/cards-text-image.json",
-      "#services-cards-container",
-      "app-cards-text-image",
-      textImageMapper
-    );
+    this.loadAndSetFormDataToAppForms();
+  }
+  //JS para renderizar los forms
+  async loadAndSetFormDataToAppForms() {
+    const appFormsElement = this.querySelector("app-forms");
+    const response = await fetch("../src/data/forms-atencion-cliente.json");
+    const formData = await response.json();
+    appFormsElement.setFormData(formData);
   }
 
+  //js para renderizar componentes
   async loadAndRenderComponentList(
     jsonPath,
     containerSelector,
@@ -74,7 +65,7 @@ de la línea más cómoda desde antes de abordar el autobús.</p>
       console.error(`El contenedor ${containerSelector} no fue encontrado.`);
       return;
     }
-    container.innerHTML = ""; // Opcional: Limpiar o mostrar estado de carga
+    container.innerHTML = "";
 
     try {
       const response = await fetch(jsonPath);
@@ -95,7 +86,7 @@ de la línea más cómoda desde antes de abordar el autobús.</p>
 
       itemsData.forEach((data) => {
         const element = document.createElement(componentTag);
-        dataToAttributesMapper(element, data); // Aplicar atributos usando el mapper
+        dataToAttributesMapper(element, data);
         container.appendChild(element);
       });
     } catch (error) {
@@ -109,4 +100,4 @@ de la línea más cómoda desde antes de abordar el autobús.</p>
     }
   }
 }
-customElements.define("page-salas-de-espera-vip", PageSalasDeEsperaVip);
+customElements.define("page-atencion-a-clientes", PageAtencionAClientes);

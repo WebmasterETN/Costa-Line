@@ -220,7 +220,7 @@ COSTA-LINE/
 ### Importar dependencias locales
 
 ```html
-<script src="./src/components/doters-cookies.js"></script>
+<script src="./src/js/doters-cookies.js"></script>
 <script src="./src/js/jquery.min.js?v=1.0.4"></script>
 <script src="./src/js/slick.js?v=1.0.4"></script>
 ```
@@ -602,7 +602,7 @@ COSTA-LINE/
 ### Import Local Dependencies
 
 ```html
-<script src="./src/components/doters-cookies.js"></script>
+<script src="./src/js/doters-cookies.js"></script>
 <script src="./src/js/jquery.min.js?v=1.0.4"></script>
 <script src="./src/js/slick.js?v=1.0.4"></script>
 ```

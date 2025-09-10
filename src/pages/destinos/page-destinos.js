@@ -1,13 +1,12 @@
 /*--------------IMPORT COMPONENTS FROM LANDING PAGE -----------------*/
-import "../components/app-cotiza.js";
-import "../components/app-modal-doters.js";
-import "../components/app-banner-slider.js";
-import "../components/app-payments.js";
-import "../components/app-section-title.js";
-import "../components/app-card-text.js";
-import "../components/app-map.js";
-import "../components/app-card-title-icon.js";
-import "../js/slick.js?v=1.0.2";
+import "../../components/app-cotiza.js";
+import "../../components/app-modal-doters.js";
+import "../../components/app-banner-slider.js";
+import "../../components/app-payments.js";
+import "../../components/app-section-title.js";
+import "../../components/app-card-text.js";
+import "../../components/app-map.js";
+import "../../components/app-card-title-icon.js";
 
 class PageDestinos extends HTMLElement {
   connectedCallback() {

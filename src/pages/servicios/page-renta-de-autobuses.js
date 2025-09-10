@@ -1,15 +1,14 @@
 /*--------------IMPORT COMPONENTS FROM LANDING PAGE -----------------*/
-import "../components/app-cotiza.js";
-import "../components/app-modal-doters.js";
-import "../components/app-banner-slider.js";
-import "../components/app-payments.js";
-import "../components/app-cards-icons.js";
-import "../components/app-cards-contact-whats.js";
-import "../components/app-section-title.js";
-import "../components/app-card-image.js";
-import "../components/app-hover-card.js";
-import "../components/app-forms.js";
-import "../js/slick.js?v=1.0.2";
+import "../../components/app-cotiza.js";
+import "../../components/app-modal-doters.js";
+import "../../components/app-banner-slider.js";
+import "../../components/app-payments.js";
+import "../../components/app-cards-icons.js";
+import "../../components/app-cards-contact-whats.js";
+import "../../components/app-section-title.js";
+import "../../components/app-card-image.js";
+import "../../components/app-hover-card.js";
+import "../../components/app-forms.js";
 
 class PageRentaDeAutobuses extends HTMLElement {
   connectedCallback() {

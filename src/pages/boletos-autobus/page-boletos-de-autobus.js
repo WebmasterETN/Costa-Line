@@ -1,11 +1,10 @@
 /*--------------IMPORT COMPONENTS FROM LANDING PAGE -----------------*/
-import "../components/app-cotiza.js";
-import "../components/app-modal-doters.js";
-import "../components/app-banner-slider.js";
-import "../components/app-payments.js";
-import "../components/app-cards-text-list.js";
-import "../components/app-section-title.js";
-import "../js/slick.js?v=1.0.2";
+import "../../components/app-cotiza.js";
+import "../../components/app-modal-doters.js";
+import "../../components/app-banner-slider.js";
+import "../../components/app-payments.js";
+import "../../components/app-cards-text-list.js";
+import "../../components/app-section-title.js";
 
 class PageBoletosDeAutobus extends HTMLElement {
   async connectedCallback() {
