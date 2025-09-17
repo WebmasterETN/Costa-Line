@@ -16,7 +16,7 @@ class PageAutobusACdmx extends HTMLElement {
             <app-cotiza></app-cotiza>
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/cdmx-web.webp","mediumImage": "./src/assets/img/banner/tablet/cdmx-tablet.webp", "smallImage": "./src/assets/img/banner/movil/cdmx-mobile.webp", "link": "#index.html/banner1"}]'
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/banner-ciudad-de-mexico.webp","mediumImage": "../src/assets/img/banner/tablet/banner-ciudad-de-mexico.webp", "smallImage": "../src/assets/img/banner/movil/banner-ciudad-de-mexico.webp", "link": "#index.html/banner1"}]'
             >
             </app-banner-slider>
             <app-payments></app-payments>

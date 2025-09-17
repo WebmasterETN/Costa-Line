@@ -17,7 +17,7 @@ class PageAutobusAIxtapaZihuatanejo extends HTMLElement {
             <app-cotiza></app-cotiza>
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/zihuatanejo-web.webp","mediumImage": "./src/assets/img/banner/tablet/zihuatanejo-tablet.webp", "smallImage": "./src/assets/img/banner/movil/zihuatanejo-mobile.webp", "link": "#index.html/banner1"}]'
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/banner-ixtapa-zihuatanejo.webp","mediumImage": "../src/assets/img/banner/tablet/banner-ixtapa-zihuatanejo.webp", "smallImage": "../src/assets/img/banner/movil/banner-ixtapa-zihuatanejo.webp", "link": "#index.html/banner1"}]'
             >
             </app-banner-slider>
             <app-payments></app-payments>

@@ -40,6 +40,24 @@ import "./page-ofertas-en-1-click.js?v=1.0.2";
 import "./page-festival-de-viajes.js?v=1.0.2";
 import "./page-kueski-pay.js?v=1.0.2";
 
+//BOLETOS AUTOBUS
+
+import "./boletos-autobus/page-acapulco.js?v=1.0.2";
+import "./boletos-autobus/page-ciudad-altamirano.js?v=1.0.2";
+import "./boletos-autobus/page-ciudad-de-mexico.js?v=1.0.2";
+import "./boletos-autobus/page-chilpancingo.js?v=1.0.2";
+import "./boletos-autobus/page-coyuca-de-benitez.js?v=1.0.2";
+import "./boletos-autobus/page-cuernavaca.js?v=1.0.2";
+import "./boletos-autobus/page-taxco.js?v=1.0.2";
+import "./boletos-autobus/page-ixtapa-zihuatanejo.js?v=1.0.2";
+import "./boletos-autobus/page-iguala.js?v=1.0.2";
+import "./boletos-autobus/page-tecpan.js?v=1.0.2";
+import "./boletos-autobus/page-tepotzotlan.js?v=1.0.2";
+import "./boletos-autobus/page-toluca.js?v=1.0.2";
+
+
+//DESTINOS
+
 import "./destinos/page-autobus-a-acapulco.js?v=1.0.2";
 import "./destinos/page-autobus-a-cd-altamirano.js?v=1.0.2";
 import "./destinos/page-autobus-a-cdmx.js?v=1.0.2";
@@ -50,6 +68,25 @@ import "./destinos/page-autobus-a-taxco.js?v=1.0.2";
 import "./destinos/page-autobus-a-ixtapa-zihuatanejo.js?v=1.0.2";
 import "./destinos/page-autobus-a-iguala.js?v=1.0.2";
 import "./destinos/page-autobus-a-tecpan.js?v=1.0.2";
+import "./destinos/page-autobus-a-tepotzotlan.js?v=1.0.2";
+import "./destinos/page-autobus-a-toluca.js?v=1.0.2";
+
+//GUIA DE VIAJES
+
+import "./guia-viaje/page-viajar-a-acapulco.js?v=1.0.2";
+//import "./guia-viaje/page-viajar-a-ciudad-altamirano.js?v=1.0.2";
+//import "./guia-viaje/page-viajar-a-ciudad-de-mexico.js?v=1.0.2";
+//import "./guia-viaje/page-viajar-a-chilpancingo.js?v=1.0.2";
+//import "./guia-viaje/page-viajar-a-coyuca-de-benitez.js?v=1.0.2";
+//import "./guia-viaje/page-viajar-a-cuernavaca.js?v=1.0.2";
+//import "./guia-viaje/page-viajar-a-taxco.js?v=1.0.2";
+//import "./guia-viaje/page-viajar-a-ixtapa-zihuatanejo.js?v=1.0.2";
+//import "./guia-viaje/page-viajar-a-iguala.js?v=1.0.2";
+//import "./guia-viaje/page-viajar-a-tecpan.js?v=1.0.2";
+//import "./guia-viaje/page-viajar-a-tepotzotlan.js?v=1.0.2";
+//import "./guia-viaje/page-viajar-a-toluca.js?v=1.0.2";
+
+
 
 import "./page-preguntas-frecuentes.js?v=1.0.2";
 
@@ -84,7 +121,7 @@ import "./servicios/page-renta-de-autobuses.js?v=1.0.2";
 import "./servicios/page-salas-de-espera-vip.js?v=1.0.2";
 import "./servicios/page-servicios-a-bordo.js?v=1.0.2";
 
-//PROMOIONES
+//PROMOCIONES
 
 import "./promociones/page-promociones.js?v=1.0.2";
 

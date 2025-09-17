@@ -16,7 +16,7 @@ class PageAutobusACdAltamirano extends HTMLElement {
             <app-cotiza></app-cotiza>
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/cd-altamirano-web.webp","mediumImage": "./src/assets/img/banner/tablet/cd-altamirano-tablet.webp", "smallImage": "./src/assets/img/banner/movil/cd-altamirano-mobile.webp", "link": "#index.html/banner1"}]'
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/banner-ciudad-altamirano.webp","mediumImage": "../src/assets/img/banner/tablet/banner-ciudad-altamirano.webp", "smallImage": "../src/assets/img/banner/movil/banner-ciudad-altamirano.webp", "link": "#index.html/banner1"}]'
             >
             </app-banner-slider>
             <app-payments></app-payments>

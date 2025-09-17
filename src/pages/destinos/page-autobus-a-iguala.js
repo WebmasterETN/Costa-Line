@@ -17,7 +17,7 @@ class PageAutobusAIguala extends HTMLElement {
             <app-cotiza></app-cotiza>
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/iguala-web.webp","mediumImage": "./src/assets/img/banner/tablet/iguala-tablet.webp", "smallImage": "./src/assets/img/banner/movil/iguala-mobile.webp", "link": "#index.html/banner1"}]'
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/banner-iguala.webp","mediumImage": "../src/assets/img/banner/tablet/banner-iguala.webp", "smallImage": "../src/assets/img/banner/movil/banner-iguala.webp", "link": "#index.html/banner1"}]'
             >
             </app-banner-slider>
             <app-payments></app-payments>
