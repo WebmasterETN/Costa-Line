@@ -28,6 +28,11 @@ import "./english/destinations/page-bus-tickets-to-cuernavaca.js?v=1.0.2";
 import "./english/destinations/page-bus-tickets-to-iguala.js?v=1.0.2";
 import "./english/destinations/page-bus-tickets-to-cdmx.js?v=1.0.2";
 import "./english/destinations/page-bus-tickets-to-zihuatanejo.js?v=1.0.2";
+//import "./english/destinations/page-bus-tickets-to-tecpan.js?v=1.0.2";
+//import "./english/destinations/page-bus-tickets-to-taxco.js?v=1.0.2";
+//import "./english/destinations/page-bus-tickets-to-tepotzotlan.js?v=1.0.2";
+//import "./english/destinations/page-bus-tickets-to-toluca.js?v=1.0.2";
+
 
 /*----------------------------PAGINAS-LANDINGS----------------------------------------*/
 import "./page-terminales-taquillas.js?v=1.0.2";
@@ -74,17 +79,17 @@ import "./destinos/page-autobus-a-toluca.js?v=1.0.2";
 //GUIA DE VIAJES
 
 import "./guia-viaje/page-viajar-a-acapulco.js?v=1.0.2";
-//import "./guia-viaje/page-viajar-a-ciudad-altamirano.js?v=1.0.2";
-//import "./guia-viaje/page-viajar-a-ciudad-de-mexico.js?v=1.0.2";
-//import "./guia-viaje/page-viajar-a-chilpancingo.js?v=1.0.2";
-//import "./guia-viaje/page-viajar-a-coyuca-de-benitez.js?v=1.0.2";
-//import "./guia-viaje/page-viajar-a-cuernavaca.js?v=1.0.2";
-//import "./guia-viaje/page-viajar-a-taxco.js?v=1.0.2";
-//import "./guia-viaje/page-viajar-a-ixtapa-zihuatanejo.js?v=1.0.2";
-//import "./guia-viaje/page-viajar-a-iguala.js?v=1.0.2";
-//import "./guia-viaje/page-viajar-a-tecpan.js?v=1.0.2";
-//import "./guia-viaje/page-viajar-a-tepotzotlan.js?v=1.0.2";
-//import "./guia-viaje/page-viajar-a-toluca.js?v=1.0.2";
+import "./guia-viaje/page-viajar-a-ciudad-altamirano.js?v=1.0.2";
+import "./guia-viaje/page-viajar-a-ciudad-de-mexico.js?v=1.0.2";
+import "./guia-viaje/page-viajar-a-chilpancingo.js?v=1.0.2";
+import "./guia-viaje/page-viajar-a-coyuca-de-benitez.js?v=1.0.2";
+import "./guia-viaje/page-viajar-a-cuernavaca.js?v=1.0.2";
+import "./guia-viaje/page-viajar-a-taxco.js?v=1.0.2";
+import "./guia-viaje/page-viajar-a-ixtapa-zihuatanejo.js?v=1.0.2";
+import "./guia-viaje/page-viajar-a-iguala.js?v=1.0.2";
+import "./guia-viaje/page-viajar-a-tecpan.js?v=1.0.2";
+import "./guia-viaje/page-viajar-a-tepotzotlan.js?v=1.0.2";
+import "./guia-viaje/page-viajar-a-toluca.js?v=1.0.2";
 
 
 
