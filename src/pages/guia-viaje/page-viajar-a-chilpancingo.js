@@ -32,8 +32,6 @@ class PageViajaraChilpancingo extends HTMLElement {
             <section class="__section __section__destiny__destinations">
                 <app-section-title section-title="Preguntas Frecuentes sobre Viajar a Chilpancingo"></app-section-title>
             </section>
-
-
         `;
   }
 }
