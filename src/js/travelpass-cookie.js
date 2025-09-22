@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (loginIconDesktop) {
       loginIconDesktop.innerHTML = profileData
         ? `<a href="#" id="open-profile-modal-link"><img src="https://costaline.com.mx/gho-test/gho-img-web/iconos/icono-travel-pass.webp" class="icono-travel" alt="Travel Pass" title="Perfil Travel Pass"> Hola, ${profileData.name}</a>`
-        : `<a href="#" id="open-login-modal-link"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" title="Ingresa a Travel Pass" width="100" height="32" style="cursor: pointer;"></a>`;
+        : `<a href="#" id="open-login-modal-link"><img src="../../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" title="Ingresa a Travel Pass" width="100" height="32" style="cursor: pointer;"></a>`;
     }
   }
   function checkSession() {

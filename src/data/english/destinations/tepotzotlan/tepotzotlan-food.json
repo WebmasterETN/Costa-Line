@@ -1,0 +1,20 @@
+[
+  {
+    "imageSrc": "../../src/assets/img/english/food/tepotzotlan/tamales-acelga.webp",
+    "imageAlt": "Tamales de Acelga",
+    "tag": "Tamales de Acelga",
+    "text": "Traditional Mexican tamales filled with Swiss chard, seasoned with local herbs and wrapped in corn husks. A classic dish enjoyed during festivals and family gatherings in Tepotzotlán."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/tepotzotlan/sopa-de-hongo.webp",
+    "imageAlt": "Sopa de Hongo",
+    "tag": "Sopa de Hongo",
+    "text": "A hearty mushroom soup made with fresh, locally harvested mushrooms, simmered with spices and herbs. A flavorful dish reflecting the region’s culinary traditions."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/tepotzotlan/mixiotes.webp",
+    "imageAlt": "Mixiote",
+    "tag": "Mixiote",
+    "text": "Tender meat marinated with chili, herbs, and spices, wrapped in maguey leaves, and slow-cooked to perfection. A staple of Tepotzotlán’s traditional cuisine."
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "imageSrc": "../../src/assets/img/english/food/taxco/jumiles.webp",
+    "imageAlt": "Jumiles",
+    "tag": "Jumiles",
+    "text": "Ancestral delicacy of Taxco, jumiles are edible insects seasoned with salt, lemon, or salsa, often served in tortillas. Considered a cultural heritage food, they are a unique experience for adventurous palates."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/taxco/pozole-verde.webp",
+    "imageAlt": "Pozole Verde",
+    "tag": "Pozole Verde",
+    "text": "A Guerrero classic, pozole verde from Taxco is prepared with hominy corn, pork or chicken, and a green sauce made with pumpkin seeds, tomatillo, and chili peppers. Served with tostadas, radishes, and oregano."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/taxco/mole-rosa.webp",
+    "imageAlt": "Mole Rosa",
+    "tag": "Mole Rosa",
+    "text": "A rare and exquisite dish from Taxco, mole rosa is made with rose petals, almonds, nuts, and spices that create its signature pink color. It is a symbol of the town’s creativity and culinary richness."
+  }
+]

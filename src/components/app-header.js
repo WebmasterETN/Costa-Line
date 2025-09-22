@@ -23,14 +23,14 @@ class AppHeader extends HTMLElement {
         <li class="submenu">
           <a href="#" role="button" aria-haspopup="true" aria-expanded="false">Más <span class="icon-arrow-down"></span></a>
           <ul>
-            <li><a href="../boletos-de-autobus.html">Boletos</a></li>
-            <li><a href="../donde-comprar-etn.html">¿Dónde comprar?</a></li>
+            <li><a href="../../../boletos-autobus/index.html">Boletos</a></li>
+            <li><a href="../../../boletos-autobus/donde-comprar-costa.html">¿Dónde comprar?</a></li>
             <li><a href="../index.html">Mascotas</a></li>
-            <li><a href="../destinos.html">Destinos</a></li>
-            <li><a href="../taquillas.html">Taquillas</a></li>
-            <li><a href="../salas-de-espera-vip.html">Salas VIP</a></li>
-            <li><a href="../servicio-a-bordo.html">Servicios</a></li>
-            <li><a href="../promociones.html">Promociones</a></li>
+            <li><a href="../../../destinos/index.html">Destinos</a></li>
+            <li><a href="../../../terminales/index.html">Taquillas</a></li>
+            <li><a href="../../../servicios/salas-de-espera-vip.html">Salas VIP</a></li>
+            <li><a href="../../../servicios/servicio-a-bordo.html">Servicios</a></li>
+            <li><a href="../../../promociones/index.html">Promociones</a></li>
             <li><a href="https://ventas.costaline.com.mx/request.aspx?APPNAME=Navegante&PRGNAME=AccesoEx">Agencias</a></li>
             <li><a href="../pago-referenciado-oxxo.html">OXXO Pay</a></li>
             <li><a href="../../viajero-protegido.html">Viajero protegido</a></li>

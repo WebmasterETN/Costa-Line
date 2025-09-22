@@ -1,0 +1,17 @@
+[
+  {
+    "image": "../../src/assets/img/english/destinations/toluca/cosmovitral.webp",
+    "title": "Cosmovitral Botanical Garden",
+    "description": "A stunning glass-enclosed botanical garden famous for its colorful stained glass murals and diverse plant species. A cultural and artistic icon of Toluca."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/toluca/nevado-toluca.webp",
+    "title": "Nevado de Toluca",
+    "description": "An impressive volcanic peak and natural park offering hiking, stunning crater lakes, and panoramic views. A must-visit for nature lovers and adventure seekers."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/toluca/museo-acuarela.webp",
+    "title": "Museo de la Acuarela",
+    "description": "A museum dedicated to watercolor art, featuring both contemporary and classic exhibitions. Visitors can enjoy the artistic heritage of Toluca in a charming and cultural setting."
+  }
+]

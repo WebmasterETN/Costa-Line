@@ -41,7 +41,7 @@ class AppHeaderEnglish extends HTMLElement {
       </ul>
     </nav>
     <button id="login-icon" class="btn-travelpass desktop-travelpass js-open-travelpass-login-modal" aria-label="Iniciar sesión TravelPass">
-      <img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Travel Pass" loading="lazy">
+      <img src="../../../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Travel Pass" loading="lazy">
     </button>
     <button id="openDotersModal" class="btn btn-doters desktop-doters" aria-label="Login Doters">
       <img src='../../src/assets/img/logos/doters.svg' alt="Doters" loading="lazy">

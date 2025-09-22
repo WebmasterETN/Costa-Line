@@ -46,5 +46,29 @@
       "alt": "Zihuatanejo",
       "href": "../../english/destinations/bus-tickets-to-zihuatanejo.html",
       "text": "Zihuatanejo"
+    },
+    {
+      "imageSrc": "../../src/assets/img/english/destinations/taxco/taxco-1.webp",
+      "alt": "Taxco de Alarcón",
+      "href": "../../english/destinations/bus-tickets-to-taxco.html",
+      "text": "Taxco"
+    },
+    {
+      "imageSrc": "../../src/assets/img/english/destinations/tecpan/tecpan-1.webp",
+      "alt": "Tecpan",
+      "href": "../../english/destinations/bus-tickets-to-tecpan.html",
+      "text": "Tecpan"
+    },
+    {
+      "imageSrc": "../../src/assets/img/english/destinations/tepotzotlan/tepotzotlan-3.webp",
+      "alt": "Tepotzotlán",
+      "href": "../../english/destinations/bus-tickets-to-tepotzotlan.html",
+      "text": "Tepotzotlán"
+    },
+    {
+      "imageSrc": "../../src/assets/img/english/destinations/toluca/toluca-1.webp",
+      "alt": "Toluca",
+      "href": "../../english/destinations/bus-tickets-to-toluca.html",
+      "text": "Toluca"
     }
 ]

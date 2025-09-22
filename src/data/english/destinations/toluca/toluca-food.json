@@ -1,0 +1,20 @@
+[
+  {
+    "imageSrc": "../../src/assets/img/english/food/toluca/tamales-verdes.webp",
+    "imageAlt": "Tamales Verdes",
+    "tag": "Tamales Verdes",
+    "text": "Corn masa tamales filled with green chili sauce and cheese, steamed in corn husks. A traditional dish enjoyed throughout Toluca."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/toluca/nieve-limon.webp",
+    "imageAlt": "Nieve de Limón",
+    "tag": "Nieve de Limón",
+    "text": "A refreshing lemon-flavored sorbet, a traditional dessert from Toluca often enjoyed in the main squares and markets of the city."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/toluca/chorizo-toluca.webp",
+    "imageAlt": "Chorizo Toluca Style",
+    "tag": "Chorizo Toluca",
+    "text": "Spicy and savory pork chorizo, seasoned with regional spices. Perfect for tacos, tortas, or breakfast dishes, representing Toluca’s culinary tradition."
+  }
+]

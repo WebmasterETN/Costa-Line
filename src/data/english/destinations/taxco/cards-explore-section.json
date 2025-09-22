@@ -1,0 +1,17 @@
+[
+  {
+    "image": "../../src/assets/img/english/destinations/taxco/santa-prisca.webp",
+    "title": "Santa Prisca Church",
+    "description": "An architectural jewel of the Mexican Baroque style, Santa Prisca Church dominates Taxco’s skyline with its pink cantera stone and ornate towers. It is one of the most iconic landmarks in Guerrero."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/taxco/plaza-borda.webp",
+    "title": "Plaza Borda",
+    "description": "The heart of Taxco’s social life, Plaza Borda is surrounded by shops, cafes, and silver jewelry stores. It’s the perfect place to enjoy the lively atmosphere and the town’s colonial charm."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/taxco/cristo-monumental.webp",
+    "title": "Christ Monument",
+    "description": "Located atop Atachi Hill, this monumental Christ offers panoramic views of Taxco’s cobblestone streets and mountains. It’s an unmissable viewpoint to appreciate the beauty of the silver city."
+  }
+]

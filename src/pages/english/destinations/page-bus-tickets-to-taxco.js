@@ -1,0 +1,84 @@
+/*--------------IMPORT COMPONENTS FROM HOME PAGE -----------------*/
+import "../../../components/app-cotiza.js";
+import "../../../components/app-section-title.js";
+import "../../../components/app-banner-image.js";
+import "../../../components/app-description-destination.js";
+import "../../../components/app-explore-section.js";
+
+class PageBusTicketsToTaxco extends HTMLElement {
+  async connectedCallback() {
+    this.innerHTML = `
+          <app-cotiza></app-cotiza>
+          <app-modal-doters></app-modal-doters>
+          <div class="__first-section">
+            <app-banner-image
+              image-src="../../src/assets/img/english/destinations/taxco/banner-taxco-e.webp"
+              image-alt="Promotional banner for Taxco"
+            ></app-banner-image>
+          </div>
+          <section class="__section">
+            <app-description-destination
+              title-text="Discover Taxco. Costa Line takes you there."
+              image-data='[
+                {"id": "1", "src": "../../src/assets/img/english/destinations/taxco/taxco-1.webp", "alt": "Panoramic view of Taxco"},
+                {"id": "2", "src": "../../src/assets/img/english/destinations/taxco/taxco-2.webp", "alt": "Santa Prisca Church in Taxco"},
+                {"id": "3", "src": "../../src/assets/img/english/destinations/taxco/taxco-3.webp", "alt": "Silver jewelry market in Taxco"}
+              ]'
+              paragraph-text="Taxco, located in the mountains of Guerrero, is known worldwide as Mexico’s ‘Silver Capital’. Famous for its baroque architecture, cobblestone streets, and the stunning Santa Prisca Church, Taxco offers visitors a unique blend of history, tradition, and craftsmanship. Explore silver workshops, walk through picturesque alleys, and enjoy breathtaking views from the Christ Monument. Taxco is a destination where culture, art, and charm meet in every corner."
+            ></app-description-destination>
+          </section>
+          <section class="__section">
+            <app-section-title section-title=" Explore the Highlights of Taxco"></app-section-title>
+            <app-explore-section></app-explore-section>
+          </section>
+            
+          <section class="__section">
+            <app-section-title section-title="Hungry for Mexico? Start here."></app-section-title>
+            <app-banner-multi-image></app-banner-multi-image>
+            <p class="text-description">Taxco’s gastronomy blends traditional Guerrero flavors with regional specialties. Try dishes like jumiles, pozole verde, and mole rosa, accompanied by handmade tortillas and local sweets. Every bite in Taxco reflects its cultural heritage, community traditions, and centuries of history, inviting visitors to savor authentic flavors while enjoying the warmth of this magical town.</p>
+            <app-card-image-tag-text data-src="../../src/data/english/destinations/taxco/taxco-food.json"></app-card-image-tag-text>
+          </section>
+            
+          <section class="__section">
+            <app-section-title section-title="Travel Mexico with Costa Line — comfort, safety, and punctuality every mile of the way"></app-section-title>
+            <p class="text-description-list">
+                With Costa Line, every journey becomes part of the experience: more than travel, it’s peace of mind, comfort, and reliable connection across Mexico.
+            </p>
+
+            <ul class="text-list">
+                <li class="item-list">🛋️ <strong>Executive comfort</strong>: choose from Economy, Primera, Plus, or Luxury services with reclining seats, individual screens, air conditioning, and more.</li>
+                <li class="item-list">🛡️ <strong>Safety and professional service</strong>: highly trained staff and well-maintained coaches ensure your well-being throughout the trip.</li>
+                <li class="item-list">📶 <strong>Connectivity and entertainment</strong>: enjoy personal screens, air conditioning, power outlets, and on Plus or Luxury services, complimentary drinks and snacks.</li>
+            </ul>
+          </section>
+
+          <section class="__section">
+            <app-section-title section-title="Explore more destinations with Costa Line. Mexico is waiting for you."></app-section-title>
+            <app-destiny-slider src="../../src/data/english/destiny-slider-data.json"></app-destiny-slider>
+          </section>
+        `;
+    this._loadExploreSectionData();
+  }
+
+  async _loadExploreSectionData() {
+    try {
+      const response = await fetch(
+        "../../src/data/english/destinations/taxco/cards-explore-section.json"
+      );
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: \${response.status}`);
+      }
+      const cardsData = await response.json();
+      const exploreSection = this.querySelector("app-explore-section");
+      if (exploreSection) {
+        exploreSection.setAttribute("cards-data", JSON.stringify(cardsData));
+      }
+    } catch (error) {
+      console.error("Could not load explore section data:", error);
+    }
+  }
+}
+customElements.define(
+  "page-bus-tickets-to-taxco",
+  PageBusTicketsToTaxco
+);

@@ -1,0 +1,17 @@
+[
+  {
+    "image": "../../src/assets/img/english/destinations/tepotzotlan/arcos-del-sitio.webp",
+    "title": "Arcos del Sitio",
+    "description": "A majestic aqueduct built during the colonial era, offering panoramic views and a glimpse into Tepotzotlán’s architectural history. It’s a must-visit landmark for photography and exploration."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/tepotzotlan/parque-sierra.webp",
+    "title": "Parque Sierra Tepotzotlán",
+    "description": "A beautiful natural park in the surrounding hills, perfect for hiking, picnics, and enjoying panoramic views of the town and surrounding landscapes."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/tepotzotlan/plaza-de-la-cruz.webp",
+    "title": "Plaza de la Cruz",
+    "description": "A historic square known for its cultural events, local markets, and vibrant community life. Visitors can enjoy traditional foods, crafts, and the lively atmosphere of Tepotzotlán."
+  }
+]

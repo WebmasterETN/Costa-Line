@@ -1,0 +1,20 @@
+[
+  {
+    "imageSrc": "../../src/assets/img/english/food/tecpan/relleno-tecpaneco.webp",
+    "imageAlt": "Relleno Tecpaneco",
+    "tag": "Relleno Tecpaneco",
+    "text": "A traditional dish made with pork seasoned with spices, chili peppers, and herbs, slow-cooked to achieve a rich and hearty flavor. A signature recipe of Tecpan’s celebrations."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/tecpan/pescado-costa-grande.webp",
+    "imageAlt": "Pescado estilo Costa Grande",
+    "tag": "Pescado Costa Grande",
+    "text": "Fresh fish prepared with coastal Guerrero flavors, often marinated with garlic, lime, and chili, then grilled or fried. A staple of Tecpan’s seaside cuisine."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/food/tecpan/dulces-tradicionales.webp",
+    "imageAlt": "Dulces Tradicionales",
+    "tag": "Traditional Sweets",
+    "text": "Tecpan is known for handmade sweets such as cocadas and tamarind candies, reflecting the creativity and traditions of the Costa Grande region."
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "image": "../../src/assets/img/english/destinations/tecpan/laguna-nuxco.webp",
+    "title": "Laguna de Nuxco",
+    "description": "A beautiful coastal lagoon surrounded by mangroves and rich biodiversity. Ideal for birdwatching, boat rides, and enjoying the tranquility of Tecpan’s natural environment."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/tecpan/piedra-tlacoyunque.webp",
+    "title": "Piedra Tlacoyunque",
+    "description": "A massive rock formation on the Tecpan coast, home to sea birds and turtles. Its impressive scenery makes it a favorite spot for nature lovers and photographers."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/tecpan/playa-cayaquitos.webp",
+    "title": "Playa de Cayaquitos",
+    "description": "A quiet and picturesque beach with soft sand and gentle waves, perfect for relaxing, swimming, and experiencing the calm lifestyle of the Costa Grande."
+  }
+]
