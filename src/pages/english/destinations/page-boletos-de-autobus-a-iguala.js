@@ -5,30 +5,30 @@ import "../../../components/app-banner-image.js";
 import "../../../components/app-description-destination.js";
 import "../../../components/app-explore-section.js";
 
-class PageBusTicketsToCdAltamirano extends HTMLElement {
+class PageBusTicketsToIguala extends HTMLElement {
   async connectedCallback() {
     this.innerHTML = `
           <app-cotiza></app-cotiza>
           <app-modal-doters></app-modal-doters>
           <div class="__first-section">
             <app-banner-image
-              image-src="../../src/assets/img/english/destinations/ciudad-altamirano/banner-ciudad-altamirano-e.webp"
-              image-alt="Promotional banner for Ciudad Altamirano"
+              image-src="../../src/assets/img/english/destinations/iguala/banner-iguala-e.webp"
+              image-alt="Promotional banner for Iguala"
             ></app-banner-image>
           </div>
           <section class="__section">
             <app-description-destination
-              title-text="Ciudad Altamirano is waiting. Costa Line will take you there."
+              title-text="Iguala is waiting. Costa Line will take you there."
               image-data='[
-                {"id": "1", "src": "../../src/assets/img/english/destinations/ciudad-altamirano/cd-altamirano-1.webp", "alt": "Bahias de Ciudad Altamirano"},
-                {"id": "2", "src": "../../src/assets/img/english/destinations/ciudad-altamirano/cd-altamirano-2.webp", "alt": "Letrero de Ciudad Altamirano"},
-                {"id": "3", "src": "../../src/assets/img/english/destinations/ciudad-altamirano/cd-altamirano-3.webp", "alt": "Panoramica Ciudad Altamirano"}
+                {"id": "1", "src": "../../src/assets/img/english/destinations/iguala/iguala-1.webp", "alt": "Bahias de Iguala"},
+                {"id": "2", "src": "../../src/assets/img/english/destinations/iguala/iguala-2.webp", "alt": "Letrero de Iguala"},
+                {"id": "3", "src": "../../src/assets/img/english/destinations/iguala/iguala-3.webp", "alt": "Panoramica Iguala"}
               ]'
-              paragraph-text="Ciudad Altamirano is a charming town in the heart of Guerrero. Known for its rivers, local markets, and lively community events, this destination offers visitors a glimpse into authentic Mexican life. From the bustling Zócalo to scenic spots along the Balsas River and traditional cultural celebrations, Ciudad Altamirano provides an unforgettable mix of relaxation, exploration, and local heritage — all within the warm and welcoming spirit of Guerrero."
+              paragraph-text="Iguala is a historic city in Guerrero, recognized as the birthplace of Mexico’s national flag and a symbol of independence. Visitors can explore the lively main square, admire the monumental Flagpole, and learn about the city’s heritage at the Museum of the Flag and Sanctuary. Surrounded by hills and a warm atmosphere, Iguala combines tradition, culture, and history, offering travelers an authentic experience in the heart of Guerrero."
             ></app-description-destination>
           </section>
           <section class="__section">
-            <app-section-title section-title=" Explore the Highlights of Ciudad Altamirano"></app-section-title>
+            <app-section-title section-title=" Explore the Highlights of Iguala"></app-section-title>
             <app-explore-section></app-explore-section>
             
           </section>
@@ -36,8 +36,8 @@ class PageBusTicketsToCdAltamirano extends HTMLElement {
           <section class="__section">
             <app-section-title section-title="Hungry for Mexico? Start here."></app-section-title>
             <app-banner-multi-image></app-banner-multi-image>
-            <p class="text-description">The cuisine of Ciudad Altamirano is a vibrant reflection of its local traditions, community, and heritage. Influenced by the flavors of Guerrero, its gastronomy highlights fresh ingredients, regional spices, and time-honored cooking techniques that delight every palate. Each dish embodies the warmth and spirit of the town, offering not only unforgettable flavors but also a cultural journey that celebrates Ciudad Altamirano’s identity, hospitality, and festive essence in every meal.</p>
-            <app-card-image-tag-text data-src="../../src/data/english/destinations/ciudad-altamirano/ciudad-altamirano-food.json"></app-card-image-tag-text>
+            <p class="text-description">Iguala’s cuisine reflects the rich flavors of Guerrero through fresh ingredients, traditional recipes, and local culinary traditions. From cecina tacos and fiambre to sweet treats like cocoles, the city offers a gastronomic experience that blends history, community, and creativity. Each dish tells a story of the region’s culture, festivals, and daily life, inviting visitors to savor the authentic flavors of Iguala while enjoying the warmth and hospitality of its people.</p>
+            <app-card-image-tag-text data-src="../../src/data/english/destinations/iguala/iguala-food.json"></app-card-image-tag-text>
           </section>
             
           <section class="__section">
@@ -65,7 +65,7 @@ class PageBusTicketsToCdAltamirano extends HTMLElement {
   async _loadExploreSectionData() {
     try {
       const response = await fetch(
-        "../../src/data/english/destinations/ciudad-altamirano/cards-explore-section.json"
+        "../../src/data/english/destinations/iguala/cards-explore-section.json"
       );
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -80,4 +80,7 @@ class PageBusTicketsToCdAltamirano extends HTMLElement {
     }
   }
 }
-customElements.define("page-bus-tickets-to-cd-altamirano", PageBusTicketsToCdAltamirano);
+customElements.define(
+  "page-boletos-de-autobus-a-iguala",
+  PageBusTicketsToIguala
+);

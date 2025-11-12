@@ -5,38 +5,39 @@ import "../../../components/app-banner-image.js";
 import "../../../components/app-description-destination.js";
 import "../../../components/app-explore-section.js";
 
-class PageBusTicketsToTecpan extends HTMLElement {
+class PageBusTicketsToZihuatanejo extends HTMLElement {
   async connectedCallback() {
     this.innerHTML = `
           <app-cotiza></app-cotiza>
           <app-modal-doters></app-modal-doters>
           <div class="__first-section">
             <app-banner-image
-              image-src="../../src/assets/img/english/destinations/tecpan/banner-tecpan-e.webp"
-              image-alt="Promotional banner for Tecpan"
+              image-src="../../src/assets/img/english/destinations/zihuatanejo/banner-zihuatanejo-e.webp"
+              image-alt="Promotional banner for Iguala"
             ></app-banner-image>
           </div>
           <section class="__section">
             <app-description-destination
-              title-text="Discover Tecpan. Costa Line takes you there."
+              title-text="Zihuatanejo is waiting. Costa Line will take you there."
               image-data='[
-                {"id": "1", "src": "../../src/assets/img/english/destinations/tecpan/tecpan-1.webp", "alt": "Tlacoyunque Beach"},
-                {"id": "2", "src": "../../src/assets/img/english/destinations/tecpan/tecpan-2.webp", "alt": "Rivers and natural landscapes of Tecpan"},
-                {"id": "3", "src": "../../src/assets/img/english/destinations/tecpan/tecpan-3.webp", "alt": "Traditional town view of Tecpan"}
+                {"id": "1", "src": "../../src/assets/img/english/destinations/zihuatanejo/zihuatanejo-1.webp", "alt": "Bahias de Zihuatanejo"},
+                {"id": "2", "src": "../../src/assets/img/english/destinations/zihuatanejo/zihuatanejo-2.webp", "alt": "Letrero de Zihuatanejo"},
+                {"id": "3", "src": "../../src/assets/img/english/destinations/zihuatanejo/zihuatanejo-3.webp", "alt": "Panoramica Zihuatanejo"}
               ]'
-              paragraph-text="Tecpan de Galeana, located on Guerrero’s Costa Grande, is a destination that blends history, tradition, and natural beauty. Known for the archaeological site of Soledad de Maciel and its role in Mexican independence, Tecpan offers visitors cultural richness and stunning natural landscapes. With rivers, mountains, and a welcoming atmosphere, it is perfect for travelers seeking authentic experiences beyond the tourist hotspots."
+              paragraph-text="Zihuatanejo is a picturesque coastal city in Guerrero, known for its charming beaches, fishing traditions, and warm hospitality. Visitors can stroll through the vibrant waterfront promenade, explore the artisanal markets, and enjoy the local seafood that reflects the town’s maritime heritage. Surrounded by scenic bays and a relaxed atmosphere, Zihuatanejo blends natural beauty, culture, and tradition, offering travelers an authentic seaside experience on Mexico’s Pacific coast."
             ></app-description-destination>
           </section>
           <section class="__section">
-            <app-section-title section-title=" Explore the Highlights of Tecpan"></app-section-title>
+            <app-section-title section-title=" Explore the Highlights of Zihuatanejo"></app-section-title>
             <app-explore-section></app-explore-section>
+            
           </section>
             
           <section class="__section">
             <app-section-title section-title="Hungry for Mexico? Start here."></app-section-title>
             <app-banner-multi-image></app-banner-multi-image>
-            <p class="text-description">Tecpan’s cuisine reflects the traditions of the Costa Grande region, with fresh seafood, hearty stews, and ancestral recipes. From fish prepared with coastal flavors to regional dishes like relleno and traditional sweets, every meal tells the story of Guerrero’s cultural identity and community spirit.</p>
-            <app-card-image-tag-text data-src="../../src/data/english/destinations/tecpan/tecpan-food.json"></app-card-image-tag-text>
+            <p class="text-description">Zihuatanejo’s cuisine reflects the rich flavors of Guerrero’s coast through fresh ingredients, traditional recipes, and local culinary traditions. Its gastronomy blends the bounty of the sea with regional creativity, offering a unique experience that highlights culture, community, and history. Each meal tells a story of maritime heritage and festive spirit, inviting visitors to savor the authentic coastal flavors of Zihuatanejo while enjoying the warmth and hospitality of its people.</p>
+            <app-card-image-tag-text data-src="../../src/data/english/destinations/zihuatanejo/zihuatanejo-food.json"></app-card-image-tag-text>
           </section>
             
           <section class="__section">
@@ -52,8 +53,9 @@ class PageBusTicketsToTecpan extends HTMLElement {
             </ul>
           </section>
 
+            
           <section class="__section">
-            <app-section-title section-title="Explore more destinations with Costa Line. Mexico is waiting for you."></app-section-title>
+            <app-section-title section-title="Explore more destinations with Costa Line Mexico is waiting for you."></app-section-title>
             <app-destiny-slider src="../../src/data/english/destiny-slider-data.json"></app-destiny-slider>
           </section>
         `;
@@ -63,7 +65,7 @@ class PageBusTicketsToTecpan extends HTMLElement {
   async _loadExploreSectionData() {
     try {
       const response = await fetch(
-        "../../src/data/english/destinations/tecpan/cards-explore-section.json"
+        "../../src/data/english/destinations/zihuatanejo/cards-explore-section.json"
       );
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -79,6 +81,6 @@ class PageBusTicketsToTecpan extends HTMLElement {
   }
 }
 customElements.define(
-  "page-bus-tickets-to-tecpan",
-  PageBusTicketsToTecpan
+  "page-boletos-de-autobus-a-zihuatanejo",
+  PageBusTicketsToZihuatanejo
 );

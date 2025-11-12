@@ -81,6 +81,6 @@ class PageBusTicketsToCoyucaDeBenitez extends HTMLElement {
   }
 }
 customElements.define(
-  "page-bus-tickets-to-coyuca-de-benitez",
+  "page-boletos-de-autobus-a-coyuca-de-benitez",
   PageBusTicketsToCoyucaDeBenitez
 );

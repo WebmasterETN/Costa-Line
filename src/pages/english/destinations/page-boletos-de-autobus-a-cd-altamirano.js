@@ -5,38 +5,39 @@ import "../../../components/app-banner-image.js";
 import "../../../components/app-description-destination.js";
 import "../../../components/app-explore-section.js";
 
-class PageBusTicketsToTepotzotlan extends HTMLElement {
+class PageBusTicketsToCdAltamirano extends HTMLElement {
   async connectedCallback() {
     this.innerHTML = `
           <app-cotiza></app-cotiza>
           <app-modal-doters></app-modal-doters>
           <div class="__first-section">
             <app-banner-image
-              image-src="../../src/assets/img/english/destinations/tepotzotlan/banner-tepotzotlan-e.webp"
-              image-alt="Promotional banner for Tepotzotlán"
+              image-src="../../src/assets/img/english/destinations/ciudad-altamirano/banner-ciudad-altamirano-e.webp"
+              image-alt="Promotional banner for Ciudad Altamirano"
             ></app-banner-image>
           </div>
           <section class="__section">
             <app-description-destination
-              title-text="Discover Tepotzotlán. Costa Line takes you there."
+              title-text="Ciudad Altamirano is waiting. Costa Line will take you there."
               image-data='[
-                {"id": "1", "src": "../../src/assets/img/english/destinations/tepotzotlan/tepotzotlan-1.webp", "alt": "Plaza central de Tepotzotlán"},
-                {"id": "2", "src": "../../src/assets/img/english/destinations/tepotzotlan/tepotzotlan-2.webp", "alt": "Museo Nacional del Virreinato"},
-                {"id": "3", "src": "../../src/assets/img/english/destinations/tepotzotlan/tepotzotlan-3.webp", "alt": "Parroquia de San Francisco Javier"}
+                {"id": "1", "src": "../../src/assets/img/english/destinations/ciudad-altamirano/cd-altamirano-1.webp", "alt": "Bahias de Ciudad Altamirano"},
+                {"id": "2", "src": "../../src/assets/img/english/destinations/ciudad-altamirano/cd-altamirano-2.webp", "alt": "Letrero de Ciudad Altamirano"},
+                {"id": "3", "src": "../../src/assets/img/english/destinations/ciudad-altamirano/cd-altamirano-3.webp", "alt": "Panoramica Ciudad Altamirano"}
               ]'
-              paragraph-text="Tepotzotlán, located in the State of Mexico, is a charming town known for its colonial architecture, cobblestone streets, and cultural heritage. Highlights include the National Museum of the Viceroyalty, the beautiful central square, and the Parroquia de San Francisco Javier. Visitors can enjoy historical tours, local gastronomy, and vibrant cultural festivals, making Tepotzotlán a must-visit destination near Mexico City."
+              paragraph-text="Ciudad Altamirano is a charming town in the heart of Guerrero. Known for its rivers, local markets, and lively community events, this destination offers visitors a glimpse into authentic Mexican life. From the bustling Zócalo to scenic spots along the Balsas River and traditional cultural celebrations, Ciudad Altamirano provides an unforgettable mix of relaxation, exploration, and local heritage — all within the warm and welcoming spirit of Guerrero."
             ></app-description-destination>
           </section>
           <section class="__section">
-            <app-section-title section-title=" Explore the Highlights of Tepotzotlán"></app-section-title>
+            <app-section-title section-title=" Explore the Highlights of Ciudad Altamirano"></app-section-title>
             <app-explore-section></app-explore-section>
+            
           </section>
             
           <section class="__section">
             <app-section-title section-title="Hungry for Mexico? Start here."></app-section-title>
             <app-banner-multi-image></app-banner-multi-image>
-            <p class="text-description">Tepotzotlán’s cuisine reflects the traditions of central Mexico, with dishes like tamales, mole, carnitas, and sweet treats from local bakeries. Visitors can experience regional flavors while exploring the town’s rich history and cultural offerings.</p>
-            <app-card-image-tag-text data-src="../../src/data/english/destinations/tepotzotlan/tepotzotlan-food.json"></app-card-image-tag-text>
+            <p class="text-description">The cuisine of Ciudad Altamirano is a vibrant reflection of its local traditions, community, and heritage. Influenced by the flavors of Guerrero, its gastronomy highlights fresh ingredients, regional spices, and time-honored cooking techniques that delight every palate. Each dish embodies the warmth and spirit of the town, offering not only unforgettable flavors but also a cultural journey that celebrates Ciudad Altamirano’s identity, hospitality, and festive essence in every meal.</p>
+            <app-card-image-tag-text data-src="../../src/data/english/destinations/ciudad-altamirano/ciudad-altamirano-food.json"></app-card-image-tag-text>
           </section>
             
           <section class="__section">
@@ -52,8 +53,9 @@ class PageBusTicketsToTepotzotlan extends HTMLElement {
             </ul>
           </section>
 
+            
           <section class="__section">
-            <app-section-title section-title="Explore more destinations with Costa Line. Mexico is waiting for you."></app-section-title>
+            <app-section-title section-title="Explore more destinations with Costa Line Mexico is waiting for you."></app-section-title>
             <app-destiny-slider src="../../src/data/english/destiny-slider-data.json"></app-destiny-slider>
           </section>
         `;
@@ -63,7 +65,7 @@ class PageBusTicketsToTepotzotlan extends HTMLElement {
   async _loadExploreSectionData() {
     try {
       const response = await fetch(
-        "../../src/data/english/destinations/tepotzotlan/cards-explore-section.json"
+        "../../src/data/english/destinations/ciudad-altamirano/cards-explore-section.json"
       );
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -79,6 +81,6 @@ class PageBusTicketsToTepotzotlan extends HTMLElement {
   }
 }
 customElements.define(
-  "page-bus-tickets-to-tepotzotlan",
-  PageBusTicketsToTepotzotlan
+  "page-boletos-de-autobus-a-cd-altamirano",
+  PageBusTicketsToCdAltamirano
 );

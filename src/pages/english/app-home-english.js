@@ -9,8 +9,8 @@ import "../../components/app-grid-text.js";
 import "../../js/slick.js?v=1.0.0";
 
 class AppHomeEnglish extends HTMLElement {
-	connectedCallback() {
-		this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
       <app-cotiza></app-cotiza>
       <app-modal-doters></app-modal-doters>
       <div class="__first-section">
@@ -21,17 +21,17 @@ class AppHomeEnglish extends HTMLElement {
         <!-- Grid here -->
         <app-destinations-grid-english
           destinations='[
-            {"id": "destination1", "title": "Acapulco", "content": "Where the ocean and excitement never sleep.", "image": "../../src/assets/img/destinos-img/grid-english/acapulco-background.webp", "link": "../english/destinations/bus-tickets-to-acapulco.html"},
+            {"id": "destination1", "title": "Acapulco", "content": "Where the ocean and excitement never sleep.", "image": "../../src/assets/img/destinos-img/grid-english/acapulco-background.webp", "link": "../english/destinations/boletos-de-autobus-a-acapulco.html"},
 
-            {"id": "destination2", "title": "Chilpancingo", "content": "Living tradition in the heart of Guerrero", "image": "../../src/assets/img/destinos-img/grid-english/chilpancingo-background.webp", "link": "../english/destinations/bus-tickets-to-chilpancingo.html"},
+            {"id": "destination2", "title": "Chilpancingo", "content": "Living tradition in the heart of Guerrero", "image": "../../src/assets/img/destinos-img/grid-english/chilpancingo-background.webp", "link": "../english/destinations/boletos-de-autobus-a-chilpancingo.html"},
 
-            {"id": "destination3", "title": "Taxco", "content": "Where silver shines and legends live on.", "image": "../../src/assets/img/destinos-img/grid-english/taxco-background.webp", "link": "../english/destinations/bus-tickets-to-taxco.html"},
+            {"id": "destination3", "title": "Taxco", "content": "Where silver shines and legends live on.", "image": "../../src/assets/img/destinos-img/grid-english/taxco-background.webp", "link": "../english/destinations/boletos-de-autobus-a-taxco.html"},
 
-            {"id": "destination4", "title": "Cuernavaca", "content": "A year-round haven of sun and serenity.", "image": "../../src/assets/img/destinos-img/grid-english/cuernavaca-background.webp", "link": "../english/destinations/bus-tickets-to-cuernavaca.html"},
+            {"id": "destination4", "title": "Cuernavaca", "content": "A year-round haven of sun and serenity.", "image": "../../src/assets/img/destinos-img/grid-english/cuernavaca-background.webp", "link": "../english/destinations/boletos-de-autobus-a-cuernavaca.html"},
 
-            {"id": "destination5", "title": "Ixtapa Zihuatanejo", "content": "Two souls, one paradise by the sea.", "image": "../../src/assets/img/destinos-img/grid-english/zihuatanejo-background.webp", "link": "../english/destinations/bus-tickets-to-zihuatanejo.html"},
+            {"id": "destination5", "title": "Ixtapa Zihuatanejo", "content": "Two souls, one paradise by the sea.", "image": "../../src/assets/img/destinos-img/grid-english/zihuatanejo-background.webp", "link": "../english/destinations/boletos-de-autobus-a-zihuatanejo.html"},
 
-            {"id": "destination6", "title": "Iguala", "content": "Where Mexico’s history comes to life.", "image": "../../src/assets/img/destinos-img/grid-english/iguala-background.webp", "link": "../english/destinations/bus-tickets-to-iguala.html"}
+            {"id": "destination6", "title": "Iguala", "content": "Where Mexico’s history comes to life.", "image": "../../src/assets/img/destinos-img/grid-english/iguala-background.webp", "link": "../english/destinations/boletos-de-autobus-a-iguala.html"}
             ]'
         ></app-destinations-grid-english>
       </section>
@@ -67,6 +67,6 @@ class AppHomeEnglish extends HTMLElement {
       </section>
 
     `;
-	}
+  }
 }
 customElements.define("app-home-english", AppHomeEnglish);

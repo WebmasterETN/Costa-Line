@@ -5,38 +5,39 @@ import "../../../components/app-banner-image.js";
 import "../../../components/app-description-destination.js";
 import "../../../components/app-explore-section.js";
 
-class PageBusTicketsToTaxco extends HTMLElement {
+class PageBusTicketsToAcapulco extends HTMLElement {
   async connectedCallback() {
     this.innerHTML = `
           <app-cotiza></app-cotiza>
           <app-modal-doters></app-modal-doters>
           <div class="__first-section">
             <app-banner-image
-              image-src="../../src/assets/img/english/destinations/taxco/banner-taxco-e.webp"
-              image-alt="Promotional banner for Taxco"
+              image-src="../../src/assets/img/english/destinations/acapulco/banner-acapulco-e.webp"
+              image-alt="Promotional banner for Acapulco"
             ></app-banner-image>
           </div>
           <section class="__section">
             <app-description-destination
-              title-text="Discover Taxco. Costa Line takes you there."
+              title-text="Acapulco is waiting. Costa Line will take you there."
               image-data='[
-                {"id": "1", "src": "../../src/assets/img/english/destinations/taxco/taxco-1.webp", "alt": "Panoramic view of Taxco"},
-                {"id": "2", "src": "../../src/assets/img/english/destinations/taxco/taxco-2.webp", "alt": "Santa Prisca Church in Taxco"},
-                {"id": "3", "src": "../../src/assets/img/english/destinations/taxco/taxco-3.webp", "alt": "Silver jewelry market in Taxco"}
+                {"id": "1", "src": "../../src/assets/img/english/destinations/acapulco/acapulco-1.webp", "alt": "Bahias de Acapulco"},
+                {"id": "2", "src": "../../src/assets/img/english/destinations/acapulco/acapulco-2.webp", "alt": "Letrero de Acapulco"},
+                {"id": "3", "src": "../../src/assets/img/english/destinations/acapulco/acapulco-3.webp", "alt": "Panoramica Acapulco"}
               ]'
-              paragraph-text="Taxco, located in the mountains of Guerrero, is known worldwide as Mexico’s ‘Silver Capital’. Famous for its baroque architecture, cobblestone streets, and the stunning Santa Prisca Church, Taxco offers visitors a unique blend of history, tradition, and craftsmanship. Explore silver workshops, walk through picturesque alleys, and enjoy breathtaking views from the Christ Monument. Taxco is a destination where culture, art, and charm meet in every corner."
+              paragraph-text="Acapulco is a legendary jewel on Mexico’s Pacific coast. Famous for its golden beaches, lively nightlife, and breathtaking cliffs, this destination perfectly combines natural beauty with vibrant culture. From the iconic La Quebrada cliff divers to its bays, resorts, and traditional markets, Acapulco offers visitors an unforgettable mix of relaxation, adventure, and history — all within the warm spirit of Guerrero’s hospitality."
             ></app-description-destination>
           </section>
           <section class="__section">
-            <app-section-title section-title=" Explore the Highlights of Taxco"></app-section-title>
+            <app-section-title section-title=" Explore the Highlights of Acapulco"></app-section-title>
             <app-explore-section></app-explore-section>
+            
           </section>
             
           <section class="__section">
             <app-section-title section-title="Hungry for Mexico? Start here."></app-section-title>
             <app-banner-multi-image></app-banner-multi-image>
-            <p class="text-description">Taxco’s gastronomy blends traditional Guerrero flavors with regional specialties. Try dishes like jumiles, pozole verde, and mole rosa, accompanied by handmade tortillas and local sweets. Every bite in Taxco reflects its cultural heritage, community traditions, and centuries of history, inviting visitors to savor authentic flavors while enjoying the warmth of this magical town.</p>
-            <app-card-image-tag-text data-src="../../src/data/english/destinations/taxco/taxco-food.json"></app-card-image-tag-text>
+            <p class="text-description">The cuisine of Acapulco is a vibrant reflection of its coastal spirit, its traditions, and its people. Influenced by the Pacific Ocean and the richness of Guerrero, its gastronomy highlights fresh seafood, regional flavors, and time-honored techniques that captivate every palate. Each dish embodies the warmth and energy of the port, offering not only unforgettable flavors but also a cultural journey that celebrates Acapulco’s identity, hospitality, and festive essence in every meal.</p>
+            <app-card-image-tag-text data-src="../../src/data/english/destinations/acapulco/acapulco-food.json"></app-card-image-tag-text>
           </section>
             
           <section class="__section">
@@ -52,8 +53,9 @@ class PageBusTicketsToTaxco extends HTMLElement {
             </ul>
           </section>
 
+            
           <section class="__section">
-            <app-section-title section-title="Explore more destinations with Costa Line. Mexico is waiting for you."></app-section-title>
+            <app-section-title section-title="Explore more destinations with Costa Line Mexico is waiting for you."></app-section-title>
             <app-destiny-slider src="../../src/data/english/destiny-slider-data.json"></app-destiny-slider>
           </section>
         `;
@@ -63,10 +65,10 @@ class PageBusTicketsToTaxco extends HTMLElement {
   async _loadExploreSectionData() {
     try {
       const response = await fetch(
-        "../../src/data/english/destinations/taxco/cards-explore-section.json"
+        "../../src/data/english/destinations/acapulco/cards-explore-section.json"
       );
       if (!response.ok) {
-        throw new Error(`HTTP error! status: \${response.status}`);
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
       const cardsData = await response.json();
       const exploreSection = this.querySelector("app-explore-section");
@@ -79,6 +81,6 @@ class PageBusTicketsToTaxco extends HTMLElement {
   }
 }
 customElements.define(
-  "page-bus-tickets-to-taxco",
-  PageBusTicketsToTaxco
+  "page-boletos-de-autobus-a-acapulco",
+  PageBusTicketsToAcapulco
 );

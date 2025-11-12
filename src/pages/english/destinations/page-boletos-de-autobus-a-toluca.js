@@ -78,4 +78,7 @@ class PageBusTicketsToToluca extends HTMLElement {
     }
   }
 }
-customElements.define("page-bus-tickets-to-toluca", PageBusTicketsToToluca);
+customElements.define(
+  "page-boletos-de-autobus-a-toluca",
+  PageBusTicketsToToluca
+);

@@ -5,39 +5,38 @@ import "../../../components/app-banner-image.js";
 import "../../../components/app-description-destination.js";
 import "../../../components/app-explore-section.js";
 
-class PageBusTicketsToCdmx extends HTMLElement {
+class PageBusTicketsToTecpan extends HTMLElement {
   async connectedCallback() {
     this.innerHTML = `
           <app-cotiza></app-cotiza>
           <app-modal-doters></app-modal-doters>
           <div class="__first-section">
             <app-banner-image
-              image-src="../../src/assets/img/english/destinations/ciudad-de-mexico/banner-cdmx-e.webp"
-              image-alt="Promotional banner for Ciudad de Mexico"
+              image-src="../../src/assets/img/english/destinations/tecpan/banner-tecpan-e.webp"
+              image-alt="Promotional banner for Tecpan"
             ></app-banner-image>
           </div>
           <section class="__section">
             <app-description-destination
-              title-text="Ciudad de Mexico is waiting. Costa Line will take you there."
+              title-text="Discover Tecpan. Costa Line takes you there."
               image-data='[
-                {"id": "1", "src": "../../src/assets/img/english/destinations/ciudad-de-mexico/cdmx-1.webp", "alt": "Bahias de Ciudad de Mexico"},
-                {"id": "2", "src": "../../src/assets/img/english/destinations/ciudad-de-mexico/cdmx-2.webp", "alt": "Letrero de Ciudad de Mexico"},
-                {"id": "3", "src": "../../src/assets/img/english/destinations/ciudad-de-mexico/cdmx-3.webp", "alt": "Panoramica Ciudad de Mexico"}
+                {"id": "1", "src": "../../src/assets/img/english/destinations/tecpan/tecpan-1.webp", "alt": "Tlacoyunque Beach"},
+                {"id": "2", "src": "../../src/assets/img/english/destinations/tecpan/tecpan-2.webp", "alt": "Rivers and natural landscapes of Tecpan"},
+                {"id": "3", "src": "../../src/assets/img/english/destinations/tecpan/tecpan-3.webp", "alt": "Traditional town view of Tecpan"}
               ]'
-              paragraph-text="Mexico City (CDMX) is a vibrant capital at the heart of Mexico. Known for its historic landmarks, diverse neighborhoods, and lively cultural scene, this destination offers visitors a unique window into the country’s rich heritage and modern spirit. From the bustling Zócalo and iconic Chapultepec Park to world-class museums, traditional markets, and colorful festivals, Mexico City provides an unforgettable mix of history, exploration, and contemporary life — all wrapped in the warm and welcoming essence of the nation’s capital."
+              paragraph-text="Tecpan de Galeana, located on Guerrero’s Costa Grande, is a destination that blends history, tradition, and natural beauty. Known for the archaeological site of Soledad de Maciel and its role in Mexican independence, Tecpan offers visitors cultural richness and stunning natural landscapes. With rivers, mountains, and a welcoming atmosphere, it is perfect for travelers seeking authentic experiences beyond the tourist hotspots."
             ></app-description-destination>
           </section>
           <section class="__section">
-            <app-section-title section-title=" Explore the Highlights of Ciudad de Mexico"></app-section-title>
+            <app-section-title section-title=" Explore the Highlights of Tecpan"></app-section-title>
             <app-explore-section></app-explore-section>
-            
           </section>
             
           <section class="__section">
             <app-section-title section-title="Hungry for Mexico? Start here."></app-section-title>
             <app-banner-multi-image></app-banner-multi-image>
-            <p class="text-description">The cuisine of Mexico City (CDMX) is a vibrant reflection of its local traditions, community, and heritage. Influenced by the diverse flavors of Mexico, its gastronomy highlights fresh ingredients, regional spices, and time-honored cooking techniques that delight every palate. Each dish embodies the energy and spirit of the capital, offering not only unforgettable flavors but also a cultural journey that celebrates Mexico City’s identity, hospitality, and festive essence in every meal.</p>
-            <app-card-image-tag-text data-src="../../src/data/english/destinations/ciudad-de-mexico/ciudad-de-mexico-food.json"></app-card-image-tag-text>
+            <p class="text-description">Tecpan’s cuisine reflects the traditions of the Costa Grande region, with fresh seafood, hearty stews, and ancestral recipes. From fish prepared with coastal flavors to regional dishes like relleno and traditional sweets, every meal tells the story of Guerrero’s cultural identity and community spirit.</p>
+            <app-card-image-tag-text data-src="../../src/data/english/destinations/tecpan/tecpan-food.json"></app-card-image-tag-text>
           </section>
             
           <section class="__section">
@@ -53,9 +52,8 @@ class PageBusTicketsToCdmx extends HTMLElement {
             </ul>
           </section>
 
-            
           <section class="__section">
-            <app-section-title section-title="Explore more destinations with Costa Line Mexico is waiting for you."></app-section-title>
+            <app-section-title section-title="Explore more destinations with Costa Line. Mexico is waiting for you."></app-section-title>
             <app-destiny-slider src="../../src/data/english/destiny-slider-data.json"></app-destiny-slider>
           </section>
         `;
@@ -65,7 +63,7 @@ class PageBusTicketsToCdmx extends HTMLElement {
   async _loadExploreSectionData() {
     try {
       const response = await fetch(
-        "../../src/data/english/destinations/ciudad-de-mexico/cards-explore-section.json"
+        "../../src/data/english/destinations/tecpan/cards-explore-section.json"
       );
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -81,6 +79,6 @@ class PageBusTicketsToCdmx extends HTMLElement {
   }
 }
 customElements.define(
-  "page-bus-tickets-to-cdmx",
-  PageBusTicketsToCdmx
+  "page-boletos-de-autobus-a-tecpan",
+  PageBusTicketsToTecpan
 );

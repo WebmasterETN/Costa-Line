@@ -20,25 +20,22 @@ import "./english/legal/page-terms-hot-sale.js?v=1.0.2";
 import "./english/legal/page-oxxo-pay.js?v=1.0.2";
 import "./english/legal/page-travelpass-english.js?v=1.0.2";
 
-import "./english/destinations/page-bus-tickets-to-acapulco.js?v=1.0.2";
-import "./english/destinations/page-bus-tickets-to-cd-altamirano.js?v=1.0.2";
-import "./english/destinations/page-bus-tickets-to-chilpancingo.js?v=1.0.2";
-import "./english/destinations/page-bus-tickets-to-coyuca-de-benitez.js?v=1.02";
-import "./english/destinations/page-bus-tickets-to-cuernavaca.js?v=1.0.2";
-import "./english/destinations/page-bus-tickets-to-iguala.js?v=1.0.2";
-import "./english/destinations/page-bus-tickets-to-cdmx.js?v=1.0.2";
-import "./english/destinations/page-bus-tickets-to-zihuatanejo.js?v=1.0.2";
-import "./english/destinations/page-bus-tickets-to-tecpan.js?v=1.0.2";
-import "./english/destinations/page-bus-tickets-to-taxco.js?v=1.0.2";
-import "./english/destinations/page-bus-tickets-to-tepotzotlan.js?v=1.0.2";
-import "./english/destinations/page-bus-tickets-to-toluca.js?v=1.0.2";
-
+import "./english/destinations/page-boletos-de-autobus-a-acapulco.js?v=1.0.2";
+import "./english/destinations/page-boletos-de-autobus-a-cd-altamirano.js?v=1.0.2";
+import "./english/destinations/page-boletos-de-autobus-a-chilpancingo.js?v=1.0.2";
+import "./english/destinations/page-boletos-de-autobus-a-coyuca-de-benitez.js?v=1.02";
+import "./english/destinations/page-boletos-de-autobus-a-cuernavaca.js?v=1.0.2";
+import "./english/destinations/page-boletos-de-autobus-a-iguala.js?v=1.0.2";
+import "./english/destinations/page-boletos-de-autobus-a-cdmx.js?v=1.0.2";
+import "./english/destinations/page-boletos-de-autobus-a-zihuatanejo.js?v=1.0.2";
+import "./english/destinations/page-boletos-de-autobus-a-tecpan.js?v=1.0.2";
+import "./english/destinations/page-boletos-de-autobus-a-taxco.js?v=1.0.2";
+import "./english/destinations/page-boletos-de-autobus-a-tepotzotlan.js?v=1.0.2";
+import "./english/destinations/page-boletos-de-autobus-a-toluca.js?v=1.0.2";
 
 /*----------------------------PAGINAS-LANDINGS----------------------------------------*/
 import "./page-terminales-taquillas.js?v=1.0.2";
 import "./page-salidas-charters.js?v=1.0.2";
-
-
 
 import "./page-acerca-de-nosotros.js?v=1.0.2";
 import "./page-ofertas-en-1-click.js?v=1.0.2";
@@ -59,7 +56,6 @@ import "./boletos-autobus/page-iguala.js?v=1.0.2";
 import "./boletos-autobus/page-tecpan.js?v=1.0.2";
 import "./boletos-autobus/page-tepotzotlan.js?v=1.0.2";
 import "./boletos-autobus/page-toluca.js?v=1.0.2";
-
 
 //DESTINOS
 
@@ -91,8 +87,6 @@ import "./guia-viaje/page-viajar-a-tecpan.js?v=1.0.2";
 import "./guia-viaje/page-viajar-a-tepotzotlan.js?v=1.0.2";
 import "./guia-viaje/page-viajar-a-toluca.js?v=1.0.2";
 
-
-
 import "./page-preguntas-frecuentes.js?v=1.0.2";
 
 //PACK MULTIENLACE
@@ -113,11 +107,9 @@ import "./packmultienlace/page-terminales-pack.js?v=1.3.3";
 import "./boletos-autobus/page-boletos-de-autobus.js?v=1.0.2";
 import "./boletos-autobus/page-donde-comprar-etn.js?v=1.0.2";
 
-
 //DESTINOS
 
 import "./destinos/page-destinos.js?v=1.0.2";
-
 
 //SERVICIOS
 
@@ -146,7 +138,6 @@ import "./legal/terminos-condiciones/page-viajero-protegido.js?v=1.0.2";
 import "./legal/terminos-condiciones/page-viajero-protegido-plus.js?v=1.0.2";
 import "./legal/terminos-condiciones/page-viajero-protegido-lujo.js?v=1.0.2";
 import "./legal/terminos-condiciones/page-viajero-anticipado.js?v=1.0.2";
-
 
 /*-------------COMPONENTES PRINCIPALES ------------------------- */
 

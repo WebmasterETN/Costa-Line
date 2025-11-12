@@ -3,25 +3,25 @@
     {
       "imageSrc": "../../src/assets/img/english/destinations/tepotzotlan/tepotzotlan-grid.webp",
       "alt": "Tepotzotlán",
-      "href": "../../../english/destinations/bus-tickets-to-tepotzotlan.html",
+      "href": "../../../english/destinations/boletos-de-autobus-a-tepotzotlan.html",
       "text": "Tepotzotlán"
     },
     {
       "imageSrc": "../../src/assets/img/english/destinations/ciudad-altamirano/ciudad-altamirano-grid.webp",
       "alt": "Ciudad Altamirano",
-      "href": "../../../english/destinations/bus-tickets-to-cd-altamirano.html",
+      "href": "../../../english/destinations/boletos-de-autobus-a-cd-altamirano.html",
       "text": "Ciudad Altamirano"
     },
     {
       "imageSrc": "../../src/assets/img/english/destinations/toluca/toluca-grid.webp",
       "alt": "Toluca",
-      "href": "../../../english/destinations/bus-tickets-to-toluca.html",
+      "href": "../../../english/destinations/boletos-de-autobus-a-toluca.html",
       "text": "Toluca"
     },
     {
       "imageSrc": "../../src/assets/img/english/destinations/coyuca-de-benitez/coyuca-de-benitez-grid.webp",
       "alt": "Coyuca de Benitez",
-      "href": "../../../english/destinations/bus-tickets-to-coyuca-de-benitez.html",
+      "href": "../../../english/destinations/boletos-de-autobus-a-coyuca-de-benitez.html",
       "text": "Coyuca de Benitez"
     }
   ],

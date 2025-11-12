@@ -5,39 +5,38 @@ import "../../../components/app-banner-image.js";
 import "../../../components/app-description-destination.js";
 import "../../../components/app-explore-section.js";
 
-class PageBusTicketsToZihuatanejo extends HTMLElement {
+class PageBusTicketsToTepotzotlan extends HTMLElement {
   async connectedCallback() {
     this.innerHTML = `
           <app-cotiza></app-cotiza>
           <app-modal-doters></app-modal-doters>
           <div class="__first-section">
             <app-banner-image
-              image-src="../../src/assets/img/english/destinations/zihuatanejo/banner-zihuatanejo-e.webp"
-              image-alt="Promotional banner for Iguala"
+              image-src="../../src/assets/img/english/destinations/tepotzotlan/banner-tepotzotlan-e.webp"
+              image-alt="Promotional banner for Tepotzotlán"
             ></app-banner-image>
           </div>
           <section class="__section">
             <app-description-destination
-              title-text="Zihuatanejo is waiting. Costa Line will take you there."
+              title-text="Discover Tepotzotlán. Costa Line takes you there."
               image-data='[
-                {"id": "1", "src": "../../src/assets/img/english/destinations/zihuatanejo/zihuatanejo-1.webp", "alt": "Bahias de Zihuatanejo"},
-                {"id": "2", "src": "../../src/assets/img/english/destinations/zihuatanejo/zihuatanejo-2.webp", "alt": "Letrero de Zihuatanejo"},
-                {"id": "3", "src": "../../src/assets/img/english/destinations/zihuatanejo/zihuatanejo-3.webp", "alt": "Panoramica Zihuatanejo"}
+                {"id": "1", "src": "../../src/assets/img/english/destinations/tepotzotlan/tepotzotlan-1.webp", "alt": "Plaza central de Tepotzotlán"},
+                {"id": "2", "src": "../../src/assets/img/english/destinations/tepotzotlan/tepotzotlan-2.webp", "alt": "Museo Nacional del Virreinato"},
+                {"id": "3", "src": "../../src/assets/img/english/destinations/tepotzotlan/tepotzotlan-3.webp", "alt": "Parroquia de San Francisco Javier"}
               ]'
-              paragraph-text="Zihuatanejo is a picturesque coastal city in Guerrero, known for its charming beaches, fishing traditions, and warm hospitality. Visitors can stroll through the vibrant waterfront promenade, explore the artisanal markets, and enjoy the local seafood that reflects the town’s maritime heritage. Surrounded by scenic bays and a relaxed atmosphere, Zihuatanejo blends natural beauty, culture, and tradition, offering travelers an authentic seaside experience on Mexico’s Pacific coast."
+              paragraph-text="Tepotzotlán, located in the State of Mexico, is a charming town known for its colonial architecture, cobblestone streets, and cultural heritage. Highlights include the National Museum of the Viceroyalty, the beautiful central square, and the Parroquia de San Francisco Javier. Visitors can enjoy historical tours, local gastronomy, and vibrant cultural festivals, making Tepotzotlán a must-visit destination near Mexico City."
             ></app-description-destination>
           </section>
           <section class="__section">
-            <app-section-title section-title=" Explore the Highlights of Zihuatanejo"></app-section-title>
+            <app-section-title section-title=" Explore the Highlights of Tepotzotlán"></app-section-title>
             <app-explore-section></app-explore-section>
-            
           </section>
             
           <section class="__section">
             <app-section-title section-title="Hungry for Mexico? Start here."></app-section-title>
             <app-banner-multi-image></app-banner-multi-image>
-            <p class="text-description">Zihuatanejo’s cuisine reflects the rich flavors of Guerrero’s coast through fresh ingredients, traditional recipes, and local culinary traditions. Its gastronomy blends the bounty of the sea with regional creativity, offering a unique experience that highlights culture, community, and history. Each meal tells a story of maritime heritage and festive spirit, inviting visitors to savor the authentic coastal flavors of Zihuatanejo while enjoying the warmth and hospitality of its people.</p>
-            <app-card-image-tag-text data-src="../../src/data/english/destinations/zihuatanejo/zihuatanejo-food.json"></app-card-image-tag-text>
+            <p class="text-description">Tepotzotlán’s cuisine reflects the traditions of central Mexico, with dishes like tamales, mole, carnitas, and sweet treats from local bakeries. Visitors can experience regional flavors while exploring the town’s rich history and cultural offerings.</p>
+            <app-card-image-tag-text data-src="../../src/data/english/destinations/tepotzotlan/tepotzotlan-food.json"></app-card-image-tag-text>
           </section>
             
           <section class="__section">
@@ -53,9 +52,8 @@ class PageBusTicketsToZihuatanejo extends HTMLElement {
             </ul>
           </section>
 
-            
           <section class="__section">
-            <app-section-title section-title="Explore more destinations with Costa Line Mexico is waiting for you."></app-section-title>
+            <app-section-title section-title="Explore more destinations with Costa Line. Mexico is waiting for you."></app-section-title>
             <app-destiny-slider src="../../src/data/english/destiny-slider-data.json"></app-destiny-slider>
           </section>
         `;
@@ -65,7 +63,7 @@ class PageBusTicketsToZihuatanejo extends HTMLElement {
   async _loadExploreSectionData() {
     try {
       const response = await fetch(
-        "../../src/data/english/destinations/zihuatanejo/cards-explore-section.json"
+        "../../src/data/english/destinations/tepotzotlan/cards-explore-section.json"
       );
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -81,6 +79,6 @@ class PageBusTicketsToZihuatanejo extends HTMLElement {
   }
 }
 customElements.define(
-  "page-bus-tickets-to-zihuatanejo",
-  PageBusTicketsToZihuatanejo
+  "page-boletos-de-autobus-a-tepotzotlan",
+  PageBusTicketsToTepotzotlan
 );
