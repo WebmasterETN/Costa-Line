@@ -5,7 +5,7 @@ class AppSliderOpacity extends HTMLElement {
   }
 
   static get observedAttributes() {
-    return ["destinations-src"];
+    return ["destinations-src", "destinations-data"];
   }
 
   connectedCallback() {
@@ -21,11 +21,33 @@ class AppSliderOpacity extends HTMLElement {
     if (src) {
       this._loadDataFromSrc(src);
     }
+
+    const data = this.getAttribute("destinations-data");
+    if (data) {
+      this._processData(data);
+    }
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
     if (name === "destinations-src" && oldValue !== newValue) {
       this._loadDataFromSrc(newValue);
+    }
+    if (name === "destinations-data" && oldValue !== newValue) {
+      this._processData(newValue);
+    }
+  }
+
+  async _processData(jsonData) {
+    try {
+      this._destinations = JSON.parse(jsonData);
+      await this._renderItems();
+      requestAnimationFrame(() =>
+        requestAnimationFrame(() => this._initializeCarousel())
+      );
+    } catch (e) {
+      console.error("Error parsing destinations-data:", e);
+      this.querySelector(".MultiCarousel-inner").innerHTML =
+        "<p>Error loading data</p>";
     }
   }
 

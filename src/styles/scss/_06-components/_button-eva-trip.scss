@@ -1,4 +1,4 @@
-@import "../main.scss";
+@use '../_01-settings/variables' as *;
 
 .button-eva-trip {
     position: fixed;

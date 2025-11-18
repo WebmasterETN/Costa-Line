@@ -1,0 +1,44 @@
+@use '../core' as*;
+@use '../_01-settings/variables' as *;
+@use '../_02-tools/mixin' as *;
+
+// Import components
+@use '../_06-components/header' as *;
+@use '../_06-components/banner-slider' as *;
+@use '../_06-components/payments-logos' as *;
+@use '../_06-components/modal-doters' as *;
+@use '../_06-components/cotiza' as *;
+@use '../_06-components/button-eva-trip' as *;
+@use '../_06-components/button-whats' as *;
+@use '../_06-components/section-title' as *;
+@use '../_06-components/cards-text-bg-white' as *;
+@use '../_06-components/footer' as *;
+@use '../_06-components/cookies-policy' as *;
+
+
+.__section--salidas-charters {
+    .__article-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 53px;
+
+        .__grid-container {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-gap: 53px;
+            width: 100%;
+            height: 100%;
+
+            @include media ("md") {
+                grid-template-columns: 1fr;
+                grid-template-rows: 4fr;
+            }
+        }
+    }
+}

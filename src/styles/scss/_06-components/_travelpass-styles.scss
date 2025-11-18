@@ -1,3 +1,6 @@
+@use '../_01-settings/variables' as *;
+@use '../_02-tools/mixin' as *;
+
 // Estilos del botón
 .desktop-travelpass{
    @include media ("lg") {

@@ -1,3 +1,5 @@
+@use '../_01-settings/variables' as *;
+
 .app-table-pets-container {
   width: 100%;
   font-family: $font-primary, 'Arial', sans-serif;

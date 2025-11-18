@@ -1,0 +1,86 @@
+@use '../core' as*;
+@use '../_01-settings/variables' as *;
+@use '../_02-tools/mixin' as *;
+
+// Import components
+@use '../_06-components/header';
+@use '../_06-components/banner-slider';
+@use '../_06-components/payments-logos';
+@use '../_06-components/modal-doters';
+@use '../_06-components/cotiza';
+@use '../_06-components/button-eva-trip';
+@use '../_06-components/button-whats';
+@use '../_06-components/section-title';
+@use "../_06-components/map";
+@use '../_06-components/card-text';
+@use '../_06-components/card-title-icon';
+@use '../_06-components/cookies-policy';
+@use '../_06-components/footer';
+
+
+/*--------------------ESTILOS REPETITIVOS DEL LAYOUT RENTA DE AUTOBUSES---------------------*/
+
+.__paragraph-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: $primary-color;
+  text-align: left;
+  font-size: 20px;
+}
+
+
+
+.__icons-title-cards-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  width: 100%;
+  margin-top: 30px;
+  gap: 57px;
+  overflow-x: auto;
+}
+
+.__icons-title-cards-horarios-container {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 100%;
+  margin-top: 30px;
+  gap: 57px;
+  overflow-x: auto;
+}
+
+.__icons-title-cards-rates-container {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 100%;
+  margin-top: 30px;
+  gap: 57px;
+  overflow-x: auto;
+}
+
+.__icons-title-cards-confort-container {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 100%;
+  margin-top: 30px;
+  gap: 57px;
+  overflow-x: auto;
+}
+
+.__cards-text-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  overflow-x: auto;
+
+  @include media("xl") {
+    justify-content: start;
+  }
+}

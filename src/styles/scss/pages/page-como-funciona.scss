@@ -1,0 +1,18 @@
+@use '../core' as*;
+@use '../_01-settings/variables' as *;
+
+// Import components
+
+@use '../_06-components/header-pack-multienlace';
+@use '../_06-components/banner-slider';
+@use '../_06-components/cotiza-pack';
+@use '../_06-components/section-title';
+@use "../_06-components/dropdown-quest-pack";
+@use "../_06-components/footer-pack-multienlace";
+
+
+.__como-funciona__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: $spacing-lg 0;
+}

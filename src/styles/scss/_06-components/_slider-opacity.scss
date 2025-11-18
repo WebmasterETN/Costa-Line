@@ -1,3 +1,6 @@
+@use '../_01-settings/variables' as *;
+@use 'sass:color';
+
 .MultiCarousel {
     float: left;
     overflow: hidden;
@@ -6,20 +9,20 @@
 }
 
 .MultiCarousel-inner {
-  display: flex;
-  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-  will-change: transform;
+    display: flex;
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
 }
 
 .MultiCarousel-inner .item {
-  flex: 0 0 50px;
+    flex: 0 0 50px;
 }
 
 
 @media (max-width: 767px) {
-  .MultiCarousel-inner .item {
-    flex-basis: 100%; 
-  }
+    .MultiCarousel-inner .item {
+        flex-basis: 100%;
+    }
 }
 
 .MultiCarousel .MultiCarousel-inner .item>div {
@@ -41,16 +44,17 @@
     align-items: center;
     justify-content: center;
     left: 0;
-    width:30px;
+    width: 30px;
     height: 50px;
     border-radius: 10px;
     background-color: $primary-color;
     color: white;
     cursor: pointer;
-    &:hover{
-        background-color: darken($primary-color, 10%);
+
+    &:hover {
+        background-color: color.adjust($primary-color, $lightness: -10%);
     }
-    
+
 }
 
 .MultiCarousel .rightLst {
@@ -58,14 +62,15 @@
     align-items: center;
     justify-content: center;
     right: 0;
-    width:30px;
+    width: 30px;
     height: 50px;
     border-radius: 10px;
     background-color: $primary-color;
     color: white;
-    cursor:pointer;
-    &:hover{
-        background-color: darken($primary-color, 10%);
+    cursor: pointer;
+
+    &:hover {
+        background-color: color.adjust($primary-color, $lightness: -10%);
     }
 }
 
@@ -80,9 +85,10 @@
     width: 400px;
     height: 300px;
     overflow: hidden;
+
     @media (max-width: 767px) {
-         width: 100%;
-      }
+        width: 100%;
+    }
 }
 
 

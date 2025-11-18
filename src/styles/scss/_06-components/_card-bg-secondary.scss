@@ -1,22 +1,21 @@
+@use '../_01-settings/variables' as *;
 
+.cards-grid-secondary-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 
-
-    .cards-grid-secondary-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 40px;
-        margin-bottom: 40px;
-        margin-top: 40px;
-
-        @media (max-width: 480px) {
-            flex-wrap: nowrap;
-            overflow-x: auto;
-            gap: 16px;
-            width: auto;
-            justify-content: flex-start;
-        }
+    @media (max-width: 480px) {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 16px;
+        width: auto;
+        justify-content: flex-start;
     }
+}
 
 
 .card-secondary {
@@ -44,7 +43,7 @@
         align-items: center;
         justify-content: center;
         padding: 10px;
-        border-radius: 50%; 
+        border-radius: 50%;
 
         .card-image-img-secondary {
             width: 90%;
@@ -72,7 +71,7 @@
         white-space: normal; // Permite múltiples líneas
         overflow-wrap: break-word; // Extra soporte
         display: block; // Asegura comportamiento correcto del bloque
-     
+
 
         @media (max-width: 480px) {
             font-size: 18px;

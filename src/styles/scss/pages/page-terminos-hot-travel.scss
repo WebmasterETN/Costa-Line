@@ -1,0 +1,96 @@
+@use '../core' as*;
+@use '../_01-settings/variables' as *;
+@use '../_02-tools/mixin' as *;
+
+// Import components
+@use '../_06-components/header' as *;
+@use '../_06-components/banner-slider' as *;
+@use '../_06-components/payments-logos' as *;
+@use '../_06-components/modal-doters' as *;
+@use '../_06-components/cotiza' as *;
+@use '../_06-components/button-eva-trip' as *;
+@use '../_06-components/button-whats' as *;
+@use '../_06-components/section-title' as *;
+@use '../_06-components/footer' as *;
+@use '../_06-components/cookies-policy' as *;
+
+/*-------------------ESTILOS ESPECIFICOS PARA LAS SECCIONES DE RENTA DE AUTOBUSES---------------------*/
+
+.__sections {
+    width: 100%;
+    padding: 35px 70px;
+
+    @include media ("md") {
+        padding: 15px;
+    }
+}
+
+.__bg-white {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: $white;
+    text-align: left;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    gap: 15px;
+
+    @include media ("md") {
+        padding: 15px;
+    }
+}
+
+.__bg-blue {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    box-sizing: border-box;
+    background-color: $bg-card-primary;
+    padding: 15px 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    gap: 15px;
+
+    @include media ("md") {
+        padding: 15px;
+    }
+}
+
+.__subtitle-section {
+    justify-content: left;
+    text-align: left;
+    color: $primary-color;
+}
+
+.__order-list-column {
+    display: flex;
+    flex-direction: column;
+    list-style-position: outside;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+.__terms-purchase-item {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.__terms-purchase-text {
+    color: $primary-color;
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.__terms-purchase-list {
+    display: flex;
+    flex-direction: column;
+    list-style-position: outside;
+    padding-left: 20px;
+    gap: 10px;
+}

@@ -1,0 +1,344 @@
+@use 'sass:map';
+@use 'sass:color';
+
+@use '../core' as*;
+@use '../_01-settings/variables' as *;
+@use '../_02-tools/mixin' as *;
+@use '../_03-generic/reset' as *;
+@use '../_04-elements/elements' as *;
+@use '../_05-object/animations' as *;
+@use '../_05-object/layout' as *;
+
+
+// Import components
+@use '../_06-components/header';
+@use '../_06-components/cotiza';
+@use '../_06-components/modal-doters';
+@use '../_06-components/modalDoters';
+@use '../_06-components/banner-slider';
+@use '../_06-components/payments-logos';
+@use '../_06-components/button-whats';
+@use '../_06-components/button-eva-trip';
+@use '../_06-components/cookies-policy';
+@use '../_06-components/footer';
+
+.main-party-worl-futbol {
+
+  // General container styles
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-inline: auto;
+
+    @media (min-width: 576px) {
+      max-width: 540px;
+    }
+
+    @media (min-width: 768px) {
+      max-width: 720px;
+    }
+
+    @media (min-width: 992px) {
+      max-width: 960px;
+    }
+
+    @media (min-width: 1200px) {
+      max-width: 1140px;
+    }
+  }
+
+  // Hero Section
+  .hero {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    padding: 2rem;
+    margin-top: 12rem; // 13rem
+
+
+    @include media("lg") {
+      margin-top: 10rem; // 13rem
+    }
+
+    @media screen and (min-width:481px) and (max-width:900px) {
+      margin-top: 5rem !important; // 6rem
+
+    }
+
+    @media screen and (max-width:480px) {
+      margin-top: 4rem !important; // 4rem
+    }
+
+    &__content {
+      max-width: 800px;
+      text-align: center;
+
+      h1 {
+        font-weight: bold;
+      }
+
+      p {
+        margin: 1.5rem 0;
+      }
+    }
+
+    &__buttons {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      margin: 1.5rem 0;
+
+      .btn {
+        font-weight: bold;
+        padding: 0.5rem 1.5rem;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+
+        &--primary {
+          background-color: $primary-color;
+          color: $white;
+          border: 1px solid $primary-color;
+
+          &:hover {
+            background-color: color.adjust($primary-color, $lightness: -10%);
+          }
+        }
+
+        &--outline-light {
+          background-color: transparent;
+          color: $white;
+          border: 1px solid $white;
+
+          &:hover {
+            background-color: $white;
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+
+  // Beneficios Section
+  .beneficios {
+    padding: 3rem 0;
+    background-color: $light-gray-color;
+
+    &__intro {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+
+      h2 {
+        font-weight: bold;
+      }
+
+      p {
+        margin: 1.5rem 0;
+      }
+    }
+
+    &__grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-top: 3rem;
+      justify-content: center;
+    }
+
+    &__item {
+      text-align: center;
+      flex: 1 1 300px;
+      max-width: 350px;
+
+      img {
+        height: 60px;
+      }
+
+      h3 {
+        margin: 1.5rem 0;
+      }
+    }
+  }
+
+  // Rutas Section
+  .rutas {
+    padding: 3rem 0;
+
+    &__title {
+      text-align: center;
+      margin-bottom: 3rem;
+      font-weight: bold;
+    }
+
+    &__grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    &__card {
+      height: 100%;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 300px;
+      max-width: 360px;
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+
+      &-content {
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+
+        h3 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          flex-grow: 1;
+        }
+
+        .btn-link {
+          color: $primary-color;
+          text-decoration: none;
+          font-weight: bold;
+          margin-top: 1rem;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  // Travel Tips Section
+  .travel-tips {
+    padding: 3rem 0;
+    background-color: $light-gray-color;
+
+    &__intro {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+
+      h2 {
+        font-weight: bold;
+      }
+
+      p {
+        margin: 1.5rem 0;
+      }
+    }
+
+    &__grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    &__card {
+      height: 100%;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 250px;
+      max-width: 300px;
+
+      img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+      }
+
+      &-content {
+        padding: 1rem;
+
+        h3 {
+          font-size: 1.25rem;
+        }
+      }
+    }
+  }
+
+  // CTA Section
+  .cta {
+    padding: 3rem 0;
+    background-color: $blue-dark;
+    color: $white;
+    text-align: center;
+
+    h2 {
+      font-weight: bold;
+    }
+  }
+
+  // FAQs Section
+  .faqs {
+    padding: 3rem 0;
+
+    &__intro {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+
+      h2 {
+        font-weight: bold;
+      }
+
+      p {
+        margin: 1.5rem 0;
+      }
+    }
+
+    &__grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-top: 2rem;
+      justify-content: center;
+    }
+
+    &__card {
+      height: 100%;
+      background-color: $light-gray-color;
+      padding: 1.5rem;
+      border-radius: 8px;
+      flex: 1 1 300px;
+      max-width: 360px;
+
+      &-icon {
+        font-size: 2rem;
+        display: block;
+        margin-bottom: 1rem;
+      }
+
+      &-content {
+        h3 {
+          font-size: 1.2rem;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}

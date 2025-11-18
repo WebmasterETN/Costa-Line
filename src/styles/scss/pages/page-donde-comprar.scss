@@ -1,0 +1,39 @@
+@use '../core' as*;
+
+// Import components
+@use '../_06-components/header' as *;
+@use '../_06-components/banner-slider' as *;
+@use '../_06-components/payments-logos' as *;
+@use '../_06-components/modal-doters' as *;
+@use '../_06-components/modalDoters' as *;
+@use '../_06-components/cotiza' as *;
+@use '../_06-components/button-eva-trip' as *;
+@use '../_06-components/button-whats' as *;
+@use '../_06-components/section-title' as *;
+@use '../_06-components/_img-options-sale-tickets' as *;
+@use '../_06-components/footer' as *;
+@use '../_06-components/cookies-policy' as *;
+
+.shop-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem;
+
+  justify-items: center;
+
+  max-width: 1420px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+
+  @media (max-width: 1319px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 649px) {
+    grid-template-columns: 1fr;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}

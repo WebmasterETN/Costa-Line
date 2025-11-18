@@ -1,0 +1,35 @@
+@use '../core' as*;
+@use '../_01-settings/variables' as *;
+@use '../_02-tools/mixin' as *;
+
+// Import components
+
+@use '../_06-components/header-pack-multienlace' as *;
+@use '../_06-components/banner-slider' as *;
+@use '../_06-components/cotiza-pack' as *;
+@use '../_06-components/section-title' as *;
+@use "../_06-components/time-line-packm" as *;
+@use "../_06-components/footer-pack-multienlace" as *;
+
+
+.__description {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: $spacing-xxl;
+  gap: $spacing-md;
+
+  .__description-text {
+    max-width: 952px;
+    min-height: 103px;
+    flex-shrink: 0;
+    color: #0E3A59
+  }
+
+  @include media("md") {
+    padding: $spacing-md;
+  }
+}

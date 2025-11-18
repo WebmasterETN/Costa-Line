@@ -1,4 +1,5 @@
-@import "../main.scss";
+@use '../_01-settings/variables' as *;
+
 .destinations-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); // Ajusta el ancho mínimo según tu diseño
@@ -24,6 +25,7 @@
       width: 80%;
       display: flex;
       align-items: center; // Vertically center the image and text
+
       img {
         width: 30px;
         height: auto;
@@ -34,6 +36,7 @@
         width: 100%;
       }
     }
+
     .region_column__list-cities {
       display: flex;
       flex-direction: column;
@@ -50,16 +53,20 @@
 
     @media (max-width: 767px) {
       grid-template-columns: 1fr;
+
       .region_column__list-cities {
         padding-left: 20px;
       }
     }
+
     ul {
       padding-left: 40px;
+
       li {
         list-style: none;
         margin-bottom: 15px;
         width: calc(100% - 40px);
+
         a {
           color: #151515;
         }
@@ -91,6 +98,7 @@
 
         &:last-of-type {
           padding-left: 20px;
+
           @media (max-width: 767px) {
             padding-left: 40px;
           }
@@ -101,9 +109,9 @@
         }
 
         @media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
-  
+
           width: 100%;
-          
+
         }
       }
     }
@@ -149,11 +157,13 @@
   // Costaline Ad Styles
   .costaline-ad {
     width: 50%;
+
     .region_column {
       display: flex;
       width: 100%;
       justify-content: space-between;
       padding: 0 70px 0 0;
+
       ul {
         padding-left: 0;
       }
@@ -189,6 +199,7 @@
 .wrapper_banner {
   width: 100%;
   margin-bottom: 30px;
+
   .banner {
     width: 50%;
     max-width: 800px;
@@ -240,10 +251,12 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
       rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   }
-  #accordion-button{
+
+  #accordion-button {
     background-color: transparent;
     border: none;
     cursor: pointer;
+
     &::after {
       content: "\e91a"; // Default icon (closed)
       font-family: "icomoon" !important;
@@ -267,6 +280,7 @@
   .accordion-title #accordion-button::after {
     content: "\e919"; // Default icon open on mobile
   }
+
   .active-item #accordion-button::after {
     content: "\e91a"; // Icon when (closed) on mobile
   }
@@ -279,6 +293,7 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+
   &.open {
     max-height: unset;
   }

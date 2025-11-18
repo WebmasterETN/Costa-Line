@@ -1,0 +1,53 @@
+@use '../core' as*;
+@use '../_01-settings/variables' as *;
+@use '../_02-tools/mixin' as *;
+
+// Import components
+@use '../_06-components/header';
+@use '../_06-components/footer';
+@use '../_06-components/payments-logos';
+@use '../_06-components/button-whats';
+@use '../_06-components/button-eva-trip';
+@use '../_06-components/modal-doters';
+@use '../_06-components/modalDoters';
+@use '../_06-components/cotiza';
+@use '../_06-components/section-title';
+@use '../_06-components/app-destinations-grid-english';
+@use '../_06-components/app-banner-promotional';
+@use '../_06-components/card-left-description';
+@use '../_06-components/grid-text';
+@use '../_06-components/destiny-slider';
+@use '../_06-components/cookies-policy';
+
+.description_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1px 15px;
+    font-size: 30px;
+    color: $primary-color;
+    text-align: center;
+}
+
+.subtitle_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1px 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: $primary-color;
+    text-align: center;
+}
+
+@media (max-width: 780px) {
+    .description_text {
+        font-size: 20px;
+    }
+
+    .subtitle_text {
+        font-size: 15px;
+    }
+}

@@ -1,9 +1,11 @@
-@import "../main.scss";
+@use '../_01-settings/variables' as *;
+@use '../_02-tools/mixin' as *;
 
 app-section-title {
     display: block;
     width: 100%;
 }
+
 .__title {
     display: flex;
     justify-content: center;
@@ -13,9 +15,8 @@ app-section-title {
     height: 3.5rem;
     text-align: center;
     color: $white;
+
     @include media("md") {
-        height: auto;
-        font-size: 1.1rem;
-        padding: 15px;
+        height: 4.5rem;
     }
 }

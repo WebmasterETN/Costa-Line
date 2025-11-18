@@ -1,16 +1,17 @@
-@import "../main.scss";
-// Variables
+@use '../_01-settings/variables' as *;
+@use '../_02-tools/mixin' as *;
 
 // Estilos de la grilla de items
 .last-notes__items {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   align-items: start;
   justify-content: start;
   width: 100%;
   padding: 70px;
   gap: 30px;
   box-sizing: border-box;
+
   @include media("lg") {
     padding: 0.9375rem;
   }
@@ -96,10 +97,12 @@
 // Estilos específicos de la tarjeta destacada
 .last-notes__featured {
   width: 450px;
+
   @include media("lg") {
     width: 100%;
     margin: 0;
   }
+
   .last-notes__card__background {
     height: 196px;
 
@@ -152,17 +155,18 @@
       line-height: 21px;
     }
   }
-  
+
 }
 
 // Estilos específicos de la tarjeta pequeña
 .last-notes__secondary {
   width: 250px;
+
   @include media("lg") {
     width: 30vw;
     margin: 0;
   }
-  
+
   @include media("md") {
     width: 100%;
   }
@@ -231,11 +235,12 @@
   @include media("md") {
     width: 100%;
   }
-  
+
   .last-notes__card--horizontal {
     display: flex;
     align-items: center;
     width: 100%;
+
     .last-notes__card__background {
       flex-shrink: 0;
       height: 60px;
@@ -247,50 +252,52 @@
       align-items: center;
       background-position: center center;
       overflow: hidden;
-  
+
       @media (min-width: 768px) {
         height: 78px;
         max-width: 127px;
       }
     }
+
     .last-notes__card__caption {
       display: flex;
       flex-direction: column;
       width: 100%;
       row-gap: 6px;
-  
+
       .last-notes__card__caption-date {
         color: $primary-color;
         border: solid 1px $primary-color;
         margin: 0;
       }
-    
+
       .last-notes__card__caption-title {
         -webkit-line-clamp: 1;
         line-clamp: 1;
-    
+
         @media (min-width: 320px) and (max-width: 767px) {
           font-size: 16px;
           line-height: 20px;
         }
       }
-    
+
       .last-notes__card__caption-description {
         color: $gray-color;
         -webkit-line-clamp: 2;
         line-clamp: 2;
       }
+
       small {
         margin-right: auto;
         color: $primary-color;
         display: flex;
         align-items: center;
-    
+
         [class^="icon-"] {
           margin-left: 5px;
         }
       }
-    
+
     }
 
   }
@@ -320,12 +327,14 @@
 .slick-slide {
   margin: 0 10px;
 }
-.slick-list{
+
+.slick-list {
   overflow: hidden;
 }
 
 .slider-prev {
   margin-right: 10px;
+
   @include media("md") {
     margin-right: 15px;
   }
@@ -333,6 +342,7 @@
 
 .slider-next {
   margin-left: 10px;
+
   @include media("md") {
     margin-left: 15px;
   }

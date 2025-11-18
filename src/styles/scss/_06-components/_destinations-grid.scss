@@ -1,4 +1,5 @@
-@import "../main.scss";
+@use '../_01-settings/variables' as *;
+@use '../_02-tools/mixin' as *;
 
 .section__destinations {
   display: flex;
@@ -279,6 +280,7 @@
     width: 100%;
     height: calc(100vh - 12.5rem);
     padding: $spacing-xxl; // 4.375rem
+
     //height: calc(100vh - 200px);
     & .section__destinations-container {
       & .section__destinations__container__grid {
@@ -296,6 +298,7 @@
     width: 100%;
     height: calc(100vh - 17.1875rem);
     padding: $spacing-xxl; // 4.375rem
+
     //height: calc(100vh - 275px);
     //padding: 0.9375rem;
     //padding: 15px;

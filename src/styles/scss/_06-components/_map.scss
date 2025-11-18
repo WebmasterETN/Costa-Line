@@ -1,9 +1,8 @@
-@import '../main';
-
 /*----- Estilos de componentes -----*/
-
-@import './map-modal';
-@import './search';
+@use '../_01-settings/variables' as *;
+@use '../_02-tools/mixin' as *;
+@use './map-modal';
+@use './search';
 
 .map {
     display: flex;

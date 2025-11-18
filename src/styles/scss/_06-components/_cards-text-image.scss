@@ -1,3 +1,5 @@
+@use '../_01-settings/variables' as *;
+
 .__text-image {
     display: flex;
     flex-direction: row;
@@ -37,6 +39,7 @@
         align-items: center;
         text-align: center;
         color: white;
+        font-size: 1rem;
 
     }
 }

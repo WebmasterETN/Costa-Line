@@ -1,0 +1,10 @@
+@use '../core' as*;
+
+// Import components
+@use '../_06-components/header-pack-multienlace' as *; // reemplazar por el header de pack multienlace
+@use '../_06-components/banner-slider' as *;
+@use '../_06-components/cotiza-pack' as *;
+@use '../_06-components/section-title' as *;
+@use "../_06-components/map" as *;
+@use "../_06-components/footer-pack-multienlace" as *;
+@use '../_06-components/cookies-policy' as *;

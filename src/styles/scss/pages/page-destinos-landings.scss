@@ -1,0 +1,283 @@
+@use 'sass:map';
+@use 'sass:color';
+
+@use '../core' as *;
+@use '../_01-settings/variables' as *;
+
+@use '../_02-tools/mixin' as *;
+
+// Import generic
+@use '../_03-generic/reset' as *;
+
+// Import elements
+@use '../_04-elements/elements' as *;
+
+// Import object
+@use '../_05-object/animations' as *;
+@use '../_05-object/layout' as *;
+
+// Import components
+@use '../_06-components/header' as *;
+@use '../_06-components/modal-doters' as *;
+@use '../_06-components/modalDoters' as *;
+@use '../_06-components/cotiza' as *;
+@use '../_06-components/banner-slider' as *;
+@use '../_06-components/payments-logos' as *;
+@use '../_06-components/section-title' as *;
+@use '../_06-components/app-card-open-modal' as *;
+@use '../_06-components/card-destination-opacity' as *;
+@use '../_06-components/dropdown' as *;
+@use '../_06-components/slider-opacity' as *;
+@use '../_06-components/modal-multi-image' as *;
+@use '../_06-components/modal-image' as *;
+@use '../_06-components/cookies-policy' as *;
+@use '../_06-components/button-whats' as *;
+@use '../_06-components/button-eva-trip' as *;
+@use '../_06-components/footer' as *;
+
+.__section__grid {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.__paragraph {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    color: $primary-color;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.__paragraph__xl {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    color: $primary-color;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.__subtitle__destinos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: $primary-color;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    grid-auto-rows: auto;
+
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        grid-auto-rows: 280px;
+    }
+
+    @media (min-width: 1024px) {
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 300px;
+    }
+}
+
+.card {
+    position: relative;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+    padding: 0.75rem;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    z-index: 1;
+
+    @media (max-width: 767px) {
+        aspect-ratio: 1 / 1;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: inherit;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.9s ease-in-out;
+        z-index: 0;
+    }
+
+    &:hover::before {
+        transform: scale(1.07);
+    }
+
+    @media (min-width: 768px) {
+        padding: 1rem;
+    }
+
+    span {
+        position: relative;
+        z-index: 1;
+        background-color: $primary-color;
+        border-radius: 0.5rem;
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+        &:hover {
+            background-color: white;
+            color: $primary-color;
+        }
+
+        @media (max-width: 767px) {
+            padding: 0.5rem 1rem;
+            font-size: 0.8rem;
+        }
+    }
+}
+
+.card-wide {
+    grid-column: span 2;
+    grid-row: span 1;
+
+    @media (max-width: 767px) {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+.card-tall {
+    grid-row: span 2;
+
+    @media (max-width: 767px) {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+}
+
+.__grid-cards-container__dropdown {
+    width: 80%;
+}
+
+.container-cards__food {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 1rem;
+}
+
+.container-slider-other {
+    width: 100%;
+
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+
+    @media (min-width: map.get($breakpoints, 'sm')) {
+        padding: 0 1.5rem;
+    }
+
+    @media (min-width: map.get($breakpoints, 'lg')) {
+        padding: 0 2rem;
+    }
+}
+
+// ===== COMPONENTES REUTILIZABLES =====
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem; // px-4 py-2
+    font-size: 0.875rem; // text-sm
+    font-weight: 700;
+    border-radius: 0.5rem; // rounded-lg
+    transition: all 0.2s ease-in-out;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    &--primary {
+        background-color: $primary-color;
+        color: white;
+
+        &:hover {
+            background-color: color.adjust($primary-color, $lightness: 5%);
+        }
+    }
+
+    &--outline-gold {
+        background-color: transparent;
+        color: $gold;
+        border-color: $gold;
+
+        &:hover {
+            background-color: rgba($gold, 0.1);
+        }
+    }
+
+    &--large {
+        padding: 0.75rem 2rem; // px-8 py-3
+        font-size: 1rem; // text-base
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1); // shadow-lg
+    }
+}
+
+// ===== CTA =====
+
+.cta {
+    padding: 4rem 0;
+    text-align: center;
+
+    @media (min-width: map.get($breakpoints, 'sm')) {
+        padding: 6rem 0;
+    }
+
+    &__title {
+        font-size: 1.875rem; // text-3xl
+        font-weight: 700;
+        color: $light-text-header;
+
+        @media (min-width: map.get($breakpoints, 'md')) {
+            font-size: 2.25rem;
+        }
+
+        // md:text-4xl
+
+        body.dark & {
+            color: $white;
+        }
+    }
+
+    &__subtitle {
+        margin-top: 1rem; // mt-4
+        max-width: 42rem; // max-w-2xl
+        margin-left: auto;
+        margin-right: auto;
+        color: $light-text-subtle;
+
+        body.dark & {
+            color: $dark-text-subtle;
+        }
+    }
+
+    .btn {
+        margin-top: 2rem; // mt-8
+    }
+}

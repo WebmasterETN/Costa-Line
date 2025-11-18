@@ -1,0 +1,19 @@
+@use '../core' as*;
+
+// Import components
+@use '../_06-components/header' as *;
+@use '../_06-components/destinations-grid' as *;
+@use '../_06-components/other-services-programs' as *;
+@use '../_06-components/footer' as *;
+@use '../_06-components/slider-blog' as *;
+@use '../_06-components/list-destinations' as *;
+@use '../_06-components/payments-logos' as *;
+@use '../_06-components/tickets-sales-locations' as *;
+@use '../_06-components/button-whats' as *;
+@use '../_06-components/button-eva-trip' as *;
+@use '../_06-components/modal-doters' as *;
+@use '../_06-components/modalDoters' as *;
+@use '../_06-components/cotiza' as *;
+@use '../_06-components/banner-slider' as *;
+@use '../_06-components/section-title' as *;
+@use '../_06-components/cookies-policy' as *;

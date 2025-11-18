@@ -1,0 +1,97 @@
+@use '../core' as*;
+@use '../_01-settings/variables' as *;
+@use '../_02-tools/mixin' as *;
+
+// Import components
+@use '../_06-components/header' as *;
+@use '../_06-components/modal-doters' as *;
+@use '../_06-components/cotiza' as *;
+@use '../_06-components/button-eva-trip' as *;
+@use '../_06-components/button-whats' as *;
+@use '../_06-components/section-title' as *;
+@use '../_06-components/app-banner-image' as *;
+@use '../_06-components/app-description-destination' as *;
+@use '../_06-components/app-explore-section' as *;
+@use '../_06-components/footer' as *;
+@use '../_06-components/banner-multi-image' as *;
+@use '../_06-components/card-image-tag-text' as *;
+@use '../_06-components/destiny-slider' as *;
+
+
+/*--------------------ESTILOS REPETITIVOS DEL LAYOUT RENTA DE AUTOBUSES---------------------*/
+
+.__first-section {
+  margin-top: 12rem;
+}
+
+.text-description {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: justify;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  font-size: 2vw;
+  color: $primary-color;
+
+  @include media("md") {
+    font-size: 3.5vw;
+  }
+}
+
+.text-description-list {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  font-size: 1.7vw;
+  font-weight: bold;
+  color: $primary-color;
+
+  @include media("md") {
+    font-size: 3.5vw;
+  }
+}
+
+.text-list {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: space-between;
+  text-align: justify;
+  margin: auto;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  font-size: 1.8vw;
+  font-weight: bold;
+  color: $primary-color;
+
+  .item-list {
+    margin-bottom: 30px;
+  }
+
+  @include media("md") {
+    font-size: 3.5vw;
+  }
+}
+
+@include media("lg") {
+  .__first-section {
+    margin-top: 10rem; // 13rem
+  }
+}
+
+@media screen and (min-width:481px) and (max-width:900px) {
+  .__first-section {
+    margin-top: 5rem !important;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .__first-section {
+    margin-top: 4rem !important; // 4rem
+  }
+}

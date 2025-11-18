@@ -1,9 +1,9 @@
 @font-face {
   font-family: "icomoon";
   src: url("../../../assets/icons/icomoon.eot?v1.0.3") format("embedded-opentype"),
-      url("../../../assets/icons/icomoon.ttf?v1.0.3") format("truetype"),
-      url("../../../assets/icons/icomoon.woff?v1.0.3") format("woff"),
-      url("../../../assets/icons/icomoon.svg?v1.0.3") format("svg");
+    url("../../../assets/icons/icomoon.ttf?v1.0.3") format("truetype"),
+    url("../../../assets/icons/icomoon.woff?v1.0.3") format("woff"),
+    url("../../../assets/icons/icomoon.svg?v1.0.3") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -23,7 +23,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+.icon-travel-security:before {
+  content: "\ea38";
+}
+.icon-montain:before {
+  content: "\ea39";
+}
+.icon-armchair:before {
+  content: "\ea34";
+}
+.icon-pig:before {
+  content: "\ea35";
+}
+.icon-camera:before {
+  content: "\ea36";
+}
+.icon-car:before {
+  content: "\ea37";
+}
 .icon-tarifas_generales:before {
   content: "\e912";
   color: #fff;
@@ -843,7 +860,7 @@
 }
 .icon-bus:before {
   content: "\e90b";
-  color: #7aa4aa;
+  // color: #7aa4aa;
 }
 .icon-parcel-service:before {
   content: "\e910";

@@ -1,4 +1,5 @@
-@import "../main.scss";
+@use '../_01-settings/variables' as *;
+
 html {
   body {
     min-height: 100vh;
@@ -21,9 +22,7 @@ html {
     width: 240px;
     height: auto;
 
-    @media (max-width: 1200px) {
-
-    }
+    @media (max-width: 1200px) {}
   }
 
   .footer__content__columns {
@@ -45,6 +44,7 @@ html {
 
       ul {
         list-style: none;
+
         li {
           margin-bottom: 25px;
 
@@ -70,10 +70,10 @@ html {
           @media (min-width: 320px) and (max-width: 1200px) {
 
             width: 70%;
-          text-align: left;
-          margin-left: auto;
-          margin-right: auto;
-          padding-left: 25px;
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 25px;
           }
         }
       }
@@ -102,10 +102,9 @@ html {
 
 
 
-      @media (min-width: 768px) and (max-width: 1200px) {
-
-      }
+      @media (min-width: 768px) and (max-width: 1200px) {}
     }
+
     section:not(.vertical-column section) {
 
 
@@ -134,14 +133,12 @@ html {
 
         margin-top: 0 !important;
 
-        &:last-of-type{
+        &:last-of-type {
           padding-bottom: 0 !important;
         }
       }
 
-      @media (min-width: 768px) and (max-width: 1200px) {
-
-      }
+      @media (min-width: 768px) and (max-width: 1200px) {}
     }
 
     @media (min-width: 768px) and (max-width: 1200px) {
@@ -153,6 +150,9 @@ html {
     display: flex;
 
     li {
+      margin-right: 5px;
+      margin-bottom: 0 !important;
+
       [class^="icon-"] {
         font-size: 30px;
         color: $primary-color;
@@ -165,9 +165,6 @@ html {
           font-size: 45px;
         }
       }
-
-      margin-right: 5px;
-      margin-bottom: 0 !important;
 
       &:last-of-type {
         margin-right: 0;
@@ -195,6 +192,7 @@ html {
     padding-top: 15px;
     border-top: solid 1px #edeef1;
     margin-top: 15px;
+
     p {
       color: #424242;
       font-size: 0.9rem;
@@ -218,6 +216,9 @@ ul:has(> li a.social_media_link) {
 
 
   li {
+    margin-right: 5px;
+    margin-bottom: 0 !important;
+
     [class^="icon-"] {
       font-size: 30px;
       color: $primary-color;
@@ -230,9 +231,6 @@ ul:has(> li a.social_media_link) {
         font-size: 45px;
       }
     }
-
-    margin-right: 5px;
-    margin-bottom: 0 !important;
 
     &:last-of-type {
       margin-right: 0;
@@ -327,6 +325,7 @@ ul {
 ul {
   &:has(> li.footer__item a.tel_link) {
     display: flex !important;
+
     @media (max-width: 1200px) {
       justify-content: center;
     }
@@ -334,8 +333,8 @@ ul {
 }
 
 
-.footer__column{
-  &:last-child{
+.footer__column {
+  &:last-child {
     @media (min-width: 481px) and (max-width: 1200px) {
 
       padding-bottom: 0;

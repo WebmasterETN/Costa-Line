@@ -1,3 +1,5 @@
+@use '../_01-settings/variables' as *;
+
 .contact-card {
     width: 300px;
     height: 300px;
@@ -28,7 +30,6 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        transition: transform 0.5s ease-in-out;
 
         &[src$=".png"] {
             object-fit: contain;
@@ -43,7 +44,7 @@
     &:hover {
         img {
             transform: scale(1.05);
-            transition: transform 1s ease-in-out;
+            transition: transform 0.5s ease-in-out;
         }
     }
 }

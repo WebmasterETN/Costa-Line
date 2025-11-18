@@ -1,6 +1,7 @@
-@import "../main.scss";
-@import './section-title';
-@import "./cards-title-img-text";
+@use '../_01-settings/variables' as *;
+@use '../_02-tools/mixin' as *;
+@use './section-title';
+@use './cards-title-img-text';
 
 .__section-tickets-sales-locations {
   display: flex;
@@ -13,9 +14,11 @@
   padding: 0 $spacing-xxl $spacing-xxl $spacing-xxl;
   box-sizing: border-box;
   gap: 34px;
+
   @include media ("md") {
     padding: 0 $padding-medium $padding-medium $padding-medium;
   }
+
   .__article-tickets-sales-locations {
     display: flex;
     flex-direction: column;
@@ -26,12 +29,14 @@
     padding: 43px;
     gap: 20px;
     background-color: $bg-card-primary;
+
     .__subtitle {
       text-align: center;
       font-size: 1.5rem;
       font-weight: 700;
       color: $primary-color;
     }
+
     .__cards-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(239px, 1fr));

@@ -1,0 +1,30 @@
+@use '../core';
+@use '../_01-settings/variables';
+@use '../_02-tools/mixin';
+
+// Import generic
+@use '../_03-generic/reset';
+
+// Import elements
+@use '../_04-elements/elements';
+
+// Import object
+@use '../_05-object/animations';
+@use '../_05-object/layout';
+
+// Import components
+@use '../_06-components/header';
+@use '../_06-components/footer';
+@use '../_06-components/payments-logos';
+@use '../_06-components/button-whats';
+@use '../_06-components/button-eva-trip';
+@use '../_06-components/modal-doters';
+@use '../_06-components/modalDoters';
+@use '../_06-components/cotiza';
+@use '../_06-components/banner-slider';
+@use '../_06-components/section-title';
+
+
+// Import utilities
+@use '../_07-utilities/utilities';
+@use '../_06-components/cookies-policy';

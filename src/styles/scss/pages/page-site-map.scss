@@ -1,0 +1,112 @@
+@use '../core' as*;
+@use '../_01-settings/variables' as *;
+@use '../_02-tools/mixin' as *;
+
+// Import components
+@use '../_06-components/header' as *;
+@use '../_06-components/destinations-grid' as *;
+@use '../_06-components/other-services-programs' as *;
+@use '../_06-components/footer' as *;
+@use '../_06-components/slider-blog' as *;
+@use '../_06-components/list-destinations' as *;
+@use '../_06-components/payments-logos' as *;
+@use '../_06-components/tickets-sales-locations' as *;
+@use '../_06-components/button-whats' as *;
+@use '../_06-components/button-eva-trip' as *;
+@use '../_06-components/modal-doters' as *;
+@use '../_06-components/modalDoters' as *;
+@use '../_06-components/cotiza' as *;
+@use '../_06-components/banner-slider' as *;
+@use '../_06-components/section-title' as *;
+@use '../_06-components/cookies-policy' as *;
+
+.__sections {
+    width: 100%;
+    padding: 35px 70px;
+
+    @include media ("md") {
+        padding: 15px;
+    }
+}
+
+.space {
+    margin-top: 200px;
+
+    @include media("md") {
+        margin-top: 100px;
+
+    }
+}
+
+#site-map-listas {
+    width: 90%;
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    margin: auto;
+    margin-top: 32px;
+
+    @include media("md") {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        width: 100vw;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    @include media("sm") {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        width: 100vw;
+        max-width: 100%;
+        margin: auto;
+    }
+}
+
+.site-map-category {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    padding: 24px 18px;
+    min-height: 180px;
+
+    h3 {
+        font-size: 1.2rem;
+        margin-bottom: 12px;
+        color: #003366;
+        font-weight: 700;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        margin-bottom: 8px;
+
+        a {
+            color: #005fa3;
+            text-decoration: none;
+            transition: color 0.2s;
+
+            @include media("md") {
+                line-height: 30px;
+            }
+
+            &:hover {
+                color: #003366;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.site-map-divider {
+    border: none;
+    border-bottom: 2px solid #005fa3;
+    margin: 0 0 16px 0;
+    width: 100%;
+}
