@@ -1,5 +1,4 @@
 /*--------------IMPORT COMPONENTS FROM HOME PAGE -----------------*/
-import "../../components/app-cotiza.js";
 import "../../components/app-banner-slider.js";
 import "../../components/app-payments.js";
 import "../../components/app-section-title.js";
@@ -9,63 +8,73 @@ import "../../components/app-card-destination-opacity.js";
 import "../../components/app-slider-opacity.js";
 import "../../components/app-modal-multi-image.js";
 import "../../components/app-modal-image.js";
-import "../../components/app-destiny-grid.js";
+import "../../js/slick.js?v=1.0.0";
 
-class PageAutobusAIxtapaZihuatanejo extends HTMLElement {
+class AutobusAIxtapaZihuatanejo extends HTMLElement {
   async connectedCallback() {
     this.innerHTML = `
-            <app-cotiza></app-cotiza>
-            <app-banner-slider
-                slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/banner-ixtapa-zihuatanejo.webp","mediumImage": "../src/assets/img/banner/tablet/banner-ixtapa-zihuatanejo.webp", "smallImage": "../src/assets/img/banner/movil/banner-ixtapa-zihuatanejo.webp", "link": "#index.html/banner1"}]'
-            >
-            </app-banner-slider>
-            <app-payments></app-payments>
+      <app-cotiza></app-cotiza>
 
-            <section class="__section __section__destiny__destinations">
-                <app-section-title section-title="Viaja a Ixtapa Zihuatanejo en autobús con Costa Line"></app-section-title>
-                <p class="__subtitle__destinos">Ixtapa Zihuatanejo</p>
-                <p class="__paragraph">Ixtapa Zihuatanejo, ubicada en la costa del Pacífico de México, ofrece una combinación única de resorts modernos, playas tranquilas y el encanto de un pueblo pesquero tradicional. Costa Line ofrece un servicio de autobús confortable desde la Ciudad de México, brindando una experiencia de viaje segura y relajante. Ya sea que planee una escapada de fin de semana o una estancia prolongada, Costa Line le garantiza que su viaje será el inicio perfecto para descubrir este paraíso de dos caras.
-</p>
-                <p class="__subtitle__destinos">¿Que lugares visitar en Ixtapa Zihuatanejo?</p>
-                <p class="__paragraph">Bienvenido a Ixtapa Zihuatanejo, un destino único en la costa del Pacífico mexicano, en el estado de Guerrero. Donde conviven el lujo moderno de Ixtapa y el encanto tradicional de Zihuatanejo, creando un equilibrio perfecto. Ofreciendo una gran vegetación, sitios emblemáticos como la playa la Ropa, playa el Palmar y playa las Gatas, invitando a explorar sus playas doradas y a disfrutar de su riqueza marítima y cultural.
-</p>
-             </section>
+      <app-banner-slider
+          slides-data='[
+          {"id": "slide1", "title": "Banner 1", "image": "../../src/assets/img/banner/web/banner-ixtapa-zihuatanejo.webp","mediumImage": "../../src/assets/img/banner/tablet/banner-ixtapa-zihuatanejo.webp", "smallImage": "../../src/assets/img/banner/movil/banner-ixtapa-zihuatanejo.webp", "link": "#index.html/banner1"}]'
+      >
+      </app-banner-slider>
 
-             <section class="__section__grid" id="destiny-grid-section">
-                <app-destiny-grid grid-src="../src/data/lugares-ixtapa-zihuatanejo.json"></app-destiny-grid>
-             </section>
+      <app-payments></app-payments>
 
-              <section class="__section __section__destiny__food">
-                <p class="__subtitle__destinos">Gastronomia</p>
-                <p class="__paragraph__xl">Ixtapa Zihuatanejo, un destino de ensueño frente al Pacífico, deleita a sus visitantes con una gastronomía basada en la frescura del mar y las tradiciones de la costa guerrerense. Desde los pescados a la talla hasta los ceviches, los mariscos y los platillos elaborados con coco, la cocina local ofrece una experiencia única que captura la esencia del paraíso tropical.</p>
-                 <article class="container-cards__food">
-                    <app-card-open-modal cards-data-src="../src/data/platillos-ixtapa-zihuatanejo.json"></app-card-open-modal>
-                </article>
-             </section>
+      <section class="__section __section__destiny__destinations">
+          <app-section-title section-title="Viaja a Ixtapa Zihuatanejo en autobús con Costa Line"></app-section-title>
+          <p class="__subtitle__destinos">Ixtapa Zihuatanejo</p>
+          <p class="__paragraph">Ixtapa Zihuatanejo, en la costa de Guerrero, combina playas paradisíacas, resorts modernos y el encanto del tradicional pueblo pesquero de Zihuatanejo. Costa Line te conecta con este destino mediante un servicio de autobús cómodo y seguro desde distintos puntos, ideal para vacaciones y turismo de playa.</p>
+          <p class="__subtitle__destinos">¿Qué lugares visitar en Ixtapa Zihuatanejo?</p>
+          <p class="__paragraph">Disfruta de la Playa El Palmar, la Playa La Ropa, el Malecón de Zihuatanejo y actividades acuáticas. Explora mercados locales y restaurantes con gastronomía de mariscos frescos que reflejan la cultura costera de la región.</p>
+      </section>    
 
-             <section class="__section __section__destiny__ask">
-                <app-section-title section-title="Preguntas Frecuentes"></app-section-title>
-                 <article class="__grid-cards-container__dropdown" id="dropdowns-container">
-                    <app-dropdown items-src="../src/data/dropdown-preguntas-acapulco.json"></app-dropdown>
-                </article>
-             </section>
+      <section class="__section__grid" id="destiny-grid-section">
+          <app-destiny-grid grid-src="../../src/data/destinos/ixtapa-zihuatanejo/lugares.json"></app-destiny-grid>
+      </section>
 
-              <section class="__section __section__destiny__other">
-                <app-section-title section-title="Otros destinos"></app-section-title>
-                <article class="container-slider-other">
-                    <app-slider-opacity destinations-src="../src/data/card-opacity-destinations.json"></app-slider-opacity>
-                </article>
-             </section>
+      <p class="__subtitle__destinos">Gastronomía</p>
+      <section class="__section __section__ixtapa__food">
+          <p class="__paragraph__xl">Ixtapa Zihuatanejo es famoso por su gastronomía de mariscos frescos: ceviches, camarones al ajillo, pescado a la talla y platillos típicos de Guerrero. Restaurantes y fondas locales ofrecen experiencias culinarias auténticas frente al mar.</p>
+          <article class="container-cards__food">
+              <app-card-open-modal cards-data-src="../../src/data/destinos/ixtapa-zihuatanejo/platillos.json"></app-card-open-modal>
+          </article>
+      </section>
 
-             <app-modal-multi-image></app-modal-multi-image>
-              <app-modal-image></app-modal-image>
+      <section class="cta">
+          <div class="container">
+              <h2 class="cta__title">¡Viaja a Ixtapa Zihuatanejo con ETN Turistar!</h2>
+              <p class="cta__subtitle">No esperes más para vivir unas vacaciones inolvidables en la costa de Guerrero. Tu viaje está a solo un clic de distancia.</p>
+              <a href="../boletos-autobus/ixtapa-zihuatanejo.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Comprar boletos" tabindex="0">Consulta horarios y compra tu boleto</a>
+          </div>
+      </section>
 
+      <section class="__section __section__destiny__ask">
+          <app-section-title section-title="Preguntas Frecuentes"></app-section-title>
+          <article class="__grid-cards-container__dropdown" id="dropdowns-container">
+              <app-dropdown items-src="../../src/data/destinos/ixtapa-zihuatanejo/dropdown-preguntas-frecuentes.json"></app-dropdown>
+          </article>
+      </section>
 
-        `;
+      <section class="__section __section__ixtapa__other">
+          <app-section-title section-title="Otros destinos"></app-section-title>
+          <article class="container-slider-other">
+              <app-slider-opacity destinations-src="../../src/data/card-opacity-destinations.json"></app-slider-opacity>
+          </article>
+      </section>
+
+      <app-modal-multi-image></app-modal-multi-image>
+      <app-modal-image></app-modal-image>
+
+      <app-cookies-policy></app-cookies-policy>
+      <app-button-whats></app-button-whats>
+      <app-button-eva-trip></app-button-eva-trip>
+    `;
   }
 }
 customElements.define(
   "page-autobus-a-ixtapa-zihuatanejo",
-  PageAutobusAIxtapaZihuatanejo
+  AutobusAIxtapaZihuatanejo
 );

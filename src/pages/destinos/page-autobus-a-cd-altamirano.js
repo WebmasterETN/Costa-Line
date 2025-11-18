@@ -1,5 +1,4 @@
 /*--------------IMPORT COMPONENTS FROM HOME PAGE -----------------*/
-import "../../components/app-cotiza.js";
 import "../../components/app-banner-slider.js";
 import "../../components/app-payments.js";
 import "../../components/app-section-title.js";
@@ -9,57 +8,70 @@ import "../../components/app-card-destination-opacity.js";
 import "../../components/app-slider-opacity.js";
 import "../../components/app-modal-multi-image.js";
 import "../../components/app-modal-image.js";
+import "../../js/slick.js?v=1.0.0";
 
-class PageAutobusACdAltamirano extends HTMLElement {
+class AutobusACdAltamirano extends HTMLElement {
   async connectedCallback() {
     this.innerHTML = `
-            <app-cotiza></app-cotiza>
-            <app-banner-slider
-                slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/banner-ciudad-altamirano.webp","mediumImage": "../src/assets/img/banner/tablet/banner-ciudad-altamirano.webp", "smallImage": "../src/assets/img/banner/movil/banner-ciudad-altamirano.webp", "link": "#index.html/banner1"}]'
-            >
-            </app-banner-slider>
-            <app-payments></app-payments>
+      <app-cotiza></app-cotiza>
 
-            <section class="__section __section__destiny__destinations">
-                <app-section-title section-title="Viaja a Ciudad Altamirano en autobús con Costa Line"></app-section-title>
-                <p class="__subtitle__destinos">Ciudad Altamirano</p>
-                <p class="__paragraph">Ciudad Altamirano, un importante centro económico y cultural en la región de Tierra Caliente de Guerrero, ofrece una mezcla de tradiciones locales, hospitalidad cálida y una conexión auténtica con la vida rural mexicana. Costa Line le conecta con este destino significativo a través de su servicio de autobús, brindando una experiencia de viaje segura y cómoda desde diversos puntos. Ya sea que viaje por negocios, familia o para explorar la región, Costa Line le garantiza un traslado placentero hacia Ciudad Altamirano.</p>
-                <p class="__subtitle__destinos">¿Que lugares visitar en Ciudad Altamirano?</p>
-                <p class="__paragraph">Bienvenido a Ciudad Altamirano, un importante centro urbano en la región de Tierra Caliente del estado de Guerrero, en el corazón del sur de México. Conocida por su dinamismo comercial y su rica cultura regional, Ciudad Altamirano es un lugar que combina la actividad de su vida cotidiana con la calidez y hospitalidad de su gente. Rodeada por el paisaje característico de la Tierra Caliente, esta ciudad ofrece experiencias auténticas y una conexión genuina con la vida del estado de Guerrero.</p>
-             </section>
+      <app-banner-slider
+          slides-data='[
+          {"id": "slide1", "title": "Banner 1", "image": "../../src/assets/img/banner/web/banner-ciudad-altamirano.webp","mediumImage": "../../src/assets/img/banner/tablet/banner-ciudad-altamirano.webp", "smallImage": "../../src/assets/img/banner/movil/banner-ciudad-altamirano.webp", "link": "#index.html/banner1"}]'
+      >
+      </app-banner-slider>
 
-              <section class="__section__grid" id="destiny-grid-section">
-                <app-destiny-grid grid-src="../src/data/lugares-cd-altamirano.json"></app-destiny-grid>
-             </section>
+      <app-payments></app-payments>
 
-              <section class="__section __section__destiny__food">
-                <p class="__subtitle__destinos">Gastronomia</p>
-                <p class="__paragraph__xl">Ciudad Altamirano, puerta de entrada a la Tierra Caliente, es un destino donde la gastronomía refleja la autenticidad y calidez de su gente. Su cocina, impregnada de tradiciones indígenas y costumbres ganaderas, ofrece un mosaico de sabores robustos y generosos. Aquí, la tierra fértil y el río Balsas se unen para crear ingredientes únicos que dan vida a platillos que narran la historia de una región orgullosa de sus raíces.</p>
-                 <article class="container-cards__food">
-                    <app-card-open-modal cards-data-src="../src/data/platillos-cd-altamirano.json"></app-card-open-modal>
-                </article>
-             </section>
+      <section class="__section __section__destiny__destinations">
+          <app-section-title section-title="Viaja a Ciudad Altamirano en autobús con Costa Line"></app-section-title>
+          <p class="__subtitle__destinos">Ciudad Altamirano</p>
+          <p class="__paragraph">Ciudad Altamirano, ubicada en el corazón de Guerrero, ofrece un entorno natural lleno de cultura y tradiciones locales. Costa Line te conecta con Ciudad Altamirano con un servicio de autobús cómodo y seguro desde diferentes puntos de la región. Ya sea por negocios, visitas familiares o turismo, llegar a Ciudad Altamirano con Costa Line es sencillo y sin complicaciones.</p>
+          <p class="__subtitle__destinos">¿Qué lugares visitar en Ciudad Altamirano?</p>
+          <p class="__paragraph">En Ciudad Altamirano puedes disfrutar de su rica gastronomía, plazas y mercados locales, así como de su entorno natural. La ciudad combina historia y tradición, permitiendo conocer la vida cotidiana de sus habitantes y la cultura de la región.</p>
+      </section>    
 
-             <section class="__section __section__destiny__ask">
-                <app-section-title section-title="Preguntas Frecuentes"></app-section-title>
-                <article class="__grid-cards-container__dropdown" id="dropdowns-container">
-                    <app-dropdown items-src="../src/data/dropdown-preguntas-acapulco.json"></app-dropdown>
-                </article>
-             </section>
+      <section class="__section__grid" id="destiny-grid-section">
+          <app-destiny-grid grid-src="../../src/data/destinos/ciudad-altamirano/lugares.json"></app-destiny-grid>
+      </section>
 
-              <section class="__section __section__monterrey__other">
-                <app-section-title section-title="Otros destinos"></app-section-title>
-                <article class="container-slider-other">
-                    <app-slider-opacity destinations-src="../src/data/card-opacity-destinations.json"></app-slider-opacity>
-                </article>
-             </section>
+      <p class="__subtitle__destinos">Gastronomía</p>
+      <section class="__section __section__ciudadaltamirano__food">
+          <p class="__paragraph__xl">Ciudad Altamirano ofrece sabores tradicionales de Guerrero, desde platillos típicos hasta delicias locales que reflejan la cultura de la región. Descubre la comida local en restaurantes y fondas, donde cada bocado es una experiencia auténtica.</p>
+          <article class="container-cards__food">
+              <app-card-open-modal cards-data-src="../../src/data/destinos/ciudad-altamirano/platillos.json"></app-card-open-modal>
+          </article>
+      </section>
 
-             <app-modal-multi-image></app-modal-multi-image>
-              <app-modal-image></app-modal-image>
+      <section class="cta">
+          <div class="container">
+              <h2 class="cta__title">¡Viaja a Ciudad Altamirano con ETN Turistar!</h2>
+              <p class="cta__subtitle">No esperes más para conocer este destino lleno de tradición y cultura. Tu viaje está a solo un clic de distancia.</p>
+              <a href="../boletos-autobus/ciudad-altamirano.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Comprar boletos" tabindex="0">Consulta horarios y compra tu boleto</a>
+          </div>
+      </section>
 
+      <section class="__section __section__destiny__ask">
+          <app-section-title section-title="Preguntas Frecuentes"></app-section-title>
+          <article class="__grid-cards-container__dropdown" id="dropdowns-container">
+              <app-dropdown items-src="../../src/data/destinos/ciudad-altamirano/dropdown-preguntas-frecuentes.json"></app-dropdown>
+          </article>
+      </section>
 
-        `;
+      <section class="__section __section__ciudadaltamirano__other">
+          <app-section-title section-title="Otros destinos"></app-section-title>
+          <article class="container-slider-other">
+              <app-slider-opacity destinations-src="../../src/data/card-opacity-destinations.json"></app-slider-opacity>
+          </article>
+      </section>
+
+      <app-modal-multi-image></app-modal-multi-image>
+      <app-modal-image></app-modal-image>
+
+      <app-cookies-policy></app-cookies-policy>
+      <app-button-whats></app-button-whats>
+      <app-button-eva-trip></app-button-eva-trip>
+    `;
   }
 }
-customElements.define("page-autobus-a-cd-altamirano", PageAutobusACdAltamirano);
+customElements.define("page-autobus-a-cd-altamirano", AutobusACdAltamirano);
