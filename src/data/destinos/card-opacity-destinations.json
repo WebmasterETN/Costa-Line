@@ -1,119 +1,82 @@
 [
-    {
-      "imageSrc": "../src/assets/img/destinos-img/puebla/puebla-s.webp",
-      "imageAlt": "Puebla",
-      "destinationName": "Puebla, Puebla",
-      "destinationTagline": "Tradición y modernidad en la Perla Tapatía.",
-      "buttonText": "Explorar Puebla",
-      "buttonLink": "../../destinos/autobus-a-puebla.html"
-
-    },
-    {
-      "imageSrc": "../src/assets/img/destinos-img/puerto-vallarta/puerto-vallarta-s.webp",
-      "imageAlt": "Puerto Vallarta",
-      "destinationName": "Puerto Vallarta, Jalisco",
-      "destinationTagline": "Descubre la magia de una ciudad colonial.",
-      "buttonText": "Explorar Vallarta",
-      "buttonLink": "../../destinos/autobus-a-puerto-vallarta.html"
-
-    },
-    {
-      "imageSrc": "../src/assets/img/destinos-img/queretaro/acueducto-queretaro.webp",
-      "imageAlt": "Querétaro",
-      "destinationName": "Querétaro, Querétaro",
-      "destinationTagline": "Sol, playa y diversión sin fin te esperan.",
-      "buttonText": "Explorar Queretaro",
-      "buttonLink": "../../destinos/autobus-a-queretaro.html"
-
-    },
-    {
-      "imageSrc": "../src/assets/img/destinos-img/cdmx/cdmx-s.webp",
-      "imageAlt": "Ciudad de México",
-      "destinationName": "Ciudad de México, CDMX",
-      "destinationTagline": "Tradición y modernidad en la Perla Tapatía.",
-      "buttonText": "Explora CDMX",
-      "buttonLink": "../../destinos/autobus-a-ciudad-de-mexico.html"
-
-    },
-    {
-      "imageSrc": "../src/assets/img/destinos-img/guadalajara/guadalajara-s.webp",
-      "imageAlt": "Guadalajara",
-      "destinationName": "Guadalajara, Jalisco",
-      "destinationTagline": "Descubre la magia de una ciudad colonial.",
-      "buttonText": "Explora Guadalajara",
-      "buttonLink": "../../destinos/autobus-a-guadalajara.html"
-
-    },
-    {
-      "imageSrc": "../src/assets/img/destinos-img/guanajuato/guanajuato-s.webp",
-      "imageAlt": "Guanajuato",
-      "destinationName": "Guanajuato, Guanajuato",
-      "destinationTagline": "Descubre la magia de una ciudad colonial.",
-      "buttonText": "Explora Guanajuato",
-      "buttonLink": "../../destinos/autobus-a-guanajuato.html"
-    },
-    {
-      "imageSrc": "../src/assets/img/destinos-img/san-juan-de-los-lagos/catedral.webp",
-      "imageAlt": "San Juan de los Lagos",
-      "destinationName": "San Juan de los Lagos, Jalisco",
-      "destinationTagline": "Descubre la magia de una ciudad colonial.",
-      "buttonText": "Explora San Juan de los Lagos",
-      "buttonLink": "../../destinos/autobus-a-san-juan-de-los-lagos.html"
-    },
-    {
-      "imageSrc": "../src/assets/img/destinos-img/san-miguel-de-allende/parroquia.webp",
-      "imageAlt": "San Miguel de Allende",
-      "destinationName": "San Miguel de Allende, Guanajuato",
-      "destinationTagline": "Descubre la magia de una ciudad colonial.",
-      "buttonText": "Explora San Miguel de Allende",
-      "buttonLink": "../../destinos/autobus-a-san-miguel-de-allende.html"
-    },
-    {
-      "imageSrc": "../src/assets/img/destinos-img/tepic-nayarit/cerro-cruz.webp",
-      "imageAlt": "Tepic Nayarit",
-      "destinationName": "Tepic Nayarit",
-      "destinationTagline": "Un mirador impresionante de la ciudad.",
-      "buttonText": "Explora Tepic Nayarit",
-      "buttonLink": "../../destinos/autobus-a-tepic-nayarit.html"
-    },
-    {
-      "imageSrc": "../src/assets/img/destinos-img/tequisquiapan/plaza-hidalgo.webp",
-      "imageAlt": "¨Plaza Miguel Hidalgo",
-      "destinationName": "Tequisquiapan",
-      "destinationTagline": "Vista de la plaza principal y sus alrededores.",
-      "buttonText": "Explora Tequisquiapan",
-      "buttonLink": "../../destinos/autobus-a-tequisquiapan.html"
-    },
-    {
-      "imageSrc": "../src/assets/img/destinos-img/tlaquepaque/andador-independencia.webp",
-      "imageAlt": "Andador Independencia",
-      "destinationName": "Tlaquepaque",
-      "destinationTagline": "Un paseo lleno de arte y cultura.",
-      "buttonText": "Explora Tlaquepaque",
-      "buttonLink": "../../destinos/autobus-a-andador-independencia.html"
-    },
-    {
-      "imageSrc": "../src/assets/img/destinos-img/toluca/cosmovitral.webp",
-      "imageAlt": "Cosmovitral",
-      "destinationName": "Toluca",
-      "destinationTagline": "Un jardín botánico en un antiguo mercado.",
-      "buttonText": "Explora Toluca",
-      "buttonLink": "../../destinos/autobus-a-toluca.html"
-    },
-    {
-      "imageSrc": "../src/assets/img/destinos-img/torreon/cristo-noas.webp",
-      "imageAlt": "Cristo de las Noas",
-      "destinationName": "Torreón",
-      "destinationTagline": "Un ícono de la ciudad con vistas espectaculares.",
-      "buttonText": "Explora Torreón",
-      "buttonLink": "../../destinos/autobus-a-torreon.html"
-    },
-    {
-      "imageSrc": "../src/assets/img/destinos-img/zapopan/basilica.webp",
-      "imageAlt": "Basílica de Zapopan",
-      "destinationName": "Zapopan",
-      "destinationTagline": "Un importante centro religioso y cultural.",
-      "buttonText": "Explora Zapopan",
-      "buttonLink": "../../destinos/autobus-a-zapopan.html"
-    }
-  ]
+  {
+    "imageSrc": "../src/assets/img/destinos-img/acapulco/acapulco-m.webp",
+    "imageAlt": "Acapulco",
+    "destinationName": "Acapulco, Guerrero",
+    "destinationTagline": "Sol, mar y vida nocturna sin igual.",
+    "buttonText": "Explorar Acapulco",
+    "buttonLink": "../../destinos/autobus-a-acapulco.html"
+  },
+  {
+    "imageSrc": "../src/assets/img/destinos-img/cd-altamirano/cd-altamirano-m.webp",
+    "imageAlt": "Ciudad Altamirano",
+    "destinationName": "Cd. Altamirano, Guerrero",
+    "destinationTagline": "Encuentra tranquilidad junto al río Balsas.",
+    "buttonText": "Explorar Cd. Altamirano",
+    "buttonLink": "../../destinos/autobus-a-cd-altamirano.html"
+  },
+  {
+    "imageSrc": "../src/assets/img/destinos-img/cdmx/cdmx-m.webp",
+    "imageAlt": "Ciudad de México",
+    "destinationName": "Ciudad de México, CDMX",
+    "destinationTagline": "Tradición y modernidad en la gran capital.",
+    "buttonText": "Explorar CDMX",
+    "buttonLink": "../../destinos/autobus-a-ciudad-de-mexico.html"
+  },
+  {
+    "imageSrc": "../src/assets/img/destinos-img/chilpancingo/chilpancingo-m.webp",
+    "imageAlt": "Chilpancingo",
+    "destinationName": "Chilpancingo, Guerrero",
+    "destinationTagline": "La capital del estado con historia y cultura.",
+    "buttonText": "Explorar Chilpancingo",
+    "buttonLink": "../../destinos/autobus-a-chilpancingo.html"
+  },
+  {
+    "imageSrc": "../src/assets/img/destinos-img/coyuca-de-benitez/coyuca-m.webp",
+    "imageAlt": "Coyuca de Benítez",
+    "destinationName": "Coyuca de Benítez, Guerrero",
+    "destinationTagline": "Laguna, mar y naturaleza en un solo lugar.",
+    "buttonText": "Explorar Coyuca",
+    "buttonLink": "../../destinos/autobus-a-coyuca-de-benitez.html"
+  },
+  {
+    "imageSrc": "../src/assets/img/destinos-img/cuernavaca/cuernavaca-m.webp",
+    "imageAlt": "Cuernavaca",
+    "destinationName": "Cuernavaca, Morelos",
+    "destinationTagline": "La ciudad de la eterna primavera.",
+    "buttonText": "Explorar Cuernavaca",
+    "buttonLink": "../../destinos/autobus-a-cuernavaca.html"
+  },
+  {
+    "imageSrc": "../src/assets/img/destinos-img/iguala/iguala-m.webp",
+    "imageAlt": "Iguala",
+    "destinationName": "Iguala, Guerrero",
+    "destinationTagline": "Cuna de la Bandera Nacional.",
+    "buttonText": "Explorar Iguala",
+    "buttonLink": "../../destinos/autobus-a-iguala.html"
+  },
+  {
+    "imageSrc": "../src/assets/img/destinos-img/taxco/taxco-m.webp",
+    "imageAlt": "Taxco",
+    "destinationName": "Taxco, Guerrero",
+    "destinationTagline": "Pueblo mágico y joya colonial de plata.",
+    "buttonText": "Explorar Taxco",
+    "buttonLink": "../../destinos/autobus-a-taxco.html"
+  },
+  {
+    "imageSrc": "../src/assets/img/destinos-img/tecpan/tecpan-m.webp",
+    "imageAlt": "Tecpan de Galeana",
+    "destinationName": "Tecpan, Guerrero",
+    "destinationTagline": "Naturaleza, costa y cultura local.",
+    "buttonText": "Explorar Tecpan",
+    "buttonLink": "../../destinos/autobus-a-tecpan.html"
+  },
+  {
+    "imageSrc": "../src/assets/img/destinos-img/ixtapa/zihuatanejo-m.webp",
+    "imageAlt": "Zihuatanejo",
+    "destinationName": "Zihuatanejo, Guerrero",
+    "destinationTagline": "Playas tranquilas y encanto pesquero.",
+    "buttonText": "Explorar Zihuatanejo",
+    "buttonLink": "../../destinos/autobus-a-ixtapa-zihuatanejo.html"
+  }
+]

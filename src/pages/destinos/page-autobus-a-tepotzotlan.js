@@ -1,5 +1,4 @@
 /*--------------IMPORT COMPONENTS FROM HOME PAGE -----------------*/
-import "../../components/app-cotiza.js";
 import "../../components/app-banner-slider.js";
 import "../../components/app-payments.js";
 import "../../components/app-section-title.js";
@@ -10,55 +9,101 @@ import "../../components/app-slider-opacity.js";
 import "../../components/app-modal-multi-image.js";
 import "../../components/app-modal-image.js";
 import "../../components/app-destiny-grid.js";
+import "../../js/slick.js?v=1.0.0";
 
-class PageAutobusATepotzotlan extends HTMLElement {
+class AutobusATepotzotlan extends HTMLElement {
   async connectedCallback() {
     this.innerHTML = `
-            <app-cotiza></app-cotiza>
-            <app-banner-slider
-                slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/banner-tepotzotlan.webp","mediumImage": "../src/assets/img/banner/tablet/banner-tepotzotlan.webp", "smallImage": "../src/assets/img/banner/movil/banner-tepotzotlan.webp", "link": "#index.html/banner1"}]'
-            >
-            </app-banner-slider>
-            <app-payments></app-payments>
+      <app-cotiza></app-cotiza>
 
-            <section class="__section __section__destiny__destinations">
-                <app-section-title section-title="Viaja a Tepotzotlán en autobús con Costa Line"></app-section-title>
-                <p class="__subtitle__destinos">Tepotzotlán</p>
-                <p class="__paragraph">Tepotzotlán, un Pueblo Mágico del Estado de México, te invita a un viaje en el tiempo. Su centro histórico, dominado por el Templo de San Francisco Javier, es una joya del barroco mexicano. Pasea por sus calles adoquinadas, descubre talleres de artesanías y déjate llevar por su atmósfera colonial. Es un destino ideal para quienes buscan cultura, historia y una escapada de la vida urbana, a pocos kilómetros de la Ciudad de México.</p>
-                <p class="__subtitle__destinos">¿Qué lugares visitar en Tepotzotlán?</p>
-                <p class="__paragraph">¡Bienvenido a Tepotzotlán! Este rincón mágico te espera para que descubras su rica historia y su legado cultural. Desde el imponente Museo Nacional del Virreinato, que alberga una de las colecciones más importantes del país, hasta el Acueducto de Xalpa, conocido como los "Arcos del Sitio", cada rincón de este pueblo cuenta una historia. Tepotzotlán es perfecto para disfrutar de la tranquilidad, la arquitectura y la gastronomía tradicional del Estado de México.</p>
-             </section>
+      <app-banner-slider
+          slides-data='[
+          {"id": "slide1", "title": "Banner Tepotzotlán", "image": "../../src/assets/img/banner/web/banner-tepotzotlan.webp","mediumImage": "../../src/assets/img/banner/tablet/banner-tepotzotlan.webp", "smallImage": "../../src/assets/img/banner/movil/banner-tepotzotlan.webp", "link": "#index.html/banner1"}]'
+      ></app-banner-slider>
 
-             <section class="__section__grid" id="destiny-grid-section">
-                <app-destiny-grid grid-src="../src/data/lugares-tepotzotlan.json"></app-destiny-grid>
-             </section>
+      <app-payments></app-payments>
 
-             <section class="__section __section__destiny__food">
-                <p class="__subtitle__destinos">Gastronomía</p>
-                <p class="__paragraph__xl">La gastronomía de Tepotzotlán es un deleite para el paladar, fusionando sabores prehispánicos y coloniales. Sus platillos tradicionales, como las quesadillas de flor de calabaza, los tlacoyos y la barbacoa de borrego, son un reflejo de su identidad. Además, podrás disfrutar de antojitos típicos en el mercado local y de postres tradicionales que endulzan el recorrido. No olvides probar el pulque y las aguas frescas que complementan la experiencia culinaria.</p>
-                 <article class="container-cards__food">
-                     <app-card-open-modal cards-data-src="../src/data/platillos-tepotzotlan.json"></app-card-open-modal>
-                 </article>
-             </section>
+      <section class="__section __section__destiny__destinations">
+          <app-section-title section-title="Viaja a Tepotzotlán en autobús con Costa Line"></app-section-title>
+          
+          <p class="__subtitle__destinos">Tepotzotlán</p>
 
-             <section class="__section __section__destiny__ask">
-                <app-section-title section-title="Preguntas Frecuentes"></app-section-title>
-                 <article class="__grid-cards-container__dropdown" id="dropdowns-container">
-                     <app-dropdown items-src="../src/data/dropdown-preguntas-tepotzotlan.json"></app-dropdown>
-                 </article>
-             </section>
+          <p class="__paragraph">
+            Tepotzotlán, Pueblo Mágico del Estado de México, es un destino ideal para quienes disfrutan la historia, 
+            la arquitectura colonial y la gastronomía tradicional. Su famoso Museo Nacional del Virreinato y la 
+            Parroquia de San Pedro Apóstol convierten este destino en una experiencia cultural única.
+          </p>
 
-             <section class="__section __section__destiny__other">
-                <app-section-title section-title="Otros destinos"></app-section-title>
-                <article class="container-slider-other">
-                     <app-slider-opacity destinations-src="../src/data/card-opacity-destinations.json"></app-slider-opacity>
-                 </article>
-             </section>
+          <p class="__paragraph">
+            Costa Line te conecta con Tepotzotlán mediante autobuses cómodos y seguros, perfectos para escapadas de fin de semana, visitas familiares o recorridos turísticos.
+          </p>
 
-             <app-modal-multi-image></app-modal-multi-image>
-             <app-modal-image></app-modal-image>
-        `;
+          <p class="__subtitle__destinos">¿Qué lugares visitar en Tepotzotlán?</p>
+
+          <p class="__paragraph">
+            Visita el Museo Nacional del Virreinato, la Parroquia de San Pedro, la Plaza de las Artesanías, el Mercado 
+            Tradicional, el Arco del Sitio y los miradores naturales que rodean al pueblo.  
+            Caminando por sus calles encontrarás antojitos, artesanía y espacios llenos de historia.
+          </p>
+      </section>
+
+      <section class="__section__grid" id="destiny-grid-section">
+          <app-destiny-grid grid-src="../../src/data/destinos/tepotzotlan/lugares.json"></app-destiny-grid>
+      </section>
+
+      <p class="__subtitle__destinos">Gastronomía</p>
+
+      <section class="__section __section__tepotzotlan__food">
+          <p class="__paragraph__xl">
+            Tepotzotlán ofrece una gastronomía llena de tradición: barbacoa, mole, quesadillas de comal, tamales, atole, 
+            dulces regionales y cocina típica del Estado de México. Restaurantes y fondas del centro ofrecen experiencias 
+            culinarias auténticas para todos los visitantes.
+          </p>
+
+          <article class="container-cards__food">
+              <app-card-open-modal cards-data-src="../../src/data/destinos/tepotzotlan/platillos.json"></app-card-open-modal>
+          </article>
+      </section>
+
+      <section class="cta">
+          <div class="container">
+              <h2 class="cta__title">¡Viaja a Tepotzotlán con ETN Turistar!</h2>
+              <p class="cta__subtitle">
+                Disfruta historia, cultura y sabor en uno de los Pueblos Mágicos más importantes del Estado de México.
+              </p>
+              <a href="../boletos-autobus/tepotzotlan.html" 
+                 class="btn btn--primary btn--large" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 aria-label="Comprar boletos" 
+                 tabindex="0">
+                 Consulta horarios y compra tu boleto
+              </a>
+          </div>
+      </section>
+
+      <section class="__section __section__destiny__ask">
+          <app-section-title section-title="Preguntas Frecuentes"></app-section-title>
+          <article class="__grid-cards-container__dropdown" id="dropdowns-container">
+              <app-dropdown items-src="../../src/data/destinos/tepotzotlan/dropdown-preguntas-frecuentes.json"></app-dropdown>
+          </article>
+      </section>
+
+      <section class="__section __section__tepotzotlan__other">
+          <app-section-title section-title="Otros destinos"></app-section-title>
+          <article class="container-slider-other">
+              <app-slider-opacity destinations-src="../../src/data/destinos/card-opacity-destinations.json"></app-slider-opacity>
+          </article>
+      </section>
+
+      <app-modal-multi-image></app-modal-multi-image>
+      <app-modal-image></app-modal-image>
+
+      <app-cookies-policy></app-cookies-policy>
+      <app-button-whats></app-button-whats>
+      <app-button-eva-trip></app-button-eva-trip>
+    `;
   }
 }
-customElements.define("page-autobus-a-tepotzotlan", PageAutobusATepotzotlan);
+
+customElements.define("page-autobus-a-tepotzotlan", AutobusATepotzotlan);

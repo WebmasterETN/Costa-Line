@@ -8,6 +8,7 @@ import "../../components/app-card-destination-opacity.js";
 import "../../components/app-slider-opacity.js";
 import "../../components/app-modal-multi-image.js";
 import "../../components/app-modal-image.js";
+import "../../components/app-destiny-grid.js";
 import "../../js/slick.js?v=1.0.0";
 
 class AutobusAAcapulco extends HTMLElement {
@@ -30,7 +31,7 @@ class AutobusAAcapulco extends HTMLElement {
 </section>    
 
 <section class="__section__grid" id="destiny-grid-section">
-                <app-destiny-grid grid-src="../../src/data/destinos/acapulco/lugares.json"></app-destiny-grid>
+                <app-destiny-grid grid-src="../../../src/data/destinos/acapulco/lugares.json"></app-destiny-grid>
              </section>
 
 <p class="__subtitle__destinos">Gastronomía</p>
@@ -59,7 +60,7 @@ class AutobusAAcapulco extends HTMLElement {
 <section class="__section __section__monterrey__other">
     <app-section-title section-title="Otros destinos"></app-section-title>
     <article class="container-slider-other">
-      <app-slider-opacity destinations-src="../../src/data/card-opacity-destinations.json"></app-slider-opacity>
+      <app-slider-opacity destinations-src="../../src/data/destinos/card-opacity-destinations.json"></app-slider-opacity>
     </article>
 </section>
 

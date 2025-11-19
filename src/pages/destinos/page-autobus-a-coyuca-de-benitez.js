@@ -8,6 +8,7 @@ import "../../components/app-card-destination-opacity.js";
 import "../../components/app-slider-opacity.js";
 import "../../components/app-modal-multi-image.js";
 import "../../components/app-modal-image.js";
+import "../../components/app-destiny-grid.js";
 import "../../js/slick.js?v=1.0.0";
 
 class AutobusACoyucaDeBenitez extends HTMLElement {
@@ -61,7 +62,7 @@ class AutobusACoyucaDeBenitez extends HTMLElement {
       <section class="__section __section__coyuca__other">
           <app-section-title section-title="Otros destinos"></app-section-title>
           <article class="container-slider-other">
-              <app-slider-opacity destinations-src="../../src/data/card-opacity-destinations.json"></app-slider-opacity>
+              <app-slider-opacity destinations-src="../../src/data/destinos/card-opacity-destinations.json"></app-slider-opacity>
           </article>
       </section>
 
@@ -74,4 +75,7 @@ class AutobusACoyucaDeBenitez extends HTMLElement {
     `;
   }
 }
-customElements.define("page-autobus-a-coyuca-de-benitez", AutobusACoyucaDeBenitez);
+customElements.define(
+  "page-autobus-a-coyuca-de-benitez",
+  AutobusACoyucaDeBenitez
+);
