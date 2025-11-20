@@ -127,23 +127,23 @@ slides-data='[
     <div class="attractions__grid">
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/coyuca/laguna.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/coyuca-de-benitez/laguna-coyuca.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">Laguna de Coyuca</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/coyuca/playa.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/coyuca-de-benitez/cascada-el-salto.webp")'></div>
         <div class="attraction-card__content">
-          <h3 class="attraction-card__title">Playas tranquilas</h3>
+          <h3 class="attraction-card__title">Casacda el Salto</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/coyuca/naturaleza.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/coyuca-de-benitez/el-carrizal.webp")'></div>
         <div class="attraction-card__content">
-          <h3 class="attraction-card__title">Naturaleza tropical</h3>
+          <h3 class="attraction-card__title">El Carrizal</h3>
         </div>
       </div>
 

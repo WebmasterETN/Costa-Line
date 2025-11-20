@@ -134,21 +134,21 @@ class PageToluca extends HTMLElement {
     <div class="attractions__grid">
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/toluca/cosmovitral.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/toluca/cosmovitral-1.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">Cosmovitral Jardín Botánico</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/toluca/nevado-toluca.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/toluca/nevado-1.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">Nevado de Toluca</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/toluca/catedral-toluca.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/toluca/catedral-1.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">Centro Histórico y Catedral</h3>
         </div>

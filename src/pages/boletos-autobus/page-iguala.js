@@ -134,21 +134,21 @@ class PageIguala extends HTMLElement {
     <div class="attractions__grid">
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/iguala/bandera.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/iguala/museo-bandera-1.webp")'></div>
         <div class="attraction-card__content">
-          <h3 class="attraction-card__title">Monumental Bandera</h3>
+          <h3 class="attraction-card__title">Museo de la Bandera</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/iguala/laguna-tuxpan.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/iguala/laguna-tuxpan-1.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">Laguna de Tuxpan</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/iguala/zocalo.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/iguala/zocalo-iguala-1.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">Zócalo de Iguala</h3>
         </div>

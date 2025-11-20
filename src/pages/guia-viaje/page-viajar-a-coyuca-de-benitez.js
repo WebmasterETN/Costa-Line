@@ -32,7 +32,7 @@ class PageViajaraCoyucaDeBenitez extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/coyuca/laguna-coyuca.webp");' data-alt="Laguna de Coyuca"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/coyuca-de-benitez/laguna-coyuca.webp");' data-alt="Laguna de Coyuca"></div>
           <div class="place-card__content">
             <p class="place-card__title">1. Laguna de Coyuca</p>
             <p class="place-card__description">
@@ -44,7 +44,7 @@ class PageViajaraCoyucaDeBenitez extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/coyuca/playa-coyuca.webp");' data-alt="Playa en Coyuca de Benítez"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/coyuca-de-benitez/playa-coyuca.webp");' data-alt="Playa en Coyuca de Benítez"></div>
           <div class="place-card__content">
             <p class="place-card__title">2. Playas de la Barra de Coyuca</p>
             <p class="place-card__description">
@@ -56,7 +56,7 @@ class PageViajaraCoyucaDeBenitez extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/coyuca/rio-coyuca.webp");' data-alt="Río Coyuca"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/coyuca-de-benitez/rio-coyuca.webp");' data-alt="Río Coyuca"></div>
           <div class="place-card__content">
             <p class="place-card__title">3. Río Coyuca</p>
             <p class="place-card__description">
@@ -68,7 +68,7 @@ class PageViajaraCoyucaDeBenitez extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/coyuca/mirador-coyuca.webp");' data-alt="Miradores de Coyuca de Benítez"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/coyuca-de-benitez/mirador-coyuca.webp");' data-alt="Miradores de Coyuca de Benítez"></div>
           <div class="place-card__content">
             <p class="place-card__title">4. Miradores de la Sierra</p>
             <p class="place-card__description">
@@ -80,7 +80,7 @@ class PageViajaraCoyucaDeBenitez extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/coyuca/mercado-coyuca.webp");' data-alt="Mercado de Coyuca de Benítez"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/coyuca-de-benitez/mercado-coyuca.webp");' data-alt="Mercado de Coyuca de Benítez"></div>
           <div class="place-card__content">
             <p class="place-card__title">5. Mercado Municipal de Coyuca</p>
             <p class="place-card__description">
@@ -100,19 +100,19 @@ class PageViajaraCoyucaDeBenitez extends HTMLElement {
     <div class="food-grid">
 
       <div class="food-card">
-        <img alt="Pescado a la talla en Coyuca" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/coyuca/pescado-a-la-talla.webp">
+        <img alt="Pescado a la talla en Coyuca" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/coyuca-de-benitez/pescado-a-la-talla.webp">
         <h3 class="food-card__title">Pescado a la Talla</h3>
         <p class="food-card__description">Típico de la Costa Grande: marinado en adobo rojo, asado al carbón y acompañado de tortillas y salsas frescas.</p>
       </div>
 
       <div class="food-card">
-        <img alt="Tiritas de pescado estilo Costa Grande" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/coyuca/tiritas.webp">
+        <img alt="Tiritas de pescado estilo Costa Grande" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/coyuca-de-benitez/tiritas.webp">
         <h3 class="food-card__title">Tiritas de Pescado</h3>
         <p class="food-card__description">Un clásico costeño preparado con pescado fresco, limón, cebolla morada y chile verde.</p>
       </div>
 
       <div class="food-card">
-        <img alt="Coco fresco de Coyuca" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/coyuca/coco-coyuca.webp">
+        <img alt="Coco fresco de Coyuca" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/coyuca-de-benitez/coco-coyuca.webp">
         <h3 class="food-card__title">Coco Fresco</h3>
         <p class="food-card__description">Ideal para refrescarte en la playa o la laguna, servido frío y con un sabor naturalmente dulce.</p>
       </div>

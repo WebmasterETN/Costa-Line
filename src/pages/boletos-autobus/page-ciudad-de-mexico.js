@@ -193,21 +193,21 @@ class PageCiudadDeMexico extends HTMLElement {
     <div class="attractions__grid">
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/cdmx/centro-historico.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/cdmx/plaza-de-la-constitucion.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">Centro Histórico</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/cdmx/bellas-artes.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/cdmx/palacio-de-bellas-artes.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">Palacio de Bellas Artes</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/cdmx/chapultepec.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/cdmx/bosque-chapultepec.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">Bosque de Chapultepec</h3>
         </div>

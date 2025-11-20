@@ -134,7 +134,7 @@ class PageCuernavaca extends HTMLElement {
     <div class="attractions__grid">
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/cuernavaca/palacio-cortes.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/cuernavaca/palacio-de-cortes.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">Palacio de Cortés</h3>
         </div>
@@ -148,7 +148,7 @@ class PageCuernavaca extends HTMLElement {
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/cuernavaca/catedral.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/cuernavaca/catedral-cuernavaca.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">Catedral de Cuernavaca</h3>
         </div>

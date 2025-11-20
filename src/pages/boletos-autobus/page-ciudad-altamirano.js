@@ -128,23 +128,23 @@ class PageCiudadAltamirano extends HTMLElement {
     <div class="attractions__grid">
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/altamirano/centro.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/cd-altamirano/zocalo-cd-altamirano.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">Centro de Ciudad Altamirano</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/altamirano/rio-balsas.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/cd-altamirano/rio-cutzamala.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">Río Balsas</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/altamirano/naturaleza.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/cd-altamirano/catedral-cd-altamirano.webp")'></div>
         <div class="attraction-card__content">
-          <h3 class="attraction-card__title">Paisajes de Guerrero</h3>
+          <h3 class="attraction-card__title">Catedral de Ciudad Altamirano</h3>
         </div>
       </div>
 

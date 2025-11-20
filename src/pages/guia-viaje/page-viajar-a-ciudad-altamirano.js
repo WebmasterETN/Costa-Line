@@ -7,7 +7,7 @@ class PageViajaraCiudadAltamirano extends HTMLElement {
     this.innerHTML = `
            <app-cotiza></app-cotiza>
 
-<section class="hero" style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url("../src/assets/img/guia-viajes/banners/banner-guia-viaje-altamirano.webp");' data-alt="Vista panorámica de Ciudad Altamirano, Guerrero">
+<section class="hero" style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url("../src/assets/img/guia-viajes/banners/banner-guia-viaje-ciudad-altamirano.webp");' data-alt="Vista panorámica de Ciudad Altamirano, Guerrero">
   <div class="hero__content">
     <h1 class="hero__title">
       Descubre la Tierra Caliente de Guerrero: Ciudad Altamirano
@@ -32,7 +32,7 @@ class PageViajaraCiudadAltamirano extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/altamirano/catedral-altamirano.webp");' data-alt="Catedral de San Juan Bautista"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/ciudad-altamirano/catedral-altamirano.webp");' data-alt="Catedral de San Juan Bautista"></div>
           <div class="place-card__content">
             <p class="place-card__title">1. Catedral de San Juan Bautista</p>
             <p class="place-card__description">
@@ -44,7 +44,7 @@ class PageViajaraCiudadAltamirano extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/altamirano/cerro-chuperio.webp");' data-alt="Cerro Chuperio"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/ciudad-altamirano/cerro-chuperio.webp");' data-alt="Cerro Chuperio"></div>
           <div class="place-card__content">
             <p class="place-card__title">2. Cerro Chuperio</p>
             <p class="place-card__description">
@@ -54,21 +54,23 @@ class PageViajaraCiudadAltamirano extends HTMLElement {
         </div>
       </div>
 
+      <!-- REEMPLAZO DE LA TARJETA: KIOSCO Y PLAZA PRINCIPAL -->
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/altamirano/piramide-altamirano.webp");' data-alt="Pirámide de Pungarabato"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/ciudad-altamirano/kiosco-altamirano.webp");' data-alt="Kiosco y Plaza Principal de Ciudad Altamirano"></div>
           <div class="place-card__content">
-            <p class="place-card__title">3. “La Pirámide” de Pungarabato</p>
+            <p class="place-card__title">3. Kiosco y Plaza Principal</p>
             <p class="place-card__description">
-              Un punto turístico distintivo en la zona, muy visitado por locales y viajeros que buscan conocer los alrededores de la ciudad.
+              El corazón social de la ciudad. Un espacio ideal para caminar, disfrutar del ambiente local, tomar fotografías y conocer la vida cotidiana de Altamirano.
             </p>
           </div>
         </div>
       </div>
+      <!-- FIN DEL REEMPLAZO -->
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/altamirano/parque-municipal-altamirano.webp");' data-alt="Parque Municipal de Altamirano"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/ciudad-altamirano/parque-municipal-altamirano.webp");' data-alt="Parque Municipal de Altamirano"></div>
           <div class="place-card__content">
             <p class="place-card__title">4. Parque Municipal</p>
             <p class="place-card__description">
@@ -80,7 +82,7 @@ class PageViajaraCiudadAltamirano extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/altamirano/mercado-altamirano.webp");' data-alt="Mercado Municipal Ciudad Altamirano"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/ciudad-altamirano/mercado-altamirano.webp");' data-alt="Mercado Municipal Ciudad Altamirano"></div>
           <div class="place-card__content">
             <p class="place-card__title">5. Mercado Municipal</p>
             <p class="place-card__description">
@@ -100,21 +102,21 @@ class PageViajaraCiudadAltamirano extends HTMLElement {
     <div class="food-grid">
 
       <div class="food-card">
-        <img alt="Enchiladas Calentanas" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/altamirano/enchiladas-calentanas.webp">
+        <img alt="Enchiladas Calentanas" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/ciudad-altamirano/enchiladas-calentanas.webp">
         <h3 class="food-card__title">Enchiladas Calentanas</h3>
         <p class="food-card__description">Tortillas hechas a mano, fritas en comal y bañadas en una salsa tradicional de la región. Un clásico imperdible.</p>
       </div>
 
       <div class="food-card">
-        <img alt="Pozole estilo Tierra Caliente" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/altamirano/pozole-tierra-caliente.webp">
+        <img alt="Pozole estilo Tierra Caliente" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/ciudad-altamirano/pozole-calentano.webp">
         <h3 class="food-card__title">Pozole Calentano</h3>
         <p class="food-card__description">Una variación local del pozole guerrerense, más condimentado y con un estilo muy característico de la zona.</p>
       </div>
 
       <div class="food-card">
-        <img alt="Atole local calentano" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/altamirano/atole-calentano.webp">
+        <img alt="Atole local calentano" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/ciudad-altamirano/atole-calentano.webp">
         <h3 class="food-card__title">Atole Calentano</h3>
-        <p class="food-card__description">Bebida tradicional preparada con maíz y especies locales, ideal para acompañar antojitos típicos.</p>
+        <p class="food-card__description">Bebida tradicional preparada con maíz y especias locales, ideal para acompañar antojitos típicos.</p>
       </div>
 
     </div>
