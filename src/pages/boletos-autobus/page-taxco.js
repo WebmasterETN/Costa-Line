@@ -134,23 +134,23 @@ class PageTaxco extends HTMLElement {
     <div class="attractions__grid">
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/taxco/santa-prisca.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/taxco/museo-de-plateria.webp")'></div>
         <div class="attraction-card__content">
-          <h3 class="attraction-card__title">Parroquia de Santa Prisca</h3>
+          <h3 class="attraction-card__title">Museo de la Platería</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/taxco/teleferico.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/taxco/grutas-cacahuamilpa.webp")'></div>
         <div class="attraction-card__content">
-          <h3 class="attraction-card__title">Teleférico de Taxco</h3>
+          <h3 class="attraction-card__title">Grutas de Cacahuamilpa</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/taxco/zocalo-taxco.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/taxco/mirador-cristo-monumental.webp")'></div>
         <div class="attraction-card__content">
-          <h3 class="attraction-card__title">Zócalo de Taxco</h3>
+          <h3 class="attraction-card__title">Mirador del Cristo Monumental</h3>
         </div>
       </div>
 

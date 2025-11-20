@@ -134,23 +134,23 @@ class PageChilpancingo extends HTMLElement {
     <div class="attractions__grid">
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/chilpancingo/catedral.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/chilpancingo/museo-regional-guerrero.webp")'></div>
         <div class="attraction-card__content">
-          <h3 class="attraction-card__title">Catedral de Santa María de la Asunción</h3>
+          <h3 class="attraction-card__title">Museo Regional de Guerrero</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/chilpancingo/zocalo.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/chilpancingo/zoo-zoochilpan.webp")'></div>
         <div class="attraction-card__content">
-          <h3 class="attraction-card__title">Zócalo de Chilpancingo</h3>
+          <h3 class="attraction-card__title">Zoo Zoochilpan</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/chilpancingo/parque.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/chilpancingo/rio-verde.webp")'></div>
         <div class="attraction-card__content">
-          <h3 class="attraction-card__title">Parque Nacional El Veladero</h3>
+          <h3 class="attraction-card__title">Rio Verde</h3>
         </div>
       </div>
 

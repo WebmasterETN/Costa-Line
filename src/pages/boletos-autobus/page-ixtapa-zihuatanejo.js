@@ -134,23 +134,23 @@ class PageIxtapaZihuatanejo extends HTMLElement {
     <div class="attractions__grid">
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/ixtapa-zihuatanejo/playa-el-palma.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/ixtapa/playa-el-palmar.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">Playa El Palmar</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/ixtapa-zihuatanejo/la-roca.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/ixtapa/playa-la-ropa.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">La Ropa</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/ixtapa-zihuatanejo/muelle-zihua.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/ixtapa/isla-ixtapa.webp")'></div>
         <div class="attraction-card__content">
-          <h3 class="attraction-card__title">Muelle de Zihuatanejo</h3>
+          <h3 class="attraction-card__title">Isla Ixtapa</h3>
         </div>
       </div>
 

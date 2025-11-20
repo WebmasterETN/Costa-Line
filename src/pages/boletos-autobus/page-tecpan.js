@@ -134,23 +134,23 @@ class PageTecpan extends HTMLElement {
     <div class="attractions__grid">
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/tecpan/playa-tecpan.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/tecpan/plaza-civica-1.webp")'></div>
         <div class="attraction-card__content">
-          <h3 class="attraction-card__title">Playas de Tecpan</h3>
+          <h3 class="attraction-card__title">Plaza Civica de Tecpan</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/tecpan/costa-grande.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/tecpan/rio-tecpan-1.webp")'></div>
         <div class="attraction-card__content">
-          <h3 class="attraction-card__title">Costa Grande</h3>
+          <h3 class="attraction-card__title">Rio Tecpan</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/tecpan/vista-tecpan.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/tecpan/laguna-mitla-1.webp")'></div>
         <div class="attraction-card__content">
-          <h3 class="attraction-card__title">Tradición y Cultura Local</h3>
+          <h3 class="attraction-card__title">Laguna de Mitla</h3>
         </div>
       </div>
 

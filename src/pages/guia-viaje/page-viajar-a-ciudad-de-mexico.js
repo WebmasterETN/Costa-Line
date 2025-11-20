@@ -32,7 +32,7 @@ class PageViajaraCiudadDeMexico extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/cdmx/zocalo-cdmx.webp");' data-alt="Zócalo de la Ciudad de México"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/ciudad-de-mexico/zocalo-cdmx.webp");' data-alt="Zócalo de la Ciudad de México"></div>
           <div class="place-card__content">
             <p class="place-card__title">1. Zócalo y Centro Histórico</p>
             <p class="place-card__description">
@@ -44,7 +44,7 @@ class PageViajaraCiudadDeMexico extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/cdmx/chapultepec-cdmx.webp");' data-alt="Bosque de Chapultepec"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/ciudad-de-mexico/chapultepec-cdmx.webp");' data-alt="Bosque de Chapultepec"></div>
           <div class="place-card__content">
             <p class="place-card__title">2. Bosque de Chapultepec</p>
             <p class="place-card__description">
@@ -56,7 +56,7 @@ class PageViajaraCiudadDeMexico extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/cdmx/frida-kahlo-cdmx.webp");' data-alt="Museo Frida Kahlo en Coyoacán"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/ciudad-de-mexico/frida-kahlo-cdmx.webp");' data-alt="Museo Frida Kahlo en Coyoacán"></div>
           <div class="place-card__content">
             <p class="place-card__title">3. Museo Frida Kahlo en Coyoacán</p>
             <p class="place-card__description">
@@ -68,7 +68,7 @@ class PageViajaraCiudadDeMexico extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/cdmx/xochimilco-cdmx.webp");' data-alt="Trajineras de Xochimilco"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/ciudad-de-mexico/xochimilco-cdmx.webp");' data-alt="Trajineras de Xochimilco"></div>
           <div class="place-card__content">
             <p class="place-card__title">4. Xochimilco</p>
             <p class="place-card__description">
@@ -80,7 +80,7 @@ class PageViajaraCiudadDeMexico extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/cdmx/angel-independencia-cdmx.webp");' data-alt="Ángel de la Independencia"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/ciudad-de-mexico/angel-independencia-cdmx.webp");' data-alt="Ángel de la Independencia"></div>
           <div class="place-card__content">
             <p class="place-card__title">5. Paseo de la Reforma y el Ángel</p>
             <p class="place-card__description">
@@ -100,19 +100,19 @@ class PageViajaraCiudadDeMexico extends HTMLElement {
     <div class="food-grid">
 
       <div class="food-card">
-        <img alt="Tacos al pastor en Ciudad de México" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/cdmx/tacos-al-pastor.webp">
+        <img alt="Tacos al pastor en Ciudad de México" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/ciudad-de-mexico/tacos-al-pastor.webp">
         <h3 class="food-card__title">Tacos al Pastor</h3>
         <p class="food-card__description">El platillo estrella de la capital: carne adobada al trompo, piña, cebolla y cilantro. Un clásico imperdible.</p>
       </div>
 
       <div class="food-card">
-        <img alt="Quesadillas tradicionales de CDMX" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/cdmx/quesadillas-cdmx.webp">
+        <img alt="Quesadillas tradicionales de CDMX" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/ciudad-de-mexico/quesadillas-cdmx.webp">
         <h3 class="food-card__title">Quesadillas (¿con queso o sin queso?)</h3>
         <p class="food-card__description">Un debate eterno, pero un antojito delicioso preparado en comal con ingredientes tradicionales.</p>
       </div>
 
       <div class="food-card">
-        <img alt="Churros mexicanos" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/cdmx/churros-cdmx.webp">
+        <img alt="Churros mexicanos" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/ciudad-de-mexico/churros-cdmx.webp">
         <h3 class="food-card__title">Churros con Chocolate</h3>
         <p class="food-card__description">Una parada obligada para quienes buscan probar algo dulce en cualquier momento del día.</p>
       </div>

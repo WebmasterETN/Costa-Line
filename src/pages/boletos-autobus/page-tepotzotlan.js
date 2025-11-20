@@ -134,23 +134,23 @@ class PageTepotzotlan extends HTMLElement {
     <div class="attractions__grid">
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/tepotzotlan/museo-virreinal.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/tepotzotlan/museo-virreinato-1.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">Museo Nacional del Virreinato</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/tepotzotlan/arcos-sitio.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/tepotzotlan/arcos-del-sitio-1.webp")'></div>
         <div class="attraction-card__content">
           <h3 class="attraction-card__title">Arcos del Sitio</h3>
         </div>
       </div>
 
       <div class="attraction-card">
-        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/tepotzotlan/plaza-principal.webp")'></div>
+        <div class="attraction-card__image" style='background-image: url("../src/assets/img/destinos-img/tepotzotlan/centro-historico-1.webp")'></div>
         <div class="attraction-card__content">
-          <h3 class="attraction-card__title">Plaza Principal y Artesanías</h3>
+          <h3 class="attraction-card__title">Plaza Principal</h3>
         </div>
       </div>
 
