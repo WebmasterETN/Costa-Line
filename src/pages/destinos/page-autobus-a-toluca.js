@@ -72,7 +72,7 @@ class AutobusAToluca extends HTMLElement {
               <p class="cta__subtitle">
                 Descubre cultura, naturaleza y tradición en la capital del Estado de México.
               </p>
-              <a href="../boletos-autobus/toluca.html" 
+              <a href="../../boletos-autobus/toluca.html" 
                  class="btn btn--primary btn--large" 
                  target="_blank" 
                  rel="noopener noreferrer"

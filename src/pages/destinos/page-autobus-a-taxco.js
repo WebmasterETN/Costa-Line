@@ -75,7 +75,7 @@ class AutobusATaxco extends HTMLElement {
               <p class="cta__subtitle">
                 Disfruta uno de los Pueblos Mágicos más hermosos de México, con historia, cultura y tradición platera.
               </p>
-              <a href="../boletos-autobus/taxco.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer">Consulta horarios y compra tu boleto</a>
+              <a href="../../boletos-autobus/taxco.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer">Consulta horarios y compra tu boleto</a>
           </div>
       </section>
 

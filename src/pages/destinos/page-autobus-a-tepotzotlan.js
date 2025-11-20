@@ -71,7 +71,7 @@ class AutobusATepotzotlan extends HTMLElement {
               <p class="cta__subtitle">
                 Disfruta historia, cultura y sabor en uno de los Pueblos Mágicos más importantes del Estado de México.
               </p>
-              <a href="../boletos-autobus/tepotzotlan.html" 
+              <a href="../../boletos-autobus/tepotzotlan.html" 
                  class="btn btn--primary btn--large" 
                  target="_blank" 
                  rel="noopener noreferrer"

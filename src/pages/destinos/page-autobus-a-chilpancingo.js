@@ -48,7 +48,7 @@ class AutobusAChilpancingo extends HTMLElement {
           <div class="container">
               <h2 class="cta__title">¡Viaja a Chilpancingo con ETN Turistar!</h2>
               <p class="cta__subtitle">No esperes más para conocer la capital cultural de Guerrero. Tu viaje está a solo un clic de distancia.</p>
-              <a href="../boletos-autobus/chilpancingo.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Comprar boletos" tabindex="0">Consulta horarios y compra tu boleto</a>
+              <a href="../../boletos-autobus/chilpancingo.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Comprar boletos" tabindex="0">Consulta horarios y compra tu boleto</a>
           </div>
       </section>
 

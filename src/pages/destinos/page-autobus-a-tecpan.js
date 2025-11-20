@@ -66,7 +66,7 @@ class AutobusATecpan extends HTMLElement {
               <p class="cta__subtitle">
                 Descubre cultura, naturaleza e historia en el corazón de la Costa Grande. ¡Tu próxima aventura está a un clic!
               </p>
-              <a href="../boletos-autobus/tecpan.html" 
+              <a href="../../boletos-autobus/tecpan.html" 
                  class="btn btn--primary btn--large" 
                  target="_blank" 
                  rel="noopener noreferrer"
