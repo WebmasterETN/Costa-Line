@@ -56,19 +56,18 @@ class PageViajaraTecpan extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/tecpan/mercado.webp");' data-alt="Mercado Municipal Tecpan"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/tecpan/playa-michigan.webp");' data-alt="Playa Michigan Tecpan"></div>
           <div class="place-card__content">
-            <p class="place-card__title">3. Mercado Municipal</p>
+            <p class="place-card__title">3. Playa Michigan</p>
             <p class="place-card__description">
-              Lugar ideal para probar antojitos locales, mariscos frescos y productos típicos de la región.
-            </p>
+              Una playa menos concurrida, ideal para quienes buscan tranquilidad y contacto directo con la naturaleza.
           </div>
         </div>
       </div>
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/tecpan/mirador.webp");' data-alt="Mirador de Tecpan"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/tecpan/mirador-tecpan.webp");' data-alt="Mirador de Tecpan"></div>
           <div class="place-card__content">
             <p class="place-card__title">4. Mirador del Cerro</p>
             <p class="place-card__description">

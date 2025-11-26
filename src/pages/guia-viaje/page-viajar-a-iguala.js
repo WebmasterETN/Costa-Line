@@ -68,12 +68,11 @@ class PageViajaraIguala extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/iguala/cerro-tehuixtla.webp");' data-alt="Cerro del Tehuilote Iguala"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/iguala/bandera-monumental.webp");' data-alt="Bandera Monumental Iguala"></div>
           <div class="place-card__content">
-            <p class="place-card__title">4. Cerro del Tehuilote</p>
+            <p class="place-card__title">4. Bandera Monumental</p>
             <p class="place-card__description">
-              Un punto natural ideal para hacer senderismo ligero y disfrutar de vistas panorámicas de toda la ciudad.
-            </p>
+              Una de las banderas monumentales más grandes de México, un símbolo patriótico que se puede apreciar desde varios puntos de la ciudad.
           </div>
         </div>
       </div>

@@ -56,11 +56,11 @@ class PageViajaraTepotzotlan extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/tepotzotlan/iglesia-santo-domingo.webp");' data-alt="Iglesia de Santo Domingo Tepotzotlán"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/tepotzotlan/arcos-del-sitio.webp");' data-alt="Arcos del Sitio Tepotzotlán"></div>
           <div class="place-card__content">
-            <p class="place-card__title">3. Iglesia de Santo Domingo</p>
+            <p class="place-card__title">3. Arcos del Sitio</p>
             <p class="place-card__description">
-              Una joya arquitectónica con impresionantes murales, retablos y detalles ornamentales que reflejan el arte colonial.
+              Un acueducto histórico que destaca por su arquitectura y el entorno natural que lo rodea.
             </p>
           </div>
         </div>
