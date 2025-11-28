@@ -15,7 +15,7 @@ class PageViajaraTaxco extends HTMLElement {
     <h2 class="hero__subtitle">
       Historia, arquitectura colonial y artesanía en plata en el corazón de Guerrero.
     </h2>
-    <a href="../destinos/taxco.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
+    <a href="../destinos/autobus-a-taxco.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
   </div>
 </section>
 
@@ -158,7 +158,7 @@ class PageViajaraTaxco extends HTMLElement {
 <section class="cta-section">
   <h2 class="cta-section__title">¿Listo para tu Viaje a Taxco?</h2>
   <p class="cta-section__text">Historia, arquitectura colonial y la tradición en plata te esperan en la Ciudad de la Plata. Planea tu viaje hoy mismo.</p>
-  <a href="../destinos/taxco.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Taxco" tabindex="0">Ver más sobre Taxco</a>
+  <a href="../destinos/autobus-a-taxco.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Taxco" tabindex="0">Ver más sobre Taxco</a>
 </section>
 
 <app-cookies-policy></app-cookies-policy>

@@ -15,7 +15,7 @@ class PageViajaraTecpan extends HTMLElement {
     <h2 class="hero__subtitle">
       Playas tranquilas, paisajes verdes y la calidez de un pueblo lleno de historia.
     </h2>
-    <a href="../destinos/tecpan.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
+    <a href="../destinos/autobus-a-tecpan.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
   </div>
 </section>
 
@@ -157,7 +157,7 @@ class PageViajaraTecpan extends HTMLElement {
 <section class="cta-section">
   <h2 class="cta-section__title">¿Listo para tu Viaje a Tecpan?</h2>
   <p class="cta-section__text">Relájate en playas tranquilas, disfruta de la naturaleza y conoce la calidez de la Costa Chica. Planea tu viaje hoy mismo.</p>
-  <a href="../destinos/tecpan.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Tecpan" tabindex="0">Ver más sobre Tecpan</a>
+  <a href="../destinos/autobus-a-tecpan.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Tecpan" tabindex="0">Ver más sobre Tecpan</a>
 </section>
 
 <app-cookies-policy></app-cookies-policy>

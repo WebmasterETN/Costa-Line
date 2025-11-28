@@ -15,7 +15,7 @@ class PageViajaraIxtapaZihuatanejo extends HTMLElement {
     <h2 class="hero__subtitle">
       Un destino de playa único, combinando resorts modernos, calidez local y paisajes naturales impresionantes.
     </h2>
-    <a href="../destinos/ixtapa-zihuatanejo.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
+    <a href="../destinos/autobus-a-ixtapa-zihuatanejo.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
   </div>
 </section>
 
@@ -156,7 +156,7 @@ class PageViajaraIxtapaZihuatanejo extends HTMLElement {
 <section class="cta-section">
   <h2 class="cta-section__title">¿Listo para tu Viaje a Ixtapa-Zihuatanejo?</h2>
   <p class="cta-section__text">Sol, playas paradisíacas y gastronomía costera te esperan en este destino único de Guerrero. Planea tu viaje hoy mismo.</p>
-  <a href="../destinos/ixtapa-zihuatanejo.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Ixtapa-Zihuatanejo" tabindex="0">Ver más sobre Ixtapa-Zihuatanejo</a>
+  <a href="../destinos/autobus-a-ixtapa-zihuatanejo.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Ixtapa-Zihuatanejo" tabindex="0">Ver más sobre Ixtapa-Zihuatanejo</a>
 </section>
 
 <app-cookies-policy></app-cookies-policy>
