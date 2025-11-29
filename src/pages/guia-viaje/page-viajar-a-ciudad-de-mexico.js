@@ -15,7 +15,7 @@ class PageViajaraCiudadDeMexico extends HTMLElement {
     <h2 class="hero__subtitle">
       Cultura, historia, modernidad y sabores únicos — desde su Centro Histórico hasta museos de clase mundial, barrios emblemáticos y experiencias inolvidables.
     </h2>
-    <a href="../destinos/ciudad-de-mexico.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
+    <a href="../destinos/autobus-a-ciudad-de-mexico.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
   </div>
 </section>
 
@@ -158,7 +158,7 @@ class PageViajaraCiudadDeMexico extends HTMLElement {
 <section class="cta-section">
   <h2 class="cta-section__title">¿Listo para tu Viaje a la Ciudad de México?</h2>
   <p class="cta-section__text">Descubre museos, barrios históricos, gastronomía única y toda la vida cultural de la capital. Planea tu viaje hoy mismo.</p>
-  <a href="../destinos/ciudad-de-mexico.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre la Ciudad de México" tabindex="0">Ver más sobre Ciudad de México</a>
+  <a href="../destinos/autobus-a-ciudad-de-mexico.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre la Ciudad de México" tabindex="0">Ver más sobre Ciudad de México</a>
 </section>
 
 <app-cookies-policy></app-cookies-policy>

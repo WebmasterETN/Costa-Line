@@ -15,7 +15,7 @@ class PageViajaraChilpancingo extends HTMLElement {
     <h2 class="hero__subtitle">
       Historia, naturaleza y tradición en la capital de Guerrero — desde museos y zonas arqueológicas hasta senderos serranos.
     </h2>
-    <a href="../destinos/ciudad-chilpancingo.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
+    <a href="../destinos/autobus-a-chilpancingo.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
   </div>
 </section>
 
@@ -158,7 +158,7 @@ class PageViajaraChilpancingo extends HTMLElement {
 <section class="cta-section">
   <h2 class="cta-section__title">¿Listo para tu Viaje a Chilpancingo?</h2>
   <p class="cta-section__text">Explora la historia, gastronomía y tradiciones de la capital de Guerrero. Planea tu visita y descubre la esencia cultural de Chilpancingo.</p>
-  <a href="../destinos/ciudad-chilpancingo.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Chilpancingo" tabindex="0">Ver más sobre Chilpancingo</a>
+  <a href="../destinos/autobus-a-chilpancingo.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Chilpancingo" tabindex="0">Ver más sobre Chilpancingo</a>
 </section>
 
 <app-cookies-policy></app-cookies-policy>

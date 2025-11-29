@@ -15,7 +15,7 @@ class PageViajaraTepotzotlan extends HTMLElement {
     <h2 class="hero__subtitle">
       Museos, arquitectura virreinal y calles llenas de tradición a solo minutos de CDMX.
     </h2>
-    <a href="../destinos/tepotzotlan.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
+    <a href="../destinos/autobus-a-tepotzotlan.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
   </div>
 </section>
 
@@ -56,11 +56,11 @@ class PageViajaraTepotzotlan extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/tepotzotlan/iglesia-santo-domingo.webp");' data-alt="Iglesia de Santo Domingo Tepotzotlán"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/tepotzotlan/arcos-del-sitio.webp");' data-alt="Arcos del Sitio Tepotzotlán"></div>
           <div class="place-card__content">
-            <p class="place-card__title">3. Iglesia de Santo Domingo</p>
+            <p class="place-card__title">3. Arcos del Sitio</p>
             <p class="place-card__description">
-              Una joya arquitectónica con impresionantes murales, retablos y detalles ornamentales que reflejan el arte colonial.
+              Un acueducto histórico que destaca por su arquitectura y el entorno natural que lo rodea.
             </p>
           </div>
         </div>
@@ -132,7 +132,11 @@ class PageViajaraTepotzotlan extends HTMLElement {
           <span class="faq-item__question">¿Cuál es la mejor temporada para visitar Tepotzotlán?</span>
           <span class="icon-arrow-down faq-item__icon material-symbols-outlined"></span>
         </summary>
-        <p class="faq-item__answer">De noviembre a abril, con clima agradable, ideal para recorrer plazas, museos y calles empedradas.</p>
+        <div class="faq-item__answer">
+          <div>
+            De noviembre a abril, con clima agradable, ideal para recorrer plazas, museos y calles empedradas.
+          </div>
+        </div>
       </details>
 
       <details class="faq-item">
@@ -140,7 +144,11 @@ class PageViajaraTepotzotlan extends HTMLElement {
           <span class="faq-item__question">¿Cómo llegar a Tepotzotlán?</span>
           <span class="icon-arrow-down faq-item__icon material-symbols-outlined"></span>
         </summary>
-        <p class="faq-item__answer">Se encuentra a solo 45 minutos de CDMX, accesible por carretera o transporte público desde la capital y municipios cercanos.</p>
+        <div class="faq-item__answer">
+          <div>
+            Se encuentra a solo 45 minutos de CDMX, accesible por carretera o transporte público desde la capital y municipios cercanos.
+          </div>
+        </div>
       </details>
 
       <details class="faq-item">
@@ -148,7 +156,11 @@ class PageViajaraTepotzotlan extends HTMLElement {
           <span class="faq-item__question">¿Qué festividades destacan?</span>
           <span class="icon-arrow-down faq-item__icon material-symbols-outlined"></span>
         </summary>
-        <p class="faq-item__answer">La Feria de Tepotzotlán, celebraciones religiosas y festivales culturales en el Museo Nacional del Virreinato son las más destacadas.</p>
+        <div class="faq-item__answer">
+          <div>
+            La Feria de Tepotzotlán, celebraciones religiosas y festivales culturales en el Museo Nacional del Virreinato son las más destacadas.
+          </div>
+        </div>
       </details>
 
     </div>
@@ -158,7 +170,7 @@ class PageViajaraTepotzotlan extends HTMLElement {
 <section class="cta-section">
   <h2 class="cta-section__title">¿Listo para tu Viaje a Tepotzotlán?</h2>
   <p class="cta-section__text">Explora su historia, su arquitectura virreinal y disfruta de los sabores tradicionales del Estado de México. Planea tu viaje hoy mismo.</p>
-  <a href="../destinos/tepotzotlan.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Tepotzotlán" tabindex="0">Ver más sobre Tepotzotlán</a>
+  <a href="../destinos/autobus-a-tepotzotlan.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Tepotzotlán" tabindex="0">Ver más sobre Tepotzotlán</a>
 </section>
 
 <app-cookies-policy></app-cookies-policy>
@@ -166,6 +178,7 @@ class PageViajaraTepotzotlan extends HTMLElement {
 <app-button-eva-trip></app-button-eva-trip>
 
         `;
+
   }
 }
 customElements.define("page-viajar-a-tepotzotlan", PageViajaraTepotzotlan);

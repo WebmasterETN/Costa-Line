@@ -15,7 +15,7 @@ class PageViajaraIxtapaZihuatanejo extends HTMLElement {
     <h2 class="hero__subtitle">
       Un destino de playa único, combinando resorts modernos, calidez local y paisajes naturales impresionantes.
     </h2>
-    <a href="../destinos/ixtapa-zihuatanejo.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
+    <a href="../destinos/autobus-a-ixtapa-zihuatanejo.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
   </div>
 </section>
 
@@ -32,24 +32,22 @@ class PageViajaraIxtapaZihuatanejo extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/ixtapa-zihuatanejo/playa-ixtapa.webp");' data-alt="Playa de Ixtapa"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/ixtapa-zihuatanejo/playa-la-ropa.webp");' data-alt="Playa la Ropa"></div>
           <div class="place-card__content">
-            <p class="place-card__title">1. Playa de Ixtapa</p>
+            <p class="place-card__title">1. Playa la Ropa</p>
             <p class="place-card__description">
               Una playa amplia, ideal para nadar, practicar deportes acuáticos o simplemente relajarse bajo el sol. Perfecta para toda la familia.
-            </p>
           </div>
         </div>
       </div>
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/ixtapa-zihuatanejo/playa-zihuatanejo.webp");' data-alt="Playa de Zihuatanejo"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/ixtapa-zihuatanejo/playa-la-madera.webp");' data-alt="Playa la Madera"></div>
           <div class="place-card__content">
-            <p class="place-card__title">2. Playa de Zihuatanejo</p>
+            <p class="place-card__title">2. Playa la Madera</p>
             <p class="place-card__description">
               Con su ambiente tranquilo y pintoresco, esta playa es ideal para paseos en lancha, disfrutar mariscos frescos y apreciar atardeceres inolvidables.
-            </p>
           </div>
         </div>
       </div>
@@ -68,7 +66,7 @@ class PageViajaraIxtapaZihuatanejo extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/ixtapa-zihuatanejo/islas-mujeres.webp");' data-alt="Islas cercanas a Ixtapa"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/ixtapa-zihuatanejo/isla.webp");' data-alt="Islas cercanas a Ixtapa"></div>
           <div class="place-card__content">
             <p class="place-card__title">4. Excursiones a islas cercanas</p>
             <p class="place-card__description">
@@ -106,7 +104,7 @@ class PageViajaraIxtapaZihuatanejo extends HTMLElement {
       </div>
 
       <div class="food-card">
-        <img alt="Pescado a la talla" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/ixtapa-zihuatanejo/pescado-a-la-talla.webp">
+        <img alt="Pescado a la talla" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/ixtapa-zihuatanejo/pescado.webp">
         <h3 class="food-card__title">Pescado a la Talla</h3>
         <p class="food-card__description">Marinado en adobo rojo y asado al carbón, acompañado de tortillas, salsas frescas y guarniciones locales.</p>
       </div>
@@ -158,7 +156,7 @@ class PageViajaraIxtapaZihuatanejo extends HTMLElement {
 <section class="cta-section">
   <h2 class="cta-section__title">¿Listo para tu Viaje a Ixtapa-Zihuatanejo?</h2>
   <p class="cta-section__text">Sol, playas paradisíacas y gastronomía costera te esperan en este destino único de Guerrero. Planea tu viaje hoy mismo.</p>
-  <a href="../destinos/ixtapa-zihuatanejo.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Ixtapa-Zihuatanejo" tabindex="0">Ver más sobre Ixtapa-Zihuatanejo</a>
+  <a href="../destinos/autobus-a-ixtapa-zihuatanejo.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Ixtapa-Zihuatanejo" tabindex="0">Ver más sobre Ixtapa-Zihuatanejo</a>
 </section>
 
 <app-cookies-policy></app-cookies-policy>

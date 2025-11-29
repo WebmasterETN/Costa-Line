@@ -15,7 +15,7 @@ class PageViajaraCiudadAltamirano extends HTMLElement {
     <h2 class="hero__subtitle">
       Tradición, cultura y sabor en la capital económica de la región — desde su catedral y plazas hasta paisajes serranos y festividades únicas.
     </h2>
-    <a href="../destinos/ciudad-altamirano.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
+    <a href="../destinos/autobus-a-cd-altamirano.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
   </div>
 </section>
 
@@ -160,7 +160,7 @@ class PageViajaraCiudadAltamirano extends HTMLElement {
 <section class="cta-section">
   <h2 class="cta-section__title">¿Listo para tu Viaje a Ciudad Altamirano?</h2>
   <p class="cta-section__text">Explora la vida, tradición y gastronomía de la Tierra Caliente. Planea tu viaje y descubre todo lo que Altamirano tiene para ti.</p>
-  <a href="../destinos/ciudad-altamirano.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Ciudad Altamirano" tabindex="0">Ver más sobre Ciudad Altamirano</a>
+  <a href="../destinos/autobus-a-cd-altamirano.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Ciudad Altamirano" tabindex="0">Ver más sobre Ciudad Altamirano</a>
 </section>
 
 <app-cookies-policy></app-cookies-policy>

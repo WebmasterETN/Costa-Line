@@ -15,7 +15,7 @@ class PageViajaraCuernavaca extends HTMLElement {
     <h2 class="hero__subtitle">
       Un destino lleno de historia, jardines, arquitectura colonial y un clima perfecto todo el año.
     </h2>
-    <a href="../destinos/cuernavaca.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
+    <a href="../destinos/autobus-a-cuernavaca.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
   </div>
 </section>
 
@@ -158,7 +158,7 @@ class PageViajaraCuernavaca extends HTMLElement {
 <section class="cta-section">
   <h2 class="cta-section__title">¿Listo para tu Viaje a Cuernavaca?</h2>
   <p class="cta-section__text">Disfruta su clima, su historia, sus jardines y todo el encanto de la Eterna Primavera. Planea tu viaje hoy mismo.</p>
-  <a href="../destinos/cuernavaca.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Cuernavaca" tabindex="0">Ver más sobre Cuernavaca</a>
+  <a href="../destinos/autobus-a-cuernavaca.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Cuernavaca" tabindex="0">Ver más sobre Cuernavaca</a>
 </section>
 
 <app-cookies-policy></app-cookies-policy>

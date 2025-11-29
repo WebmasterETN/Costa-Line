@@ -374,12 +374,23 @@
     }
 
     &__answer {
-        margin-top: 0.5rem; // mt-2
+        display: grid;
+        grid-template-rows: 0fr;
+        transition: grid-template-rows 0.3s ease-in-out, margin-top 0.3s ease-in-out;
         color: rgba($light-text, 0.8);
 
         body.dark & {
             color: rgba($dark-text-base, 0.8);
         }
+
+        >div {
+            overflow: hidden;
+        }
+    }
+
+    &[open] .faq-item__answer {
+        grid-template-rows: 1fr;
+        margin-top: 0.5rem;
     }
 }
 

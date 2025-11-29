@@ -15,7 +15,7 @@ class PageViajaraTaxco extends HTMLElement {
     <h2 class="hero__subtitle">
       Historia, arquitectura colonial y artesanía en plata en el corazón de Guerrero.
     </h2>
-    <a href="../destinos/taxco.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
+    <a href="../destinos/autobus-a-taxco.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
   </div>
 </section>
 
@@ -80,11 +80,11 @@ class PageViajaraTaxco extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/taxco/museo-plata.webp");' data-alt="Museo de la Plateria Taxco"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/taxco/mina-taxco.webp");' data-alt="Museo de la Plateria Taxco"></div>
           <div class="place-card__content">
-            <p class="place-card__title">5. Museo de la Platería</p>
+            <p class="place-card__title">5. Mina Prehispanica de Chalco</p>
             <p class="place-card__description">
-              Exhibe la historia y evolución de la platería en Taxco, con piezas antiguas y contemporáneas que muestran la maestría local.
+              Un sitio arqueológico que ofrece una mirada al pasado prehispánico de la región, con túneles y galerías antiguas para explorar.
             </p>
           </div>
         </div>
@@ -106,9 +106,9 @@ class PageViajaraTaxco extends HTMLElement {
       </div>
 
       <div class="food-card">
-        <img alt="Pozole estilo Guerrero" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/taxco/pozole.webp">
-        <h3 class="food-card__title">Pozole Guerrerense</h3>
-        <p class="food-card__description">Una deliciosa versión local, acompañada de tostadas, lechuga, rábanos y limón.</p>
+        <img alt="Mole Rosa" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/taxco/mole-rosa.webp">
+        <h3 class="food-card__title">Mole Rosa</h3>
+        <p class="food-card__description">Un mole tradicional de la región, caracterizado por su color rosado y sabor único, preparado con ingredientes locales y petalos de rosa.</p>
       </div>
 
       <div class="food-card">
@@ -158,7 +158,7 @@ class PageViajaraTaxco extends HTMLElement {
 <section class="cta-section">
   <h2 class="cta-section__title">¿Listo para tu Viaje a Taxco?</h2>
   <p class="cta-section__text">Historia, arquitectura colonial y la tradición en plata te esperan en la Ciudad de la Plata. Planea tu viaje hoy mismo.</p>
-  <a href="../destinos/taxco.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Taxco" tabindex="0">Ver más sobre Taxco</a>
+  <a href="../destinos/autobus-a-taxco.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Taxco" tabindex="0">Ver más sobre Taxco</a>
 </section>
 
 <app-cookies-policy></app-cookies-policy>

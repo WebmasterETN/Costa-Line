@@ -15,7 +15,7 @@ class PageViajaraTecpan extends HTMLElement {
     <h2 class="hero__subtitle">
       Playas tranquilas, paisajes verdes y la calidez de un pueblo lleno de historia.
     </h2>
-    <a href="../destinos/tecpan.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
+    <a href="../destinos/autobus-a-tecpan.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
   </div>
 </section>
 
@@ -56,19 +56,18 @@ class PageViajaraTecpan extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/tecpan/mercado.webp");' data-alt="Mercado Municipal Tecpan"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/tecpan/playa-michigan.webp");' data-alt="Playa Michigan Tecpan"></div>
           <div class="place-card__content">
-            <p class="place-card__title">3. Mercado Municipal</p>
+            <p class="place-card__title">3. Playa Michigan</p>
             <p class="place-card__description">
-              Lugar ideal para probar antojitos locales, mariscos frescos y productos típicos de la región.
-            </p>
+              Una playa menos concurrida, ideal para quienes buscan tranquilidad y contacto directo con la naturaleza.
           </div>
         </div>
       </div>
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/tecpan/mirador.webp");' data-alt="Mirador de Tecpan"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/tecpan/mirador-tecpan.webp");' data-alt="Mirador de Tecpan"></div>
           <div class="place-card__content">
             <p class="place-card__title">4. Mirador del Cerro</p>
             <p class="place-card__description">
@@ -158,7 +157,7 @@ class PageViajaraTecpan extends HTMLElement {
 <section class="cta-section">
   <h2 class="cta-section__title">¿Listo para tu Viaje a Tecpan?</h2>
   <p class="cta-section__text">Relájate en playas tranquilas, disfruta de la naturaleza y conoce la calidez de la Costa Chica. Planea tu viaje hoy mismo.</p>
-  <a href="../destinos/tecpan.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Tecpan" tabindex="0">Ver más sobre Tecpan</a>
+  <a href="../destinos/autobus-a-tecpan.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Tecpan" tabindex="0">Ver más sobre Tecpan</a>
 </section>
 
 <app-cookies-policy></app-cookies-policy>

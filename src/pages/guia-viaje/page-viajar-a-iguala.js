@@ -15,7 +15,7 @@ class PageViajaraIguala extends HTMLElement {
     <h2 class="hero__subtitle">
       Historia, tradición y un ambiente cálido en el corazón de Guerrero.
     </h2>
-    <a href="../destinos/iguala.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
+    <a href="../destinos/autobus-a-iguala.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
   </div>
 </section>
 
@@ -68,12 +68,11 @@ class PageViajaraIguala extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/iguala/cerro-tehuixtla.webp");' data-alt="Cerro del Tehuilote Iguala"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/iguala/bandera-monumental.webp");' data-alt="Bandera Monumental Iguala"></div>
           <div class="place-card__content">
-            <p class="place-card__title">4. Cerro del Tehuilote</p>
+            <p class="place-card__title">4. Bandera Monumental</p>
             <p class="place-card__description">
-              Un punto natural ideal para hacer senderismo ligero y disfrutar de vistas panorámicas de toda la ciudad.
-            </p>
+              Una de las banderas monumentales más grandes de México, un símbolo patriótico que se puede apreciar desde varios puntos de la ciudad.
           </div>
         </div>
       </div>
@@ -158,7 +157,7 @@ class PageViajaraIguala extends HTMLElement {
 <section class="cta-section">
   <h2 class="cta-section__title">¿Listo para tu Viaje a Iguala?</h2>
   <p class="cta-section__text">Historia, tradición y sabores auténticos te esperan en la Cuna de la Bandera. Planea tu viaje hoy mismo.</p>
-  <a href="../destinos/iguala.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Iguala" tabindex="0">Ver más sobre Iguala</a>
+  <a href="../destinos/autobus-a-iguala.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Iguala" tabindex="0">Ver más sobre Iguala</a>
 </section>
 
 <app-cookies-policy></app-cookies-policy>

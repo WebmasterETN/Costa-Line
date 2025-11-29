@@ -15,7 +15,7 @@ class PageViajaraCoyucaDeBenitez extends HTMLElement {
     <h2 class="hero__subtitle">
       Un destino lleno de belleza natural — lagunas, ríos, playas tranquilas y la calidez característica de la Costa Grande de Guerrero.
     </h2>
-    <a href="../destinos/coyuca-de-benitez.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
+    <a href="../destinos/autobus-a-coyuca-de-benitez.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
   </div>
 </section>
 
@@ -158,7 +158,7 @@ class PageViajaraCoyucaDeBenitez extends HTMLElement {
 <section class="cta-section">
   <h2 class="cta-section__title">¿Listo para tu Viaje a Coyuca de Benítez?</h2>
   <p class="cta-section__text">Explora su laguna, disfruta sus playas tranquilas y conoce la esencia de la Costa Grande. Planea tu viaje hoy mismo.</p>
-  <a href="../destinos/coyuca-de-benitez.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Coyuca de Benítez" tabindex="0">Ver más sobre Coyuca de Benítez</a>
+  <a href="../destinos/autobus-a-coyuca-de-benitez.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Coyuca de Benítez" tabindex="0">Ver más sobre Coyuca de Benítez</a>
 </section>
 
 <app-cookies-policy></app-cookies-policy>

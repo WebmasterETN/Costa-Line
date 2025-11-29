@@ -15,7 +15,7 @@ class PageViajaraToluca extends HTMLElement {
     <h2 class="hero__subtitle">
       Museos, parques y arquitectura histórica a pocos minutos de CDMX.
     </h2>
-    <a href="../destinos/toluca.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
+    <a href="../destinos/autobus-a-toluca.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
   </div>
 </section>
 
@@ -32,23 +32,22 @@ class PageViajaraToluca extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/toluca/museo-galeria.webp");' data-alt="Museo de Arte Moderno Toluca"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/toluca/cosmovitral.webp");' data-alt="Museo de Arte Moderno Toluca"></div>
           <div class="place-card__content">
-            <p class="place-card__title">1. Museo de Arte Moderno</p>
+            <p class="place-card__title">1. Jardin Botanico Cosmovitral</p>
             <p class="place-card__description">
-              Exhibiciones permanentes y temporales de artistas nacionales e internacionales, ubicado en el corazón de Toluca.
-            </p>
+              Un impresionante jardín botánico conocido por su vitral monumental y su diversidad de plantas.
           </div>
         </div>
       </div>
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/toluca/plaza-de-los-martires.webp");' data-alt="Plaza de los Mártires Toluca"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/toluca/nevado-de-toluca.webp");' data-alt="Nevado de Toluca"></div>
           <div class="place-card__content">
-            <p class="place-card__title">2. Plaza de los Mártires</p>
+            <p class="place-card__title">2. Nevado de Toluca</p>
             <p class="place-card__description">
-              Centro histórico con arquitectura colonial, cafés, tiendas y eventos culturales al aire libre.
+              Un volcán extinto y parque nacional, ideal para senderismo, observación de la naturaleza y vistas panorámicas.
             </p>
           </div>
         </div>
@@ -80,12 +79,11 @@ class PageViajaraToluca extends HTMLElement {
 
       <div class="place-card-wrapper">
         <div class="place-card">
-          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/toluca/mercado-2.webp");' data-alt="Mercado de Artesanías Toluca"></div>
+          <div class="place-card__image" style='background-image: url("../src/assets/img/guia-viajes/destinos/toluca/portales-toluca.webp");' data-alt="Mercado de Artesanías Toluca"></div>
           <div class="place-card__content">
-            <p class="place-card__title">5. Mercado de Artesanías</p>
+            <p class="place-card__title">5. Portales Toluca</p>
             <p class="place-card__description">
-              Un lugar perfecto para adquirir artesanías, textiles y productos locales de la región.
-            </p>
+              Un lugar emblemático con arquitectura tradicional, tiendas y espacios culturales en el centro de Toluca.      
           </div>
         </div>
       </div>
@@ -114,7 +112,7 @@ class PageViajaraToluca extends HTMLElement {
       <div class="food-card">
         <img alt="Bebidas tradicionales" class="food-card__image" src="../src/assets/img/guia-viajes/platillos/toluca/bebidas-tradicionales.webp">
         <h3 class="food-card__title">Bebidas Tradicionales</h3>
-        <p class="food-card__description">Bebidas locales ideales para acompañar la visita y conocer los sabores de Toluca.</p>
+        <p class="food-card__description">Bebidas locales ideales para acompañar la visita y conocer los sabores de Toluca como el Mosco que es un licor de naranja con sabor tradicional.</p>
       </div>
 
     </div>
@@ -132,7 +130,7 @@ class PageViajaraToluca extends HTMLElement {
           <span class="faq-item__question">¿Cuál es la mejor temporada para visitar Toluca?</span>
           <span class="icon-arrow-down faq-item__icon material-symbols-outlined"></span>
         </summary>
-        <p class="faq-item__answer">De noviembre a abril, con clima fresco y agradable, ideal para recorrer plazas, museos y parques.</p>
+        <div class="faq-item__answer">De noviembre a abril, con clima fresco y agradable, ideal para recorrer plazas, museos y parques.</div>
       </details>
 
       <details class="faq-item">
@@ -140,7 +138,7 @@ class PageViajaraToluca extends HTMLElement {
           <span class="faq-item__question">¿Cómo llegar a Toluca?</span>
           <span class="icon-arrow-down faq-item__icon material-symbols-outlined"></span>
         </summary>
-        <p class="faq-item__answer">Se encuentra a aproximadamente 1 hora de CDMX, accesible por carretera o transporte público desde la capital y municipios cercanos.</p>
+        <div class="faq-item__answer">Se encuentra a aproximadamente 1 hora de CDMX, accesible por carretera o transporte público desde la capital y municipios cercanos.</div>
       </details>
 
       <details class="faq-item">
@@ -148,7 +146,7 @@ class PageViajaraToluca extends HTMLElement {
           <span class="faq-item__question">¿Qué festividades destacan?</span>
           <span class="icon-arrow-down faq-item__icon material-symbols-outlined"></span>
         </summary>
-        <p class="faq-item__answer">La Feria del Alfeñique, celebraciones religiosas y eventos culturales en museos y plazas del centro histórico son los más representativos.</p>
+        <div class="faq-item__answer">La Feria del Alfeñique, celebraciones religiosas y eventos culturales en museos y plazas del centro histórico son los más representativos.</div>
       </details>
 
     </div>
@@ -158,7 +156,7 @@ class PageViajaraToluca extends HTMLElement {
 <section class="cta-section">
   <h2 class="cta-section__title">¿Listo para tu Viaje a Toluca?</h2>
   <p class="cta-section__text">Descubre su cultura, parques, arquitectura histórica y disfruta de los sabores tradicionales del Estado de México. Planea tu viaje hoy mismo.</p>
-  <a href="../destinos/toluca.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Toluca" tabindex="0">Ver más sobre Toluca</a>
+  <a href="../../destinos/autobus-a-toluca.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver horarios y más información sobre Toluca" tabindex="0">Ver más sobre Toluca</a>
 </section>
 
 <app-cookies-policy></app-cookies-policy>

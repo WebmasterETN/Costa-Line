@@ -25,7 +25,6 @@ class AppHeader extends HTMLElement {
           <ul>
             <li><a href="../../../boletos-autobus/index.html">Boletos</a></li>
             <li><a href="../../../boletos-autobus/donde-comprar-costa.html">¿Dónde comprar?</a></li>
-            <li><a href="../index.html">Mascotas</a></li>
             <li><a href="../../../destinos/index.html">Destinos</a></li>
             <li><a href="../../../terminales/index.html">Taquillas</a></li>
             <li><a href="../../../servicios/salas-de-espera-vip.html">Salas VIP</a></li>
@@ -76,7 +75,6 @@ class AppHeader extends HTMLElement {
           <ul>
             <li><a href="../boletos-de-autobus.html">Boletos</a></li>
             <li><a href="../donde-comprar-etn.html">¿Dónde comprar?</a></li>
-            <li><a href="../index.html">Mascotas</a></li>
             <li><a href="../destinos.html">Destinos</a></li>
             <li><a href="../taquillas.html">Taquillas</a></li>
             <li><a href="../salas-de-espera-vip.html">Salas VIP</a></li>
