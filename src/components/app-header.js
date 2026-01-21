@@ -14,8 +14,8 @@ class AppHeader extends HTMLElement {
         <li class="submenu">
           <a href="#" role="button" aria-haspopup="true" aria-expanded="false">Facturación <span class="icon-arrow-down"></span></a>
           <ul>
-            <li><a href="https://ventas.costaline.com.mx/request.aspx?PRGNAME=Facturacion">Facture aquí</a></li>
-            <li><a href="https://costaline.com.mx/CFDI-datos-receptor.html">¿Qué datos necesito?</a></li>
+            <li><a href="https://ventas.costaline.com.mx/request.aspx?PRGNAME=Facturacion&_ga=2.32171326.1421465980.1688335622-27413750.1682467979&_gl=1*gcc1g0*_gcl_au*MTkyNjkzNzc5MS4xNzY4NTA0ODI2">Facture aquí</a></li>
+            <li><a href="../servicios/facturacion.html">¿Qué datos necesito?</a></li>
           </ul>
         </li>
         <li><a href="https://viaje.costaline.com.mx/download-tickets">Pase de abordar</a></li>
@@ -64,8 +64,8 @@ class AppHeader extends HTMLElement {
         <li class="submenu__media-queries">
           <a href="#" aria-haspopup="true" aria-expanded="false">Facturación <span class="icon-arrow-down"></span></a>
           <ul>
-            <li><a href="https://venta.etn.com.mx/request.aspx?PRGNAME=Facturacion">Facture aquí</a></li>
-            <li><a href="https://costaline.com.mx/CFDI-datos-receptor.html">¿Qué datos necesito?</a></li>
+            <li><a href="https://ventas.costaline.com.mx/request.aspx?PRGNAME=Facturacion&_ga=2.32171326.1421465980.1688335622-27413750.1682467979&_gl=1*gcc1g0*_gcl_au*MTkyNjkzNzc5MS4xNzY4NTA0ODI2">Facture aquí</a></li>
+            <li><a href="../servicios/facturacion.html">¿Qué datos necesito?</a></li>
           </ul>
         </li>
         <li><a href="https://venta.etn.com.mx/MiViaje/loginMiItinerario.html">Pase de abordar</a></li>
