@@ -53,10 +53,11 @@ class AppFooter extends HTMLElement {
       {
         title: "Servicios",
         links: [
+          { text: "Factuarción", href: "../../../servicios/facturacion.html" },
+          { text: "Agencias", href: "https://ventas.costaline.com.mx/request.aspx?APPNAME=Navegante&PRGNAME=AccesoEx&ARGUMENTS=-AAG,-AH,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-AES&_ga=2.70363408.1421465980.1688335622-27413750.1682467979&_gl=1*1ljvuz9*_gcl_au*MTE5NTUxODc1MS4xNzY5MDMwOTg3" },
           { text: "Viaje protegido", href: "../../../servicios/viajero-protegido.html" },
           { text: "Viaje protegido Plus", href: "../../../servicios/viajero-protegido-plus.html" },
           { text: "Viaje protegido Lujo", href: "../../../servicios/viajero-protegido-lujo.html" },
-          { text: "Agencias", href: "https://ventas.costaline.com.mx/request.aspx?APPNAME=Navegante&PRGNAME=AccesoEx&ARGUMENTS=-AAG,-AH,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-AES&_ga=2.70363408.1421465980.1688335622-27413750.1682467979&_gl=1*1ljvuz9*_gcl_au*MTE5NTUxODc1MS4xNzY5MDMwOTg3" },
         ],
       },
       {

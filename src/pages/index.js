@@ -1,6 +1,6 @@
 /*-------------PAGINAS PRINCIPALES -------------------------*/
 
-import "./home/page-home.js?v=1.0.2";
+import "./home/page-home.js?v=1.0.6";
 import "./page-site-map.js?v=1.0.2";
 import "./page-404.js?v=1.0.2";
 
@@ -117,6 +117,7 @@ import "./servicios/page-pago-oxxo.js?v=1.0.2";
 import "./servicios/page-renta-de-autobuses.js?v=1.0.2";
 import "./servicios/page-salas-de-espera.js?v=1.0.2";
 import "./servicios/page-servicios-a-bordo.js?v=1.0.2";
+import "./servicios/page-facturacion.js?v=1.0.2";
 
 //PROMOCIONES
 
