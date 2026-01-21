@@ -2,38 +2,47 @@ class AppCotiza extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <div class="cotiza">
-        <div class="widget" style="display: flex; justify-content:center;">
-          <div style="max-width: 100%; margin: 10px auto 10px; width: 100%; padding: 0 15px;" 
-           data-widget-host="habitat" 
-           data-prop-source-url="one-api.etn.com.mx/api/v2/places"
-           data-prop-funnel-url="viajes.etn.com.mx" 
-           data-prop-primary-color="#0C3D5C" 
-           data-prop-accent-color="#7BA7AE" data-prop-max-days-search="90" 
-           data-prop-show-open-ticket="false" data-prop-autocomplete-type="select" 
-           data-prop-display-type="state" 
-           data-prop-allow-hybrid-trip="true" 
-           data-prop-calendar-open="true" 
-           data-prop-growthbook="https://api-growthbook.reservamos.tech/api/features/prod_bSAl41VNFv0FE1NMDLSPR0i7wo9VZXPqWV1XEE9czk?project=prj_405gzo1olcq7frcp" 
-           data-prop-growthbook-standalone="true" 
-           data-prop-growthbook-dev="false" 
-           data-prop-departure-date-picker-text="Compra tu boleto de regreso con hasta 10% de descuento" 
-           data-prop-return-date-picker-text="Compra tu boleto de regreso con hasta 10% de descuento" 
-           data-prop-growthbook-features="show_open_ticket_cta" class="funnel_reservamos" 
-           data-prop-contrast="true"
-           data-prop-opt-in-return="false"
-           data-prop-profile-url="https://core-api.reservamossaas.com/api/v1"
-           data-prop-profile-enabled="true"
-           data-prop-profile-autocomplete="true"
-           data-prop-group-places="true"
-           data-prop-compact-height="false"
-           data-prop-interest-event="Interest In Home"
-           data-prop-brand="etn"
-           data-prop-passengers-dropdown="true"
-           data-prop-passengers-options="general,minor,older,wheelchair_handicap,pet_friendly,student,teacher"
-           data-prop-max-passengers="10"
-           data-prop-allow-fetch="true">
+        <!-- Widget Ventas Reservamos -->
+        <div class="espaciado-widget"
+          style="display: flex; background-color: #eee; justify-content:center; margin: 10px 0 10px 0; border-radius: 12px;">
+          <div style="max-width: 1430px; margin: 0; width: 100%; padding: 10px 15px"
+            data-prop-widget-title="Nos hemos renovado para ti, conoce nuestra nueva experiencia de compra"
+            data-widget-host="habitat" 
+            data-prop-source-url="one-api.costaline.com.mx/api/v2/places"
+            data-prop-funnel-url="viajes.costaline.com.mx" 
+            data-prop-primary-color="#0087ca"
+            data-prop-accent-color="#003b73" 
+            data-prop-max-days-search="360" 
+            data-prop-show-open-ticket="false"
+            data-prop-autocomplete-type="select" 
+            data-prop-display-type="state" 
+            data-prop-multi-open-ticket="true"
+            class="funnel_reservamos" 
+            data-prop-allow-hybrid-trip="true" 
+            data-prop-calendar-open="true"
+            data-prop-growthbook="https://api-growthbook.reservamos.tech/api/features/prod_bSAl41VNFv0FE1NMDLSPR0i7wo9VZXPqWV1XEE9czk?project=prj_405gzo1olcq7g1af"
+            data-prop-growthbook-standalone="true" 
+            data-prop-growthbook-dev="false"
+            data-prop-growthbook-features="show_open_ticket_cta"
+            data-prop-departure-date-picker-text="Compra tu boleto de regreso con hasta 5% de descuento"
+            data-prop-return-date-picker-text="Compra tu boleto de regreso con hasta 5% de descuento"
+            data-prop-opt-in-return="false" 
+            data-prop-profile-url="https://core-api.reservamossaas.com/api/v1"
+            data-prop-profile-enabled="true" 
+            data-prop-profile-autocomplete="true" 
+            data-prop-group-places="true"
+            data-prop-compact-height="false" 
+            data-prop-interest-event="Interest In Home" 
+            data-prop-brand="costaline"
+            data-prop-passengers-dropdown="true"
+            data-prop-passengers-options="general,minor,older,wheelchair_handicap,pet_friendly,student,teacher"
+            data-prop-max-passengers="10" 
+            data-prop-allow-fetch="true">
+
           </div>
-         </div>
+        </div>
+        <!-- Fin Widget Ventas Reservamos -->
+
       </div>
           `;
           document.addEventListener("DOMContentLoaded", () => {
