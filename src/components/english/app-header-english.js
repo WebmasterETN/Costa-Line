@@ -28,7 +28,7 @@ class AppHeaderEnglish extends HTMLElement {
             <li><a href="../index.html">Pets</a></li>
             <li><a href="../destinos.html">Destinations</a></li>
             <li><a href="../taquillas.html">Ticket offices</a></li>
-            <li><a href="../salas-de-espera-vip.html">VIP Lounges</a></li>
+            <li><a href="../salas-de-espera.html">VIP Lounges</a></li>
             <li><a href="../servicio-a-bordo.html">Services</a></li>
             <li><a href="../promociones.html">Promotions</a></li>
             <li><a href="https://ventas.costaline.com.mx/request.aspx?APPNAME=Navegante&PRGNAME=AccesoEx">Agencies</a></li>
@@ -79,7 +79,7 @@ class AppHeaderEnglish extends HTMLElement {
             <li><a href="../index.html">Pets</a></li>
             <li><a href="../destinos.html">Destinations</a></li>
             <li><a href="../taquillas.html">Ticket offices</a></li>
-            <li><a href="../salas-de-espera-vip.html">VIP Lounges</a></li>
+            <li><a href="../salas-de-espera.html">VIP Lounges</a></li>
             <li><a href="../servicio-a-bordo.html">Services</a></li>
             <li><a href="../promociones.html">Promotions</a></li>
             <li><a href="../index.html">Agencies</a></li>
