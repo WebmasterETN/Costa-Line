@@ -8,8 +8,8 @@ import "../../../components/app-table-pets.js";
 import "../../../js/slick.js?v=1.0.2";
 
 class PageTermsHotSale extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
         <app-cotiza></app-cotiza>
 
         <app-modal-doters></app-modal-doters>
@@ -134,7 +134,7 @@ class PageTermsHotSale extends HTMLElement {
                     </li>
                     <li class="__terms-purchase-item">
                         <p class="__terms-purchase-text">
-                            Travel itinerary changes (date or time) can be made directly from the website (www.etn.com.mx) in the “modify your itinerary” section, or at ETN ticket offices and/or points of sale by presenting the boarding pass and a valid official ID. Each operation is limited to a maximum of two changes per ticket.
+                            Travel itinerary changes (date or time) can be made directly from the website (www.costaline.com.mx) in the “modify your itinerary” section, or at Costa Line ticket offices and/or points of sale by presenting the boarding pass and a valid official ID. Each operation is limited to a maximum of two changes per ticket.
                         </p>
                     </li>
                     <li class="__terms-purchase-item">
@@ -201,6 +201,6 @@ class PageTermsHotSale extends HTMLElement {
         </section>
 
     `;
-  }
+	}
 }
 customElements.define("page-terms-hot-sale", PageTermsHotSale);

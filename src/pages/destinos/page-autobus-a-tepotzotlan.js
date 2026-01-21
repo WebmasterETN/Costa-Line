@@ -12,8 +12,8 @@ import "../../components/app-destiny-grid.js";
 import "../../js/slick.js?v=1.0.0";
 
 class AutobusATepotzotlan extends HTMLElement {
-  async connectedCallback() {
-    this.innerHTML = `
+	async connectedCallback() {
+		this.innerHTML = `
       <app-cotiza></app-cotiza>
 
       <app-banner-slider
@@ -67,7 +67,7 @@ class AutobusATepotzotlan extends HTMLElement {
 
       <section class="cta">
           <div class="container">
-              <h2 class="cta__title">¡Viaja a Tepotzotlán con ETN Turistar!</h2>
+              <h2 class="cta__title">¡Viaja a Tepotzotlán con Costa Line!</h2>
               <p class="cta__subtitle">
                 Disfruta historia, cultura y sabor en uno de los Pueblos Mágicos más importantes del Estado de México.
               </p>
@@ -103,7 +103,7 @@ class AutobusATepotzotlan extends HTMLElement {
       <app-button-whats></app-button-whats>
       <app-button-eva-trip></app-button-eva-trip>
     `;
-  }
+	}
 }
 
 customElements.define("page-autobus-a-tepotzotlan", AutobusATepotzotlan);

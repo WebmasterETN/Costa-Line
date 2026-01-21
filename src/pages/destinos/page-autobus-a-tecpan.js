@@ -12,8 +12,8 @@ import "../../components/app-destiny-grid.js";
 import "../../js/slick.js?v=1.0.0";
 
 class AutobusATecpan extends HTMLElement {
-  async connectedCallback() {
-    this.innerHTML = `
+	async connectedCallback() {
+		this.innerHTML = `
       <app-cotiza></app-cotiza>
 
       <app-banner-slider
@@ -62,7 +62,7 @@ class AutobusATecpan extends HTMLElement {
 
       <section class="cta">
           <div class="container">
-              <h2 class="cta__title">¡Viaja a Tecpan con ETN Turistar!</h2>
+              <h2 class="cta__title">¡Viaja a Tecpan con Costa Line!</h2>
               <p class="cta__subtitle">
                 Descubre cultura, naturaleza e historia en el corazón de la Costa Grande. ¡Tu próxima aventura está a un clic!
               </p>
@@ -98,7 +98,7 @@ class AutobusATecpan extends HTMLElement {
       <app-button-whats></app-button-whats>
       <app-button-eva-trip></app-button-eva-trip>
     `;
-  }
+	}
 }
 
 customElements.define("page-autobus-a-tecpan", AutobusATecpan);

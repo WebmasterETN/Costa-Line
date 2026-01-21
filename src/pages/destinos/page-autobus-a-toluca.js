@@ -12,8 +12,8 @@ import "../../components/app-destiny-grid.js";
 import "../../js/slick.js?v=1.0.0";
 
 class AutobusAToluca extends HTMLElement {
-  async connectedCallback() {
-    this.innerHTML = `
+	async connectedCallback() {
+		this.innerHTML = `
       <app-cotiza></app-cotiza>
 
       <app-banner-slider
@@ -68,7 +68,7 @@ class AutobusAToluca extends HTMLElement {
 
       <section class="cta">
           <div class="container">
-              <h2 class="cta__title">¡Viaja a Toluca con ETN Turistar!</h2>
+              <h2 class="cta__title">¡Viaja a Toluca con Costa Line!</h2>
               <p class="cta__subtitle">
                 Descubre cultura, naturaleza y tradición en la capital del Estado de México.
               </p>
@@ -104,7 +104,7 @@ class AutobusAToluca extends HTMLElement {
       <app-button-whats></app-button-whats>
       <app-button-eva-trip></app-button-eva-trip>
     `;
-  }
+	}
 }
 
 customElements.define("page-autobus-a-toluca", AutobusAToluca);

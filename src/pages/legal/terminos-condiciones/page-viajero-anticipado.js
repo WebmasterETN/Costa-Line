@@ -7,8 +7,8 @@ import "../../../components/app-table-pets.js";
 import "../../../components/app-destinations-table.js";
 
 class PageViajeroAnticipado extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
         <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
@@ -103,7 +103,7 @@ class PageViajeroAnticipado extends HTMLElement {
                         Para tarifas Viajero Anticipado no aplica cambio de nombre de pasajero.
                     </p>
                     <p class="__terms-purchase-text">
-                        El cambio de itinerario de viaje (fecha u hora) se puede realizar directamente desde la página de internet (www.costaline.com.mx) en la sección “modifique su itinerario” o también podrán ser realizados en taquillas y/o puntos de venta ETN presentando el pase de abordar y una identificación oficial vigente. Cada operación está limitada a un máximo de dos cambios por boleto.
+                        El cambio de itinerario de viaje (fecha u hora) se puede realizar directamente desde la página de internet (www.costaline.com.mx) en la sección “modifique su itinerario” o también podrán ser realizados en taquillas y/o puntos de venta Costa Line presentando el pase de abordar y una identificación oficial vigente. Cada operación está limitada a un máximo de dos cambios por boleto.
                     </p>
                     <p class="__terms-purchase-text">
                         En caso de que la tarifa vigente al momento del cambio de corrida sea mayor a la tarifa Viajero Anticipado pagada, el cliente deberá pagar la diferencia entre la tarifa pagada y tarifa vigente al momento del cambio de la corrida original, dicho pago deberá ser cubierto con la misma forma de pago realizada previamente. Aplica con todas las formas de pago.
@@ -149,7 +149,7 @@ class PageViajeroAnticipado extends HTMLElement {
                 <app-destinations-table src="../src/data/destinos-cl.json"></app-destinations-table>
             </section>
     `;
-  }
+	}
 }
 
 customElements.define("page-viajero-anticipado", PageViajeroAnticipado);

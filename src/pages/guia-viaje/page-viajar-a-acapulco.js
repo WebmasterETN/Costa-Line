@@ -11,8 +11,8 @@ import "../../components/app-modal-image.js";
 import "../../js/slick.js?v=1.0.0";
 
 class PageViajarAAcapulco extends HTMLElement {
-  async connectedCallback() {
-    this.innerHTML = `
+	async connectedCallback() {
+		this.innerHTML = `
    <app-cotiza></app-cotiza>
 
 <!-- Components for page -->
@@ -23,7 +23,7 @@ class PageViajarAAcapulco extends HTMLElement {
       Vive el Encanto y la Energía de Acapulco
     </h1>
     <h2 class="hero__subtitle">
-      Viaja desde Ciudad de México con ETN Turistar Lujo y descubre playas legendarias, espectáculos de clavadistas y una vida nocturna vibrante en la Perla del Pacífico.
+      Viaja desde Ciudad de México con Costa Line y descubre playas legendarias, espectáculos de clavadistas y una vida nocturna vibrante en la Perla del Pacífico.
     </h2>
     <a href="../destinos/autobus-a-acapulco.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver más sobre el destino</a>
   </div>
@@ -165,7 +165,7 @@ class PageViajarAAcapulco extends HTMLElement {
 
 <section class="cta-section">
   <h2 class="cta-section__title">¿Listo para tu Viaje a Acapulco?</h2>
-  <p class="cta-section__text">Vive playas, espectáculos y la vibrante gastronomía de Acapulco. Compra tus boletos y viaja con la comodidad y elegancia que solo ETN Turistar Lujo puede ofrecerte.</p>
+  <p class="cta-section__text">Vive playas, espectáculos y la vibrante gastronomía de Acapulco. Compra tus boletos y viaja con la comodidad y elegancia que solo Costa Line puede ofrecerte.</p>
   <a href="../destinos/autobus-a-acapulco.html" class="btn btn--light" target="_blank" rel="noopener noreferrer" aria-label="Ir a ver más sobre el destino" tabindex="0">Ver Horarios y Precios a Acapulco</a>
 </section>
 
@@ -175,6 +175,6 @@ class PageViajarAAcapulco extends HTMLElement {
 
 
     `;
-  }
+	}
 }
 customElements.define("viajar-a-acapulco", PageViajarAAcapulco);

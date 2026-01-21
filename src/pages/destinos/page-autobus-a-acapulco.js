@@ -12,8 +12,8 @@ import "../../components/app-destiny-grid.js";
 import "../../js/slick.js?v=1.0.0";
 
 class AutobusAAcapulco extends HTMLElement {
-  async connectedCallback() {
-    this.innerHTML = `
+	async connectedCallback() {
+		this.innerHTML = `
 			<app-cotiza></app-cotiza>
 <app-banner-slider
     slides-data='[
@@ -44,7 +44,7 @@ class AutobusAAcapulco extends HTMLElement {
 
 <section class="cta">
     <div class="container">
-        <h2 class="cta__title">¡Viaja a Acapulco con ETN Turistar!</h2>
+        <h2 class="cta__title">¡Viaja a Acapulco con Costa Line!</h2>
         <p class="cta__subtitle">No esperes más para vivir unas vacaciones inolvidables en el puerto más famoso de México. Tu aventura está a solo un clic de distancia.</p>
         <a href="../../boletos-autobus/acapulco.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Comprar boletos" tabindex="0">Consulta horarios y compra tu boleto</a>
     </div>
@@ -72,6 +72,6 @@ class AutobusAAcapulco extends HTMLElement {
 <app-button-eva-trip></app-button-eva-trip>
 
         `;
-  }
+	}
 }
 customElements.define("autobus-a-acapulco", AutobusAAcapulco);

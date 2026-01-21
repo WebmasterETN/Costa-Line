@@ -7,8 +7,8 @@ import "../../components/app-section-title.js";
 import "../../components/app-forms.js";
 
 class PagePromociones extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
@@ -33,7 +33,7 @@ class PagePromociones extends HTMLElement {
                     </article>
                     <article class="__article__promo">
                         <h3 class="__article-title">Acumula Puntos Doters</h3>
-                       <a class="__article-link" href="https://etn.com.mx/doters/"> <img src="../src/assets/img/promociones/costa-doters.webp" alt="Atencion a clientes">  </a>
+                       <a class="__article-link" href="https://costaline.com.mx/doters/"> <img src="../src/assets/img/promociones/costa-doters.webp" alt="Atencion a clientes">  </a>
                     </article>
                 </div>
               <app-section-title section-title="Descuentos de Temporadas"></app-section-title>
@@ -48,6 +48,6 @@ class PagePromociones extends HTMLElement {
                   </article>
             </section>
         `;
-  }
+	}
 }
 customElements.define("page-promociones", PagePromociones);
