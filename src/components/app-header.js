@@ -27,7 +27,7 @@ class AppHeader extends HTMLElement {
             <li><a href="../../../boletos-autobus/donde-comprar-costa.html">¿Dónde comprar?</a></li>
             <li><a href="../../../destinos/">Destinos</a></li>
             <li><a href="../../../terminales/">Taquillas</a></li>
-            <li><a href="../../../servicios/salas-de-espera-vip.html">Salas VIP</a></li>
+            <li><a href="../../../servicios/salas-de-espera.html">Salas de Espera</a></li>
             <li><a href="../../../servicios/servicio-a-bordo.html">Servicios</a></li>
             <li><a href="../../../promociones/">Promociones</a></li>
             <li><a href="https://ventas.costaline.com.mx/request.aspx?APPNAME=Navegante&PRGNAME=AccesoEx">Agencias</a></li>
@@ -77,7 +77,7 @@ class AppHeader extends HTMLElement {
             <li><a href="../donde-comprar-etn.html">¿Dónde comprar?</a></li>
             <li><a href="../destinos.html">Destinos</a></li>
             <li><a href="../taquillas.html">Taquillas</a></li>
-            <li><a href="../salas-de-espera-vip.html">Salas VIP</a></li>
+            <li><a href="../salas-de-espera.html">Salas de Espera</a></li>
             <li><a href="../servicio-a-bordo.html">Servicios</a></li>
             <li><a href="../promociones.html">Promociones</a></li>
             <li><a href="../index.html">Agencias</a></li>
