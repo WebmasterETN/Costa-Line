@@ -115,7 +115,7 @@ import "./destinos/page-destinos.js?v=1.0.2";
 
 import "./servicios/page-pago-oxxo.js?v=1.0.2";
 import "./servicios/page-renta-de-autobuses.js?v=1.0.2";
-import "./servicios/page-salas-de-espera-vip.js?v=1.0.2";
+import "./servicios/page-salas-de-espera.js?v=1.0.2";
 import "./servicios/page-servicios-a-bordo.js?v=1.0.2";
 
 //PROMOCIONES
