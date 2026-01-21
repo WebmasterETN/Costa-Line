@@ -8,8 +8,8 @@ import "../components/app-card-text-bg-white.js";
 import "../js/slick.js?v=1.0.2";
 
 class PageSalidasCharters extends HTMLElement {
-  async connectedCallback() {
-    this.innerHTML = `
+	async connectedCallback() {
+		this.innerHTML = `
             <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
@@ -29,45 +29,45 @@ class PageSalidasCharters extends HTMLElement {
             <section class="__section __section--salidas-charters">
                 <app-section-title section-title="Salidas Charters"></app-section-title>
                 <article class="__article-grid">
-                    <p class="__paragraph">Para tu comodidad ETN yTuristar te ofrece un servicio de autobuses de lujo con salidas exclusivas en hoteles y centros comerciales de la Ciudad de México y Guadalajara.</p>
+                    <p class="__paragraph">Para tu comodidad Costa Lineta Line yTuristar te ofrece un servicio de autobuses de lujo con salidas exclusivas en hoteles y centros comerciales de la Ciudad de México y Guadalajara.</p>
                     <div class="__grid-container" id="grid-cards-container"></div>
                 </article>
             </section>
         `;
 
-    await this.loadCharterCards();
-  }
+		await this.loadCharterCards();
+	}
 
-  async loadCharterCards() {
-    try {
-      // Construye la URL al archivo JSON de forma robusta usando import.meta.url
-      const jsonFileUrl = new URL(
-        "../data/cards-salidas-charters-data.json",
-        import.meta.url
-      );
-      const response = await fetch(jsonFileUrl);
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      const cardsData = await response.json();
+	async loadCharterCards() {
+		try {
+			// Construye la URL al archivo JSON de forma robusta usando import.meta.url
+			const jsonFileUrl = new URL(
+				"../data/cards-salidas-charters-data.json",
+				import.meta.url,
+			);
+			const response = await fetch(jsonFileUrl);
+			if (!response.ok) {
+				throw new Error(`HTTP error! status: ${response.status}`);
+			}
+			const cardsData = await response.json();
 
-      const container = this.querySelector("#grid-cards-container");
-      if (container) {
-        cardsData.forEach((cardInfo) => {
-          const cardElement = document.createElement("app-card-text-bg-white");
-          cardElement.setAttribute("card-title", cardInfo.title);
-          cardElement.setAttribute("card-description", cardInfo.description);
-          container.appendChild(cardElement);
-        });
-      } else {
-        console.error("El contenedor #grid-cards-container no fue encontrado.");
-      }
-    } catch (error) {
-      console.error(
-        "Error al cargar los datos de las tarjetas de salidas charters:",
-        error
-      );
-    }
-  }
+			const container = this.querySelector("#grid-cards-container");
+			if (container) {
+				cardsData.forEach((cardInfo) => {
+					const cardElement = document.createElement("app-card-text-bg-white");
+					cardElement.setAttribute("card-title", cardInfo.title);
+					cardElement.setAttribute("card-description", cardInfo.description);
+					container.appendChild(cardElement);
+				});
+			} else {
+				console.error("El contenedor #grid-cards-container no fue encontrado.");
+			}
+		} catch (error) {
+			console.error(
+				"Error al cargar los datos de las tarjetas de salidas charters:",
+				error,
+			);
+		}
+	}
 }
 customElements.define("page-salidas-charters", PageSalidasCharters);

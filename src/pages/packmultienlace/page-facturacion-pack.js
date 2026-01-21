@@ -7,8 +7,8 @@ import "../../components/app-card-small-list.js";
 import "../../components/app-header-pack-multienlace.js";
 
 class PageFacturacionPack extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza-pack></app-cotiza-pack>
 
             <app-banner-slider
@@ -20,14 +20,14 @@ class PageFacturacionPack extends HTMLElement {
         <app-section-title section-title="Políticas de envío, entrega y facturación  "></app-section-title>
 
         <section class="envio-info">
-            <h2 class="empresa">ETN</h2>
+            <h2 class="empresa">Costa Line</h2>
 
             <h3>FACTURACIÓN</h3>
             <p>Para facturación de sus envíos y de acuerdo a la versión de <strong>4.0</strong> del SAT, deberá proporcionar la siguiente información:</p>
 
             <h4>CÉDULA FISCAL<br>CORREO ELECTRÓNICO PARA RECEPCIÓN DE SU FACTURA</h4>
             <p>La factura se deberá solicitar al momento de realizar su envío.<br>
-            En caso de algún error en el sistema al generar su factura puede solicitar la corrección al correo: <strong>facturacionpack@etn.com.mx</strong></p>
+            En caso de algún error en el sistema al generar su factura puede solicitar la corrección al correo: <strong>facturacionpack@costaline.com.mx</strong></p>
 
             <h3>POLÍTICAS Y RESTRICCIONES</h3>
             <p>Estimado cliente, le informamos que no es posible la documentación y transportación de los siguientes elementos:</p>
@@ -51,7 +51,7 @@ class PageFacturacionPack extends HTMLElement {
                 <li>Insumos para la salud que requieran condiciones especiales para su conservación</li>
             </ul>
             <p>No se pueden documentar ni enviar paquetes que excedan los <strong>50 kg de peso</strong>, salvo en excepciones autorizadas por el gerente de oficina, jefe de turno o coordinador de paquetería.<br>
-            Cualquier duda de su envío puede consultarla al correo: <strong>logisticapack@etn.com.mx</strong> o al número telefónico: <strong>5541262347</strong>.</p>
+            Cualquier duda de su envío puede consultarla al correo: <strong>logisticapack@costaline.com.mx</strong> o al número telefónico: <strong>5541262347</strong>.</p>
 
             <h3>REQUISITOS PARA LA ENTREGA DE ENVÍOS</h3>
             <p>Estimado cliente para poder entregarle su envío deberá presentar cualquiera de estos documentos oficiales:</p>
@@ -171,6 +171,6 @@ class PageFacturacionPack extends HTMLElement {
         </section>
 
         `;
-  }
+	}
 }
 customElements.define("page-facturacion-pack", PageFacturacionPack);

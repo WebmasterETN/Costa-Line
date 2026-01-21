@@ -8,8 +8,8 @@ import "../../../js/slick.js?v=1.0.2";
 import "../../../components/app-destinations-table.js";
 
 class PageTermsBuenFin extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
            <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
@@ -135,7 +135,7 @@ class PageTermsBuenFin extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Travel itinerary changes (date or time) can be made directly from the website (www.etn.com.mx) in the "modify your itinerary" section or at ETN ticket counters and/or sales points by presenting the boarding pass and a valid official ID. Each ticket is limited to a maximum of two changes.
+                                Travel itinerary changes (date or time) can be made directly from the website (www.costaline.com.mx) in the "modify your itinerary" section or at Costa Line ticket counters and/or sales points by presenting the boarding pass and a valid official ID. Each ticket is limited to a maximum of two changes.
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -202,7 +202,7 @@ class PageTermsBuenFin extends HTMLElement {
             </section>
 
     `;
-  }
+	}
 }
 
 customElements.define("page-terms-buen-fin", PageTermsBuenFin);

@@ -8,8 +8,8 @@ import "../../../js/slick.js?v=1.0.2";
 import "../../../components/app-destinations-table.js";
 
 class PageEarlyTraveler extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
         <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
@@ -104,7 +104,7 @@ class PageEarlyTraveler extends HTMLElement {
                         For Early Traveler fares, passenger name changes are not allowed.
                     </p>
                     <p class="__terms-purchase-text">
-                        Travel itinerary changes (date or time) can be made directly on the website (www.costaline.com.mx) in the “Modify your itinerary” section, or at ETN ticket offices and/or sales points by presenting the boarding pass and valid official identification. Each ticket is limited to a maximum of two changes.
+                        Travel itinerary changes (date or time) can be made directly on the website (www.costaline.com.mx) in the “Modify your itinerary” section, or at Costa Line ticket offices and/or sales points by presenting the boarding pass and valid official identification. Each ticket is limited to a maximum of two changes.
                     </p>
                     <p class="__terms-purchase-text">
                         If the current fare at the time of the change is higher than the Early Traveler fare paid, the customer must pay the difference between the fare paid and the current fare at the time of changing the original trip. The payment must be made using the same payment method previously used. Applies to all payment methods.
@@ -150,7 +150,7 @@ class PageEarlyTraveler extends HTMLElement {
             </section>
 
     `;
-  }
+	}
 }
 
 customElements.define("page-early-traveler", PageEarlyTraveler);

@@ -1,54 +1,51 @@
 [
-    {
-      
-      "type": "left",
-      "imageSrc": "../../../src/assets/img/sales-location/puntos-de-venta.jpg",
-      "altText": "Puntos de venta ETN",
-      "cardTitle": "Puntos de venta",
-      "linkUrl": "../../src/assets/img/sales-location/call-center.jpg"
-      
-    },
-    {
-      "type": "right",
-      "imageSrc": "../../../src/assets/img/sales-location/agencia.jpg",
-      "altText": "Agencias ETN",
-      "cardTitle": "Agencias",
-      "linkUrl": "../../src/assets/img/sales-location/call-center.jpg"
-    },
-    {
-      "type": "left",
-      "imageSrc": "../../../src/assets/img/sales-location/call-center.jpg",
-      "altText": "Contact Center ETN",
-      "cardTitle": "Contact Center",
-      "linkUrl": "../../src/assets/img/sales-location/call-center.jpg"
-    },
-    {
-      "type": "right",
-      "imageSrc": "../../../src/assets/img/sales-location/taquilla.webp",
-      "altText": "Taquillas ETN",
-      "cardTitle": "Taquillas",
-      "linkUrl": "../../src/assets/img/sales-location/call-center.jpg"
-    },
-    {
-      "type": "left",
-      "imageSrc": "../../../src/assets/img/sales-location/cetram.png",
-      "altText": "Cetram",
-      "cardTitle": "Cetram",
-      "linkUrl": "../../src/assets/img/sales-location/call-center.jpg"
-    },
-    {
-      "type": "right",
-      "imageSrc": "../../../src/assets/img/sales-location/oxxo.png",
-      "altText": "Oxxo",
-      "cardTitle": "Oxxo",
-      "linkUrl": "../../src/assets/img/sales-location/call-center.jpg"
-    },
-    {
-      "type": "left",
-      "imageSrc": "../../../src/assets/img/sales-location/price-travel.png",
-      "altText": "Price Travel",
-      "cardTitle": "Price Travel",
-      "linkUrl": "../../src/assets/img/sales-location/call-center.jpg"
-    }
-  ]
-  
+	{
+		"type": "left",
+		"imageSrc": "../../../src/assets/img/sales-location/puntos-de-venta.jpg",
+		"altText": "Puntos de venta Costa Line",
+		"cardTitle": "Puntos de venta",
+		"linkUrl": "../../src/assets/img/sales-location/call-center.jpg"
+	},
+	{
+		"type": "right",
+		"imageSrc": "../../../src/assets/img/sales-location/agencia.jpg",
+		"altText": "Agencias Costa Line",
+		"cardTitle": "Agencias",
+		"linkUrl": "../../src/assCosta Line/img/sales-location/call-center.jpg"
+	},
+	{
+		"type": "left",
+		"imageSrc": "../../../src/assets/img/sales-location/call-center.jpg",
+		"altText": "Contact Center Costa Line",
+		"cardTitle": "Contact Center",
+		"linkUrl": "../../src/assets/img/sales-location/call-center.jpg"
+	},
+	{
+		"type": "right",
+		"imageSrc": "../../../src/assets/img/sales-location/taquilla.webp",
+		"altText": "Taquillas Costa Line",
+		"cardTitle": "Taquillas",
+		"linkUrl": "../../src/assets/img/sales-location/call-center.jpg"
+	},
+	{
+		"type": "left",
+		"imageSrc": "../../../src/assets/img/sales-location/cetram.png",
+		"altText": "Cetram",
+		"cardTitle": "Cetram",
+		"linkUrl": "../../src/assets/img/sales-location/call-center.jpg"
+	},
+	{
+		"type": "right",
+		"imageSrc": "../../../src/assets/img/sales-location/oxxo.png",
+		"altText": "Oxxo",
+		"cardTitle": "Oxxo",
+		"linkUrl": "../../src/assets/img/sales-location/call-center.jpg"
+	},
+	{
+		"type": "left",
+		"imageSrc": "../../../src/assets/img/sales-location/price-travel.png",
+		"altText": "Price Travel",
+		"cardTitle": "Price Travel",
+		"linkUrl": "../../src/assets/img/sales-location/call-center.jpg"
+	}
+]

@@ -33,9 +33,8 @@ class AppFooter extends HTMLElement {
       {
         title: "Sobre la empresa",
         links: [
-          { text: "Acerca de nosotros", href: "../../acerca-de-nosotros.html" },
-          { text: "Bolsa de trabajo", href: "#" },
-          { text: "Evalua tu viaje", href: "#" },
+          { text: "Acerca de nosotros", href: "../../../nosotros/" },
+          { text: "Bolsa de trabajo", href: "https://grupo-de-empresas-de-autotransporte.pandape.computrabajo.com/?utm_source=chatgpt.com" },
         ],
       },
       {
@@ -43,19 +42,21 @@ class AppFooter extends HTMLElement {
         links: [
           {
             text: "Avisos de privacidad",
-            href: "../../aviso-de-privacidad.html",
+            href: "../../../nosotros/aviso-de-privacidad.html",
           },
           {
             text: "Términos y condiciones",
-            href: "../terminos-condiciones.html",
+            href: "../../../nosotros/terminos-condiciones.html",
           },
         ],
       },
       {
-        title: "Servicio al cliente",
+        title: "Servicios",
         links: [
-          { text: "Viaje protegido", href: "../../viajero-protegido.html" },
-          { text: "Agencias", href: "#" },
+          { text: "Viaje protegido", href: "../../../servicios/viajero-protegido.html" },
+          { text: "Viaje protegido Plus", href: "../../../servicios/viajero-protegido-plus.html" },
+          { text: "Viaje protegido Lujo", href: "../../../servicios/viajero-protegido-lujo.html" },
+          { text: "Agencias", href: "https://ventas.costaline.com.mx/request.aspx?APPNAME=Navegante&PRGNAME=AccesoEx&ARGUMENTS=-AAG,-AH,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-AES&_ga=2.70363408.1421465980.1688335622-27413750.1682467979&_gl=1*1ljvuz9*_gcl_au*MTE5NTUxODc1MS4xNzY5MDMwOTg3" },
         ],
       },
       {
@@ -63,10 +64,10 @@ class AppFooter extends HTMLElement {
         links: [
           {
             text: "Preguntas frecuentes",
-            href: "../../preguntas-frecuentes.html",
+            href: "../../../nosotros/preguntas-frecuentes.html",
           },
-          { text: "Cuentanos tu experiencia", href: "#" },
-          { text: "Mapa de Sitio", href: "../../sitemap.html" }
+          { text: "Cuentanos tu experiencia", href: "http://iamsateescucha.com/survey/#/pull" },
+          { text: "Mapa de Sitio", href: "../../../sitemap.html" }
         ],
       },
       {

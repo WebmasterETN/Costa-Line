@@ -12,8 +12,8 @@ import "../../components/app-destiny-grid.js";
 import "../../js/slick.js?v=1.0.0";
 
 class AutobusATaxco extends HTMLElement {
-  async connectedCallback() {
-    this.innerHTML = `
+	async connectedCallback() {
+		this.innerHTML = `
       <app-cotiza></app-cotiza>
 
       <app-banner-slider
@@ -36,7 +36,7 @@ class AutobusATaxco extends HTMLElement {
           </p>
 
           <p class="__paragraph">
-            Costa Line y ETN Turistar ofrecen salidas cómodas y accesibles hacia Taxco desde diferentes ciudades. 
+            Costa Line y Costa Line Turistar ofrecen salidas cómodas y accesibles hacia Taxco desde diferentes ciudades. 
             Llega al corazón del pueblo sin complicaciones y disfruta una experiencia única.
           </p>
 
@@ -71,7 +71,7 @@ class AutobusATaxco extends HTMLElement {
       <!-- CTA -->
       <section class="cta">
           <div class="container">
-              <h2 class="cta__title">¡Viaja a Taxco con ETN Turistar!</h2>
+              <h2 class="cta__title">¡Viaja a Taxco con Costa Line!</h2>
               <p class="cta__subtitle">
                 Disfruta uno de los Pueblos Mágicos más hermosos de México, con historia, cultura y tradición platera.
               </p>
@@ -102,7 +102,7 @@ class AutobusATaxco extends HTMLElement {
       <app-button-whats></app-button-whats>
       <app-button-eva-trip></app-button-eva-trip>
     `;
-  }
+	}
 }
 
 customElements.define("page-autobus-a-taxco", AutobusATaxco);

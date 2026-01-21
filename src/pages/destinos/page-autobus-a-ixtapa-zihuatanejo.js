@@ -12,8 +12,8 @@ import "../../components/app-destiny-grid.js";
 import "../../js/slick.js?v=1.0.0";
 
 class AutobusAIxtapaZihuatanejo extends HTMLElement {
-  async connectedCallback() {
-    this.innerHTML = `
+	async connectedCallback() {
+		this.innerHTML = `
       <app-cotiza></app-cotiza>
 
       <app-banner-slider
@@ -46,7 +46,7 @@ class AutobusAIxtapaZihuatanejo extends HTMLElement {
 
       <section class="cta">
           <div class="container">
-              <h2 class="cta__title">¡Viaja a Ixtapa Zihuatanejo con ETN Turistar!</h2>
+              <h2 class="cta__title">¡Viaja a Ixtapa Zihuatanejo con Costa Line!</h2>
               <p class="cta__subtitle">No esperes más para vivir unas vacaciones inolvidables en la costa de Guerrero. Tu viaje está a solo un clic de distancia.</p>
               <a href="../../boletos-autobus/ixtapa-zihuatanejo.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer" aria-label="Comprar boletos" tabindex="0">Consulta horarios y compra tu boleto</a>
           </div>
@@ -73,9 +73,9 @@ class AutobusAIxtapaZihuatanejo extends HTMLElement {
       <app-button-whats></app-button-whats>
       <app-button-eva-trip></app-button-eva-trip>
     `;
-  }
+	}
 }
 customElements.define(
-  "page-autobus-a-ixtapa-zihuatanejo",
-  AutobusAIxtapaZihuatanejo
+	"page-autobus-a-ixtapa-zihuatanejo",
+	AutobusAIxtapaZihuatanejo,
 );

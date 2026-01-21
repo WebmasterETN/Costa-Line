@@ -7,8 +7,8 @@ import "../../../components/app-table-pets.js";
 import "../../../components/app-destinations-table.js";
 
 class PageTerminosBuenFin extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
            <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
@@ -134,7 +134,7 @@ class PageTerminosBuenFin extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                El cambio de itinerario de viaje (fecha u hora) se puede realizar directamente desde la página de internet (www.etn.com.mx) en la sección “modifique su itinerario” o también podrán ser realizados en taquillas y/o puntos de venta ETN presentando el pase de abordar y una identificación oficial vigente. Cada operación está limitada a un máximo de dos cambios por boleto.
+                                El cambio de itinerario de viaje (fecha u hora) se puede realizar directamente desde la página de internet (www.etn.com.mx) en la sección “modifique su itinerario” o también podrán ser realizados en taquillas y/o puntos de venta Costa Line presentando el pase de abordar y una identificación oficial vigente. Cada operación está limitada a un máximo de dos cambios por boleto.
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -200,7 +200,7 @@ class PageTerminosBuenFin extends HTMLElement {
                 <app-destinations-table src="../src/data/destinos-cl.json"></app-destinations-table>
             </section>
     `;
-  }
+	}
 }
 
 customElements.define("page-terminos-buen-fin", PageTerminosBuenFin);
