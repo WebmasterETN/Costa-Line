@@ -10,14 +10,9 @@ class AppHeader extends HTMLElement {
     </a>
     <nav aria-label="Menú principal">
       <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li class="submenu">
-          <a href="#" role="button" aria-haspopup="true" aria-expanded="false">Facturación <span class="icon-arrow-down"></span></a>
-          <ul>
-            <li><a href="https://ventas.costaline.com.mx/request.aspx?PRGNAME=Facturacion">Facture aquí</a></li>
-            <li><a href="https://costaline.com.mx/CFDI-datos-receptor.html">¿Qué datos necesito?</a></li>
-          </ul>
-        </li>
+        <li><a href="../../../">Inicio</a></li>
+        
+        <li><a href="../../../servicios/facturacion.html">Facturación</a></li>
         <li><a href="https://viaje.costaline.com.mx/download-tickets">Pase de abordar</a></li>
         <li><a href="https://viaje.costaline.com.mx/exchange/itinerary">Modificar itinerario</a></li>
         <li class="submenu">
@@ -45,7 +40,7 @@ class AppHeader extends HTMLElement {
     <button id="openDotersModal" class="btn btn-doters desktop-doters" aria-label="Iniciar sesión Doters">
       <img src='../../src/assets/img/logos/doters.svg' alt="Doters" loading="lazy">
     </button>
-    <a class="li__languaje desktop-languaje" href="../english/index.html" aria-label="Cambiar idioma">
+    <a class="li__languaje desktop-languaje" href="../../../english/" aria-label="Cambiar idioma">
       <img src='../../src/assets/img/icons-img/USA_Flag.webp' alt="English" loading="lazy">
     </a>
     <button class="container-menu-hamburguer" id="hamburger-icon" aria-label="Abrir menú">
@@ -56,18 +51,12 @@ class AppHeader extends HTMLElement {
     <div id="dropdown-menu">
       <ul>
         <li class="lili__languaje">
-          <a class="a__languaje" href="../../english/index.html" aria-label="Cambiar idioma">
+          <a class="a__languaje" href="../../../../english/" aria-label="Cambiar idioma">
             <img src='../../src/assets/img/icons-img/USA_Flag.webp' alt="English" loading="lazy">
           </a>
         </li>
-        <li><a href="../index.html">Inicio</a></li>
-        <li class="submenu__media-queries">
-          <a href="#" aria-haspopup="true" aria-expanded="false">Facturación <span class="icon-arrow-down"></span></a>
-          <ul>
-            <li><a href="https://venta.etn.com.mx/request.aspx?PRGNAME=Facturacion">Facture aquí</a></li>
-            <li><a href="https://costaline.com.mx/CFDI-datos-receptor.html">¿Qué datos necesito?</a></li>
-          </ul>
-        </li>
+        <li><a href="../../../">Inicio</a></li>
+        <li><a href="../../../servicios/facturacion.html">Factuarción</a></li>
         <li><a href="https://venta.etn.com.mx/MiViaje/loginMiItinerario.html">Pase de abordar</a></li>
         <li><a href="https://viaje.etn.com.mx/exchange/openTicket">Modificar itinerario</a></li>
         <li class="submenu__media-queries">
@@ -80,7 +69,7 @@ class AppHeader extends HTMLElement {
             <li><a href="../salas-de-espera.html">Salas de Espera</a></li>
             <li><a href="../servicio-a-bordo.html">Servicios</a></li>
             <li><a href="../promociones.html">Promociones</a></li>
-            <li><a href="../index.html">Agencias</a></li>
+            <li><a href="../../../">Agencias</a></li>
             <li><a href="../../../servicios/pago-referenciado-oxxo.html">OXXO Pay</a></li>
             <li><a href="../../../servicios/viajero-protegido.html">Viajero protegido</a></li>
             <li><a href="https://costaline.com.mx/blog/">Blog</a></li>
