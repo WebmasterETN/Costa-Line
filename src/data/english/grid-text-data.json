@@ -1,34 +1,34 @@
 {
-  "cards": [
-    {
-      "imageSrc": "../../src/assets/img/english/destinations/tepotzotlan/tepotzotlan-grid.webp",
-      "alt": "Tepotzotlán",
-      "href": "../../../english/destinations/boletos-de-autobus-a-tepotzotlan.html",
-      "text": "Tepotzotlán"
-    },
-    {
-      "imageSrc": "../../src/assets/img/english/destinations/ciudad-altamirano/ciudad-altamirano-grid.webp",
-      "alt": "Ciudad Altamirano",
-      "href": "../../../english/destinations/boletos-de-autobus-a-cd-altamirano.html",
-      "text": "Ciudad Altamirano"
-    },
-    {
-      "imageSrc": "../../src/assets/img/english/destinations/toluca/toluca-grid.webp",
-      "alt": "Toluca",
-      "href": "../../../english/destinations/boletos-de-autobus-a-toluca.html",
-      "text": "Toluca"
-    },
-    {
-      "imageSrc": "../../src/assets/img/english/destinations/coyuca-de-benitez/coyuca-de-benitez-grid.webp",
-      "alt": "Coyuca de Benitez",
-      "href": "../../../english/destinations/boletos-de-autobus-a-coyuca-de-benitez.html",
-      "text": "Coyuca de Benitez"
-    }
-  ],
-  "textSection": {
-    "paragraphs": [
-      "At <strong>Costa Line</strong>, every destination is an experience designed just for you. Travel in the comfort of our buses and discover routes that connect you with the most authentic side of Mexico. Because discovering the country isn’t just about arriving—it’s about enjoying the journey, being moved by every landscape, and letting each stop surprise you.",
-      "Your next destination isn’t on the map—it’s part of your story. Discover Mexico in comfort and turn every journey into a memory worth sharing."
-    ]
-  }
+	"cards": [
+		{
+			"imageSrc": "../../src/assets/img/english/destinations/tepotzotlan/tepotzotlan-grid.webp",
+			"alt": "Tepotzotlán",
+			"href": "../../../english/destinations/boletos-de-autobus-a-tepotzotlan.html",
+			"text": "Tepotzotlán"
+		},
+		{
+			"imageSrc": "../../src/assets/img/english/destinations/ciudad-altamirano/ciudad-altamirano-grid.webp",
+			"alt": "Ciudad Altamirano",
+			"href": "../../../english/destinations/boletos-de-autobus-a-cd-altamirano.html",
+			"text": "Ciudad Altamirano"
+		},
+		{
+			"imageSrc": "../../src/assets/img/english/destinations/toluca/toluca-grid.webp",
+			"alt": "Toluca",
+			"href": "../../../english/destinations/boletos-de-autobus-a-toluca.html",
+			"text": "Toluca"
+		},
+		{
+			"imageSrc": "../../src/assets/img/english/destinations/coyuca-de-benitez/coyuca-de-benitez-grid.webp",
+			"alt": "Coyuca de Benitez",
+			"href": "../../../english/destinations/boletos-de-autobus-a-coyuca-de-benitez.html",
+			"text": "Coyuca de Benitez"
+		}
+	],
+	"textSection": {
+		"paragraphs": [
+			"At <strong>Costa Line</strong>, every destination is an experience designed just for you. Travel in the comfort of our buses and discover routes that connect you with the most authentic side of Mexico. Because discovering the country isn’t just about arriving—it’s about enjoying the journey, being moved by every landscape, and letting each stop surprise you.",
+			"Your next destination isn’t on the map—it’s part of your story. Discover Mexico in comfort and turn every journey into a memory worth sharing."
+		]
+	}
 }

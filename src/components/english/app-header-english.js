@@ -24,13 +24,13 @@ class AppHeaderEnglish extends HTMLElement {
           <a href="#" role="button" aria-haspopup="true" aria-expanded="false">More <span class="icon-arrow-down"></span></a>
           <ul>
             <li><a href="../boletos-de-autobus.html">Tickets</a></li>
-            <li><a href="../donde-comprar-etn.html">Where to buy?</a></li>
+            <li><a href="../donde-comprar-costa.html">Where to buy?</a></li>
             <li><a href=".../../../">Pets</a></li>
             <li><a href="../destinos.html">Destinations</a></li>
-            <li><a href="../taquillas.html">Ticket offices</a></li>
+            <li><a href="../terminales">Ticket offices</a></li>
             <li><a href="../salas-de-espera.html">VIP Lounges</a></li>
             <li><a href="../servicio-a-bordo.html">Services</a></li>
-            <li><a href="../promociones.html">Promotions</a></li>
+            <li><a href="../promociones">Promotions</a></li>
             <li><a href="https://ventas.costaline.com.mx/request.aspx?APPNAME=Navegante&PRGNAME=AccesoEx">Agencies</a></li>
             <li><a href="../pago-referenciado-oxxo.html">OXXO Pay</a></li>
             <li><a href="../../viajero-protegido.html">Protected traveler</a></li>
@@ -75,13 +75,13 @@ class AppHeaderEnglish extends HTMLElement {
           <a href="#" aria-haspopup="true" aria-expanded="false">More <span class="icon-arrow-down"></span></a>
           <ul>
             <li><a href="../boletos-de-autobus.html">Tickets</a></li>
-            <li><a href="../donde-comprar-etn.html">Where to buy?</a></li>
+            <li><a href="../donde-comprar-costa.html">Where to buy?</a></li>
             <li><a href=".../../../">Pets</a></li>
             <li><a href="../destinos.html">Destinations</a></li>
-            <li><a href="../taquillas.html">Ticket offices</a></li>
+            <li><a href="../terminales">Ticket offices</a></li>
             <li><a href="../salas-de-espera.html">VIP Lounges</a></li>
             <li><a href="../servicio-a-bordo.html">Services</a></li>
-            <li><a href="../promociones.html">Promotions</a></li>
+            <li><a href="../promociones">Promotions</a></li>
             <li><a href=".../../../">Agencies</a></li>
             <li><a href="../pago-referenciado-oxxo.html">OXXO Pay</a></li>
             <li><a href="../../viajero-protegido.html">Protected traveler</a></li>

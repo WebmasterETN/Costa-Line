@@ -1,188 +1,224 @@
 [
-    {
-        "title-dropdown": "¿Cuales son las rutas de autobús más populares con destino a Cuernavaca?",
-        "content-dropdown": {
-          "type": "list",
-          "items": [
-            "Acapulco Centro a Cuernavaca",
-            "Acapulco Papagayo a Cuernavaca",
-            "Chilpancingo a Cuernavaca",
-            "Iguala a Cuernavaca",
-            "Ciudad de México Central Sur a Cuernavaca",
-            "Teloloapan a Cuernavaca"
-          ]
-        }
-      },
-      {
-          "title-dropdown": "¿Cuanto cuesta un boleto de Taxqueña a Cuernavaca?",
-          "content-dropdown": {
-            "type": "complex",
-            "blocks": [
-              {
-                "type": "paragraph",
-                "text": "El boleto para viajar de la Central Sur - Taxqueña a Cuernavaca tiene un costo de $145.00 MXN."
-              },
-              {
-                "type": "table",
-                "headers": ["Concepto", "Descripción"],
-                "rows": [
-                  ["Autobús más barato", "$150.00 MXN"],
-                  ["Salidas al día", "26"],
-                  ["Primera salida", "05:00 AM"],
-                  ["Tiempo de viaje", "01 hora 40 minutos"],
-                  ["Escalas", "Directo"]
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "title-dropdown": "¿Cuál es la forma más barata de viajar en autobus de la Ciudad de México a Chilpancingo?",
-          "content-dropdown": {
-            "type": "complex",
-            "blocks": [
-              {
-                "type": "paragraph",
-                "text": "Compra tus boletos en CostaLine obten estas promociones:"
-              },
-              {
-                "type": "list",
-                "items": [
-                  {
-                    "text": "15% de descuento: Compra tu boleto redondo en nuestra página web y obtén un 15% de descuento en tu viaje de regreso. Consulta ",
-                    "links": [
-                      {"label": "Terminos y condiciones", "url":"https://costaline.com.mx/promociones.html"}
-                    ]
-                  },
-                  {
-                    "text": "10% de descuento: Ahora tu compra de boleto redondo en taquillas tiene un 10% de descuento. Consulta términos y condiciones.",
-                    "links": [
-                      {"label": "Terminos y condiciones", "url":"https://costaline.com.mx/promociones.html"}
-                    ]
-                  },
-                  {
-                    "text": "Viajero anticipado: Obtén hasta un 60% de descuento, conoce la tarifa de viajero anticipado. Consulta términos y condiciones.",
-                    "links": [
-                      {"label": "Terminos y condiciones", "url":"https://costaline.com.mx/promociones.html"}
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "images",
-                "images": [
-                  { "src": "../src/assets/img/logos/descuento-15.webp", "alt": "descuento 15%" },
-                  { "src": "../src/assets/img/logos/descuento-10.webp", "alt": "descuento 10%" },
-                  { "src": "../src/assets/img/logos/logo-viajero-anticipado.webp", "alt": "Bus 3" }
-                ]
-              }
-            ]
-          }
-        },
-      {
-        "title-dropdown": "¿Cuánto cuesta el pasaje de Chilpancingo a Cuernavaca?",
-        "content-dropdown": {
-         "type": "list",
-        "items": [
-          {
-            "text": "El boleto de autobús de Chilpancingo a Cuernavaca tiene un precio desde $160.00 viajando en Costa Line con ",
-            "links": [
-              { "label": "Viajero Anticipado", "url": "https://costaline.com.mx/viajero-anticipado/" }
-            ] 
-          }]
-        }
-      },
-      {
-        "title-dropdown": "¿Cuanto cuesta un boleto a Cuernavaca?",
-        "content-dropdown": {
-          "type": "paragraph",
-          "text": "El boleto para viajar de la CDMX a Cuernavaca tiene un costo de $150.00 MXN."
-        }
-      },
-      {
-        "title-dropdown": "¿Cuales son los mejores lugares para visitar en Cuernavaca?",
-        "content-dropdown": {
-          "type": "list",
-          "items": [
-            "Ex Convento de la Asunción",
-            "Jardines de México",
-            "Lagunas de Zempoala",
-            "Catedral de Cuernavaca"
-          ]
-        }
-      },
-    {
-      "title-dropdown": "¿Cuáles son los mejores lugares para visitar en Chilpancingo?",
-      "content-dropdown": {
-        "type": "list",
-        "items": [
-          "La Catedral de Asunción de María",
-          "Zoológico Zoochilpan",
-          "Museo Regional de Guerrero",
-          "Museo de la Avispa"
-        ]
-      }
-    },
-    {
-        "title-dropdown": "¿Dónde puedo comprar boletos de autobús a Chilpancingo CostaLine?",
-        "content-dropdown": {
-          "type": "list",
-          "items": [
-            "Taquillas CostaLine AERS",
-            {
-              "text": "Aplicación móvil CostaLine AERS Disponible en",
-              "links": [
-                { "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=mx.com.iamsa.costaline&hl=es&pli=1" },
-                { "label": "App Store", "url": "https://apps.apple.com/mx/app/costa-line/id1486185563" }
-              ]
-            },
-            {
-              "text": "Contact Center CostaLine AERS marcando al",
-              "phones": [
-                { "label": "800 0037 635", "tel": "018000037635" },
-                { "label": "800 2490 460", "tel": "018002490460" }
-              ]
-            },
-            {
-              "text": "Oxxo. Consulta detalles.",
-              "link": "https://costaline.com.mx/pago-referenciado-oxxo.html"
-            },
-            "Visita nuestros puntos de venta.",
-            "Agencias afiliadas."
-          ]
-        }
-      },
-    {
-      "title-dropdown": "¿Cuánto cuesta viajar de Acapulco a Chilpancingo, Guerrero?",
-      "content-dropdown": {
-        "type": "list",
-        "items": [
-          {
-            "text": "El costo del viaje en autobús de Acapulco a Chilpancingo, Guerrero es de $105. Puedes tomar un autobús en Av Cuauhtémoc No. 1605, Progreso, 39350 Acapulco de Juárez, Gro. Planifica tu viaje y obten un descuento de hasta 48% con",
-            "links": [
-              { "label": "Viajero Anticipado", "url": "https://costaline.com.mx/viajero-anticipado/" }
-            ]
-          }]
-      }
-    },
-    {
-      "title-dropdown": "¿Cómo viajar de Cuernavaca a Chilpancingo, Guerrero",
-      "content-dropdown": {
-        "type": "paragraph",
-        "text": "Puedes tomar un autobús en Av. José María Morelos y Pavón Nte. 329, Cuernavaca Centro, Centro, 62000 Cuernavaca, Mor. Los boletos tienen un costo desde $160 aprovechando el descuento de Viajero Anticipado. Sujeto a disponibilidad."
-      }
-    },
-    {
-      "title-dropdown": "¿Cómo viajar de Central Norte a Chilpancingo, Guerrero?",
-      "content-dropdown": {
-        "type": "list",
-        "items": [
-          {
-            "text": "Toma un autobús en Eje Central Lázaro Cárdenas 271, Magdalena de las Salinas, Gustavo A. Madero, 07760 Ciudad de México, CDMX, Obten hasta el 51% de descuento con",
-            "links": [
-              { "label": "Viajero Anticipado", "url": "https://costaline.com.mx/viajero-anticipado/" }
-            ]
-          }]
-      }
-    }
-  ]
+	{
+		"title-dropdown": "¿Cuales son las rutas de autobús más populares con destino a Cuernavaca?",
+		"content-dropdown": {
+			"type": "list",
+			"items": [
+				"Acapulco Centro a Cuernavaca",
+				"Acapulco Papagayo a Cuernavaca",
+				"Chilpancingo a Cuernavaca",
+				"Iguala a Cuernavaca",
+				"Ciudad de México Central Sur a Cuernavaca",
+				"Teloloapan a Cuernavaca"
+			]
+		}
+	},
+	{
+		"title-dropdown": "¿Cuanto cuesta un boleto de Taxqueña a Cuernavaca?",
+		"content-dropdown": {
+			"type": "complex",
+			"blocks": [
+				{
+					"type": "paragraph",
+					"text": "El boleto para viajar de la Central Sur - Taxqueña a Cuernavaca tiene un costo de $145.00 MXN."
+				},
+				{
+					"type": "table",
+					"headers": ["Concepto", "Descripción"],
+					"rows": [
+						["Autobús más barato", "$150.00 MXN"],
+						["Salidas al día", "26"],
+						["Primera salida", "05:00 AM"],
+						["Tiempo de viaje", "01 hora 40 minutos"],
+						["Escalas", "Directo"]
+					]
+				}
+			]
+		}
+	},
+	{
+		"title-dropdown": "¿Cuál es la forma más barata de viajar en autobus de la Ciudad de México a Chilpancingo?",
+		"content-dropdown": {
+			"type": "complex",
+			"blocks": [
+				{
+					"type": "paragraph",
+					"text": "Compra tus boletos en CostaLine obten estas promociones:"
+				},
+				{
+					"type": "list",
+					"items": [
+						{
+							"text": "15% de descuento: Compra tu boleto redondo en nuestra página web y obtén un 15% de descuento en tu viaje de regreso. Consulta ",
+							"links": [
+								{
+									"label": "Terminos y condiciones",
+									"url": "https://costaline.com.mx/promociones"
+								}
+							]
+						},
+						{
+							"text": "10% de descuento: Ahora tu compra de boleto redondo en taquillas tiene un 10% de descuento. Consulta términos y condiciones.",
+							"links": [
+								{
+									"label": "Terminos y condiciones",
+									"url": "https://costaline.com.mx/promociones"
+								}
+							]
+						},
+						{
+							"text": "Viajero anticipado: Obtén hasta un 60% de descuento, conoce la tarifa de viajero anticipado. Consulta términos y condiciones.",
+							"links": [
+								{
+									"label": "Terminos y condiciones",
+									"url": "https://costaline.com.mx/promociones"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "images",
+					"images": [
+						{
+							"src": "../src/assets/img/logos/descuento-15.webp",
+							"alt": "descuento 15%"
+						},
+						{
+							"src": "../src/assets/img/logos/descuento-10.webp",
+							"alt": "descuento 10%"
+						},
+						{
+							"src": "../src/assets/img/logos/logo-viajero-anticipado.webp",
+							"alt": "Bus 3"
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"title-dropdown": "¿Cuánto cuesta el pasaje de Chilpancingo a Cuernavaca?",
+		"content-dropdown": {
+			"type": "list",
+			"items": [
+				{
+					"text": "El boleto de autobús de Chilpancingo a Cuernavaca tiene un precio desde $160.00 viajando en Costa Line con ",
+					"links": [
+						{
+							"label": "Viajero Anticipado",
+							"url": "https://costaline.com.mx/viajero-anticipado/"
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"title-dropdown": "¿Cuanto cuesta un boleto a Cuernavaca?",
+		"content-dropdown": {
+			"type": "paragraph",
+			"text": "El boleto para viajar de la CDMX a Cuernavaca tiene un costo de $150.00 MXN."
+		}
+	},
+	{
+		"title-dropdown": "¿Cuales son los mejores lugares para visitar en Cuernavaca?",
+		"content-dropdown": {
+			"type": "list",
+			"items": [
+				"Ex Convento de la Asunción",
+				"Jardines de México",
+				"Lagunas de Zempoala",
+				"Catedral de Cuernavaca"
+			]
+		}
+	},
+	{
+		"title-dropdown": "¿Cuáles son los mejores lugares para visitar en Chilpancingo?",
+		"content-dropdown": {
+			"type": "list",
+			"items": [
+				"La Catedral de Asunción de María",
+				"Zoológico Zoochilpan",
+				"Museo Regional de Guerrero",
+				"Museo de la Avispa"
+			]
+		}
+	},
+	{
+		"title-dropdown": "¿Dónde puedo comprar boletos de autobús a Chilpancingo CostaLine?",
+		"content-dropdown": {
+			"type": "list",
+			"items": [
+				"Taquillas CostaLine AERS",
+				{
+					"text": "Aplicación móvil CostaLine AERS Disponible en",
+					"links": [
+						{
+							"label": "Google Play",
+							"url": "https://play.google.com/store/apps/details?id=mx.com.iamsa.costaline&hl=es&pli=1"
+						},
+						{
+							"label": "App Store",
+							"url": "https://apps.apple.com/mx/app/costa-line/id1486185563"
+						}
+					]
+				},
+				{
+					"text": "Contact Center CostaLine AERS marcando al",
+					"phones": [
+						{ "label": "800 0037 635", "tel": "018000037635" },
+						{ "label": "800 2490 460", "tel": "018002490460" }
+					]
+				},
+				{
+					"text": "Oxxo. Consulta detalles.",
+					"link": "https://costaline.com.mx/pago-referenciado-oxxo.html"
+				},
+				"Visita nuestros puntos de venta.",
+				"Agencias afiliadas."
+			]
+		}
+	},
+	{
+		"title-dropdown": "¿Cuánto cuesta viajar de Acapulco a Chilpancingo, Guerrero?",
+		"content-dropdown": {
+			"type": "list",
+			"items": [
+				{
+					"text": "El costo del viaje en autobús de Acapulco a Chilpancingo, Guerrero es de $105. Puedes tomar un autobús en Av Cuauhtémoc No. 1605, Progreso, 39350 Acapulco de Juárez, Gro. Planifica tu viaje y obten un descuento de hasta 48% con",
+					"links": [
+						{
+							"label": "Viajero Anticipado",
+							"url": "https://costaline.com.mx/viajero-anticipado/"
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"title-dropdown": "¿Cómo viajar de Cuernavaca a Chilpancingo, Guerrero",
+		"content-dropdown": {
+			"type": "paragraph",
+			"text": "Puedes tomar un autobús en Av. José María Morelos y Pavón Nte. 329, Cuernavaca Centro, Centro, 62000 Cuernavaca, Mor. Los boletos tienen un costo desde $160 aprovechando el descuento de Viajero Anticipado. Sujeto a disponibilidad."
+		}
+	},
+	{
+		"title-dropdown": "¿Cómo viajar de Central Norte a Chilpancingo, Guerrero?",
+		"content-dropdown": {
+			"type": "list",
+			"items": [
+				{
+					"text": "Toma un autobús en Eje Central Lázaro Cárdenas 271, Magdalena de las Salinas, Gustavo A. Madero, 07760 Ciudad de México, CDMX, Obten hasta el 51% de descuento con",
+					"links": [
+						{
+							"label": "Viajero Anticipado",
+							"url": "https://costaline.com.mx/viajero-anticipado/"
+						}
+					]
+				}
+			]
+		}
+	}
+]
