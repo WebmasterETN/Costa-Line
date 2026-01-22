@@ -8,8 +8,8 @@ import "../components/app-dropdown.js"; // Importar el componente dropdown
 import "../js/slick.js?v=1.0.2";
 
 class PagePreguntasFrecuentes extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
@@ -24,6 +24,6 @@ class PagePreguntasFrecuentes extends HTMLElement {
                 </article>
             </section>
         `;
-  }
+	}
 }
 customElements.define("page-preguntas-frecuentes", PagePreguntasFrecuentes);

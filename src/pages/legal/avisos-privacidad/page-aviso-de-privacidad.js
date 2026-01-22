@@ -7,8 +7,8 @@ import "../../../components/app-table-pets.js";
 import "../../../components/app-destinations-table.js";
 
 class PageAvisoDePrivacidad extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
         <style>
             
         </style>
@@ -1345,38 +1345,40 @@ class PageAvisoDePrivacidad extends HTMLElement {
             </article>
         </section>
     `;
-    this.querySelectorAll(".aviso-privacidad-articulo").forEach((article) => {
-      const btn = article.querySelector(".aviso-toggle-btn");
-      const desc = article.querySelector(".aviso-desc");
-      if (btn && desc) {
-        btn.addEventListener("click", () => {
-            const allArticles = this.querySelectorAll(".aviso-privacidad-articulo");
-            allArticles.forEach((otherArticle) => {
-            const otherDesc = otherArticle.querySelector(".aviso-desc");
-            const otherBtn = otherArticle.querySelector(".aviso-toggle-btn");
-            if (otherDesc !== desc) {
-                otherDesc.classList.remove("open");
-                otherBtn.textContent = "Leer";
-            }
-            });
-            if (!desc.classList.contains("open")) {
-            desc.classList.add("open");
-            btn.textContent = "Cerrar";
-            // Centrar el título al abrir con transición suave
-            const title = article.querySelector("h3");
-            if (title) {
-                setTimeout(() => {
-                title.scrollIntoView({ behavior: "smooth", block: "center" });
-                }, 300); // Espera a que la transición inicie
-            }
-            } else {
-            desc.classList.remove("open");
-            btn.textContent = "Leer";
-            }
-        });
-      }
-    });
-  }
+		this.querySelectorAll(".aviso-privacidad-articulo").forEach((article) => {
+			const btn = article.querySelector(".aviso-toggle-btn");
+			const desc = article.querySelector(".aviso-desc");
+			if (btn && desc) {
+				btn.addEventListener("click", () => {
+					const allArticles = this.querySelectorAll(
+						".aviso-privacidad-articulo",
+					);
+					allArticles.forEach((otherArticle) => {
+						const otherDesc = otherArticle.querySelector(".aviso-desc");
+						const otherBtn = otherArticle.querySelector(".aviso-toggle-btn");
+						if (otherDesc !== desc) {
+							otherDesc.classList.remove("open");
+							otherBtn.textContent = "Leer";
+						}
+					});
+					if (!desc.classList.contains("open")) {
+						desc.classList.add("open");
+						btn.textContent = "Cerrar";
+						// Centrar el título al abrir con transición suave
+						const title = article.querySelector("h3");
+						if (title) {
+							setTimeout(() => {
+								title.scrollIntoView({ behavior: "smooth", block: "center" });
+							}, 300); // Espera a que la transición inicie
+						}
+					} else {
+						desc.classList.remove("open");
+						btn.textContent = "Leer";
+					}
+				});
+			}
+		});
+	}
 }
 
 customElements.define("page-aviso-de-privacidad", PageAvisoDePrivacidad);
