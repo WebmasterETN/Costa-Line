@@ -27,7 +27,7 @@ class PageKueskiPay extends HTMLElement {
                 <app-section-title section-title="Compra tus boletos de autobús con Kueski Pay"></app-section-title>
             </section>
 
-            <p class="__welcome-text">
+            <p style="width: 90%; margin: auto; text-align: center;" class="__welcome-text">
                 Ahora en Costa Line te ofrecemos una nueva forma de pago flexible y segura con Kueski Pay. Esta opción te permite adquirir tus boletos de autobús sin necesidad de tarjeta de crédito, pagando después en cómodos plazos.
             </p>
 
