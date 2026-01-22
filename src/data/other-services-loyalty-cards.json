@@ -1,20 +1,20 @@
 [
-  {
-    "href": "https://www.costaline.com.mx/doters",
-    "imageSrc": "../src/assets/img/mosaicos/costa-doters.webp",
-    "imageAlt": "Flayer de puntos Doters",
-    "title": "Puntos Doters"
-  },
-  {
-    "href": "../../viajer-anticipado.html",
-    "imageSrc": "../src/assets/img/mosaicos/costa-30+5.webp",
-    "imageAlt": "Flayer de descuentos ida y regreso de 5-10-2025",
-    "title": "Descuentos ida y regreso 5% más 10%"
-  },
-  {
-    "href": "../../compra-con-kueski-pay.html",
-    "imageSrc": "../src/assets/img/mosaicos/costa-kueski.webp",
-    "imageAlt": "Compra con Kueski Pay",
-    "title": "Compra con Kueski Pay"
-  }
+	{
+		"href": "https://www.costaline.com.mx/doters",
+		"imageSrc": "../src/assets/img/mosaicos/costa-doters.webp",
+		"imageAlt": "Flayer de puntos Doters",
+		"title": "Puntos Doters"
+	},
+	{
+		"href": "../../../",
+		"imageSrc": "../src/assets/img/mosaicos/costa-30+5.webp",
+		"imageAlt": "Flayer de descuentos ida y regreso de 5-10-2025",
+		"title": "Descuentos ida y regreso 5% más 10%"
+	},
+	{
+		"href": "../../compra-con-kueski-pay.html",
+		"imageSrc": "../src/assets/img/mosaicos/costa-kueski.webp",
+		"imageAlt": "Compra con Kueski Pay",
+		"title": "Compra con Kueski Pay"
+	}
 ]

@@ -62,7 +62,7 @@
 	{
 		"categoria": "Servicios",
 		"landings": [
-			{ "nombre": "Renta de Autobuses", "url": "../../turismo/index.html" },
+			{ "nombre": "Renta de Autobuses", "url": "../../servicios/renta-de-autobuses.html" },
 			{ "nombre": "Salas de espera", "url": "../../salas-de-espera.html" },
 			{ "nombre": "Servicios a bordo", "url": "../../servicio-a-bordo.html" },
 			{ "nombre": "Paquetería", "url": "../../servicios/packmultienlace" }
