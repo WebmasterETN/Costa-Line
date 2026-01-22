@@ -18,7 +18,16 @@
 
 /*-------------------ESTILOS ESPECIFICOS PARA LAS SECCIONES DE RENTA DE AUTOBUSES---------------------*/
 
+.__panthom_space {
+  height: 200px;
+  width: 100%;
+  display: block;
 
+  @media (max-width: 900px) {
+    height: 100px;
+
+  }
+}
 .__section__encuentra-taquilla {
   display: flex;
   flex-direction: column;

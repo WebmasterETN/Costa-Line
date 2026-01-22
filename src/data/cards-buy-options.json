@@ -47,5 +47,19 @@
 		"altText": "Price Travel",
 		"cardTitle": "Price Travel",
 		"linkUrl": "../../src/assets/img/sales-location/call-center.jpg"
+	},
+	{
+		"type": "right",
+		"imageSrc": "../../../src/assets/img/sales-location/web-costa.webp",
+		"altText": "Pagina Web Costa Line",
+		"cardTitle": "Pagina Web Costa Line",
+		"linkUrl": "../../../src/assets/img/sales-location/web-costa.webp"
+	},
+	{
+		"type": "left",
+		"imageSrc": "../../../src/assets/img/sales-location/app-costa.webp",
+		"altText": "Aplicación Costa Line",
+		"cardTitle": "Aplicación Costa Line",
+		"linkUrl": "../../../src/assets/img/sales-location/app-costa.webp"
 	}
 ]
