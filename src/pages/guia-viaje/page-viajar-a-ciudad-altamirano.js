@@ -3,8 +3,8 @@ import "../../components/app-payments.js";
 import "../../components/app-section-title.js";
 
 class PageViajaraCiudadAltamirano extends HTMLElement {
-  async connectedCallback() {
-    this.innerHTML = `
+	async connectedCallback() {
+		this.innerHTML = `
            <app-cotiza></app-cotiza>
 
 <section class="hero" style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url("../src/assets/img/guia-viajes/banners/banner-guia-viaje-ciudad-altamirano.webp");' data-alt="Vista panorámica de Ciudad Altamirano, Guerrero">
@@ -168,9 +168,9 @@ class PageViajaraCiudadAltamirano extends HTMLElement {
 <app-button-eva-trip></app-button-eva-trip>
 
         `;
-  }
+	}
 }
 customElements.define(
-  "page-viajar-a-ciudad-altamirano",
-  PageViajaraCiudadAltamirano
+	"page-viajar-a-ciudad-altamirano",
+	PageViajaraCiudadAltamirano,
 );

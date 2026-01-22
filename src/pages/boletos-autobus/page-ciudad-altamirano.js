@@ -3,8 +3,8 @@ import "../../components/app-payments.js";
 import "../../components/app-section-title.js";
 
 class PageCiudadAltamirano extends HTMLElement {
-  async connectedCallback() {
-    this.innerHTML = `
+	async connectedCallback() {
+		this.innerHTML = `
             <app-cotiza></app-cotiza>
             <app-banner-slider
             slides-data='[
@@ -196,7 +196,7 @@ class PageCiudadAltamirano extends HTMLElement {
   <div class="container">
     <h2 class="cta__title">¡Viaja a Ciudad Altamirano con Costaline!</h2>
     <p class="cta__subtitle">Reserva tu boleto y disfruta un viaje seguro y cómodo hacia Guerrero.</p>
-    <a href="../destinos/autobus-a-ciudad-altamirano.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer">
+    <a href="../destinos/autobus-a-cd-altamirano.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer">
       Ver más sobre el destino
     </a>
   </div>
@@ -204,6 +204,6 @@ class PageCiudadAltamirano extends HTMLElement {
 
 
         `;
-  }
+	}
 }
 customElements.define("page-ciudad-altamirano", PageCiudadAltamirano);

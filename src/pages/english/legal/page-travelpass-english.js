@@ -8,8 +8,8 @@ import "../../../js/slick.js?v=1.0.2";
 import "../../../components/app-destinations-table.js";
 
 class PageTravelpassEnglish extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
         <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
@@ -27,7 +27,7 @@ class PageTravelpassEnglish extends HTMLElement {
                 <app-section-title section-title="Terms and Conditions"></app-section-title>
             </section>
 
-            <img src="../../src/assets/img/logos/logo-travel-pass.webp" alt="Travelpass" class="img-logo">
+            <img src="../../src/assets/img/logos/logo-monedero-electronico.webp" alt="Travelpass" class="img-logo">
 
             <section class="__sections">
                 <article class="__bg-blue">
@@ -44,12 +44,12 @@ class PageTravelpassEnglish extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Please note that the Travel Pass electronic wallet cannot be redeemed for cash under any circumstances and can only be used to purchase Costa Line bus tickets.
+                                Please note that the Monedero Electrónico electronic wallet cannot be redeemed for cash under any circumstances and can only be used to purchase Costa Line bus tickets.
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                The Travel Pass electronic wallet cannot be sold or transferred.
+                                The Monedero Electrónico electronic wallet cannot be sold or transferred.
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -64,18 +64,18 @@ class PageTravelpassEnglish extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Legal entities such as companies, government entities, foundations, etc., cannot acquire the Travel Pass electronic wallet.
+                                Legal entities such as companies, government entities, foundations, etc., cannot acquire the Monedero Electrónico electronic wallet.
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                By acquiring the Travel Pass electronic wallet, the passenger agrees to all conditions and restrictions.
+                                By acquiring the Monedero Electrónico electronic wallet, the passenger agrees to all conditions and restrictions.
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
                                 You can acquire your electronic wallet directly at Costa Line ticket offices or on our website 
-                                <a class="__link-text" href="../../index.html">www.costaline.com.mx</a>
+                                <a class="__link-text" href="../.../../../">www.costaline.com.mx</a>
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -101,7 +101,7 @@ class PageTravelpassEnglish extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Travel Pass benefits depend on the amount you load:
+                                Monedero Electrónico benefits depend on the amount you load:
                             </p>
                             <ul class="__terms-purchase-list">
                                 <li class="__terms-purchase-item">
@@ -148,10 +148,10 @@ class PageTravelpassEnglish extends HTMLElement {
                         <li class="__terms-purchase-item"><p class="__terms-purchase-text">Partial payment is allowed (wallet + cash or card).</p></li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Customers can change date and time. Name changes, route changes, and service class changes are not allowed. Changes can be made online (<a class="__link-text" href="../../index.html">www.costaline.com.mx</a>) or at Costa Line offices in Chilpancingo and Acapulco.
+                                Customers can change date and time. Name changes, route changes, and service class changes are not allowed. Changes can be made online (<a class="__link-text" href="../.../../../">www.costaline.com.mx</a>) or at Costa Line offices in Chilpancingo and Acapulco.
                             </p>
                         </li>
-                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">If multiple tickets are purchased in one transaction with Travel Pass (full or partial payment), exchanges must be made for all tickets in that purchase.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">If multiple tickets are purchased in one transaction with Monedero Electrónico (full or partial payment), exchanges must be made for all tickets in that purchase.</p></li>
                         <li class="__terms-purchase-item"><p class="__terms-purchase-text">If the current fare at the time of exchange is higher than the original fare, the customer must pay the difference using the same payment method. Applies to all payment methods.</p></li>
                         <li class="__terms-purchase-item"><p class="__terms-purchase-text">If the current fare at the time of exchange is lower than the original fare, no refunds will be issued.</p></li>
                         <li class="__terms-purchase-item"><p class="__terms-purchase-text">For questions, call our customer service center at 800 0037 635 or visit Costa Line offices.</p></li>
@@ -163,7 +163,7 @@ class PageTravelpassEnglish extends HTMLElement {
                 <p>© 2023 Costa Line. All rights reserved.</p>
             </footer>
     `;
-  }
+	}
 }
 
 customElements.define("page-travelpass-english", PageTravelpassEnglish);

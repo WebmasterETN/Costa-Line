@@ -1,47 +1,47 @@
 [
 	{
 		"categoria": "Home",
-		"landings": [{ "nombre": "Inicio", "url": "../../index.html" }]
+		"landings": [{ "nombre": "Inicio", "url": "../.../../../" }]
 	},
 	{
 		"categoria": "Rutas y Destinos",
 		"landings": [
-			{ "nombre": "Destinos", "url": "../../destinos.html" },
+			{ "nombre": "Destinos", "url": "../../destinos/" },
 			{
 				"nombre": "Acapulco",
-				"url": "../../boletos-de-autobus-a-acapulco.html"
+				"url": "../../destinos/autobus-a-acapulco.html"
 			},
 			{
 				"nombre": "Chilpancingo",
-				"url": "../../boletos-de-autobus-a-chilpancingo.html"
+				"url": "../../destinos/autobus-a-chilpancingo.html"
 			},
 			{
 				"nombre": "Ciudad Altamirano",
-				"url": "../../boletos-de-autobus-a-cd-altamirano.html"
+				"url": "../../destinos/autobus-a-cd-altamirano.html"
 			},
 			{
 				"nombre": "Ciudad de México",
-				"url": "../../boletos-de-autobus-a-ciudad-de-mexico.html"
+				"url": "../../destinos/autobus-a-ciudad-de-mexico.html"
 			},
 			{
 				"nombre": "Coyuca de Benítez",
-				"url": "../../boletos-de-autobus-a-coyuca-de-benitez.html"
+				"url": "../../destinos/autobus-a-coyuca-de-benitez.html"
 			},
 			{
 				"nombre": "Cuernavaca",
-				"url": "../../boletos-de-autobus-a-cuernavaca.html"
+				"url": "../../destinos/autobus-a-cuernavaca.html"
 			},
-			{ "nombre": "Iguala", "url": "../../boletos-de-autobus-a-iguala.html" },
+			{ "nombre": "Iguala", "url": "../../destinos/autobus-a-iguala.html" },
 			{
 				"nombre": "Ixtapa Zihuatanejo",
-				"url": "../../boletos-de-autobus-a-ixtapa-zihuatanejo.html"
+				"url": "../../destinos/autobus-a-ixtapa-zihuatanejo.html"
 			},
 			{
 				"nombre": "Monterrey",
-				"url": "../../boletos-de-autobus-a-monterrey.html"
+				"url": "../../destinos/autobus-a-monterrey.html"
 			},
-			{ "nombre": "Taxco", "url": "../../boletos-de-autobus-a-taxco.html" },
-			{ "nombre": "Tecpan", "url": "../../boletos-de-autobus-a-tecpan.html" }
+			{ "nombre": "Taxco", "url": "../../destinos/autobus-a-taxco.html" },
+			{ "nombre": "Tecpan", "url": "../../destinos/autobus-a-tecpan.html" }
 		]
 	},
 	{
@@ -49,37 +49,86 @@
 		"landings": [
 			{
 				"nombre": "Boletos de Autobus",
-				"url": "../../boletos-de-autobus.html"
+				"url": "../../boletos-autobus/"
 			},
 			{
 				"nombre": "¿Dónde comprar boletos?",
-				"url": "../../donde-comprar-etn.html"
+				"url": "../../donde-comprar-costa.html"
 			},
-			{ "nombre": "Promociones", "url": "../../promociones.html" },
-			{ "nombre": "Terminales y Taquillas", "url": "../../taquillas.html" }
+			{ "nombre": "Promociones", "url": "../../promociones" },
+			{ "nombre": "Terminales y Taquillas", "url": "../../terminales" },
+
+			{
+				"nombre": "Acapulco",
+				"url": "../../boletos-autobus/acapulco.html"
+			},
+			{
+				"nombre": "Chilpancingo",
+				"url": "../../boletos-autobus/chilpancingo.html"
+			},
+			{
+				"nombre": "Ciudad Altamirano",
+				"url": "../../boletos-autobus/ciudad-altamirano.html"
+			},
+			{
+				"nombre": "Ciudad de México",
+				"url": "../../boletos-autobus/ciudad-de-mexico.html"
+			},
+			{
+				"nombre": "Coyuca de Benítez",
+				"url": "../../boletos-autobus/coyuca-de-benitez.html"
+			},
+			{
+				"nombre": "Cuernavaca",
+				"url": "../../boletos-autobus/cuernavaca.html"
+			},
+			{ "nombre": "Iguala", "url": "../../boletos-autobus/iguala.html" },
+			{
+				"nombre": "Ixtapa Zihuatanejo",
+				"url": "../../boletos-autobus/ixtapa-zihuatanejo.html"
+			},
+			{
+				"nombre": "Monterrey",
+				"url": "../../boletos-autobus/monterrey.html"
+			},
+			{ "nombre": "Taxco", "url": "../../boletos-autobus/taxco.html" },
+			{ "nombre": "Tecpan", "url": "../../boletos-autobus/tecpan.html" }
 		]
 	},
 	{
 		"categoria": "Servicios",
 		"landings": [
-			{ "nombre": "Renta de Autobuses", "url": "../../turismo/index.html" },
-			{ "nombre": "Salas de espera", "url": "../../salas-de-espera.html" },
-			{ "nombre": "Servicios a bordo", "url": "../../servicio-a-bordo.html" },
-			{ "nombre": "Paquetería", "url": "../../paqueteria.html" }
+			{
+				"nombre": "Renta de Autobuses",
+				"url": "../../servicios/renta-de-autobuses.html"
+			},
+			{
+				"nombre": "Salas de espera",
+				"url": "../../servicios/salas-de-espera.html"
+			},
+			{
+				"nombre": "Servicios a bordo",
+				"url": "../../servicios/servicio-a-bordo.html"
+			},
+			{ "nombre": "Paquetería", "url": "../../servicios/packmultienlace" },
+			{ "nombre": "Facturación electrónica", "url": "../../facturacion.html" }
 		]
 	},
 	{
 		"categoria": "Costa Line",
 		"landings": [
-			{ "nombre": "¿Quienes somos?", "url": "../../acerca-de-nosotros.html" },
-			{ "nombre": "Contacto", "url": "../../atencion-a-clientes.html" },
+			{ "nombre": "¿Quienes somos?", "url": "../../nosotros" },
+			{
+				"nombre": "Contacto",
+				"url": "../../servicios/atencion-a-clientes.html"
+			},
 			{
 				"nombre": "Aviso de privacidad",
-				"url": "../../aviso-de-privacidad.html"
+				"url": "../../nosotros/aviso-de-privacidad.html"
 			},
 			{
 				"nombre": "Preguntas frecuentes",
-				"url": "../../preguntas-frecuentes.html"
+				"url": "../../nosotros/preguntas-frecuentes.html"
 			}
 		]
 	},
@@ -88,29 +137,34 @@
 		"landings": [
 			{
 				"nombre": "Terminos y Condiciones",
-				"url": "../../terminos-condiciones.html"
+				"url": "../../nosotros/terminos-condiciones.html"
 			},
-			{ "nombre": "Viajero Protegido", "url": "../../viajero-protegido.html" },
-			{ "nombre": "Buen fin", "url": "../../buen-fin/index.html" },
-			{ "nombre": "Hot travel", "url": "../../hot-travel/index.html" },
+			{
+				"nombre": "Viajero Protegido",
+				"url": "../../servicios/viajero-protegido.html"
+			},
+			{ "nombre": "Buen fin", "url": "../../promociones/buen-fin.html" },
+			{ "nombre": "Hot travel", "url": "../../promociones/hot-travel.html" },
 			{
 				"nombre": "Festival de Viajes",
-				"url": "../../festival-de-viajes.html"
+				"url": "../../promociones/festival-de-viajes.html"
 			},
 			{
 				"nombre": "Ofertas en 1 click",
-				"url": "../../ofertas-en-1-click.html"
-			},
-			{
-				"nombre": "Ofertas en 1 click",
-				"url": "../../ofertas-en-1-click.html"
+				"url": "../../promociones/ofertas-en-1-click.html"
 			},
 			{
 				"nombre": "Pago referenciado oxxo",
-				"url": "../../pago-referenciado-oxxo.html"
+				"url": "../../servicios/pago-referenciado-oxxo.html"
 			},
-			{ "nombre": "Viajero Anticipado", "url": "../../viajer-anticipado.html" },
-			{ "nombre": "Pago Kueski Pay", "url": "../../compra-con-kueski-pay.html" }
+			{
+				"nombre": "Viajero Anticipado",
+				"url": "../../promociones/viajero-anticipado.html"
+			},
+			{
+				"nombre": "Pago Kueski Pay",
+				"url": "../../servicios/compra-con-kueski-pay.html"
+			}
 		]
 	},
 	{
@@ -151,18 +205,8 @@
 		"landings": [
 			{
 				"nombre": "Blog",
-				"url": "https://costaline.com.mx/blog/category/costaline/"
-			},
-			{
-				"nombre": "Atencion a Clientes",
-				"url": "../../atencion-a-clientes.html"
+				"url": "https://costaline.com.mx/blog/"
 			}
-		]
-	},
-	{
-		"categoria": "Facturación",
-		"landings": [
-			{ "nombre": "Facturación electrónica", "url": "../../facturacion.html" }
 		]
 	}
 ]

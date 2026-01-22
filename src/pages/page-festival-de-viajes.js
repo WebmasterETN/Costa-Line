@@ -8,8 +8,8 @@ import "../js/slick.js?v=1.0.2";
 import "../components/app-destinations-table.js";
 
 class PageFestivalViajes extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
               <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
@@ -160,7 +160,7 @@ class PageFestivalViajes extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                               Asientos sujetos a disponibilidad, consúltalos en <a class="__link-text" href="../../index.html">www.costaline.com.mx</a> y App AERS Costaline
+                               Asientos sujetos a disponibilidad, consúltalos en <a class="__link-text" href="../.../../../">www.costaline.com.mx</a> y App AERS Costaline
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -206,6 +206,6 @@ class PageFestivalViajes extends HTMLElement {
                 <app-destinations-table src="../src/data/destinos-cl.json"></app-destinations-table>
             </section>
         `;
-  }
+	}
 }
 customElements.define("page-festival-de-viajes", PageFestivalViajes);
