@@ -17,6 +17,16 @@
 
 @use '../_06-components/cookies-policy';
 
+.__panthom_space {
+  height: 250px;
+  width: 100%;
+  display: block;
+
+  @media (max-width: 900px) {
+    height: 100px;
+
+  }
+}
 
 .section__boletos-de-autobus {
   display: flex;

@@ -13,17 +13,7 @@ class PageTerminalesTaquillas extends HTMLElement {
 
             <app-modal-doters></app-modal-doters>
 
-             <app-banner-slider
-                slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/home-doters-web.webp","mediumImage": "../src/assets/img/banner/tablet/home-doters-tablet.webp", "smallImage": "../src/assets/img/banner/movil/home-doters-mobile.webp", "link": "#index.html/banner1"},
-                {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/web/home-pago-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-pago-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-pago-mobile.webp", "link": "#index.html/banner2"},
-                {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/web/home-verano-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-verano-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-verano-mobile.webp", "link": "#index.html/banner3"}
-                ]'
-            >
-            </app-banner-slider>
-
-
-            <app-payments></app-payments>
+            <div class="__panthom_space"></div>
 
             <section class="__section __section__encuentra-taquilla">
                 <app-section-title section-title="Encuentra tu taquilla Costa Line: ubicaciones y horarios"></app-section-title>

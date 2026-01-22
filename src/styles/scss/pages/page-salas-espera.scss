@@ -15,7 +15,16 @@
 @use '../_06-components/_cards-text-image' as *;
 
 
+.__panthom_space {
+    height: 250px;
+    width: 100%;
+    display: block;
 
+    @media (max-width: 900px) {
+        height: 100px;
+
+    }
+}
 .__section__salas {
     padding-bottom: 40px;
 

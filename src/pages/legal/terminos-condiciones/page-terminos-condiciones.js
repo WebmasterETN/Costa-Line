@@ -7,22 +7,14 @@ import "../../../components/app-section-title.js";
 import "../../../components/app-table-pets.js";
 
 class PageTerminosCondiciones extends HTMLElement {
-	connectedCallback() {
-		this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
             <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
 
-             <app-banner-slider
-                slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/home-doters-web.webp","mediumImage": "../src/assets/img/banner/tablet/home-doters-tablet.webp", "smallImage": "../src/assets/img/banner/movil/home-doters-mobile.webp", "link": "#index.html/banner1"},
-                {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/web/home-pago-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-pago-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-pago-mobile.webp", "link": "#index.html/banner2"},
-                {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/web/home-verano-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-verano-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-verano-mobile.webp", "link": "#index.html/banner3"}
-                ]'
-            >
-            </app-banner-slider>
+            <div class="__panthom_space"></div>
 
-            <app-payments></app-payments>
             
             <section class="__section">
                 <app-section-title section-title="Términos y Condiciones"></app-section-title>
@@ -605,17 +597,17 @@ class PageTerminosCondiciones extends HTMLElement {
                 </article>
             </section>
         `;
-		this.loadAndSetPetsTableData("#pets-table", "../src/data/table-pets.json");
-		this.loadAndSetPetsTableData(
-			"#costs-table",
-			"../src/data/table-pets-2.json",
-		);
-	}
-	async loadAndSetPetsTableData(tableElementSelector, jsonPath) {
-		const tableElement = this.querySelector(tableElementSelector);
-		const response = await fetch(jsonPath);
-		const data = await response.json();
-		tableElement.setTableData(data);
-	}
+    this.loadAndSetPetsTableData("#pets-table", "../src/data/table-pets.json");
+    this.loadAndSetPetsTableData(
+      "#costs-table",
+      "../src/data/table-pets-2.json",
+    );
+  }
+  async loadAndSetPetsTableData(tableElementSelector, jsonPath) {
+    const tableElement = this.querySelector(tableElementSelector);
+    const response = await fetch(jsonPath);
+    const data = await response.json();
+    tableElement.setTableData(data);
+  }
 }
 customElements.define("page-terminos-condiciones", PageTerminosCondiciones);

@@ -13,17 +13,11 @@ class PageBoletosDeAutobus extends HTMLElement {
     this.innerHTML = `
             <app-cotiza></app-cotiza>
             <app-modal-doters></app-modal-doters>
-             <app-banner-slider
-                slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/home-doters-web.webp","mediumImage": "../src/assets/img/banner/tablet/home-doters-tablet.webp", "smallImage": "../src/assets/img/banner/movil/home-doters-mobile.webp", "link": "#index.html/banner1"},
-                {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/web/home-pago-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-pago-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-pago-mobile.webp", "link": "#index.html/banner2"},
-                {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/web/home-verano-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-verano-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-verano-mobile.webp", "link": "#index.html/banner3"}
-                ]'
-            >
-            </app-banner-slider>
-            <app-payments></app-payments>
+            
+            <div class="__panthom_space"></div>
+
             <section class="section__boletos-de-autobus">
-                <app-section-title section-title="Boletos de Autobús Costa Line: tu mejor opcón para viajar"></app-section-title>
+                <app-section-title section-title="Boletos de Autobús Costa Line: tu mejor opción para viajar"></app-section-title>
                 <article class="__boletos-de-autobus__text">
                     <p class="__text__paragraph"><b class="__text__bold">Viajar con Costa Line es sinónimo de comodidad, seguridad y puntualidad.</b> No esperes más y adquiere tus boletos de autobús hoy mismo para disfrutar de una experiencia de viaje superior. Si te preguntas dónde comprar boletos de autobús de Costa Line recuerda que puedes hacerlo fácilmente a través de nuestro sitio web, por teléfono o en nuestras taquillas.</p>
                     <div class="__boletos-de-autobus__scrollbar">
