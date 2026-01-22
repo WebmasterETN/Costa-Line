@@ -7,16 +7,16 @@ import "../../components/app-cards-text-list.js";
 import "../../components/app-section-title.js";
 
 class PageBoletosDeAutobus extends HTMLElement {
-  async connectedCallback() {
-    // Establecer la estructura HTML base del componente.
-    // El contenido de __boletos-de-autobus__scrollbar se llenará dinámicamente.
-    this.innerHTML = `
+	async connectedCallback() {
+		// Establecer la estructura HTML base del componente.
+		// El contenido de __boletos-de-autobus__scrollbar se llenará dinámicamente.
+		this.innerHTML = `
             <app-cotiza></app-cotiza>
             <app-modal-doters></app-modal-doters>
              <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/home-doters-web.webp","mediumImage": "../src/assets/img/banner/tablet/home-doters-tablet.webp", "smallImage": "../src/assets/img/banner/movil/home-doters-mobile.webp", "link": "#index.html/banner1"},
-                {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/web/home-pago-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-pago-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-pago-mobile.webp", "link": "#index.html/banner2"},
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/doters-web.webp","mediumImage": "../src/assets/img/banner/tablet/doters-tablet.webp", "smallImage": "../src/assets/img/banner/movil/doters-mobile.webp", "link": "#index.html/banner1"},
+                {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/web/10-desc-web.webp", "mediumImage": "../src/assets/img/banner/tablet/10-desc-tablet.webp","smallImage": "../src/assets/img/banner/movil/10-desc-mobile.webp", "link": "#index.html/banner2"},
                 {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/web/home-verano-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-verano-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-verano-mobile.webp", "link": "#index.html/banner3"}
                 ]'
             >
@@ -32,80 +32,80 @@ class PageBoletosDeAutobus extends HTMLElement {
                 </article>
             </section>
         `;
-    // Cargar y renderizar las tarjetas dinámicamente
-    await this.loadAndRenderBusTicketCards();
-  }
+		// Cargar y renderizar las tarjetas dinámicamente
+		await this.loadAndRenderBusTicketCards();
+	}
 
-  // Helper para escapar atributos HTML (especialmente comillas)
-  escapeAttr(str) {
-    if (typeof str !== "string") {
-      console.warn("escapeAttr recibió un valor no string:", str);
-      return ""; // o alguna otra forma de manejo de errores/fallback
-    }
-    return str
-      .replace(/'/g, "&apos;")
-      .replace(/"/g, "&quot;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/&/g, "&amp;");
-  }
+	// Helper para escapar atributos HTML (especialmente comillas)
+	escapeAttr(str) {
+		if (typeof str !== "string") {
+			console.warn("escapeAttr recibió un valor no string:", str);
+			return ""; // o alguna otra forma de manejo de errores/fallback
+		}
+		return str
+			.replace(/'/g, "&apos;")
+			.replace(/"/g, "&quot;")
+			.replace(/</g, "&lt;")
+			.replace(/>/g, "&gt;")
+			.replace(/&/g, "&amp;");
+	}
 
-  async loadAndRenderBusTicketCards() {
-    const cardsContainer = this.querySelector(
-      ".__boletos-de-autobus__scrollbar"
-    );
-    if (!cardsContainer) {
-      console.error(
-        "El contenedor '__boletos-de-autobus__scrollbar' no fue encontrado."
-      );
-      return;
-    }
+	async loadAndRenderBusTicketCards() {
+		const cardsContainer = this.querySelector(
+			".__boletos-de-autobus__scrollbar",
+		);
+		if (!cardsContainer) {
+			console.error(
+				"El contenedor '__boletos-de-autobus__scrollbar' no fue encontrado.",
+			);
+			return;
+		}
 
-    try {
-      const response = await fetch(
-        "../src/data/cards-boletos-de-autobus-data.json"
-      );
-      if (!response.ok) {
-        throw new Error(
-          `Error al cargar datos de tarjetas: ${response.status} ${response.statusText}`
-        );
-      }
-      const data = await response.json();
+		try {
+			const response = await fetch(
+				"../src/data/cards-boletos-de-autobus-data.json",
+			);
+			if (!response.ok) {
+				throw new Error(
+					`Error al cargar datos de tarjetas: ${response.status} ${response.statusText}`,
+				);
+			}
+			const data = await response.json();
 
-      if (
-        !data.cards ||
-        !Array.isArray(data.cards) ||
-        data.cards.length === 0
-      ) {
-        cardsContainer.innerHTML =
-          "<p>No hay tipos de boletos disponibles en este momento.</p>";
-        return;
-      }
+			if (
+				!data.cards ||
+				!Array.isArray(data.cards) ||
+				data.cards.length === 0
+			) {
+				cardsContainer.innerHTML =
+					"<p>No hay tipos de boletos disponibles en este momento.</p>";
+				return;
+			}
 
-      cardsContainer.innerHTML = "";
+			cardsContainer.innerHTML = "";
 
-      data.cards.forEach((cardData) => {
-        const cardElement = document.createElement("app-cards-text-list");
-        cardElement.setAttribute("card-title", this.escapeAttr(cardData.title));
-        cardElement.setAttribute(
-          "main-text",
-          this.escapeAttr(cardData.mainText)
-        );
-        cardElement.setAttribute(
-          "secondary-text",
-          this.escapeAttr(cardData.secondaryText)
-        );
-        cardElement.setAttribute("list-items", JSON.stringify(cardData.items)); // No escapar el string JSON
-        cardsContainer.appendChild(cardElement);
-      });
-    } catch (error) {
-      console.error(
-        "Error al cargar o renderizar las tarjetas de boletos de autobús:",
-        error
-      );
-      cardsContainer.innerHTML =
-        "<p>Error al cargar la información de los tipos de boleto. Por favor, intente más tarde.</p>";
-    }
-  }
+			data.cards.forEach((cardData) => {
+				const cardElement = document.createElement("app-cards-text-list");
+				cardElement.setAttribute("card-title", this.escapeAttr(cardData.title));
+				cardElement.setAttribute(
+					"main-text",
+					this.escapeAttr(cardData.mainText),
+				);
+				cardElement.setAttribute(
+					"secondary-text",
+					this.escapeAttr(cardData.secondaryText),
+				);
+				cardElement.setAttribute("list-items", JSON.stringify(cardData.items)); // No escapar el string JSON
+				cardsContainer.appendChild(cardElement);
+			});
+		} catch (error) {
+			console.error(
+				"Error al cargar o renderizar las tarjetas de boletos de autobús:",
+				error,
+			);
+			cardsContainer.innerHTML =
+				"<p>Error al cargar la información de los tipos de boleto. Por favor, intente más tarde.</p>";
+		}
+	}
 }
 customElements.define("page-boletos-de-autobus", PageBoletosDeAutobus);

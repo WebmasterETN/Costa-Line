@@ -8,15 +8,15 @@ import "../../components/app-section-title.js";
 import "../../components/app-card-image.js";
 
 class PageDondeComprar extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
     
         <app-cotiza></app-cotiza>
         <app-modal-doters></app-modal-doters>
         <app-banner-slider
                     slides-data='[
-                    {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/home-doters-web.webp","mediumImage": "../src/assets/img/banner/tablet/home-doters-tablet.webp", "smallImage": "../src/assets/img/banner/movil/home-doters-mobile.webp", "link": "#index.html/banner1"},
-                    {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/web/home-pago-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-pago-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-pago-mobile.webp", "link": "#index.html/banner2"},
+                    {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/doters-web.webp","mediumImage": "../src/assets/img/banner/tablet/doters-tablet.webp", "smallImage": "../src/assets/img/banner/movil/doters-mobile.webp", "link": "#index.html/banner1"},
+                    {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/web/10-desc-web.webp", "mediumImage": "../src/assets/img/banner/tablet/10-desc-tablet.webp","smallImage": "../src/assets/img/banner/movil/10-desc-mobile.webp", "link": "#index.html/banner2"},
                     {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/web/home-verano-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-verano-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-verano-mobile.webp", "link": "#index.html/banner3"}
                     ]'
                 >
@@ -32,46 +32,46 @@ class PageDondeComprar extends HTMLElement {
       
   
 `;
-    this.loadAndRenderShopCards();
-    this.loadAndRenderTitleIconCards();
-  }
+		this.loadAndRenderShopCards();
+		this.loadAndRenderTitleIconCards();
+	}
 
-  async loadAndRenderShopCards() {
-    try {
-      const response = await fetch("../src/data/cards-buy-options.json"); // Ruta corregida
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      const cardsData = await response.json();
-      this.renderShopCards(cardsData);
-    } catch (error) {
-      console.error("Error al cargar o parsear cards-buy-options.json:", error);
-      const container = this.querySelector("#shop-cards-container");
-      if (container) {
-        container.innerHTML =
-          "<p>Error al cargar la información de los puntos de venta.</p>";
-      }
-    }
-  }
+	async loadAndRenderShopCards() {
+		try {
+			const response = await fetch("../src/data/cards-buy-options.json"); // Ruta corregida
+			if (!response.ok) {
+				throw new Error(`HTTP error! status: ${response.status}`);
+			}
+			const cardsData = await response.json();
+			this.renderShopCards(cardsData);
+		} catch (error) {
+			console.error("Error al cargar o parsear cards-buy-options.json:", error);
+			const container = this.querySelector("#shop-cards-container");
+			if (container) {
+				container.innerHTML =
+					"<p>Error al cargar la información de los puntos de venta.</p>";
+			}
+		}
+	}
 
-  renderShopCards(cardsData) {
-    const container = this.querySelector("#shop-cards-container");
-    if (!container) {
-      console.error("El contenedor de shop-cards no fue encontrado.");
-      return;
-    }
-    container.innerHTML = "";
+	renderShopCards(cardsData) {
+		const container = this.querySelector("#shop-cards-container");
+		if (!container) {
+			console.error("El contenedor de shop-cards no fue encontrado.");
+			return;
+		}
+		container.innerHTML = "";
 
-    cardsData.forEach((data) => {
-      const cardElement = document.createElement(
-        data.type === "left" ? "app-img-shop-left" : "app-img-shop-right"
-      );
-      cardElement.setAttribute("image-src", data.imageSrc);
-      cardElement.setAttribute("alt-text", data.altText);
-      cardElement.setAttribute("card-title", data.cardTitle);
-      cardElement.setAttribute("card-link", data.linkUrl);
-      container.appendChild(cardElement);
-    });
-  }
+		cardsData.forEach((data) => {
+			const cardElement = document.createElement(
+				data.type === "left" ? "app-img-shop-left" : "app-img-shop-right",
+			);
+			cardElement.setAttribute("image-src", data.imageSrc);
+			cardElement.setAttribute("alt-text", data.altText);
+			cardElement.setAttribute("card-title", data.cardTitle);
+			cardElement.setAttribute("card-link", data.linkUrl);
+			container.appendChild(cardElement);
+		});
+	}
 }
 customElements.define("page-donde-comprar", PageDondeComprar);

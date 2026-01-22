@@ -8,16 +8,16 @@ import "../components/app-dropdown.js"; // Importar el componente dropdown
 import "../js/slick.js?v=1.0.2";
 
 class PagePreguntasFrecuentes extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
 
              <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/home-doters-web.webp","mediumImage": "../src/assets/img/banner/tablet/home-doters-tablet.webp", "smallImage": "../src/assets/img/banner/movil/home-doters-mobile.webp", "link": "#index.html/banner1"},
-                {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/web/home-pago-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-pago-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-pago-mobile.webp", "link": "#index.html/banner2"},
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/doters-web.webp","mediumImage": "../src/assets/img/banner/tablet/doters-tablet.webp", "smallImage": "../src/assets/img/banner/movil/doters-mobile.webp", "link": "#index.html/banner1"},
+                {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/web/10-desc-web.webp", "mediumImage": "../src/assets/img/banner/tablet/10-desc-tablet.webp","smallImage": "../src/assets/img/banner/movil/10-desc-mobile.webp", "link": "#index.html/banner2"},
                 {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/web/home-verano-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-verano-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-verano-mobile.webp", "link": "#index.html/banner3"}
                 ]'
             >
@@ -33,6 +33,6 @@ class PagePreguntasFrecuentes extends HTMLElement {
                 </article>
             </section>
         `;
-  }
+	}
 }
 customElements.define("page-preguntas-frecuentes", PagePreguntasFrecuentes);

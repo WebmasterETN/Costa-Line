@@ -7,16 +7,16 @@ import "../../components/app-section-title.js";
 import "../../components/app-forms.js";
 
 class PageAtencionAClientes extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
 
              <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/home-doters-web.webp","mediumImage": "../src/assets/img/banner/tablet/home-doters-tablet.webp", "smallImage": "../src/assets/img/banner/movil/home-doters-mobile.webp", "link": "#index.html/banner1"},
-                {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/web/home-pago-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-pago-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-pago-mobile.webp", "link": "#index.html/banner2"},
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/doters-web.webp","mediumImage": "../src/assets/img/banner/tablet/doters-tablet.webp", "smallImage": "../src/assets/img/banner/movil/doters-mobile.webp", "link": "#index.html/banner1"},
+                {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/web/10-desc-web.webp", "mediumImage": "../src/assets/img/banner/tablet/10-desc-tablet.webp","smallImage": "../src/assets/img/banner/movil/10-desc-mobile.webp", "link": "#index.html/banner2"},
                 {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/web/home-verano-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-verano-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-verano-mobile.webp", "link": "#index.html/banner3"}
                 ]'
             >
@@ -43,61 +43,61 @@ class PageAtencionAClientes extends HTMLElement {
             
         `;
 
-    this.loadAndSetFormDataToAppForms();
-  }
-  //JS para renderizar los forms
-  async loadAndSetFormDataToAppForms() {
-    const appFormsElement = this.querySelector("app-forms");
-    const response = await fetch("../src/data/forms-atencion-cliente.json");
-    const formData = await response.json();
-    appFormsElement.setFormData(formData);
-  }
+		this.loadAndSetFormDataToAppForms();
+	}
+	//JS para renderizar los forms
+	async loadAndSetFormDataToAppForms() {
+		const appFormsElement = this.querySelector("app-forms");
+		const response = await fetch("../src/data/forms-atencion-cliente.json");
+		const formData = await response.json();
+		appFormsElement.setFormData(formData);
+	}
 
-  //js para renderizar componentes
-  async loadAndRenderComponentList(
-    jsonPath,
-    containerSelector,
-    componentTag,
-    dataToAttributesMapper
-  ) {
-    const container = this.querySelector(containerSelector);
-    if (!container) {
-      console.error(`El contenedor ${containerSelector} no fue encontrado.`);
-      return;
-    }
-    container.innerHTML = "";
+	//js para renderizar componentes
+	async loadAndRenderComponentList(
+		jsonPath,
+		containerSelector,
+		componentTag,
+		dataToAttributesMapper,
+	) {
+		const container = this.querySelector(containerSelector);
+		if (!container) {
+			console.error(`El contenedor ${containerSelector} no fue encontrado.`);
+			return;
+		}
+		container.innerHTML = "";
 
-    try {
-      const response = await fetch(jsonPath);
-      if (!response.ok) {
-        throw new Error(
-          `Error HTTP! status: ${response.status} al cargar ${jsonPath}`
-        );
-      }
-      const itemsData = await response.json();
+		try {
+			const response = await fetch(jsonPath);
+			if (!response.ok) {
+				throw new Error(
+					`Error HTTP! status: ${response.status} al cargar ${jsonPath}`,
+				);
+			}
+			const itemsData = await response.json();
 
-      if (!itemsData || !Array.isArray(itemsData) || itemsData.length === 0) {
-        console.warn(
-          `No hay datos en ${jsonPath}, están vacíos o el formato es incorrecto.`
-        );
-        container.innerHTML = "<p>No hay datos disponibles para mostrar.</p>";
-        return;
-      }
+			if (!itemsData || !Array.isArray(itemsData) || itemsData.length === 0) {
+				console.warn(
+					`No hay datos en ${jsonPath}, están vacíos o el formato es incorrecto.`,
+				);
+				container.innerHTML = "<p>No hay datos disponibles para mostrar.</p>";
+				return;
+			}
 
-      itemsData.forEach((data) => {
-        const element = document.createElement(componentTag);
-        dataToAttributesMapper(element, data);
-        container.appendChild(element);
-      });
-    } catch (error) {
-      console.error(
-        `Error al cargar o renderizar desde ${jsonPath} en ${containerSelector}:`,
-        error
-      );
-      if (container) {
-        container.innerHTML = `<p>Error al cargar la información desde ${jsonPath}.</p>`;
-      }
-    }
-  }
+			itemsData.forEach((data) => {
+				const element = document.createElement(componentTag);
+				dataToAttributesMapper(element, data);
+				container.appendChild(element);
+			});
+		} catch (error) {
+			console.error(
+				`Error al cargar o renderizar desde ${jsonPath} en ${containerSelector}:`,
+				error,
+			);
+			if (container) {
+				container.innerHTML = `<p>Error al cargar la información desde ${jsonPath}.</p>`;
+			}
+		}
+	}
 }
 customElements.define("page-atencion-a-clientes", PageAtencionAClientes);
