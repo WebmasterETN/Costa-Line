@@ -3,13 +3,13 @@ import "../../components/app-payments.js";
 import "../../components/app-section-title.js";
 
 class PageCiudadAltamirano extends HTMLElement {
-  async connectedCallback() {
-    this.innerHTML = `
+	async connectedCallback() {
+		this.innerHTML = `
             <app-cotiza></app-cotiza>
             <app-banner-slider
             slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../../src/assets/img/banner/web/home-doters-web.webp","mediumImage": "../../src/assets/img/banner/tablet/home-doters-tablet.webp", "smallImage": "../../src/assets/img/banner/movil/home-doters-mobile.webp", "link": "#index.html/banner1"},
-                {"id": "slide2", "title": "Banner 2", "image": "../../src/assets/img/banner/web/home-pago-web.webp", "mediumImage": "../../src/assets/img/banner/tablet/home-pago-tablet.webp","smallImage": "../../src/assets/img/banner/movil/home-pago-mobile.webp", "link": "#index.html/banner2"},
+                {"id": "slide1", "title": "Banner 1", "image": "../../src/assets/img/banner/web/doters-web.webp","mediumImage": "../../src/assets/img/banner/tablet/doters-tablet.webp", "smallImage": "../../src/assets/img/banner/movil/doters-mobile.webp", "link": "#index.html/banner1"},
+                {"id": "slide2", "title": "Banner 2", "image": "../../src/assets/img/banner/web/10-desc-web.webp", "mediumImage": "../../src/assets/img/banner/tablet/10-desc-tablet.webp","smallImage": "../../src/assets/img/banner/movil/10-desc-mobile.webp", "link": "#index.html/banner2"},
                 {"id": "slide3", "title": "Banner 3", "image": "../../src/assets/img/banner/web/home-verano-web.webp", "mediumImage": "../../src/assets/img/banner/tablet/home-verano-tablet.webp","smallImage": "../../src/assets/img/banner/movil/home-verano-mobile.webp", "link": "#index.html/banner3"}
             ]'
             >
@@ -196,7 +196,7 @@ class PageCiudadAltamirano extends HTMLElement {
   <div class="container">
     <h2 class="cta__title">¡Viaja a Ciudad Altamirano con Costaline!</h2>
     <p class="cta__subtitle">Reserva tu boleto y disfruta un viaje seguro y cómodo hacia Guerrero.</p>
-    <a href="../destinos/autobus-a-ciudad-altamirano.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer">
+    <a href="../destinos/autobus-a-cd-altamirano.html" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer">
       Ver más sobre el destino
     </a>
   </div>
@@ -204,6 +204,6 @@ class PageCiudadAltamirano extends HTMLElement {
 
 
         `;
-  }
+	}
 }
 customElements.define("page-ciudad-altamirano", PageCiudadAltamirano);

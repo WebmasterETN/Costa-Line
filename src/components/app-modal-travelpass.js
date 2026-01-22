@@ -1,6 +1,6 @@
 class AppModalTravelpass extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
       
       <!-- Modal de inicio de sesión con selector de marca -->
       <div id="modalTravelPass" class="ModalTravelPs">
@@ -8,7 +8,7 @@ class AppModalTravelpass extends HTMLElement {
             <button class="close" class="close" id="close-login-modal"><span>&times;</span></button>
             <div class="card-modal">
               <div class="modal-header">
-                  <img src="../../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Logotipo TravelPass" title="Travel Pass Formulario" width="100" height="32" class="modal-logo"> 
+                  <img src="../../src/assets/img/logos/logo-monedero-electronico.webp" alt="Logotipo TravelPass" title="Monedero Electrónico Formulario" width="100" height="32" class="modal-logo"> 
               </div>
 
               <div>
@@ -38,7 +38,7 @@ class AppModalTravelpass extends HTMLElement {
               </form>
 
               <div class="__card-footer">
-                <a class="w-modal-link color-1 center" href="https://costaline.com.mx/sur-de-jalisco/travel-pass.html">Conoce aquí&nbsp; <span class="bold"> ¿Qué es Travel Pass?</span></a>
+                <a class="w-modal-link color-1 center" href="../../../servicios/monedero-electronico.html">Conoce aquí&nbsp; <span class="bold"> ¿Qué es Monedero Electrónico?</span></a>
                 <a id="register-link" class="w-modal-link color-1" href="#">¿No tienes cuenta? <span class="bold"> Regístrate</span></a>
                 <div id="message" class="message"></div>
               </div>
@@ -52,7 +52,7 @@ class AppModalTravelpass extends HTMLElement {
                 <button class="close" id="close-profile-modal"><span>&times;</span></button>
                 <div class="card-modal">
                     <div class="modal-header">
-                        <img src="../../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Logotipo TravelPass" title="Logo Travel Pass" width="100" height="32" class="modal-logo">
+                        <img src="../../src/assets/img/logos/logo-monedero-electronico.webp" alt="Logotipo TravelPass" title="Logo Monedero Electrónico" width="100" height="32" class="modal-logo">
                     </div>
                     <div class="modalContenido">
                         <h2>Información del Usuario</h2>
@@ -65,7 +65,7 @@ class AppModalTravelpass extends HTMLElement {
             </div>  
       </div>
     `;
-  }
+	}
 }
 
 customElements.define("app-modal-travelpass", AppModalTravelpass);

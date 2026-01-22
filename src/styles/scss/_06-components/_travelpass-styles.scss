@@ -2,17 +2,20 @@
 @use '../_02-tools/mixin' as *;
 
 // Estilos del botón
-.desktop-travelpass{
-   @include media ("lg") {
-            display: none;
-        }
-}
-.btn-travelpass-active {
-  display: block;
+.desktop-travelpass {
   @include media ("lg") {
     display: none;
   }
 }
+
+.btn-travelpass-active {
+  display: block;
+
+  @include media ("lg") {
+    display: none;
+  }
+}
+
 .btn-travelpass {
   border-radius: 0.625rem;
   justify-content: center;
@@ -27,7 +30,12 @@
   cursor: pointer;
   transition: transform 0.5s ease-in-out;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+
   a img {
+    width: auto;
+    height: 100%;
+  }
+  img {
     width: auto;
     height: 100%;
   }
@@ -43,6 +51,7 @@
   height: auto;
   margin: auto;
   margin-top: 15px;
+
   img {
     width: 100%;
     height: auto;
@@ -70,6 +79,7 @@
   height: 100%;
   position: relative;
   background: #fff;
+
   //background: linear-gradient(to bottom, #fff 0%, #fff 50%, #003B60 50%, #003B60 100%);
   @include media("md") {
     max-width: 100%;
@@ -156,13 +166,16 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: ease 0.3s;
   cursor: pointer;
+
   &:hover {
     transform: scale(1.1);
   }
+
   &.selected {
     transform: scale(1.1);
     border: 2px solid #0057D6;
   }
+
   @include media("md") {
     max-width: 100px;
   }
@@ -201,7 +214,8 @@ label {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 121.51%; /* 24.302px */
+  line-height: 121.51%;
+  /* 24.302px */
 }
 
 input {
@@ -211,7 +225,8 @@ input {
   font-size: 1rem;
 }
 
-.__submit-button, .btn-cuenta {
+.__submit-button,
+.btn-cuenta {
   width: 235px;
   height: 43px;
   color: #fff;
@@ -220,6 +235,7 @@ input {
   background: #009159;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.55);
   transition: ease 0.3s;
+
   &:hover {
     transform: scale(1.1);
   }
@@ -240,6 +256,7 @@ input {
   font-style: normal;
   font-weight: 400;
 }
+
 .bold {
   font-weight: 700;
   text-decoration: underline;
@@ -248,7 +265,8 @@ input {
 .message {
   font-size: 1em;
   margin-top: 10px;
-  color: red; /* Color predeterminado para mensajes de error */
+  color: red;
+  /* Color predeterminado para mensajes de error */
 }
 
 /* También hay una regla específica para el modal de logueado: */
@@ -281,6 +299,7 @@ input {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.55);
   transition: ease 0.3s;
   transition: background-color 0.3s;
+
   &:hover {
     color: #fff;
     border: none;

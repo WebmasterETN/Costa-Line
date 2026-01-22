@@ -13,16 +13,8 @@ class PageTerminosCondiciones extends HTMLElement {
 
             <app-modal-doters></app-modal-doters>
 
-             <app-banner-slider
-                slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/home-doters-web.webp","mediumImage": "../src/assets/img/banner/tablet/home-doters-tablet.webp", "smallImage": "../src/assets/img/banner/movil/home-doters-mobile.webp", "link": "#index.html/banner1"},
-                {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/web/home-pago-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-pago-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-pago-mobile.webp", "link": "#index.html/banner2"},
-                {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/web/home-verano-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-verano-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-verano-mobile.webp", "link": "#index.html/banner3"}
-                ]'
-            >
-            </app-banner-slider>
+            <div class="__panthom_space"></div>
 
-            <app-payments></app-payments>
             
             <section class="__section">
                 <app-section-title section-title="Términos y Condiciones"></app-section-title>
@@ -201,7 +193,7 @@ class PageTerminosCondiciones extends HTMLElement {
                     </p>
                     
                     <p>
-                        <strong>Cambios en Internet:</strong> Solo podrá cambiar fechas y horarios. Aplica para aquellas compras que hayan sido realizadas por este medio, si se desea modificar el viaje deberá acceder al sitio web <a class="__link-text" href="../../index.html">www.costaline.com.mx</a> y en la sección “Modifique su Itinerario”, ingresar el número de operación y nit de su boleto. Solo podrá realizar cambio de fecha y hora. no está permitido la modificación de Origen, Destino, nombre o tipo de pasajero y solo lo podrá aplicar 90 min. después de su compra y hasta 90 minutos antes del horario de su salida.
+                        <strong>Cambios en Internet:</strong> Solo podrá cambiar fechas y horarios. Aplica para aquellas compras que hayan sido realizadas por este medio, si se desea modificar el viaje deberá acceder al sitio web <a class="__link-text" href="../.../../../">www.costaline.com.mx</a> y en la sección “Modifique su Itinerario”, ingresar el número de operación y nit de su boleto. Solo podrá realizar cambio de fecha y hora. no está permitido la modificación de Origen, Destino, nombre o tipo de pasajero y solo lo podrá aplicar 90 min. después de su compra y hasta 90 minutos antes del horario de su salida.
                     </p>
                     
                     <p>
@@ -293,7 +285,7 @@ class PageTerminosCondiciones extends HTMLElement {
                     </p>
                     
                     <p>
-                        Asientos sujetos a disponibilidad, consúltalos en <a class="__link-text" href="../../index.html">www.costaline.com.mx</a>, y taquillas.
+                        Asientos sujetos a disponibilidad, consúltalos en <a class="__link-text" href="../.../../../">www.costaline.com.mx</a>, y taquillas.
                     </p>
                     <p>
                         Para dudas y comentarios, comunícate a nuestro centro de atención a clientes al 800 0037 635, al 800 2490 460.
@@ -582,7 +574,7 @@ class PageTerminosCondiciones extends HTMLElement {
                 <article class="__bg-blue">
                     <h3 class="__subtitle-section">COMPROBACIÓN FISCAL (FACTURACIÓN ELECTRÓNICA)</h3>
                     <p>
-                        Los pases de abordar emitidos por este tipo de compra no tienen validez fiscal, en caso de requerir el comprobante fiscal, deberá generarlo desde nuestro portal web <a class="__link-text" href="../../index.html">www.costaline.com.mx</a> en el apartado de “Facturación Electrónica” dentro del menú al margen superior derecho, para ello es necesario el número de operación del boleto o pase de abordar, número de asiento y los datos fiscales completos.
+                        Los pases de abordar emitidos por este tipo de compra no tienen validez fiscal, en caso de requerir el comprobante fiscal, deberá generarlo desde nuestro portal web <a class="__link-text" href="../.../../../">www.costaline.com.mx</a> en el apartado de “Facturación Electrónica” dentro del menú al margen superior derecho, para ello es necesario el número de operación del boleto o pase de abordar, número de asiento y los datos fiscales completos.
                     </p>
                 </article>
             </section>
@@ -600,7 +592,7 @@ class PageTerminosCondiciones extends HTMLElement {
                 <article class="__bg-blue">
                     <h3 class="__subtitle-section">RECUPERACIÓN DE FACTURA</h3>
                     <p>
-                        Si durante el proceso de facturación no recibió en su correo electrónico el archivo PDF y XML de su comprobante fiscal, podrá recuperarlo accediendo a nuestro portal web <a class="__link-text" href="../../index.html">www.costaline.com.mx</a> en el apartado de "Facturación Electrónica" debiendo capturar el RFC y correo electrónico. Una vez que haya ingresado al módulo, deberá seleccionar "Consultar Historial" e identificar el documento que desee recuperar ya sea reenviandolo nuevamente a su correo, a una cuenta diferente o bien, imprimir la factura nuevamente.
+                        Si durante el proceso de facturación no recibió en su correo electrónico el archivo PDF y XML de su comprobante fiscal, podrá recuperarlo accediendo a nuestro portal web <a class="__link-text" href="../.../../../">www.costaline.com.mx</a> en el apartado de "Facturación Electrónica" debiendo capturar el RFC y correo electrónico. Una vez que haya ingresado al módulo, deberá seleccionar "Consultar Historial" e identificar el documento que desee recuperar ya sea reenviandolo nuevamente a su correo, a una cuenta diferente o bien, imprimir la factura nuevamente.
                     </p>
                 </article>
             </section>
@@ -608,7 +600,7 @@ class PageTerminosCondiciones extends HTMLElement {
     this.loadAndSetPetsTableData("#pets-table", "../src/data/table-pets.json");
     this.loadAndSetPetsTableData(
       "#costs-table",
-      "../src/data/table-pets-2.json"
+      "../src/data/table-pets-2.json",
     );
   }
   async loadAndSetPetsTableData(tableElementSelector, jsonPath) {

@@ -7,8 +7,8 @@ import "../../../components/app-table-pets.js";
 import "../../../components/app-destinations-table.js";
 
 class PageTravelpass extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
         <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
@@ -26,7 +26,7 @@ class PageTravelpass extends HTMLElement {
                 <app-section-title section-title="Términos y condiciones"></app-section-title>
             </section>
 
-            <img src="../src/assets/img/logos/logo-travel-pass.webp" alt="Travelpass" class="img-logo">
+            <img src="../src/assets/img/logos/logo-monedero-electronico.webp" alt="Travelpass" class="img-logo">
 
             <section class="__sections">
                 <article class="__bg-blue">
@@ -43,12 +43,12 @@ class PageTravelpass extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Es importante tomar en cuenta que el monedero electrónico Travel Pass en ningún caso y bajo ninguna circunstancia puede canjearse por dinero en efectivo y única y exclusivamente podrán canjearse en la adquisición de un boleto de autobús en Costa Line.
+                                Es importante tomar en cuenta que el monedero electrónico Monedero Electrónico en ningún caso y bajo ninguna circunstancia puede canjearse por dinero en efectivo y única y exclusivamente podrán canjearse en la adquisición de un boleto de autobús en Costa Line.
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                El monedero electrónico Travel Pass no puede venderse o transferirse.
+                                El monedero electrónico Monedero Electrónico no puede venderse o transferirse.
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -63,18 +63,18 @@ class PageTravelpass extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Personas morales como empresas, entidades gubernamentales, fundaciones, etc. No podrán adquirir el monedero electrónico Travel Pass.
+                                Personas morales como empresas, entidades gubernamentales, fundaciones, etc. No podrán adquirir el monedero electrónico Monedero Electrónico.
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Se da por hecho que una vez adquirido el monedero electrónico Travel Pass, el pasajero acepta todas las condiciones y restricciones del mismo.
+                                Se da por hecho que una vez adquirido el monedero electrónico Monedero Electrónico, el pasajero acepta todas las condiciones y restricciones del mismo.
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
                                 Para adquirir tu monedero electrónico, puede hacerlo directo en las taquillas de Costa Line o desde nuestra web 
-                                <a class="__link-text" href="../../index.html">www.costaline.com.mx</a>
+                                <a class="__link-text" href="../.../../../">www.costaline.com.mx</a>
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -106,7 +106,7 @@ class PageTravelpass extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Los beneficios con Travel Pass aplican de acuerdo a la recarga que realices en el monedero:
+                                Los beneficios con Monedero Electrónico aplican de acuerdo a la recarga que realices en el monedero:
                             </p>
                             <ul class="__terms-purchase-list">
                                 <li class="__terms-purchase-item">
@@ -189,12 +189,12 @@ class PageTravelpass extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                El cliente puede realizar cambios de fecha y horario. No aplica cambio de nombre de pasajero, no aplica cambio de tramo ni de clase de servicio. El cambio de itinerario de viaje (fecha u hora) se puede realizar directamente desde la página de internet (<a class="__link-text" href="../../index.html">www.costaline.com.mx</a>) en la sección “modifique su itinerario” o también podrán ser realizados en las taquillas Costa Line de Chilpancingo y Acapulco.
+                                El cliente puede realizar cambios de fecha y horario. No aplica cambio de nombre de pasajero, no aplica cambio de tramo ni de clase de servicio. El cambio de itinerario de viaje (fecha u hora) se puede realizar directamente desde la página de internet (<a class="__link-text" href="../.../../../">www.costaline.com.mx</a>) en la sección “modifique su itinerario” o también podrán ser realizados en las taquillas Costa Line de Chilpancingo y Acapulco.
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Si el cliente adquiere más de un boleto utilizando Travel Pass (pago completo o mixto) en una sola transacción y desea realizar un intercambio, este se podrá realizar siempre y cuando se realice para todos los boletos adquiridos en dicha compra.
+                                Si el cliente adquiere más de un boleto utilizando Monedero Electrónico (pago completo o mixto) en una sola transacción y desea realizar un intercambio, este se podrá realizar siempre y cuando se realice para todos los boletos adquiridos en dicha compra.
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -221,7 +221,7 @@ class PageTravelpass extends HTMLElement {
                 </article>
             </section>
     `;
-  }
+	}
 }
 
 customElements.define("page-travelpass", PageTravelpass);

@@ -8,8 +8,8 @@ import "../components/app-destinations-table.js";
 import "../js/slick.js?v=1.0.2";
 
 class PageOfertasClick extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
@@ -159,7 +159,7 @@ class PageOfertasClick extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                               Asientos sujetos a disponibilidad, consúltalos en <a class="__link-text" href="../../index.html">www.costaline.com.mx</a> y App AERS Costa Line
+                               Asientos sujetos a disponibilidad, consúltalos en <a class="__link-text" href="../.../../../">www.costaline.com.mx</a> y App AERS Costa Line
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -205,6 +205,6 @@ class PageOfertasClick extends HTMLElement {
 
          
         `;
-  }
+	}
 }
 customElements.define("page-ofertas-en-1-click", PageOfertasClick);
