@@ -160,7 +160,7 @@ class PageTermsBuenFin extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                Seats subject to availability, check them at <a class="__link-text" href="../../index.html">www.costaline.com.mx</a> and AERS Costa Line App.
+                                Seats subject to availability, check them at <a class="__link-text" href="../.../../../">www.costaline.com.mx</a> and AERS Costa Line App.
                             </p>
                         </li>
                         <li class="__terms-purchase-item">

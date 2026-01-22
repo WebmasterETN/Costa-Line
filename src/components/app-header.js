@@ -35,7 +35,7 @@ class AppHeader extends HTMLElement {
       </ul>
     </nav>
     <button id="login-icon" class="btn-travelpass desktop-travelpass js-open-travelpass-login-modal" aria-label="Iniciar sesión TravelPass">
-      <img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Travel Pass" loading="lazy">
+      <img src="../../src/assets/img/logos/logo-monedero-electronico.webp" alt="Monedero Electrónico" loading="lazy">
     </button>
     <button id="openDotersModal" class="btn btn-doters desktop-doters" aria-label="Iniciar sesión Doters">
       <img src='../../src/assets/img/logos/doters.svg' alt="Doters" loading="lazy">
@@ -63,12 +63,12 @@ class AppHeader extends HTMLElement {
           <a href="#" aria-haspopup="true" aria-expanded="false">Más <span class="icon-arrow-down"></span></a>
           <ul>
             <li><a href="../boletos-de-autobus.html">Boletos</a></li>
-            <li><a href="../donde-comprar-etn.html">¿Dónde comprar?</a></li>
+            <li><a href="../donde-comprar-costa.html">¿Dónde comprar?</a></li>
             <li><a href="../destinos.html">Destinos</a></li>
-            <li><a href="../taquillas.html">Taquillas</a></li>
+            <li><a href="../terminales">Taquillas</a></li>
             <li><a href="../salas-de-espera.html">Salas de Espera</a></li>
             <li><a href="../servicio-a-bordo.html">Servicios</a></li>
-            <li><a href="../promociones.html">Promociones</a></li>
+            <li><a href="../promociones">Promociones</a></li>
             <li><a href="../../../">Agencias</a></li>
             <li><a href="../../../servicios/pago-referenciado-oxxo.html">OXXO Pay</a></li>
             <li><a href="../../../servicios/viajero-protegido.html">Viajero protegido</a></li>
@@ -78,7 +78,7 @@ class AppHeader extends HTMLElement {
         </li>
         <li class="li__login">
           <button id="login-icon" class="btn-travelpass btn-travelpass__submenu js-open-travelpass-login-modal" aria-label="Iniciar sesión TravelPass">
-            <img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Travel Pass" loading="lazy">
+            <img src="../../src/assets/img/logos/logo-monedero-electronico.webp" alt="Monedero Electrónico" loading="lazy">
           </button>
           <button id="openDotersModalMovil" class="btn-doters" aria-label="Iniciar sesión Doters">
             <img src="../../src/assets/img/logos/doters.svg" alt="Doters" loading="lazy">

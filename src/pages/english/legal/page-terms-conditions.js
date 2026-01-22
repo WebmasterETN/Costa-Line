@@ -7,8 +7,8 @@ import "../../../components/app-section-title.js";
 import "../../../components/app-table-pets.js";
 
 class PageTermsConditions extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
@@ -204,7 +204,7 @@ class PageTermsConditions extends HTMLElement {
                     </p>
                     
                     <p>
-                        <strong>Online Changes:</strong> You may only change dates and times. This applies only to purchases made through this channel. If you wish to modify your trip, you must access the website <a class="__link-text" href="../../index.html">www.costaline.com.mx</a> and in the “Modify Your Itinerary” section, enter the operation number and NIT of your ticket. You can only change the date and time. Changes to Origin, Destination, passenger name, or passenger type are not allowed. Modifications can only be applied starting 90 minutes after your purchase and up to 90 minutes before your departure time.
+                        <strong>Online Changes:</strong> You may only change dates and times. This applies only to purchases made through this channel. If you wish to modify your trip, you must access the website <a class="__link-text" href="../.../../../">www.costaline.com.mx</a> and in the “Modify Your Itinerary” section, enter the operation number and NIT of your ticket. You can only change the date and time. Changes to Origin, Destination, passenger name, or passenger type are not allowed. Modifications can only be applied starting 90 minutes after your purchase and up to 90 minutes before your departure time.
                     </p>
                     
                     <p>
@@ -300,7 +300,7 @@ class PageTermsConditions extends HTMLElement {
                     </p>
                     
                     <p>
-                        Seats are subject to availability; check availability at <a class="__link-text" href="../../index.html">www.costaline.com.mx</a> and at ticket counters.
+                        Seats are subject to availability; check availability at <a class="__link-text" href="../.../../../">www.costaline.com.mx</a> and at ticket counters.
                     </p>
                     
                     <p>
@@ -584,7 +584,7 @@ class PageTermsConditions extends HTMLElement {
                 <article class="__bg-blue">
                     <h3 class="__subtitle-section">FISCAL RECEIPT (ELECTRONIC INVOICING)</h3>
                     <p>
-                        Boarding passes issued through this type of purchase do not have fiscal validity. If you require a fiscal receipt, you must generate it from our web portal <a class="__link-text" href="../../index.html">www.costaline.com.mx</a> in the "Electronic Invoicing" section located in the top right-hand menu. You will need the ticket or boarding pass operation number, seat number, and complete fiscal information.
+                        Boarding passes issued through this type of purchase do not have fiscal validity. If you require a fiscal receipt, you must generate it from our web portal <a class="__link-text" href="../.../../../">www.costaline.com.mx</a> in the "Electronic Invoicing" section located in the top right-hand menu. You will need the ticket or boarding pass operation number, seat number, and complete fiscal information.
                     </p>
                 </article>
             </section>
@@ -602,12 +602,12 @@ class PageTermsConditions extends HTMLElement {
                 <article class="__bg-blue">
                     <h3 class="__subtitle-section">INVOICE RETRIEVAL</h3>
                     <p>
-                        If you did not receive the PDF and XML files of your fiscal receipt during the invoicing process, you can retrieve them by accessing our web portal <a class="__link-text" href="../../index.html">www.costaline.com.mx</a> in the "Electronic Invoicing" section, entering your RFC and email address. Once in the module, select "Consult History" and identify the document you wish to retrieve, either by resending it to your email, sending it to a different email address, or printing the invoice again.
+                        If you did not receive the PDF and XML files of your fiscal receipt during the invoicing process, you can retrieve them by accessing our web portal <a class="__link-text" href="../.../../../">www.costaline.com.mx</a> in the "Electronic Invoicing" section, entering your RFC and email address. Once in the module, select "Consult History" and identify the document you wish to retrieve, either by resending it to your email, sending it to a different email address, or printing the invoice again.
                     </p>
                 </article>
             </section>
 
         `;
-  }
+	}
 }
 customElements.define("page-terms-conditions", PageTermsConditions);

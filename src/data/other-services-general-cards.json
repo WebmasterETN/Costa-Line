@@ -1,14 +1,20 @@
 [
-  {
-    "href": "./viajero-protegido.html",
-    "imageSrc": "../src/assets/img/mosaicos/costa-viajero-protegido.webp",
-    "imageAlt": "Flayer del servicio de Viajero Protegido",
-    "title": "Seguro viajero protegido"
-  },
-  {
-    "href": "./paqueteria.html",
-    "imageSrc": "../src/assets/img/mosaicos/costa-pack.webp",
-    "imageAlt": "Flayer del servicio de Multienlace",
-    "title": "Servicio de paqueteria multienlace"
-  }
+	{
+		"href": "./servicios/viajero-protegido.html",
+		"imageSrc": "../src/assets/img/mosaicos/costa-viajero-protegido.webp",
+		"imageAlt": "Mosaico promocional del servicio de Viajero Protegido",
+		"title": "Seguro viajero protegido"
+	},
+	{
+		"href": "./servicios/mas-komodo.html",
+		"imageSrc": "../src/assets/img/mosaicos/costa-+komodo.webp",
+		"imageAlt": "Mosaico promocional del servicio de +Komodo",
+		"title": "Programa +Komodo"
+	},
+	{
+		"href": "./servicios/packmultienlace",
+		"imageSrc": "../src/assets/img/mosaicos/costa-pack.webp",
+		"imageAlt": "Mosaico promocional del servicio de Multienlace",
+		"title": "Servicio de paqueteria Pack Multienlace"
+	}
 ]

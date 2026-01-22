@@ -134,7 +134,7 @@ class PageEarlyTraveler extends HTMLElement {
                         <strong>Costaline AERS.</strong>
                     </p>
                     <p class="__terms-purchase-text">
-                        Seats subject to availability, check them at <a class="__link-text" href="../../index.html">www.costaline.com.mx</a> and at ticket offices.
+                        Seats subject to availability, check them at <a class="__link-text" href="../.../../../">www.costaline.com.mx</a> and at ticket offices.
                     </p>
                     <p class="__terms-purchase-text">
                         For questions and comments, please contact our customer service center at 800 0037 635 and 800 2490 460.

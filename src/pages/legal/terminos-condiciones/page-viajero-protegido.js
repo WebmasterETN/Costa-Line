@@ -7,8 +7,8 @@ import "../../../components/app-table-pets.js";
 import "../../../components/app-destinations-table.js";
 
 class PageViajeroProtegido extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
         <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
@@ -27,9 +27,9 @@ class PageViajeroProtegido extends HTMLElement {
             </section>
 
             <div class="btn-group-pages">
-                <a class="btn-enable" href="./viajero-protegido-plus.html" class="__btn">Servicio Plus</a>
+                <a class="btn-enable" href="../../../servicios/viajero-protegido-plus.html" class="__btn">Servicio Plus</a>
                 <a class="btn-disable" class="__btn">Servicio Basico</a> 
-                <a class="btn-enable" href="./viajero-protegido-lujo.html" class="__btn">Servicio de Lujo</a> 
+                <a class="btn-enable" href="../../../servicios/viajero-protegido-lujo.html" class="__btn">Servicio de Lujo</a> 
             </div>
 
             <h3 class="__title__section">Condiciones Generales IAMSA Básico</h3>
@@ -842,7 +842,7 @@ class PageViajeroProtegido extends HTMLElement {
                 </article>
             </section> 
     `;
-  }
+	}
 }
 
 customElements.define("page-viajero-protegido", PageViajeroProtegido);

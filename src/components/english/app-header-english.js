@@ -10,7 +10,7 @@ class AppHeaderEnglish extends HTMLElement {
     </a>
     <nav aria-label="Main menu">
       <ul>
-        <li><a href="../index.html">Home</a></li>
+        <li><a href=".../../../">Home</a></li>
         <li class="submenu">
           <a href="#" role="button" aria-haspopup="true" aria-expanded="false">Billing <span class="icon-arrow-down"></span></a>
           <ul>
@@ -24,13 +24,13 @@ class AppHeaderEnglish extends HTMLElement {
           <a href="#" role="button" aria-haspopup="true" aria-expanded="false">More <span class="icon-arrow-down"></span></a>
           <ul>
             <li><a href="../boletos-de-autobus.html">Tickets</a></li>
-            <li><a href="../donde-comprar-etn.html">Where to buy?</a></li>
-            <li><a href="../index.html">Pets</a></li>
+            <li><a href="../donde-comprar-costa.html">Where to buy?</a></li>
+            <li><a href=".../../../">Pets</a></li>
             <li><a href="../destinos.html">Destinations</a></li>
-            <li><a href="../taquillas.html">Ticket offices</a></li>
+            <li><a href="../terminales">Ticket offices</a></li>
             <li><a href="../salas-de-espera.html">VIP Lounges</a></li>
             <li><a href="../servicio-a-bordo.html">Services</a></li>
-            <li><a href="../promociones.html">Promotions</a></li>
+            <li><a href="../promociones">Promotions</a></li>
             <li><a href="https://ventas.costaline.com.mx/request.aspx?APPNAME=Navegante&PRGNAME=AccesoEx">Agencies</a></li>
             <li><a href="../pago-referenciado-oxxo.html">OXXO Pay</a></li>
             <li><a href="../../viajero-protegido.html">Protected traveler</a></li>
@@ -41,12 +41,12 @@ class AppHeaderEnglish extends HTMLElement {
       </ul>
     </nav>
     <button id="login-icon" class="btn-travelpass desktop-travelpass js-open-travelpass-login-modal" aria-label="Iniciar sesión TravelPass">
-      <img src="../../../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Travel Pass" loading="lazy">
+      <img src="../../../src/assets/img/logos/logo-monedero-electronico.webp" alt="Monedero Electrónico" loading="lazy">
     </button>
     <button id="openDotersModal" class="btn btn-doters desktop-doters" aria-label="Login Doters">
       <img src='../../src/assets/img/logos/doters.svg' alt="Doters" loading="lazy">
     </button>
-    <a class="li__languaje desktop-languaje" href="../../index.html" aria-label="Change language">
+    <a class="li__languaje desktop-languaje" href="../.../../../" aria-label="Change language">
       <img src='../../src/assets/img/icons-img/MX_Flag.webp' alt="English" loading="lazy">
     </a>
     <button class="container-menu-hamburguer" id="hamburger-icon" aria-label="Open menu">
@@ -57,11 +57,11 @@ class AppHeaderEnglish extends HTMLElement {
     <div id="dropdown-menu">
       <ul>
         <li class="lili__languaje">
-          <a class="a__languaje" href="../../../index.html" aria-label="Change language">
+          <a class="a__languaje" href="../../.../../../" aria-label="Change language">
             <img src='../../src/assets/img/icons-img/MX_Flag.webp' alt="English" loading="lazy">
           </a>
         </li>
-        <li><a href="../index.html">Home</a></li>
+        <li><a href=".../../../">Home</a></li>
         <li class="submenu__media-queries">
           <a href="#" aria-haspopup="true" aria-expanded="false">Billing <span class="icon-arrow-down"></span></a>
           <ul>
@@ -75,14 +75,14 @@ class AppHeaderEnglish extends HTMLElement {
           <a href="#" aria-haspopup="true" aria-expanded="false">More <span class="icon-arrow-down"></span></a>
           <ul>
             <li><a href="../boletos-de-autobus.html">Tickets</a></li>
-            <li><a href="../donde-comprar-etn.html">Where to buy?</a></li>
-            <li><a href="../index.html">Pets</a></li>
+            <li><a href="../donde-comprar-costa.html">Where to buy?</a></li>
+            <li><a href=".../../../">Pets</a></li>
             <li><a href="../destinos.html">Destinations</a></li>
-            <li><a href="../taquillas.html">Ticket offices</a></li>
+            <li><a href="../terminales">Ticket offices</a></li>
             <li><a href="../salas-de-espera.html">VIP Lounges</a></li>
             <li><a href="../servicio-a-bordo.html">Services</a></li>
-            <li><a href="../promociones.html">Promotions</a></li>
-            <li><a href="../index.html">Agencies</a></li>
+            <li><a href="../promociones">Promotions</a></li>
+            <li><a href=".../../../">Agencies</a></li>
             <li><a href="../pago-referenciado-oxxo.html">OXXO Pay</a></li>
             <li><a href="../../viajero-protegido.html">Protected traveler</a></li>
             <li><a href="https://costaline.com.mx/blog/">Blog</a></li>
@@ -91,7 +91,7 @@ class AppHeaderEnglish extends HTMLElement {
         </li>
         <li class="li__login">
           <button id="login-icon-mobile" class="btn-travelpass btn-travelpass__submenu js-open-travelpass-login-modal" aria-label="Login TravelPass">
-            <img src="../../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Travel Pass" loading="lazy">
+            <img src="../../src/assets/img/logos/logo-monedero-electronico.webp" alt="Monedero Electrónico" loading="lazy">
           </button>
           <button id="openDotersModalMovil" class="btn-doters" aria-label="Login Doters">
             <img src="../../src/assets/img/logos/doters.svg" alt="Doters" loading="lazy">

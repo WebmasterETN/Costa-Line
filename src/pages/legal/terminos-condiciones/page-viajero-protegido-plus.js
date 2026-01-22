@@ -7,8 +7,8 @@ import "../../../components/app-table-pets.js";
 import "../../../components/app-destinations-table.js";
 
 class PageViajeroProtegidoPlus extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
         <app-cotiza></app-cotiza>
 
             <app-modal-doters></app-modal-doters>
@@ -27,9 +27,9 @@ class PageViajeroProtegidoPlus extends HTMLElement {
             </section>
 
             <div class="btn-group-pages">
-                <a class="btn-enable" href="./viajero-protegido.html" class="__btn">Servicio Basico</a>
+                <a class="btn-enable" href="../../../servicios/viajero-protegido.html" class="__btn">Servicio Basico</a>
                 <a class="btn-disable" class="__btn">Servicio Plus</a> 
-                <a class="btn-enable" href="./viajero-protegido-lujo.html" class="__btn">Servicio de Lujo</a> 
+                <a class="btn-enable" href="../../../servicios/viajero-protegido-lujo.html" class="__btn">Servicio de Lujo</a> 
             </div>
 
             <h3 class="__title__section">Condiciones Generales IAMSA Plus</h3>
@@ -1348,17 +1348,17 @@ class PageViajeroProtegidoPlus extends HTMLElement {
             </section>
 
     `;
-    this.loadAndSetPetsTableData(
-      "#pets-table",
-      "../src/data/table-pets-3.json"
-    );
-  }
-  async loadAndSetPetsTableData(tableElementSelector, jsonPath) {
-    const tableElement = this.querySelector(tableElementSelector);
-    const response = await fetch(jsonPath);
-    const data = await response.json();
-    tableElement.setTableData(data);
-  }
+		this.loadAndSetPetsTableData(
+			"#pets-table",
+			"../src/data/table-pets-3.json",
+		);
+	}
+	async loadAndSetPetsTableData(tableElementSelector, jsonPath) {
+		const tableElement = this.querySelector(tableElementSelector);
+		const response = await fetch(jsonPath);
+		const data = await response.json();
+		tableElement.setTableData(data);
+	}
 }
 
 customElements.define("page-viajero-protegido-plus", PageViajeroProtegidoPlus);

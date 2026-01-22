@@ -11,8 +11,8 @@ import "../../components/app-img-shop-left.js";
 import "../../components/app-section-title.js";
 
 class PageHome extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza></app-cotiza>
             <app-modal-doters></app-modal-doters>
              <app-banner-slider
@@ -67,6 +67,6 @@ class PageHome extends HTMLElement {
             </app-other-services>
             <app-blog></app-blog>
         `;
-  }
+	}
 }
 customElements.define("page-home", PageHome);
