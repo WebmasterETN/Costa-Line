@@ -1,0 +1,47 @@
+@use '../core' as*;
+@use '../_01-settings/variables' as *;
+@use '../_02-tools/mixin' as *;
+
+// Import components
+@use '../_06-components/header' as *;
+@use '../_06-components/banner-slider' as *;
+@use '../_06-components/payments-logos' as *;
+@use '../_06-components/modal-doters' as *;
+@use '../_06-components/cotiza' as *;
+@use '../_06-components/button-eva-trip' as *;
+@use '../_06-components/button-whats' as *;
+@use '../_06-components/card-image' as *;
+@use '../_06-components/section-title' as *;
+@use '../_06-components/table-pets' as *;
+@use '../_06-components/footer' as *;
+@use '../_06-components/cookies-policy' as *;
+@use '../_06-components/dropdown' as *;
+
+/*-------------------ESTILOS ESPECIFICOS PARA LAS SECCIONES DE RENTA DE AUTOBUSES---------------------*/
+.__panthom_space {
+    height: 200px;
+    width: 100%;
+    display: block;
+
+    @media (max-width: 900px) {
+        height: 100px;
+
+    }
+}
+.__sections {
+    width: 100%;
+    padding: 35px 70px;
+
+    @include media ("md") {
+        padding: 15px;
+    }
+}
+
+.__grid-cards-container__dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    gap: 50px;
+}

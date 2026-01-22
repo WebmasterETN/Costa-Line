@@ -14,6 +14,18 @@
 @use '../_06-components/footer' as *;
 @use '../_06-components/cookies-policy' as *;
 
+
+.__panthom_space {
+  height: 250px;
+  width: 100%;
+  display: block;
+
+  @media (max-width: 900px) {
+    height: 100px;
+
+  }
+}
+
 .shop-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

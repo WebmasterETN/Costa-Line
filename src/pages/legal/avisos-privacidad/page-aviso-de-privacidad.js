@@ -9,20 +9,15 @@ import "../../../components/app-destinations-table.js";
 class PageAvisoDePrivacidad extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
+        <style>
+            
+        </style>
         <app-cotiza></app-cotiza>
 
         <app-modal-doters></app-modal-doters>
 
-        <app-banner-slider
-            slides-data='[
-            {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/web/home-doters-web.webp","mediumImage": "../src/assets/img/banner/tablet/home-doters-tablet.webp", "smallImage": "../src/assets/img/banner/movil/home-doters-mobile.webp", "link": "#index.html/banner1"},
-            {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/web/home-pago-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-pago-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-pago-mobile.webp", "link": "#index.html/banner2"},
-            {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/web/home-verano-web.webp", "mediumImage": "../src/assets/img/banner/tablet/home-verano-tablet.webp","smallImage": "../src/assets/img/banner/movil/home-verano-mobile.webp", "link": "#index.html/banner3"}
-            ]'
-        >
-        </app-banner-slider>
+        <div class="__panthom_space"></div>
 
-        <app-payments></app-payments>
 
         <section class="__section">
             <app-section-title section-title="AVISOS DE PRIVACIDAD"></app-section-title>
@@ -1353,31 +1348,33 @@ class PageAvisoDePrivacidad extends HTMLElement {
     this.querySelectorAll(".aviso-privacidad-articulo").forEach((article) => {
       const btn = article.querySelector(".aviso-toggle-btn");
       const desc = article.querySelector(".aviso-desc");
-      btn.addEventListener("click", () => {
-        const allArticles = this.querySelectorAll(".aviso-privacidad-articulo");
-        allArticles.forEach((otherArticle) => {
-          const otherDesc = otherArticle.querySelector(".aviso-desc");
-          const otherBtn = otherArticle.querySelector(".aviso-toggle-btn");
-          if (otherDesc !== desc) {
-            otherDesc.classList.remove("open");
-            otherBtn.textContent = "Leer";
-          }
+      if (btn && desc) {
+        btn.addEventListener("click", () => {
+            const allArticles = this.querySelectorAll(".aviso-privacidad-articulo");
+            allArticles.forEach((otherArticle) => {
+            const otherDesc = otherArticle.querySelector(".aviso-desc");
+            const otherBtn = otherArticle.querySelector(".aviso-toggle-btn");
+            if (otherDesc !== desc) {
+                otherDesc.classList.remove("open");
+                otherBtn.textContent = "Leer";
+            }
+            });
+            if (!desc.classList.contains("open")) {
+            desc.classList.add("open");
+            btn.textContent = "Cerrar";
+            // Centrar el título al abrir con transición suave
+            const title = article.querySelector("h3");
+            if (title) {
+                setTimeout(() => {
+                title.scrollIntoView({ behavior: "smooth", block: "center" });
+                }, 300); // Espera a que la transición inicie
+            }
+            } else {
+            desc.classList.remove("open");
+            btn.textContent = "Leer";
+            }
         });
-        if (!desc.classList.contains("open")) {
-          desc.classList.add("open");
-          btn.textContent = "Cerrar";
-          // Centrar el título al abrir con transición suave
-          const title = article.querySelector("h3");
-          if (title) {
-            setTimeout(() => {
-              title.scrollIntoView({ behavior: "smooth", block: "center" });
-            }, 300); // Espera a que la transición inicie
-          }
-        } else {
-          desc.classList.remove("open");
-          btn.textContent = "Leer";
-        }
-      });
+      }
     });
   }
 }
