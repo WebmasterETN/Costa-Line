@@ -38,7 +38,7 @@ class AppModalTravelpass extends HTMLElement {
               </form>
 
               <div class="__card-footer">
-                <a class="w-modal-link color-1 center" href="../../../servicios/travelpass.html">Conoce aquí&nbsp; <span class="bold"> ¿Qué es Monedero Electrónico?</span></a>
+                <a class="w-modal-link color-1 center" href="../../../servicios/monedero-electronico.html">Conoce aquí&nbsp; <span class="bold"> ¿Qué es Monedero Electrónico?</span></a>
                 <a id="register-link" class="w-modal-link color-1" href="#">¿No tienes cuenta? <span class="bold"> Regístrate</span></a>
                 <div id="message" class="message"></div>
               </div>

@@ -133,7 +133,7 @@ class PageViajeroAnticipado extends HTMLElement {
                         <strong>Costaline AERS.</strong>
                     </p>
                     <p class="__terms-purchase-text">
-                        Asientos sujetos a disponibilidad, consúltalos en <a class="__link-text" href="../../index.html">www.costaline.com.mx</a> y taquillas.
+                        Asientos sujetos a disponibilidad, consúltalos en <a class="__link-text" href="../.../../../">www.costaline.com.mx</a> y taquillas.
                     </p>
                     <p class="__terms-purchase-text">
                         Para dudas y comentarios, comunícate a nuestro centro de atención a clientes a los teléfonos 800 0037 635 y 800 2490 460.

@@ -74,7 +74,7 @@ class PageTravelpass extends HTMLElement {
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
                                 Para adquirir tu monedero electrónico, puede hacerlo directo en las taquillas de Costa Line o desde nuestra web 
-                                <a class="__link-text" href="../../index.html">www.costaline.com.mx</a>
+                                <a class="__link-text" href="../.../../../">www.costaline.com.mx</a>
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
@@ -189,7 +189,7 @@ class PageTravelpass extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                El cliente puede realizar cambios de fecha y horario. No aplica cambio de nombre de pasajero, no aplica cambio de tramo ni de clase de servicio. El cambio de itinerario de viaje (fecha u hora) se puede realizar directamente desde la página de internet (<a class="__link-text" href="../../index.html">www.costaline.com.mx</a>) en la sección “modifique su itinerario” o también podrán ser realizados en las taquillas Costa Line de Chilpancingo y Acapulco.
+                                El cliente puede realizar cambios de fecha y horario. No aplica cambio de nombre de pasajero, no aplica cambio de tramo ni de clase de servicio. El cambio de itinerario de viaje (fecha u hora) se puede realizar directamente desde la página de internet (<a class="__link-text" href="../.../../../">www.costaline.com.mx</a>) en la sección “modifique su itinerario” o también podrán ser realizados en las taquillas Costa Line de Chilpancingo y Acapulco.
                             </p>
                         </li>
                         <li class="__terms-purchase-item">

@@ -10,7 +10,7 @@ class AppHeaderEnglish extends HTMLElement {
     </a>
     <nav aria-label="Main menu">
       <ul>
-        <li><a href="../index.html">Home</a></li>
+        <li><a href=".../../../">Home</a></li>
         <li class="submenu">
           <a href="#" role="button" aria-haspopup="true" aria-expanded="false">Billing <span class="icon-arrow-down"></span></a>
           <ul>
@@ -25,7 +25,7 @@ class AppHeaderEnglish extends HTMLElement {
           <ul>
             <li><a href="../boletos-de-autobus.html">Tickets</a></li>
             <li><a href="../donde-comprar-etn.html">Where to buy?</a></li>
-            <li><a href="../index.html">Pets</a></li>
+            <li><a href=".../../../">Pets</a></li>
             <li><a href="../destinos.html">Destinations</a></li>
             <li><a href="../taquillas.html">Ticket offices</a></li>
             <li><a href="../salas-de-espera.html">VIP Lounges</a></li>
@@ -46,7 +46,7 @@ class AppHeaderEnglish extends HTMLElement {
     <button id="openDotersModal" class="btn btn-doters desktop-doters" aria-label="Login Doters">
       <img src='../../src/assets/img/logos/doters.svg' alt="Doters" loading="lazy">
     </button>
-    <a class="li__languaje desktop-languaje" href="../../index.html" aria-label="Change language">
+    <a class="li__languaje desktop-languaje" href="../.../../../" aria-label="Change language">
       <img src='../../src/assets/img/icons-img/MX_Flag.webp' alt="English" loading="lazy">
     </a>
     <button class="container-menu-hamburguer" id="hamburger-icon" aria-label="Open menu">
@@ -57,11 +57,11 @@ class AppHeaderEnglish extends HTMLElement {
     <div id="dropdown-menu">
       <ul>
         <li class="lili__languaje">
-          <a class="a__languaje" href="../../../index.html" aria-label="Change language">
+          <a class="a__languaje" href="../../.../../../" aria-label="Change language">
             <img src='../../src/assets/img/icons-img/MX_Flag.webp' alt="English" loading="lazy">
           </a>
         </li>
-        <li><a href="../index.html">Home</a></li>
+        <li><a href=".../../../">Home</a></li>
         <li class="submenu__media-queries">
           <a href="#" aria-haspopup="true" aria-expanded="false">Billing <span class="icon-arrow-down"></span></a>
           <ul>
@@ -76,13 +76,13 @@ class AppHeaderEnglish extends HTMLElement {
           <ul>
             <li><a href="../boletos-de-autobus.html">Tickets</a></li>
             <li><a href="../donde-comprar-etn.html">Where to buy?</a></li>
-            <li><a href="../index.html">Pets</a></li>
+            <li><a href=".../../../">Pets</a></li>
             <li><a href="../destinos.html">Destinations</a></li>
             <li><a href="../taquillas.html">Ticket offices</a></li>
             <li><a href="../salas-de-espera.html">VIP Lounges</a></li>
             <li><a href="../servicio-a-bordo.html">Services</a></li>
             <li><a href="../promociones.html">Promotions</a></li>
-            <li><a href="../index.html">Agencies</a></li>
+            <li><a href=".../../../">Agencies</a></li>
             <li><a href="../pago-referenciado-oxxo.html">OXXO Pay</a></li>
             <li><a href="../../viajero-protegido.html">Protected traveler</a></li>
             <li><a href="https://costaline.com.mx/blog/">Blog</a></li>
