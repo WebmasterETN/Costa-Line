@@ -8,9 +8,9 @@ class PageCoyucaDeBenitez extends HTMLElement {
            <app-cotiza></app-cotiza>
 <app-banner-slider
 slides-data='[
-    {"id": "slide1", "title": "Banner 1", "image": "../../src/assets/img/banner/web/doters-web.webp","mediumImage": "../../src/assets/img/banner/tablet/doters-tablet.webp", "smallImage": "../../src/assets/img/banner/movil/doters-mobile.webp", "link": "#index.html/banner1"},
-    {"id": "slide2", "title": "Banner 2", "image": "../../src/assets/img/banner/web/10-desc-web.webp", "mediumImage": "../../src/assets/img/banner/tablet/10-desc-tablet.webp","smallImage": "../../src/assets/img/banner/movil/10-desc-mobile.webp", "link": "#index.html/banner2"},
-    {"id": "slide3", "title": "Banner 3", "image": "../../src/assets/img/banner/web/home-verano-web.webp", "mediumImage": "../../src/assets/img/banner/tablet/home-verano-tablet.webp","smallImage": "../../src/assets/img/banner/movil/home-verano-mobile.webp", "link": "#index.html/banner3"}
+    {"id": "slide1", "title": "Banner 1", "image": "../../src/assets/img/banner/web/home-viajero-web.webp","mediumImage": "../../src/assets/img/banner/tablet/home-viajero-tablet.webp", "smallImage": "../../src/assets/img/banner/movil/home-viajero-mobile.webp", "link": "#index.html/banner1"},
+    {"id": "slide2", "title": "Banner 2", "image": "../../src/assets/img/banner/web/home-10-desc-web.webp", "mediumImage": "../../src/assets/img/banner/tablet/home-10-desc-tablet.webp","smallImage": "../../src/assets/img/banner/movil/home-10-desc-mobile.webp", "link": "#index.html/banner2"},
+    {"id": "slide3", "title": "Banner 3", "image": "../../src/assets/img/banner/web/home-puente-web.webp", "mediumImage": "../../src/assets/img/banner/tablet/home-puente-tablet.webp","smallImage": "../../src/assets/img/banner/movil/home-puente-mobile.webp", "link": "#index.html/banner3"}
 ]'
 >
 </app-banner-slider>
