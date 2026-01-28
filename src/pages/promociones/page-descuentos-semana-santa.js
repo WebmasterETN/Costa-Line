@@ -1,5 +1,4 @@
 /*--------------IMPORT COMPONENTS FROM LANDING PAGE -----------------*/
-import "../../components/english/app-banner-image.js";
 import "../../components/app-payments.js";
 import "../../components/app-section-title.js";
 import "../../components/app-card-right-description.js";
@@ -18,11 +17,11 @@ class DescuentosSemanaSanta extends HTMLElement {
       </div>
 
       <section class="__sections">
-        <h2 class="__first-title">En Autovías La Línea te invitamos a conocer los eventos y festividades que se celebrarán en los próximos meses.</h2>
+        <h2 class="__first-title">¡Descubre y vive la magia de los diferentes destinos que Costa Line tiene para ti!</h2>
       </section>
 
       <app-banner-image
-        image-src="../src/assets/img/global/banner/web/banner-semana-santa.webp"
+        image-src="../src/assets/img/banner/promociones/web/banner-semana-santa.webp"
         image-alt="Banner promocional de descuento de temporada para estudiantes y profesores"
       ></app-banner-image>
       
@@ -31,22 +30,25 @@ class DescuentosSemanaSanta extends HTMLElement {
           {
             "imageSrc": "../src/assets/img/promociones/desc-temp/semana-santa/festividades.webp",
             "imageAlt": "Asientos reclinables",
-            "title": "Descubre un calendario vibrante de eventos y festividades que te esperan en los próximos meses.",
-            "description": "Prepárate para vivir experiencias inigualables, compartir momentos memorables con tus seres queridos y crear recuerdos que durarán toda la vida."
+            "title": "Deléitate con los diferentes eventos y festividades que te ofrece los destinos de Costa Line.",
+            "description": "Sumérgete a explorar los lugares turísticos que te ofrece cada una de estas hermosas ciudades, contemplando su belleza natural, su gastronomía y sus diferentes festividades con las que cuentan."
           }
         ]'></app-card-right-description>
       </section>
 
       <section class="__sections">
       <div class="__bg-blue">
-        <p class="__section_subtittle">Sumérgete en la cultura y tradiciones</p>
-       <p class="__section_tittle">En sus coloridas fiestas, vibrantes carnavales, ferias llenas de alegría y eventos deportivos que te llenarán de emoción.</p>
+        <p class="__section_subtittle">No te pierdas las mejores recomendaciones</p>
+       <p class="__section_tittle">Eventos y Festividades de marzo Costa Line</p>
         <article class="__section-cards-image-top">
+
         <app-card-image-top cards='[
-          {"imageSrc":"../src/assets/img/eventos/festival-guitarra-zihuatanejo.webp","imageAlt":"Festival de la Guitarra Zihuatanejo","title":"Festival de la Guitarra Zihuatanejo","content":"El festival presenta a guitarristas de todo el mundo, del 2 al 19 de marzo. ¡No te lo puedes perder!"},
-          {"imageSrc":"../src/assets/img/eventos/dia-mujer.webp","imageAlt":"Día Internacional de la Mujer","title":"Día Internacional de la Mujer","content":"Celebrando logros y luchando por la igualdad, el 8 de marzo es un día para reflexionar. ¡Celebra tu día!"},
-          {"imageSrc":"../src/assets/img/eventos/carnaval-zihuatanejo.webp","imageAlt":"Carnaval de Zihuatanejo","title":"Carnaval de Zihuatanejo","content":"Disfruta de uno de los carnavales más grandes y populares de México, del 15 al 17 de marzo presenta una variedad de eventos."},
-          {"imageSrc":"../src/assets/img/eventos/festival-flores-amealco.webp","imageAlt":"Festival de las flores Amealco","title":"Festival de las flores Amealco","content":"Es uno de los festivales de música más grandes e importantes de Latinoamérica, 16 y 17 de mayo. ¡No te puedes perder de esta gran experiencia!"}]'></app-card-image-top>
+          {"imageSrc":"../src/assets/img/eventos/festival-guitarra-zihuatanejo.webp","imageAlt":"Festival de la guitarra Zihuatanejo","title":"Festival de la guitarra Zihuatanejo","content":"Asiste y disfruta de este evento internacional de clase mundial que se lleva a cabo del 2 al 9 de marzo. ¡No te lo pierdas!"},
+          {"imageSrc":"../src/assets/img/eventos/dia-internacional-mujer.webp","imageAlt":"Día Internacional de la Mujer","title":"Día Internacional de la Mujer","content":"Tú eres la protagonista de tu propia vida, celebra cada logro conseguido y cada reto que vendrá. ¡Feliz Día de la Mujer!"},
+          {"imageSrc":"../src/assets/img/eventos/carnaval-zihuatanejo.webp","imageAlt":"Carnaval de Zihuatanejo","title":"Carnaval de Zihuatanejo","content":"Asiste al carnaval del 15 al 17 de marzo. Si buscas una experiencia inolvidable, este evento es la combinación perfecta de música, color y alegría."},
+          {"imageSrc":"../src/assets/img/eventos/feria-palmera-coyuca.webp","imageAlt":"Feria de la palmera Coyuca de Benítez","title":"Feria de la palmera Coyuca de Benítez","content":"Es una celebración que se vive al son del palmar. Este evento se llevará a cabo del 31 de marzo al 06 de abril, vive una fiesta sin igual."}]'>
+        </app-card-image-top>
+
 
         </article>
       </div>
@@ -54,40 +56,40 @@ class DescuentosSemanaSanta extends HTMLElement {
 
       <app-destinations-grid
                 titlesText='[
-                {"id": "title1", "title": "¿Aún no sabes a dónde viajar?", "text": "Conoce nuestros destinos Autovías La Línea y elige tu lugar favorito"}
+                {"id": "title1", "title": "¿Aún no sabes a dónde viajar?", "text": "Conoce nuestros destinos Costa Line y elige tu lugar favorito"}
                 ]'
                 destinations='[
-                {"id": "destination1", "title": "Ciudad de México", "content": "Sumérgete en la esencia vibrante y cultural de la Ciudad de México.", "image": "../src/assets/img/destinos-img/cdmx/lugares/palacio-de-bellas-artes-2.webp", "link": "../guia-viaje/viajar-a-ciudad-de-mexico.html"},
+                {"id": "destination1", "title": "Acapulco", "content": "Disfruta de sus playas doradas, noches llenas de vida y la magia de la Quebrada.", "image": "../src/assets/img/destinos-img/acapulco.webp", "link": "../guia-viaje/viajar-a-acapulco.html"},
         
-                {"id": "destination2", "title": "Colima", "content": "Explora la serenidad y riqueza natural de Colima.", "image": "../src/assets/img/destinos-img/colima/lugares/comala.webp", "link": "../guia-viaje/viajar-a-colima.html"},
+                {"id": "destination2", "title": "Chilpancingo", "content": "Visita esta Joya colonial llena de historia, sabores y magia.", "image": "../src/assets/img/destinos-img/morelia.webp", "link": "../guia-viaje/viajar-a-chilpancingo.html"},
         
-                {"id": "destination3", "title": "Guadalajara", "content": "Déjate envolver por la energía y el sabor vibrante de Guadalajara.", "image": "../src/assets/img/destinos-img/guadalajara/lugares/centrohistorico1.webp", "link": "../guia-viaje/viajar-a-guadalajara.html"},
+                {"id": "destination3", "title": "Taxco", "content": "Sumergete en este laberinto de plata y encanto colonial.", "image": "../src/assets/img/destinos-img/taxco.webp", "link": "../guia-viaje/viajar-a-taxco.html"},
                 
-                {"id": "destination5", "title": "Morelia", "content": "Descubre el encanto colonial y la riqueza histórica de Morelia.", "image": "../src/assets/img/destinos-img/morelia/lugares/aqueducto-morelia.webp", "link": "../guia-viaje/viajar-a-morelia.html"},
+                {"id": "destination5", "title": "Cuernavaca", "content": "Cuernavaca: La ciudad de la eterna primavera, donde el sol abraza y la historia inspira.", "image": "../src/assets/img/destinos-img/cuernavaca.webp", "link": "../guia-viaje/viajar-a-cuernavaca.html"},
         
-                {"id": "destination4", "title": "Zitácuaro", "content": "Descubre la esencia natural y cultural de Zitácuaro.", "image": "../src/assets/img/destinos-img/zitacuaro/lugares/centro-historico.webp", "link": "../guia-viaje/viajar-a-zitacuaro.html"}
+                {"id": "destination4", "title": "Ixtapa Zihuatanejo", "content": "Déjate cautivar por la magia colonial de Guanajuato.", "image": "../src/assets/img/destinos-img/ixtapa.webp", "link": "../guia-viaje/viajar-a-ixtapa-zihuatanejo.html"}
                 ]'
             >
-      </app-destinations-grid>
+            </app-destinations-grid>
 
       <section class="__sections">
         <article class="__bg-white">
-          <p class="__section_brand">Viaja con Autovías La Línea</p>
-          <h2 class="__subtitle-section">Descuentos Exclusivos para tu Viaje</h2>
+          <p class="__section_brand">Viaja con Costa Line</p>
+          <h2 class="__subtitle-section">¡Aprovecha nuestros descuentos y promociones en esta temporada vacacional!</h2>
 
           <p class="__terms-purchase-text">
-            Aprovecha nuestros descuentos exclusivos para hacer tu viaje aún más especial:
+            ¡Maximiza tu experiencia de viaje con nuestros descuentos exclusivos diseñados especialmente para ti!
           </p>
 
           <ul class="__terms-purchase-list">
             <li class="__terms-purchase-item">
               <p class="__terms-purchase-text">
-                <strong>Descuento del 50% para Estudiantes:</strong> Compra tu boleto de autobús durante la vigencia de la promoción y obtén un 40% de descuento en tu boleto. Viaja y disfruta de estas vacaciones.
+                Compra tu boleto durante la vigencia de la promoción y obtén el 50% de descuento para estudiantes y el 25% de descuento para profesores.
               </p>
             </li>
             <li class="__terms-purchase-item">
               <p class="__terms-purchase-text">
-                <strong>Descuentos 25% Profesores:</strong> ¡No dejes escapar los mejores destinos para disfrutar en familia estas vacaciones!
+                También obtén nuestros descuentos del 35% de descuento mas 10% adicional al realizar tu compra anticipada.
               </p>
             </li>
           </ul>
@@ -99,22 +101,18 @@ class DescuentosSemanaSanta extends HTMLElement {
           title="Recomendaciones Turísticas"
           faqs='[
             {
-              "question": "Actividades que puedes realizar en tu destino:",
-              "answer": "<ul><li><strong>Carnaval de Zihuatanejo:</strong> Este evento anual cuenta con guitarristas de todo el mundo. El festival incluye conciertos, talleres y concursos.</li><li><strong>Playa La Ropa:</strong> Esta playa en forma de media luna es conocida por su arena suave, aguas cristalinas y olas tranquilas. Es un gran lugar para nadar, tomar el sol y practicar deportes acuáticos.</li><li><strong>El Paseo del Pescador:</strong> Este malecón es un gran lugar para caminar, andar en bicicleta o simplemente relajarse y disfrutar de la vista.</li><li><strong>Mercado de Artesanías:</strong> Este mercado es un gran lugar para comprar recuerdos, artesanías y productos locales.</li></ul>"
+              "question": "Explora la Gastronomía:",
+              "answer": "<ul><li><strong>Pescado a la talla en Acapulco:</strong> Pescado, usualmente huachinango, marinado en adobo de achiote y asado a la parrilla.</li><li><strong>Pozole blanco en Chilpancingo:</strong> A diferencia de su versión verde en Acapulco, este pozole se sirve sin salsa y se acompaña de una variedad de aderezos frescos.</li><li><strong>Jumiles en Taxco:</strong> Pequeños insectos comestibles, a menudo consumidos en tacos o salsas.</li><li><strong>Cecina de Yecapixtla en Cuernavaca:</strong> Carne de res o cerdo secada y curada, típicamente servida con crema, queso y aguacate.</li><li><strong>Tiritas de pescado en Ixtapa:</strong> Delgadas tiras de pescado crudo marinadas en limón, sal, cebolla morada y chiles.</li></ul>"
             },
             {
-              "question": "Lleva ropa ligera y transpirable:",
-              "answer": "<ul><li><strong>Enrolla tu ropa en lugar de doblarla.</strong> Esto ayudará a ahorrar espacio en tu maleta y evitará que la ropa se arrugue.</li><li><strong>Utiliza bolsas de compresión.</strong> Estas bolsas te ayudarán a reducir aún más el volumen de tu ropa.</li><li><strong>Lleva una maleta o mochila ligera.</strong> Esto te ayudará a evitar pagar tarifas de equipaje por exceso de peso.</li></ul>"
-            },
-            {
-              "question": "Cuida tu piel contra los rayos UV:",
-              "answer": "<ul><li><strong>Elige un protector solar adecuado:</strong> Busca un protector solar de amplio espectro que proteja contra los rayos UVA y UVB.</li><li><strong>Protégete del sol:</strong> Evita la exposición prolongada al sol, especialmente entre las 10 a.m. y las 4 p.m., cuando los rayos UV son más fuertes.</li><li><strong>Cuida tu piel después de la exposición al sol:</strong> Hidrata tu piel con una crema o loción humectante.</li></ul>"
+              "question": "Atracciones Turísticas:",
+              "answer": "<ul><li>La Quebrada en Acapulco.</li><li>Las grutas de Cacahuamilpa en Taxco.</li><li>Museo Regional en Chilpancingo.</li><li>Isla Ixtapa en Ixtapa.</li><li>Palacio de Cortes en Cuernavaca.</li><li>Xochimilco en la Ciudad de México.</li></ul>"
             }
           ]'
         ></app-faqs>
 
         <p class="__terms-purchase-text">
-          ¡Aventúrate a lo extraordinario con  Autovías La Línea! No importa si buscas un viaje de aventura, de relajación o cultural, en Autovías La Línea tenemos la opción perfecta para ti.
+          ¡Anticipa momentos memorables con Costa Line! Compra tu boleto y déjanos ser tu guía en el descubrimiento de la mágica esencia de los atractivos turísticos en estas vacaciones. ¡Esperamos tu presencia a bordo con alegría!
         </p>
       </section>
 
