@@ -10,7 +10,7 @@ class AppHeaderEnglish extends HTMLElement {
     </a>
     <nav aria-label="Main menu">
       <ul>
-        <li><a href=".../../../">Home</a></li>
+        <li><a href="../../../">Home</a></li>
         <li class="submenu">
           <a href="#" role="button" aria-haspopup="true" aria-expanded="false">Billing <span class="icon-arrow-down"></span></a>
           <ul>
@@ -25,7 +25,7 @@ class AppHeaderEnglish extends HTMLElement {
           <ul>
             <li><a href="../boletos-de-autobus.html">Tickets</a></li>
             <li><a href="../donde-comprar-costa.html">Where to buy?</a></li>
-            <li><a href=".../../../">Pets</a></li>
+            <li><a href="../../../">Pets</a></li>
             <li><a href="../destinos.html">Destinations</a></li>
             <li><a href="../terminales">Ticket offices</a></li>
             <li><a href="../salas-de-espera.html">VIP Lounges</a></li>
@@ -61,7 +61,7 @@ class AppHeaderEnglish extends HTMLElement {
             <img src='../../src/assets/img/icons-img/MX_Flag.webp' alt="English" loading="lazy">
           </a>
         </li>
-        <li><a href=".../../../">Home</a></li>
+        <li><a href="../../../">Home</a></li>
         <li class="submenu__media-queries">
           <a href="#" aria-haspopup="true" aria-expanded="false">Billing <span class="icon-arrow-down"></span></a>
           <ul>
@@ -76,13 +76,13 @@ class AppHeaderEnglish extends HTMLElement {
           <ul>
             <li><a href="../boletos-de-autobus.html">Tickets</a></li>
             <li><a href="../donde-comprar-costa.html">Where to buy?</a></li>
-            <li><a href=".../../../">Pets</a></li>
+            <li><a href="../../../">Pets</a></li>
             <li><a href="../destinos.html">Destinations</a></li>
             <li><a href="../terminales">Ticket offices</a></li>
             <li><a href="../salas-de-espera.html">VIP Lounges</a></li>
             <li><a href="../servicio-a-bordo.html">Services</a></li>
             <li><a href="../promociones">Promotions</a></li>
-            <li><a href=".../../../">Agencies</a></li>
+            <li><a href="../../../">Agencies</a></li>
             <li><a href="../pago-referenciado-oxxo.html">OXXO Pay</a></li>
             <li><a href="../../viajero-protegido.html">Protected traveler</a></li>
             <li><a href="https://costaline.com.mx/blog/">Blog</a></li>
