@@ -123,6 +123,7 @@ import "./servicios/page-facturacion.js?v=1.0.2";
 
 import "./promociones/page-promociones.js?v=1.0.2";
 import "./promociones/page-mas-komodo.js?v=1.0.2";
+import "./promociones/page-descuentos-semana-santa.js?v=1.0.2";
 
 //LEGAL
 import "./legal/page-atencion-a-clientes.js?v=1.0.2";
